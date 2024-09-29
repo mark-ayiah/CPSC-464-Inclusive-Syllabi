@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    # You can pass variables to the template if needed
     return render_template('index.html', show_results=False)
 
 @app.route('/submit', methods=['POST'])
