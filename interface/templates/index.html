@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{ title }}</title>
+		<link rel="stylesheet" href="static/styles.css" />
+	</head>
+	<body>
+		<h1>Algorithmic Curation of Inclusive Syllabi:</h1>
+		<h2>Tool for Measuring and Recommending Diversity in Course Content</h2>
+
+		<div class="info">
+			<h3>How it works:</h3>
+            <p>
+                Curating a diverse university syllabi is critical but not straightforward. Instructors are encouraged to consider how identities like race, gender, sexuality, religion, class, nationality, and more contribute to assenting and dissenting opinions on topics presented by their courses. This tool facilitates syllabus diversification.
+            </p>
+			<p>
+				Enter the ISBNs of the books in your syllabus. The tool will calculate the diversity rating of your syllabus and suggest additional
+				readings to increase diversity.
+			</p>
+			<p>The diversity rating and the algorithm for suggesting additional readings are based on research of previous approaches.</p>
+		</div>
+
+		<div class="input">
+			<h3>Add your syllabus:</h3>
+			<p>Please enter each ISBN in comma-separated format (e.g., 9780060935467, 9780345376718, etc.)</p>
+			<form action="/submit" method="post">
+				<input type="text" id="isbns" name="isbns" value="{{ isbns or '' }}" size="50" />
+				<input type="submit" value="Submit" />
+			</form>
+		</div>
+
+		{% if show_results %}
+		<div class="results">
+			<h3>Diversity Rating: {{ diversity }}</h3>
+			<h3>Results:</h3>
+			<p>Here are the recommended readings for your syllabus:</p>
+			<ul>
+				{% for book in suggestions %}
+				<li>{{ book }}</li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endif %}
+	</body>
+</html>
