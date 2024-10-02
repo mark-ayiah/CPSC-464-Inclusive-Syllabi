@@ -3,45 +3,92 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>{{ title }}</title>
-		<link rel="stylesheet" href="static/styles.css" />
+		<title>Algorithmic Curation of Inclusive Syllabi</title>
+		<link rel="stylesheet" href="../static/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 	</head>
 	<body>
-		<h1>Algorithmic Curation of Inclusive Syllabi:</h1>
-		<h2>Tool for Measuring and Recommending Diversity in Course Content</h2>
+		<h1 class="title">Algorithmic Curation of Inclusive Syllabi:</h1>
+		<h2 class="subtitle">Tool for Measuring and Recommending Diversity in Course Content</h2>
 
 		<div class="info">
-			<h3>How it works:</h3>
-            <p>
-                Curating a diverse university syllabi is critical but not straightforward. Instructors are encouraged to consider how identities like race, gender, sexuality, religion, class, nationality, and more contribute to assenting and dissenting opinions on topics presented by their courses. This tool facilitates syllabus diversification.
-            </p>
 			<p>
-				Enter the ISBNs of the books in your syllabus. The tool will calculate the diversity rating of your syllabus and suggest additional
-				readings to increase diversity.
+				Background: Curating a diverse university syllabi is critical but not straightforward. Instructors are encouraged to consider how
+				identities like race, gender, sexuality, religion, class, nationality, and more contribute to assenting and dissenting opinions on
+				topics presented by their courses. This tool facilitates syllabus diversification through a diversity rating and an algorithm for
+				suggesting additional readings, both of which are based on research of previous approaches.
 			</p>
-			<p>The diversity rating and the algorithm for suggesting additional readings are based on research of previous approaches.</p>
-		</div>
 
-		<div class="input">
-			<h3>Add your syllabus:</h3>
-			<p>Please enter each ISBN in comma-separated format (e.g., 9780060935467, 9780345376718, etc.)</p>
-			<form action="/submit" method="post">
-				<input type="text" id="isbns" name="isbns" value="{{ isbns or '' }}" size="50" />
-				<input type="submit" value="Submit" />
-			</form>
+			<p>
+				Instructions: Upload your class syllabus and select a category to diversify. The tool will calculate the diversity rating of your
+				syllabus and suggest additional readings to increase diversity.
+			</p>
 		</div>
+		<form id="initial-form" action="/validate" method="POST" enctype="multipart/form-data">
+			<div class="file-upload">
+				<label for="file-upload" class="custom-upload">Upload File</label>
+				<input id="file-upload" type="file" name="file" onchange="handleFileChange();" hidden />
+				<span id="file-name" class="file-name"></span>
+				<span id="file-validation" class="validation-error">Please upload a file.</span>
+			</div>
+			<select name="categories" id="categories" class="category-select" onchange="handleCategoryChange()">
+				<option value="default" selected disabled hidden>Choose a Category</option>
+				<option value="race">Race</option>
+				<option value="gender">Gender</option>
+				<option value="country">Country</option>
+			</select>
+			<span id="category-validation" class="validation-error">Please select a category.</span>
+			<button type="submit" class="submit-button">Get Results!</button>
+		</form>
 
-		{% if show_results %}
-		<div class="results">
-			<h3>Diversity Rating: {{ diversity }}</h3>
-			<h3>Results:</h3>
-			<p>Here are the recommended readings for your syllabus:</p>
-			<ul>
-				{% for book in suggestions %}
-				<li>{{ book }}</li>
-				{% endfor %}
-			</ul>
-		</div>
-		{% endif %}
+
+		<script>
+			let fileSelected = false;
+			let categorySelected = false;
+
+			function handleFileChange() {
+				const fileInput = document.getElementById("file-upload");
+				const fileValidation = document.getElementById("file-validation");
+				const fileNameDisplay = document.getElementById("file-name");
+
+				if (fileInput.files.length > 0) {
+					fileValidation.style.display = "none";
+					fileNameDisplay.textContent = fileInput.files[0].name;
+					fileSelected = true;
+				} else {
+					fileValidation.style.display = "inline";
+					fileNameDisplay.textContent = "";
+					fileSelected = false;
+				}
+			}
+
+			function handleCategoryChange() {
+				const categorySelect = document.getElementById("categories");
+				const categoryValidation = document.getElementById("category-validation");
+
+				if (categorySelect.value !== "default") {
+					categoryValidation.style.display = "none";
+					categorySelected = true;
+				} else {
+					categoryValidation.style.display = "inline";
+					categorySelected = false;
+				}
+			}
+
+			document.getElementById("initial-form").addEventListener("submit", function (event) {
+				if (!fileSelected || !categorySelected) {
+					event.preventDefault(); 
+
+					if (!fileSelected) {
+						document.getElementById("file-validation").style.display = "inline";
+					}
+					if (!categorySelected) {
+						document.getElementById("category-validation").style.display = "inline";
+					}
+				}
+			});
+		</script>
 	</body>
 </html>
