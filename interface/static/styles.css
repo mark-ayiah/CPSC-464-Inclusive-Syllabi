@@ -36,7 +36,7 @@ p {
     border: 1px solid black;
     border-radius: 5px;
     padding: 0.2em 1em;
-    margin: 0.5em 0;
+    margin: 0.2em 0;
 }
 
 .category-select {
@@ -44,7 +44,8 @@ p {
     border: 1px solid black;
     border-radius: 5px;
     padding: 0.2em 1em;
-    margin: 0.5em 0;
+    margin: 0.2em 0;
+    width: 13em;
 
     -webkit-appearance: none;
     appearance: none;
@@ -69,7 +70,7 @@ p {
     color: white;
     border: 0;
     margin: 1em 0;
-    padding: 0.5em 1em;
+    padding: 0.2em 1em;
 }
 
 .validation-error {
