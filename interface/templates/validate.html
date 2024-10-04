@@ -52,11 +52,11 @@
         <div id="books-list">
             {% for book in books %}
             <div class="row">
-                <input type="text" class="title-input" name="titles" value="{{ book.title }}" readonly>
-                <input type="text" class="isbn-input" name="isbns" value="{{ book.isbn }}" readonly>
+                <input type="text" class="title-input" name="titles" value="{{ book.title }}">
+                <input type="text" class="isbn-input" name="isbns" value="{{ book.isbn }}">
                 <span class="delete-btn" onclick="deleteRow(this)">X</span>
             </div>
-            {% endfor %}
+            {% endfor %} 
         </div>
         <button type="button" class="add-row-btn" onclick="addRow()">Add Book</button>
         <button type="submit">Validate Books</button>

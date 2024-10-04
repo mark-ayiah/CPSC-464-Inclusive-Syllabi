@@ -18,12 +18,8 @@ def index():
 # Route to handle PDF upload and parsing
 @app.route('/validate', methods=['POST'])
 def submit():
-    print("gang")
-
     file = request.files['file']
     category = request.form.get('categories')
-
-    print("working")
 
     if file and category:
 
@@ -37,14 +33,12 @@ def submit():
         # Find books using the OpenLibrary API
         books = find_books_in_pdf(text)
 
-        print(books)
         
         # Render the template with the list of books
         return render_template('validate.html', books=books)
 
 # Function to extract text from a PDF file
 def extract_text_from_docx(filepath):
-    print("test")
     doc = Document(filepath)
     text = ''
     for paragraph in doc.paragraphs:
@@ -62,8 +56,6 @@ def search_book(line):
             book = data['docs'][0]  # Assuming the first result is the most relevant
             title = book['title']
             isbn = book.get('isbn', ['N/A'])[0]
-            print(f"Title: {title}\n")
-            print(f"ISBN: {isbn}\n")
             return title, isbn
     return None, None
 
@@ -72,7 +64,6 @@ def find_books_in_pdf(text):
     book_list = []
     lines = text.split('\n')
     for line in lines:
-        print(f"Line:{line}")
         title, isbn = search_book(line)
         if title:
             book_list.append({'title': title, 'isbn': isbn})
