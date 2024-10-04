@@ -55,18 +55,19 @@ def search_book(line):
         if data['numFound'] > 0:
             book = data['docs'][0]  # Assuming the first result is the most relevant
             title = book['title']
+            author = book['author_name'][0]
             isbn = book.get('isbn', ['N/A'])[0]
-            return title, isbn
-    return None, None
+            return title, author, isbn
+    return None, None, None
 
 # Function to find books in the parsed Word Doc 
 def find_books_in_pdf(text):
     book_list = []
     lines = text.split('\n')
     for line in lines:
-        title, isbn = search_book(line)
+        title, author, isbn = search_book(line)
         if title:
-            book_list.append({'title': title, 'isbn': isbn})
+            book_list.append({'title': title, 'author': author, 'isbn': isbn})
     return book_list
 
 @app.route('/results', methods=['POST'])
