@@ -18,28 +18,28 @@
 				Background: Curating a diverse university syllabi is critical but not straightforward. Instructors are encouraged to consider how
 				identities like race, gender, sexuality, religion, class, nationality, and more contribute to assenting and dissenting opinions on
 				topics presented by their courses. This tool facilitates syllabus diversification through a diversity rating and an algorithm for
-				suggesting additional readings, both of which are based on research of previous approaches. Follow the steps below to calculate the 
-                diversity rating of your syllabus and get suggested additional readings.
-
+				suggesting additional readings, both of which are based on research of previous approaches. Follow the steps below to calculate the
+				diversity rating of your syllabus and get suggested additional readings.
 			</p>
 		</div>
-        <br>
+		<br />
 		<form id="initial-form" action="/validate" method="POST" enctype="multipart/form-data">
-            <p class="instructions">Upload your class syllabus in a .docx format. </p>
+			<p class="instructions">Upload your class syllabus in a .docx format.</p>
 			<div class="file-upload">
 				<label for="file-upload" class="custom-upload">Upload File</label>
 				<input id="file-upload" type="file" name="file" onchange="handleFileChange();" hidden />
 				<span id="file-name" class="file-name"></span>
 				<span id="file-validation" class="validation-error"></span>
 			</div>
-            <p class="instructions">Select the field that most closely relates to your course.</p>
-			<select name="fields" id="categories" class="category-select" onchange="handleCategoryChange()">
+			<p class="instructions">Select the field that most closely relates to your course.</p>
+			<select name="fields" id="fieldsg" class="category-select" onchange="handleFieldChange()">
 				<option value="default" selected disabled hidden>Choose a Field</option>
 				<option value="afam">African-American Studies</option>
 				<option value="american">American Studies</option>
 				<option value="arabic">Arabic and Islamic Studies</option>
 			</select>
-            <p class="instructions">Select a category to diversify.</p>
+			<span id="field-validation" class="validation-error">Please select a category.</span>
+			<p class="instructions">Select a category to diversify.</p>
 			<select name="categories" id="categories" class="category-select" onchange="handleCategoryChange()">
 				<option value="default" selected disabled hidden>Choose a Category</option>
 				<option value="race">Race</option>
@@ -47,12 +47,12 @@
 				<option value="country">Country</option>
 			</select>
 			<span id="category-validation" class="validation-error">Please select a category.</span>
-			<button type="submit" class="submit-button">Get Results!</button>
+			<button type="submit" id="submit-button" class="submit-button">Get Results!</button>
 		</form>
-
 
 		<script>
 			let fileSelected = false;
+            let fieldSelected = false;
 			let categorySelected = false;
 
 			function handleFileChange() {
@@ -61,30 +61,42 @@
 				const fileNameDisplay = document.getElementById("file-name");
 
 				if (fileInput.files.length > 0) {
-                    fileName = fileInput.files[0].name;
+					fileName = fileInput.files[0].name;
 
-                    if (fileName.endsWith('.docx')) {
-                        fileValidation.style.display = "none";
-                        fileNameDisplay.textContent = fileName;
-                        fileSelected = true;
-                    } else {
-                        fileValidation.style.display = "inline";
-                        fileValidation.textContent = "Unsupported file type: please upload a .docx file";
-                        fileNameDisplay.textContent = "";
-                        fileSelected = false;
-                    }
+					if (fileName.endsWith(".docx")) {
+						fileValidation.style.display = "none";
+						fileNameDisplay.textContent = fileName;
+						fileSelected = true;
+					} else {
+						fileValidation.style.display = "inline";
+						fileValidation.textContent = "Unsupported file type: please upload a .docx file";
+						fileNameDisplay.textContent = "";
+						fileSelected = false;
+					}
 				} else {
-					fileValidation.style.display = "none";
-                    fileValidation.textContent = "Please upload a file.";
+					fileValidation.style.display = "inline";
+					fileValidation.textContent = "Please upload a file.";
 					fileNameDisplay.textContent = "";
 					fileSelected = false;
+				}
+			}
+
+			function handleFieldChange() {
+				const fieldSelect = document.getElementById("fields");
+				const fieldValidation = document.getElementById("field-validation");
+
+				if (fieldSelect.value !== "default") {
+					fieldValidation.style.display = "none";
+					fieldSelected = true;
+				} else {
+					fieldValidation.style.display = "inline";
+					fieldSelected = false;
 				}
 			}
 
 			function handleCategoryChange() {
 				const categorySelect = document.getElementById("categories");
 				const categoryValidation = document.getElementById("category-validation");
-        
 
 				if (categorySelect.value !== "default") {
 					categoryValidation.style.display = "none";
@@ -96,15 +108,20 @@
 			}
 
 			document.getElementById("initial-form").addEventListener("submit", function (event) {
+                handleFileChange();
 				if (!fileSelected || !categorySelected) {
-					event.preventDefault(); 
+					event.preventDefault();
 
 					if (!fileSelected) {
 						document.getElementById("file-validation").style.display = "inline";
 					}
+                    if (!fieldSelected) {
+                        document.getElementById("field-validation").style.display = "inline";
+                    }
 					if (!categorySelected) {
 						document.getElementById("category-validation").style.display = "inline";
 					}
+        
 				}
 			});
 		</script>

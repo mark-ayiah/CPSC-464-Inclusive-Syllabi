@@ -31,10 +31,8 @@ def submit():
         file.save(filepath)
 
         # Extract text from the uploaded Word document
-        if file.filename.endswith('.docx'):
-            text = extract_text_from_docx(filepath)
-        else:
-            return "Unsupported file type. Please upload a .docx file."
+        text = extract_text_from_docx(filepath)
+
         
         # Find books using the OpenLibrary API
         books = find_books_in_pdf(text)
