@@ -18,29 +18,21 @@
 				Background: Curating a diverse university syllabi is critical but not straightforward. Instructors are encouraged to consider how
 				identities like race, gender, sexuality, religion, class, nationality, and more contribute to assenting and dissenting opinions on
 				topics presented by their courses. This tool facilitates syllabus diversification through a diversity rating and an algorithm for
-				suggesting additional readings, both of which are based on research of previous approaches. Follow the steps below to calculate the 
-                diversity rating of your syllabus and get suggested additional readings.
-
+				suggesting additional readings, both of which are based on research of previous approaches.
 			</p>
-            <br>
+
+			<p>
+				Instructions: Upload your class syllabus in docx format and select a category to diversify. The tool will calculate the diversity rating of your
+				syllabus and suggest additional readings to increase diversity.
+			</p>
 		</div>
-        <br>
 		<form id="initial-form" action="/validate" method="POST" enctype="multipart/form-data">
-            <p>Upload your class syllabus. </p>
 			<div class="file-upload">
 				<label for="file-upload" class="custom-upload">Upload File</label>
 				<input id="file-upload" type="file" name="file" onchange="handleFileChange();" hidden />
 				<span id="file-name" class="file-name"></span>
 				<span id="file-validation" class="validation-error">Please upload a file.</span>
 			</div>
-            <p>Select the field that most closely relates to your course.</p>
-			<select name="fields" id="categories" class="category-select" onchange="handleCategoryChange()">
-				<option value="default" selected disabled hidden>Choose a Field</option>
-				<option value="afam">African-American Studies</option>
-				<option value="american">American Studies</option>
-				<option value="arabic">Arabic and Islamic Studies</option>
-			</select>
-            <p>Select a category to diversify.</p>
 			<select name="categories" id="categories" class="category-select" onchange="handleCategoryChange()">
 				<option value="default" selected disabled hidden>Choose a Category</option>
 				<option value="race">Race</option>

@@ -1,14 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Algorithmic Curation of Inclusive Syllabi</title>
-		<link rel="stylesheet" href="../static/styles.css" />
-	</head>
-	<body>
-        <h3>Here's what we got:</h3>
-            <p>If any of your books are incorrect or missing, please change them now.</p>
-		
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Results</title>
+    <link rel="stylesheet" href="../static/styles.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th {
+            text-align: left;
+        }
+        .row {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .row input[type="text"] {
+            padding: 5px;
+            margin-right: 10px;
+        }
+        .title-input {
+            flex: 2; /* Title takes more space */
+        }
+        .isbn-input {
+            flex: 1; /* ISBN takes less space */
+        }
+        .delete-btn {
+            color: red; /* Red color for the X */
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            margin-left: auto; /* Push X to the right */
+        }
+        .delete-btn:hover {
+            color: darkred; /* Darker red when hovering over the X */
+        }
+        .add-row-btn {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Here's what we got:</h3>
+    <p>If any of your books are incorrect or missing, please change them now.</p>
+
+    <form action="/results" method="POST">
+        <div id="books-list">
+            {% for book in books %}
+            <div class="row">
+                <input type="text" class="title-input" name="titles" value="{{ book.title }}" readonly>
+                <input type="text" class="isbn-input" name="isbns" value="{{ book.isbn }}" readonly>
+                <span class="delete-btn" onclick="deleteRow(this)">X</span>
+            </div>
+            {% endfor %}
+        </div>
+        <button type="button" class="add-row-btn" onclick="addRow()">Add Book</button>
+        <button type="submit">Validate Books</button>
+    </form>
+
+    <script>
+        // Function to add a new row
+        function addRow() {
+            const bookList = document.getElementById('books-list');
+            const newRow = document.createElement('div');
+            newRow.className = 'row';
+
+            newRow.innerHTML = `
+                <input type="text" class="title-input" name="titles" placeholder="Enter book title">
+                <input type="text" class="isbn-input" name="isbns" placeholder="Enter ISBN">
+                <span class="delete-btn" onclick="deleteRow(this)">X</span>
+            `;
+
+            bookList.appendChild(newRow);
+        }
+
+        // Function to delete a row
+        function deleteRow(element) {
+            element.parentElement.remove();  // Remove the parent row (div)
+        }
+    </script>
+</body>
 </html>
