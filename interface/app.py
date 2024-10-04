@@ -7,6 +7,8 @@ app = Flask(__name__)
 
 UPLOAD_FOLDER = './uploads'
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
+if not os.path.exists(UPLOAD_FOLDER):
+    os.makedirs(UPLOAD_FOLDER)
 
 # Route for the main page (upload page)
 @app.route('/')

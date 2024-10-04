@@ -79,6 +79,10 @@ p {
     display: none;
 }
 
+.instructions {
+    margin: 1em 0 0;
+}
+
 #isbns-text {
 	line-height: 2em;
 }
