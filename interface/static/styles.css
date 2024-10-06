@@ -183,3 +183,14 @@ tbody td input {
 .add-row-btn {
     margin-top: 20px;
 }
+
+.donut-chart-container {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+.rating-info {
+    display: inline-block;
+}

@@ -64,11 +64,11 @@ def add_book():
     return render_template('validate.html', books=session['books'])
         
 
-@app.route('/results', methods=['POST'])
+@app.route('/results', methods=['POST', 'GET'])
 def results():
-    # diversity = calc_diversity(isbns)
-    # suggestions = get_suggestions(isbns)
-    return render_template('results.html')
+    diversity = calc_diversity()
+    suggestions = get_suggestions()
+    return render_template('results.html', diversity=diversity, suggestions=suggestions)
 
 
 # Function to extract text from a PDF file
@@ -121,10 +121,10 @@ def find_books_in_pdf(text):
             book_list.append({'title': title, 'author': author, 'isbn': isbn})
     return book_list
 
-def calc_diversity(isbns):
+def calc_diversity():
     return 0.349
 
-def get_suggestions(isbns):
+def get_suggestions():
     return ['Their Eyes Were Watching By God',  'Invisible Man' , 'Native Son']
 
 if __name__ == '__main__':

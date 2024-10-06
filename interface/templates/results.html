@@ -5,11 +5,54 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Algorithmic Curation of Inclusive Syllabi</title>
 		<link rel="stylesheet" href="../static/styles.css" />
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	</head>
 	<body>
-        <h1 class="title">Algorithmic Curation of Inclusive Syllabi:</h1>
+		<h1 class="title">Algorithmic Curation of Inclusive Syllabi:</h1>
 		<h2 class="subtitle">Tool for Measuring and Recommending Diversity in Course Content</h2>
 
-		
+		<h3>Diversity Rating:</h3>
+		<div class="donut-chart-container">
+			<canvas id="chart"></canvas>
+		</div>
+        <p class="rating-info">Your syllabus received a rating of <span id="rating">{{diversity}}</span>. This is based on...</p>
+
+
+		<h3>Recommendations:</h3>
+		<p>Based on your syllabus and interest in diversifying in [topics], here are a few readings to supplement your content.</p>
+		<ul>
+			{% for book in suggestions %}
+			<li>{{ book }}</li>
+			{% endfor %}
+		</ul>
 	</body>
+	<script>
+		const percentage = document.getElementById("rating").innerText;
+		const ctx = document.getElementById("chart").getContext("2d");
+		const data = {
+			datasets: [
+				{
+					data: [percentage, 1 - percentage],
+					backgroundColor: ["#cccccc", "#f2f2f2"],
+					hoverBackgroundColor: ["#cccccc", "#f2f2f2"],
+					borderWidth: 1,
+                    borderColor: "#000000",
+				},
+			],
+		};
+
+		const options = {
+			cutout: "80%", // This creates the donut hole
+			plugins: {
+				tooltip: { enabled: false }, // Disable the tooltip for a cleaner look
+			},
+		};
+
+		const myDonutChart = new Chart(ctx, {
+			type: "doughnut",
+			data: data,
+			options: options,
+		});
+
+	</script>
 </html>
