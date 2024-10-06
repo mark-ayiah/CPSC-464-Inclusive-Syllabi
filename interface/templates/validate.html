@@ -1,60 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Results</title>
-    <link rel="stylesheet" href="../static/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Link to FontAwesome for the trash icon -->
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Book Results</title>
+		<link rel="stylesheet" href="../static/styles.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+		<!-- Link to FontAwesome for the trash icon -->
+	</head>
+	<body>
+		<h1 class="title">Algorithmic Curation of Inclusive Syllabi:</h1>
+		<h2 class="subtitle">Tool for Measuring and Recommending Diversity in Course Content</h2>
 
+		<p>This is what we got from your syllabus. If any of your books are incorrect or missing, please edit, add, or remove them now.</p>
 
-</head>
-<body>
-    <h1 class="title">Algorithmic Curation of Inclusive Syllabi:</h1>
-	<h2 class="subtitle">Tool for Measuring and Recommending Diversity in Course Content</h2>
-
-    <p>This is what we got from your syllabus.</p>
-    <p>If any of your books are incorrect or missing, please edit or add them now.</p>
-
-    <div class="header-row">
-        <div class="header-title">Book</div>
-        <div class="header-isbn">ISBN</div>
-    </div>
-
-    <form action="/results" method="POST">
-        <div id="books-list">
-            {% for book in books %}
-            <div class="book-row">
-                <input type="text" class="title-input" name="titles" value="{{ book.title }} by {{ book.author }}">
-                <input type="text" class="isbn-input" name="isbns" value="{{ book.isbn }}">
-                <span class="delete-btn" onclick="deleteRow(this)"><i class="fas fa-trash"></i></span>
+		<form action="/edit-book" method="POST">
+			<table class="book-table">
+				<thead>
+					<tr>
+						<th>Book</th>
+						<th>ISBN</th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for book in books %}
+					<tr class="book-row">
+						<td class="book">{{ book.title }} by {{ book.author }}</td>
+						<td class="isbn-cell"><input type="text" class="isbn" name="isbns" value="{{ book.isbn }}"/></td>
+						<td>
+							<span class="delete-btn" onclick="deleteRow(this)"><i class="fas fa-trash"></i></span>
+						</td>
+					</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+            <button type="submit" style="display:none"></button>
+        </form>
+        <form action="/add-book" method="POST">
+            <div class="add-book-row">
+                <input type="text" class="new-title-input" name="new-title" placeholder="Enter additional books by title... (e.g., 'The Autobiography of Malcolm X')" />
+                <button type="button" class="add-title-btn" onclick="addTitle()">Add Title</button>
             </div>
-            {% endfor %} 
-        </div>
-        <button type="button" class="add-row-btn" onclick="addRow()">Add Book</button>
-        <button type="submit">Validate Books</button>
-    </form>
+		</form>
 
-    <script>
-        // Function to add a new row
-        function addRow() {
-            const bookList = document.getElementById('books-list');
-            const newRow = document.createElement('div');
-            newRow.className = 'row';
+        <form action="/results" method="POST">
+            <button class="submit-button" type="submit">Looks Good!</button>
+        </form>
+		<!-- <div class="book-table">
+			
 
-            newRow.innerHTML = `
+			<form action="/results" method="POST">
+				<button type="button" class="add-row-btn" onclick="addRow()">Add Book</button>
+		
+			</form>
+		</div> -->
+
+		<script>
+			// Function to add a new row
+			function addRow() {
+				const bookList = document.getElementById("books-list");
+				const newRow = document.createElement("div");
+				newRow.className = "row";
+
+				newRow.innerHTML = `
                 <input type="text" class="title-input" name="titles" placeholder="Enter book title">
                 <input type="text" class="isbn-input" name="isbns" placeholder="Enter ISBN">
                 <span class="delete-btn" onclick="deleteRow(this)">X</span>
             `;
 
-            bookList.appendChild(newRow);
-        }
+				bookList.appendChild(newRow);
+			}
 
-        // Function to delete a row
-        function deleteRow(element) {
-            element.parentElement.remove();  // Remove the parent row (div)
-        }
-    </script>
-</body>
+			// Function to delete a row
+			function deleteRow(element) {
+				element.parentElement.remove(); // Remove the parent row (div)
+			}
+		</script>
+	</body>
 </html>

@@ -63,7 +63,7 @@ p {
     background-color: #f0f0f0;
 }
 
-.submit-button {
+.submit-button, .add-title-btn {
     display: block;
     font-size: 1em;
     font-weight: bold;
@@ -71,7 +71,7 @@ p {
     color: white;
     border: 0;
     margin: 1em 0;
-    padding: 0.2em 1em;
+    padding: 0.5em 1em;
 }
 
 .validation-error {
@@ -96,35 +96,86 @@ p {
 /* VALIDATE */
 
 table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
 }
-th {
+
+thead th {
+    border-bottom: 1px solid black; 
+    padding-bottom: 10px;
     text-align: left;
 }
-.book-row, .header-row {
+
+tbody td {
+    padding: 5px 0; /* Add padding for spacing */
+    border-bottom: 1px solid black; 
+}
+
+tbody td input {
+    border: none; /* Remove borders on inputs */
+    background: none; /* Transparent background */
+    width: 100%; /* Make inputs full width */
+}
+
+.add-book-row {
     display: flex;
     align-items: center;
+    margin-top: 20px;
+}
+
+.new-title-input {
+    width: 50%; 
+    padding: 10px 10px 6px;
+    font-style: italic;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.add-title-btn {
+    font-weight: normal;
+    padding: 10px 10px 6px;
+}
+
+.book, .isbn {
+    font-size: 0.8em;
+}
+
+
+/* OLD */
+
+/* 
+.book-row {
+    display: flex;
+    justify-content: space-between;
     padding: 10px 0;
+    margin-right: 10px;
     border-bottom: 1px solid black;
+    padding: 5px;
+    align-items: center;
 }
 .book-row input[type="text"] {
-    padding: 5px;
-    margin-right: 10px;
-    border: none;
+    /* padding: 5px; */
+    /* margin-right: 10px; */
+    /* border: none;
+    padding: 0;
+} */
+
+
+
+
+/* .title-input, .title-header {
+    flex: 2;
 }
-.title-input, .header-title {
-    flex: 2; /* Title takes more space */
-}
-.isbn-input, .header-isbn {
-    flex: 1; /* ISBN takes less space */
-}
+.isbn-input, .isbn-header {
+    flex: 1; 
+} */
 .delete-btn {
-    color: black; /* Red color for the X */
+    color: black; 
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-    margin-left: auto; /* Push X to the right */
+    margin-left: auto;
+    background-color: none;
 }
 .delete-btn:hover {
     color: grey; /* Darker red when hovering over the X */
