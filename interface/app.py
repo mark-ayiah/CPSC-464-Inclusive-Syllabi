@@ -21,29 +21,25 @@ def index():
 @app.route('/validate', methods=['POST', 'GET'])
 def validate():       
         
-    session['books'] = [{'title': 'The Great Gatsby', 'author': 'F. Scott Fitzgerald', 'isbn': '9780743273565'},
-                   {'title': 'To Kill a Mockingbird', 'author': 'Harper Lee', 'isbn': '9780061120084'},
-                   {'title': '1984', 'author': 'George Orwell', 'isbn': '9780451524935'}]
-    
-    return render_template('validate.html', books=session['books'])
-    # file = request.files['file']
-    # category = request.form.get('categories')
+  
+    file = request.files['file']
+    category = request.form.get('categories')
 
-    # if file and category:
+    if file and category:
 
-    #     filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
-    #     file.save(filepath)
+        filepath = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
+        file.save(filepath)
 
-    #     # Extract text from the uploaded Word document
-    #     text = extract_text_from_docx(filepath)
+        # Extract text from the uploaded Word document
+        text = extract_text_from_docx(filepath)
 
         
-    #     # Find books using the OpenLibrary API
-    #     books = find_books_in_pdf(text)
+        # Find books using the OpenLibrary API
+        session['books'] = find_books_in_pdf(text)
 
         
-    #     # Render the template with the list of books
-    #     return render_template('validate.html', books=books)
+        # Render the template with the list of books
+        return render_template('validate.html', books=session['books'])
 
 @app.route('/edit-book', methods=['POST'])
 def edit_book():
@@ -69,10 +65,10 @@ def add_book():
         
 
 @app.route('/results', methods=['POST'])
-def results(isbns):
-    diversity = calc_diversity(isbns)
-    suggestions = get_suggestions(isbns)
-    return render_template('results.html', diversity=diversity, suggestions=suggestions)
+def results():
+    # diversity = calc_diversity(isbns)
+    # suggestions = get_suggestions(isbns)
+    return render_template('results.html')
 
 
 # Function to extract text from a PDF file
