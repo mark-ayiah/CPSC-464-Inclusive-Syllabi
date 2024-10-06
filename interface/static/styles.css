@@ -184,6 +184,10 @@ tbody td input {
     margin-top: 20px;
 }
 
+ul {
+    padding-left: 1.5em;
+}
+
 .donut-chart-container {
     display: flex;
     justify-content: center;
@@ -191,6 +195,8 @@ tbody td input {
     height: 200px;
 }
 
+
 .rating-info {
     display: inline-block;
+    font-style: italic;
 }

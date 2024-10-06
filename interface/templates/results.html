@@ -15,11 +15,16 @@
 		<div class="donut-chart-container">
 			<canvas id="chart"></canvas>
 		</div>
-        <p class="rating-info">Your syllabus received a rating of <span id="rating">{{diversity}}</span>. This is based on...</p>
+        <div class="rating-info">
+            <p>Your syllabus received a rating of <span id="rating">0.349</span>. This is based on...</p>
+        </div>
 
 
 		<h3>Recommendations:</h3>
-		<p>Based on your syllabus and interest in diversifying in [topics], here are a few readings to supplement your content.</p>
+		<p>
+            Based on your syllabus and interest in diversifying in ..., 
+            here are a few readings to supplement your content.
+        </p>
 		<ul>
 			{% for book in suggestions %}
 			<li>{{ book }}</li>
