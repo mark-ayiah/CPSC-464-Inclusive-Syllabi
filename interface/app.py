@@ -73,7 +73,8 @@ def results():
     isbns = isbns_str.split(',')
 
     # Call the function in diversity.py to calculate metrics
-    diversity = calculate_diversity_metrics(isbns)
+    diversity = round(calculate_diversity_metrics(isbns), 2)
+    print(diversity)
     suggestions = get_suggestions()
     return render_template('results.html', diversity=diversity, suggestions=suggestions)
 
@@ -128,8 +129,8 @@ def find_books_in_pdf(text):
             book_list.append({'title': title, 'author': author, 'isbn': isbn})
     return book_list
 
-def calc_diversity():
-    return 0.349
+# def calc_diversity():
+#     return 0.349
 
 def get_suggestions():
     return ['Their Eyes Were Watching God',  'Invisible Man' , 'Native Son']
