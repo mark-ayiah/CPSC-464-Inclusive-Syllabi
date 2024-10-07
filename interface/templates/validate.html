@@ -45,6 +45,7 @@
 		</form>
 
         <form action="/results" method="POST">
+			<input type="hidden" name="isbns" value="{{ books | map(attribute='isbn') | join(',') }}" />
             <button class="submit-button" type="submit">Looks Good!</button>
         </form>
 		<!-- <div class="book-table">

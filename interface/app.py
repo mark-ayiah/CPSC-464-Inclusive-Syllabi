@@ -2,6 +2,8 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import requests
 import os
 from docx import Document
+from diversity import calculate_diversity_metrics
+
 
 app = Flask(__name__)
 app.secret_key = 'supersecretkey'
@@ -66,7 +68,12 @@ def add_book():
 
 @app.route('/results', methods=['POST'])
 def results():
-    diversity = calc_diversity()
+    # Get the list of ISBNs from the form
+    isbns_str = request.form.get('isbns')
+    isbns = isbns_str.split(',')
+
+    # Call the function in diversity.py to calculate metrics
+    diversity = calculate_diversity_metrics(isbns)
     suggestions = get_suggestions()
     return render_template('results.html', diversity=diversity, suggestions=suggestions)
 

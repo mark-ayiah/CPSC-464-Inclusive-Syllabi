@@ -149,21 +149,6 @@ def categorize_tags(desired_diversity, overarching_discipline, tags):
 
     return categorized_tags
 
-# Categorize tags
-categorized_tags = categorize_tags(desired_diversity, overarching_discipline, cleaned_tags)
-
-# Splitting the tags into their respective catogories
-cat_alpha, cat_beta = [], []
-for lst in categorized_tags:
-    for tag in lst:
-        if lst[tag] == 'Discipline':
-            cat_alpha.append(tag)
-        elif lst[tag] == 'Diversity':
-            cat_beta.append(tag)
-            
-            # Load pre-trained model for topic embeddings
-
-
 # Define Rao's entropy formula
 def raos_entropy(cat_alpha, cat_beta):
     model = SentenceTransformer('all-MiniLM-L6-v2')
@@ -190,6 +175,23 @@ def raos_entropy(cat_alpha, cat_beta):
     
     return entropy
 
-# Calculate diversity using Rao's entropy
-entropy = raos_entropy(cat_alpha, cat_beta)
-print(f"Rao's Entropy (Diversity): {entropy}")
+
+def calculate_diversity_metrics(isbns):
+    tags = get_tags(isbns)
+    cleaned_tags = clean_tags(tags)
+
+    categorized_tags = categorize_tags('gender representation', 'african studies', cleaned_tags)
+
+    cat_alpha, cat_beta = [], []
+    for lst in categorized_tags:
+        for tag in lst:
+            if lst[tag] == 'Discipline':
+                cat_alpha.append(tag)
+            elif lst[tag] == 'Diversity':
+                cat_beta.append(tag)
+
+    entropy_score = raos_entropy(cat_alpha, cat_beta)
+
+    
+    print(f"Rao's Entropy (Diversity): {entropy}")
+    return entropy_score
