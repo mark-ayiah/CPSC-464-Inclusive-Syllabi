@@ -125,7 +125,7 @@ def calc_diversity():
     return 0.349
 
 def get_suggestions():
-    return ['Their Eyes Were Watching By God',  'Invisible Man' , 'Native Son']
+    return ['Their Eyes Were Watching God',  'Invisible Man' , 'Native Son']
 
 if __name__ == '__main__':
     app.run(debug=True)

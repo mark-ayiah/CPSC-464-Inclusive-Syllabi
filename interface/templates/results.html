@@ -12,12 +12,15 @@
 		<h2 class="subtitle">Tool for Measuring and Recommending Diversity in Course Content</h2>
 
 		<h3>Diversity Rating:</h3>
-		<div class="donut-chart-container">
-			<canvas id="chart"></canvas>
-		</div>
-        <div class="rating-info">
-            <p>Your syllabus received a rating of <span id="rating">0.349</span>. This is based on...</p>
+        <div class="diversity-rating">
+            <div class="donut-chart-container">
+                <canvas id="chart"></canvas>
+            </div>
+            <div class="rating-info">
+                <p>Your syllabus received a rating of <span id="rating">0.349</span>. This is based on...</p>
+            </div>
         </div>
+		
 
 
 		<h3>Recommendations:</h3>
@@ -46,10 +49,38 @@
 			],
 		};
 
+        Chart.register({
+			id: 'percentageLabel',
+
+            afterDraw: function(chart) {
+                const ctx = chart.ctx;
+				const chartArea = chart.chartArea;
+				const width = chartArea.right - chartArea.left;
+				const height = chartArea.bottom - chartArea.top;
+
+				// Set font size relative to chart area height
+				const fontSize = (height / 5).toFixed(2); // Adjust font size as needed
+				ctx.font = fontSize + "px sans-serif";
+				ctx.textBaseline = "middle";
+				ctx.textAlign = "center"; // Center text horizontally
+
+				// Text to display (percentage)
+				const text = percentage;
+
+				// Position text in the middle of the chart area
+				const textX = chartArea.left + width / 2;
+				const textY = chartArea.top + height / 2;
+
+				// Draw the text in the center
+				ctx.fillText(text, textX, textY);
+            }
+        });
+
 		const options = {
 			cutout: "80%", // This creates the donut hole
 			plugins: {
 				tooltip: { enabled: false }, // Disable the tooltip for a cleaner look
+                
 			},
 		};
 
@@ -57,6 +88,7 @@
 			type: "doughnut",
 			data: data,
 			options: options,
+            plugins : ['percentageLabel']
 		});
 
 	</script>
