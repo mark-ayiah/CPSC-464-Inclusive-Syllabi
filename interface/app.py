@@ -18,7 +18,7 @@ def index():
     return render_template('index.html')
 
 # Route to handle PDF upload and parsing
-@app.route('/validate', methods=['POST', 'GET'])
+@app.route('/validate', methods=['POST'])
 def validate():       
         
   
@@ -64,7 +64,7 @@ def add_book():
     return render_template('validate.html', books=session['books'])
         
 
-@app.route('/results', methods=['POST', 'GET'])
+@app.route('/results', methods=['POST'])
 def results():
     diversity = calc_diversity()
     suggestions = get_suggestions()
