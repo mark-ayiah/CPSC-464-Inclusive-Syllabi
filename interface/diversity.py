@@ -1,25 +1,19 @@
-# for rating stuff
+# ===============
+# Import Statements
+# ===============
 
-#import csv
 import urllib
 from urllib.parse import quote
 
-#language identifier 1
-# pip -q install fasttext
+# Language Identifier 1
 import fasttext
 from huggingface_hub import hf_hub_download
-model_path = hf_hub_download(repo_id="facebook/fasttext-language-identification", filename="model.bin")
-model_ft = fasttext.load_model(model_path)
 
-#language identifier 2
-# pip -q install langid
+# Language Identifier 2
 from langid.langid import LanguageIdentifier, model
-identifier = LanguageIdentifier.from_modelstring(model, norm_probs=True) #instantiate identifier
 
 import requests
 import re
-
-# Importing other dependencies
 import pandas as pd
 import numpy as np
 from scipy.spatial.distance import pdist, squareform
@@ -28,6 +22,14 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import cosine_distances
 from collections import Counter
+
+# ===============
+# Configurations
+# ===============
+
+model_path = hf_hub_download(repo_id="facebook/fasttext-language-identification", filename="model.bin")
+model_ft = fasttext.load_model(model_path)
+identifier = LanguageIdentifier.from_modelstring(model, norm_probs=True) #instantiate identifier
 
 #testing Open Library API
 # r = requests.get('https://openlibrary.org/search.json?q=subject:("dogs"+OR+"cats")+subject:("Juvenile fiction"+OR+"Juvenile literature")&fields=subject')
@@ -38,6 +40,10 @@ from collections import Counter
 #discipline tags is a list
 #diversity tags is a list
 #k is the number of items to return
+
+# =================
+# Helper Functions 
+# =================
 
 #finds results that match ANY of the first list of tags and ANY of the second list of tags
 def search_recs(discipline_tags, diversity_tags, k):
@@ -52,7 +58,11 @@ def search_recs(discipline_tags, diversity_tags, k):
     str_disc, str_div = '+OR+'.join(discipline_tags), '+OR+'.join(diversity_tags)
 
     print(f'https://openlibrary.org/search.json?q=subject:({str_disc})+subject:({str_div})&fields=subject&limit={k}')
-    return requests.get(f'https://openlibrary.org/search.json?q=subject:({str_disc})+subject:({str_div})&fields=author_name,title,isbn,subject&limit={k}').json()
+    return requests.get(f'https://openlibrary.org/search.json?q=subject:({str_disc})+subject:({str_div})&fields=author_name,title,isbn,subject&limit={k}', timeout=10).json()
+
+
+
+
 
 #book = get_books(syllabus); takes in a list of ISBNs
 def get_tags(books):
@@ -114,6 +124,12 @@ def clean_tags(tags):
 
 # Cleaning tags from the two isbns defined above
 # cleaned_tags = clean_tags(lst)
+
+
+
+# =================
+# Logic Functions 
+# =================
 
 
 
@@ -195,3 +211,24 @@ def calculate_diversity_metrics(isbns):
     
     print(f"Rao's Entropy (Diversity): {entropy}")
     return entropy_score
+
+def get_suggestions(cat_alpha, cat_beta):
+    alpha_tags = ' OR '.join(cat_alpha)
+    beta_tags =  ' OR '.join(cat_beta)
+    url = 'https://openlibrary.org/search.json'
+   
+    params = {
+        'q': f'subject:({alpha_tags}) AND subject:({beta_tags})', 
+        'fields': 'author_name,title,isbn,subject', 
+        'limit': 3
+        }
+    
+    response = requests.get(url, params=params, timeout=30)
+    data = response.json()
+    
+    print(data)
+
+    
+
+if __name__ == '__main__':
+    get_suggestions(['"african"'], ['"gender"', '"history"'])

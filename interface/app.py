@@ -89,9 +89,10 @@ def extract_text_from_docx(filepath):
 
 # Function to search for books using OpenLibrary API
 def search_book(line):
-    url = "http://openlibrary.org/search.json"
+    url = "https://openlibrary.org/search.json"
     params = {'q': line}
-    response = requests.get(url, params=params)
+    response = requests.get(url, params=params, timeout=30)
+    
     if response.status_code == 200:
         data = response.json()
         if data['numFound'] > 0:
