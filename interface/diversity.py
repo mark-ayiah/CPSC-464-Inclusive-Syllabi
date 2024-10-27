@@ -213,20 +213,77 @@ def calculate_diversity_metrics(isbns):
     return entropy_score
 
 def get_suggestions(cat_alpha, cat_beta):
+    
+    # construct the query
     alpha_tags = ' OR '.join(cat_alpha)
     beta_tags =  ' OR '.join(cat_beta)
     url = 'https://openlibrary.org/search.json'
-   
     params = {
-        'q': f'subject:({alpha_tags}) AND subject:({beta_tags})', 
+        'q': f'subject:({alpha_tags}) AND subject:({beta_tags}) AND language:("eng")', 
         'fields': 'author_name,title,isbn,subject', 
         'limit': 3
         }
     
     response = requests.get(url, params=params, timeout=30)
-    data = response.json()
     
-    print(data)
+    # clean the response
+    books = response.json()
+    del books['numFound'], books['start'], books['numFoundExact'], books['num_found'], books['offset'], data['q']
+    for book in books['docs']:
+        book['isbn'] = book['isbn'][0]
+        book['author_name'] = book['author_name'][0]
+
+def ia_select(tags, k):
+    
+    
+    cleaned_tags = clean_tags(tags)
+
+    categorized_tags = categorize_tags('gender representation', 'african studies', cleaned_tags)
+
+    cat_alpha, cat_beta = [], []
+    for lst in categorized_tags:
+        for tag in lst:
+            if lst[tag] == 'Discipline':
+                cat_alpha.append(tag)
+            elif lst[tag] == 'Diversity':
+                cat_beta.append(tag)
+    
+    # go through what each c means
+    L = []
+    U = {c: P(c) for c in (cat_alpha + cat_beta)}
+    
+    max_score = 0
+    best_book = None
+    
+    books = get_suggestions(cat_alpha, cat_beta)
+
+    while len(L) < k:
+        for book in books:
+            score = sum([U[c] * V(book, c) for c in (cat_alpha + cat_beta)])
+            
+            if score > max_score:
+                max_score = score
+                best_book = book
+                
+        L.append(best_book)
+        
+        for c in (best_book['subject']): #change to use the correct c
+            U[c] = (1 - V(book)) * U(c, L) if len(L) > 0 else (1 - V(book)) * U[c]
+        
+        books.remove(best_book)
+        
+    return L
+            
+            
+def P(category):
+    pass
+    
+def U(book, category):
+    pass
+
+def V(book, cat_alpha):
+    pass
+        
 
     
 
