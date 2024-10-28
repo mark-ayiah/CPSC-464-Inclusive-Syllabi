@@ -244,7 +244,7 @@ def ia_select(tags, k):
 
     categorized_tags = categorize_tags('gender representation', 'african studies', cleaned_tags)
 
-    cat_alpha, cat_beta = [], []
+    cat_alpha, cat_beta = [:tags[len(tags)/2]], [tags[len(tags)/2:]]
     for lst in categorized_tags:
         for tag in lst:
             if lst[tag] == 'Discipline':
@@ -325,12 +325,4 @@ if __name__ == '__main__':
     
     
 
-    # Cleaning tags from the two isbns defined above
-    # tags = get_tags([9780192832696, 9780451015594])
-
-    # cleaned_tags = clean_tags(tags)
-    # print(cleaned_tags)
-    # categorized_tags = categorize_tags(cleaned_tags)
-    # print(categorized_tags)
-    
-    print(calculate_diversity_metrics([9780192832696, 9780451015594]))
+   get_tags_for_categories("../example_syllabi")
