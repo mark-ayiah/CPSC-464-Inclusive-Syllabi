@@ -308,14 +308,16 @@ def get_tags_for_categories(dir):
             
             tags = []
             with open(f"{dir}/{file}", 'r', encoding='utf-8-sig') as f:
+                # print(f"Reading {file}")
                 reader = csv.DictReader(f)
                 isbns = []
                 for row in reader:
+                    # print(row)
                     isbns.append(row['isbn'])
                 tags = (sum(get_tags(isbns), []))
             # print(tags)
-            dict = {file[15:-3]: tags}
-            print(dict)
+            dict = {file[:-3]: tags}
+            # print(dict)
             category_tags.append(dict)
                 
     # write tags to a new json file as a new key
