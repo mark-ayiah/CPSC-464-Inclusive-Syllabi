@@ -75,68 +75,63 @@ def get_tags(books):
         data = requests.get(f'https://openlibrary.org/search.json?q=isbn:{isbn}&fields=subject').json()
         
         if 'docs' in data and len(data['docs']) > 0 and 'subject' in data['docs'][0]:
-            tags.append( data['docs'][0]['subject'])
+            tags.extend(data['docs'][0]['subject'])
         else:
             print(f"ISBN {isbn} not found")
-            tags.append([])
+
         
     return tags
 
-# lst = get_tags([9780192832696, 9780451015594])
-#print(lst)
-
-#takes in a list of lists
+#takes in a list
 def clean_tags(tags):
-    for idx, l in enumerate(tags): #index, list of lists
+    # for idx, l in enumerate(tags): #index, list of lists
 
-        #lowercase
-        l = [s.lower() for s in l]
+    #lowercase
+    tags = [s.lower() for s in tags]
 
-        #language identifier
-        #We can either keep a tag if both methods AGREE that it is english OR only use one and set a probability threshold for english likelihood
-        l = [s for s in l if model_ft.predict(s)[0][0] == '__label__eng_Latn'] #if english, using fast text; https://aclanthology.org/E17-2068/
-        #if english, using langid
-        l = [s for s in l if identifier.classify(s)[0] == 'en'] #off a cursory glance, performs better than the fasttext one, but still not as robust as using both; http://www.aclweb.org/anthology/P12-3005
+    #language identifier
+    #We can either keep a tag if both methods AGREE that it is english OR only use one and set a probability threshold for english likelihood
+    tags = [s for s in tags if model_ft.predict(s)[0][0] == '__label__eng_Latn'] #if english, using fast text; https://aclanthology.org/E17-2068/
+    #if english, using langid
+    tags = [s for s in tags if identifier.classify(s)[0] == 'en'] #off a cursory glance, performs better than the fasttext one, but still not as robust as using both; http://www.aclweb.org/anthology/P12-3005
 
-        #remove mentions of "fiction" to prevent stripped pertinent information due to commas later on
-        l = [s.split('in fiction')[0] for s in l] #remove any mention of 'fiction'
-        l = [s.split(', fiction')[0] for s in l] #remove any mention of 'fiction'
-        l = [s.split('fiction, ')[0] for s in l] #remove any mention of 'fiction'
+    #remove mentions of "fiction" to prevent stripped pertinent information due to commas later on
+    tags = [s.split('in fiction')[0] for s in tags] #remove any mention of 'fiction'
+    tags = [s.split(', fiction')[0] for s in tags] #remove any mention of 'fiction'
+    tags = [s.split('fiction, ')[0] for s in tags] #remove any mention of 'fiction'
 
-        #clean for extraness
-        l = [s.split(',')[0]  for s in l] #remove anything after a comma
-        l = [s.split('--')[0]  for s in l] #remove anything with the --
-        l = [s.split('(')[0]  for s in l] #remove parenthesis and anything within it
-        l = [s.split('[')[0]  for s in l] #remove parenthesis and anything within it
-        l = [s.split('{')[0]  for s in l] #remove parenthesis and anything within it
-        l = [s.split('/')[0]  for s in l] #look at info before slash
-        l = [s.split('"')[0]  for s in l] #remove quotes
-        l = [s for s in l if ":" not in s] #remove anything with parentheses
-        l = [s for s in l if "reading level" not in s] #remove any mention of reading level
+    #clean for extraness
+    tags = [s.split(',')[0]  for s in tags] #remove anything after a comma
+    tags = [s.split('--')[0]  for s in tags] #remove anything with the --
+    tags = [s.split('(')[0]  for s in tags] #remove parenthesis and anything within it
+    tags = [s.split('[')[0]  for s in tags] #remove parenthesis and anything within it
+    tags = [s.split('{')[0]  for s in tags] #remove parenthesis and anything within it
+    tags = [s.split('/')[0]  for s in tags] #look at info before slash
+    tags = [s.split('"')[0]  for s in tags] #remove quotes
+    tags = [s for s in tags if ":" not in s] #remove anything with parentheses
+    tags = [s for s in tags if "reading level" not in s] #remove any mention of reading level
 
-        #remove other uninformative tags
-        l = [s for s in l if "translations" not in s]
-        l = [s for s in l if "staff" not in s] #staff picks
-        l = [s for s in l if "language materials" not in s] #language materials
+    #remove other uninformative tags
+    tags = [s for s in tags if "translations" not in s]
+    tags = [s for s in tags if "staff" not in s] #staff picks
+    tags = [s for s in tags if "language materials" not in s] #language materials
 
-        #remove dewey system stuff until further notice
-        l = [s for s in l if not s.isdigit()]
+    #remove dewey system stuff until further notice
+    tags = [s for s in tags if not s.isdigit()]
 
-        #ampersand in the tags is causing problems
+    #ampersand in the tags is causing problems
 
-        #remove whitespace
-        l = [s.strip(' \t\n\r') for s in l]
+    #remove whitespace
+    tags = [s.strip(' \t\n\r') for s in tags]
 
-        #remove empty string
-        l = [s for s in l if bool(s) != False]
+    #remove empty string
+    tags = [s for s in tags if bool(s) != False]
 
-        #make unique, update list
-        tags[idx] = list(set(l))
+    #make unique, update list
+    # tags[idx] = list(set(tags))
 
-    return tags #list of lists
+    return list(set(tags)) #list
 
-# Cleaning tags from the two isbns defined above
-# cleaned_tags = clean_tags(lst)
 
 
 
@@ -147,83 +142,79 @@ def clean_tags(tags):
 
 
 # Function to categorize tags
-def categorize_tags(desired_diversity, overarching_discipline, tags):
-    # Load model for embeddings
-    model = SentenceTransformer('all-MiniLM-L6-v2')
+# def categorize_tags(tags, desired_diversity ='gender representation', overarching_discipline='african studies'):
+#     # Load model for embeddings
+#     # Load model for embeddings
+#     model = SentenceTransformer('all-MiniLM-L6-v2')
 
-    # Desired diversity area and overarching discipline
-    desired_diversity = 'gender representation'
-    overarching_discipline = 'african studies'
-    categorized_tags = []
-    for tag_list in tags:
-        # Generate embeddings for tags, diversity area, and discipline
-        tag_embeddings = model.encode(tag_list)
-        diversity_embedding = model.encode([desired_diversity])
-        discipline_embedding = model.encode([overarching_discipline])
-        cat_tags = {}
-        for i, tag in enumerate(tag_list):
-            # Calculate cosine similarity to both diversity and discipline
-            diversity_sim = cosine_similarity([tag_embeddings[i]], diversity_embedding)[0][0]
-            discipline_sim = cosine_similarity([tag_embeddings[i]], discipline_embedding)[0][0]
+#     # Desired diversity area and overarching discipline
+#     desired_diversity = 'gender representation'
+#     overarching_discipline = 'african studies'
+#     categorized_tags = []
+#     for tag_list in tags:
+#         # Generate embeddings for tags, diversity area, and discipline
+#         tag_embeddings = model.encode(tag_list)
+#         diversity_embedding = model.encode([desired_diversity])
+#         discipline_embedding = model.encode([overarching_discipline])
+#         cat_tags = {}
+#         for i, tag in enumerate(tag_list):
+#             # Calculate cosine similarity to both diversity and discipline
+#             diversity_sim = cosine_similarity([tag_embeddings[i]], diversity_embedding)[0][0]
+#             discipline_sim = cosine_similarity([tag_embeddings[i]], discipline_embedding)[0][0]
 
-            # Categorize based on higher similarity
-            if (diversity_sim > .25) or (discipline_sim > .15):
-                if diversity_sim > discipline_sim:
-                    cat_tags[tag] = 'Diversity'
-                elif discipline_sim > diversity_sim:
-                    cat_tags[tag] = 'Discipline'
-            else:
-                cat_tags[tag] = 'Neither'
-        categorized_tags.append(cat_tags)
+#             # Categorize based on higher similarity
+#             if (diversity_sim > .25) or (discipline_sim > .15):
+#                 if diversity_sim > discipline_sim:
+#                     cat_tags[tag] = 'Diversity'
+#                 elif discipline_sim > diversity_sim:
+#                     cat_tags[tag] = 'Discipline'
+#             else:
+#                 cat_tags[tag] = 'Neither'
+#         categorized_tags.append(cat_tags)
 
-    return categorized_tags
+#     return categorized_tags
+        
 
-# Define Rao's entropy formula
-def raos_entropy(cat_alpha, cat_beta):
-    model = SentenceTransformer('all-MiniLM-L6-v2')
-    # Generate embeddings for topics
-    alpha_embeddings = model.encode(cat_alpha)
-    beta_embeddings = model.encode(cat_beta)
+#     return cat_alpha, cat_beta
 
-    # Full list of syllabus topics
-    syllabus_topics = cat_alpha + cat_beta
+# # Define Rao's entropy formula
+# def raos_entropy(cat_alpha, cat_beta):
+#     model = SentenceTransformer('all-MiniLM-L6-v2')
+#     # Generate embeddings for topics
+#     alpha_embeddings = model.encode(cat_alpha)
+#     beta_embeddings = model.encode(cat_beta)
 
-    # Calculate proportions (p_i and p_j)
-    topic_counts = Counter(syllabus_topics)
-    total_topics = len(syllabus_topics)
-    p_alpha = np.array([topic_counts[topic] / total_topics for topic in cat_alpha])
-    p_beta = np.array([topic_counts[topic] / total_topics for topic in cat_beta])
-    entropy = 0.0
-    # Calculate pairwise cosine distances between topics
-    distance_matrix = cosine_distances(alpha_embeddings, beta_embeddings)
+#     # Full list of syllabus topics
+#     syllabus_topics = cat_alpha + cat_beta
+
+#     # Calculate proportions (p_i and p_j)
+#     topic_counts = Counter(syllabus_topics)
+#     total_topics = len(syllabus_topics)
+#     p_alpha = np.array([topic_counts[topic] / total_topics for topic in cat_alpha])
+#     p_beta = np.array([topic_counts[topic] / total_topics for topic in cat_beta])
+#     entropy = 0.0
+#     # Calculate pairwise cosine distances between topics
+#     distance_matrix = cosine_distances(alpha_embeddings, beta_embeddings)
     
-    # Sum over all topic pairs
-    for i in range(len(cat_alpha)):
-        for j in range(len(cat_beta)):
-            entropy += p_alpha[i] * p_beta[j] * distance_matrix[i, j]
+#     # Sum over all topic pairs
+#     for i in range(len(cat_alpha)):
+#         for j in range(len(cat_beta)):
+#             entropy += p_alpha[i] * p_beta[j] * distance_matrix[i, j]
     
-    return entropy
+#     return entropy
 
 
-def calculate_diversity_metrics(isbns):
-    tags = get_tags(isbns)
-    cleaned_tags = clean_tags(tags)
+# def calculate_diversity_metrics(isbns):
+#     tags = get_tags(isbns)
+#     cleaned_tags = clean_tags(tags)
 
-    categorized_tags = categorize_tags('gender representation', 'african studies', cleaned_tags)
+#     cat_alpha, cat_beta = categorize_tags('gender representation', 'african studies', cleaned_tags)
 
-    cat_alpha, cat_beta = [], []
-    for lst in categorized_tags:
-        for tag in lst:
-            if lst[tag] == 'Discipline':
-                cat_alpha.append(tag)
-            elif lst[tag] == 'Diversity':
-                cat_beta.append(tag)
-
-    entropy_score = raos_entropy(cat_alpha, cat_beta)
+#     entropy_score = raos_entropy(cat_alpha, cat_beta)
 
     
-    print(f"Rao's Entropy (Diversity): {entropy}")
-    return entropy_score
+#     print(f"Rao's Entropy (Diversity): {entropy}")
+#     return entropy_score
 
 def get_suggestions(cat_alpha, cat_beta):
     
@@ -311,7 +302,6 @@ def get_tags_for_categories(dir):
                 print(f"Reading {file}")
                 content = f.read().replace('\xa0', ' ')  # replace non-breaking space (temporary fix)
                 reader = csv.DictReader(content.splitlines())
-                        # reader = csv.DictReader(f)
                 isbns = []
                 for row in reader:
                     # print(row)
@@ -331,6 +321,16 @@ def get_tags_for_categories(dir):
 
 
 if __name__ == '__main__':
-    get_tags_for_categories("../example_syllabi")
+    # get_tags_for_categories("../example_syllabi")
     
     
+
+    # Cleaning tags from the two isbns defined above
+    # tags = get_tags([9780192832696, 9780451015594])
+
+    # cleaned_tags = clean_tags(tags)
+    # print(cleaned_tags)
+    # categorized_tags = categorize_tags(cleaned_tags)
+    # print(categorized_tags)
+    
+    print(calculate_diversity_metrics([9780192832696, 9780451015594]))
