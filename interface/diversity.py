@@ -22,6 +22,9 @@ from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from sklearn.metrics.pairwise import cosine_distances
 from collections import Counter
+import csv
+from os import listdir
+import json
 
 # ===============
 # Configurations
@@ -66,8 +69,18 @@ def search_recs(discipline_tags, diversity_tags, k):
 
 #book = get_books(syllabus); takes in a list of ISBNs
 def get_tags(books):
-    r = [requests.get(f'https://openlibrary.org/search.json?q=isbn:{isbn}&fields=subject').json()['docs'][0]['subject'] for isbn in books] #just give me the list of subjects plz
-    return r
+    
+    tags = []
+    for isbn in books:
+        data = requests.get(f'https://openlibrary.org/search.json?q=isbn:{isbn}&fields=subject').json()
+        
+        if 'docs' in data and len(data['docs']) > 0 and 'subject' in data['docs'][0]:
+            tags.append( data['docs'][0]['subject'])
+        else:
+            print(f"ISBN {isbn} not found")
+            tags.append([])
+        
+    return tags
 
 # lst = get_tags([9780192832696, 9780451015594])
 #print(lst)
@@ -286,6 +299,34 @@ def V(book, cat_alpha):
         
 
     
+def get_tags_for_categories(dir):
+
+    category_tags = []
+    
+    for file in listdir(dir):
+        if file.endswith('.csv'):
+            
+            tags = []
+            with open(f"{dir}/{file}", 'r', encoding='utf-8-sig') as f:
+                reader = csv.DictReader(f)
+                isbns = []
+                for row in reader:
+                    isbns.append(row['isbn'])
+                tags = (sum(get_tags(isbns), []))
+            # print(tags)
+            dict = {file[15:-3]: tags}
+            print(dict)
+            category_tags.append(dict)
+                
+    # write tags to a new json file as a new key
+    with open('tags.json', 'w') as f:
+        json.dump(dict, f)
+    
+         
+            
+
 
 if __name__ == '__main__':
-    get_suggestions(['"african"'], ['"gender"', '"history"'])
+    get_tags_for_categories("../example_syllabi")
+    
+    
