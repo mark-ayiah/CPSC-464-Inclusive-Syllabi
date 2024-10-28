@@ -307,9 +307,11 @@ def get_tags_for_categories(dir):
         if file.endswith('.csv'):
             
             tags = []
-            with open(f"{dir}/{file}", 'r', encoding='utf-8-sig') as f:
-                # print(f"Reading {file}")
-                reader = csv.DictReader(f)
+            with open(f"{dir}/{file}", 'r', encoding='utf-8-sig', errors='replace') as f:
+                print(f"Reading {file}")
+                content = f.read().replace('\xa0', ' ')  # replace non-breaking space (temporary fix)
+                reader = csv.DictReader(content.splitlines())
+                        # reader = csv.DictReader(f)
                 isbns = []
                 for row in reader:
                     # print(row)
@@ -317,12 +319,12 @@ def get_tags_for_categories(dir):
                 tags = (sum(get_tags(isbns), []))
             # print(tags)
             dict = {file[:-3]: tags}
-            # print(dict)
+            print(dict)
             category_tags.append(dict)
                 
     # write tags to a new json file as a new key
     with open('tags.json', 'w') as f:
-        json.dump(dict, f)
+        json.dump(category_tags, f)
     
          
             
