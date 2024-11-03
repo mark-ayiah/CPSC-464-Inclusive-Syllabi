@@ -1,0 +1,4034 @@
+{
+    "AM": [
+        {
+            "id": "AM29-30",
+            "parents": [],
+            "prefix": "AM",
+            "start": 29,
+            "stop": 30,
+            "subject": "Museums. Collectors and collecting. Description and history of museums."
+        },
+        {
+            "id": "AM323-329",
+            "parents": [],
+            "prefix": "AM",
+            "start": 323,
+            "stop": 329,
+            "subject": "Collectors and collecting. Collectibles. Private collections. West Indies."
+        }
+    ],
+    "AP": [
+        {
+            "id": "AP230",
+            "parents": [],
+            "prefix": "AP",
+            "start": 230,
+            "stop": 230,
+            "subject": "Juvenile periodicals for Blacks."
+        },
+        {
+            "id": "AP270-271",
+            "parents": [],
+            "prefix": "AP",
+            "start": 270,
+            "stop": 271,
+            "subject": "Periodicals for Blacks."
+        }
+    ],
+    "AS": [
+        {
+            "id": "AS71-75",
+            "parents": [],
+            "prefix": "AS",
+            "start": 71,
+            "stop": 75,
+            "subject": "Academies and Learned Societies. West Indies."
+        }
+    ],
+    "AY": [
+        {
+            "id": "AY510-581",
+            "parents": [],
+            "prefix": "AY",
+            "start": 510,
+            "stop": 581,
+            "subject": "Almanacs. West Indies."
+        }
+    ],
+    "AZ": [
+        {
+            "id": "AZ535-547",
+            "parents": [],
+            "prefix": "AZ",
+            "start": 535,
+            "stop": 547,
+            "subject": "History of Scholarship and Learning. The Humanities. West Indies."
+        }
+    ],
+    "BF": [
+        {
+            "id": "BF76.45",
+            "parents": [],
+            "prefix": "BF",
+            "start": 76.45,
+            "stop": 76.45,
+            "subject": "Racism in psychology."
+        }
+    ],
+    "BL": [
+        {
+            "id": "BL625.2",
+            "parents": [],
+            "prefix": "BL",
+            "start": 625.2,
+            "stop": 625.2,
+            "subject": "Religious life. African Americans."
+        },
+        {
+            "id": "BL2490",
+            "parents": [],
+            "prefix": "BL",
+            "start": 2490,
+            "stop": 2490,
+            "subject": "Survival of African religions in America."
+        },
+        {
+            "id": "BL2532",
+            "parents": [],
+            "prefix": "BL",
+            "start": 2532,
+            "stop": 2532,
+            "subject": "Special cults, religious movements (including special cults and religious"
+        },
+        {
+            "id": "BL2565",
+            "parents": [],
+            "prefix": "BL",
+            "start": 2565,
+            "stop": 2565,
+            "subject": "Afro-Caribbean cults (General)."
+        },
+        {
+            "id": "BL2592",
+            "parents": [],
+            "prefix": "BL",
+            "start": 2592,
+            "stop": 2592,
+            "subject": "History and principles of religion. South American. Special cults,"
+        }
+    ],
+    "BP": [
+        {
+            "id": "BP212",
+            "parents": [],
+            "prefix": "BP",
+            "start": 212,
+            "stop": 212,
+            "subject": "Islam. Branches, sects, and modifications. Ansaru Allah Community."
+        },
+        {
+            "id": "BP221-223",
+            "parents": [],
+            "prefix": "BP",
+            "start": 221,
+            "stop": 223,
+            "subject": "Islam. Branches, sects, and modifications. Black Muslims."
+        },
+        {
+            "id": "BP232",
+            "parents": [],
+            "prefix": "BP",
+            "start": 232,
+            "stop": 232,
+            "subject": "Islam. Branches, sects, and modifications. Moorish Science Temple of America."
+        }
+    ],
+    "BR": [
+        {
+            "id": "BR1644.3",
+            "parents": [],
+            "prefix": "BR",
+            "start": 1644.3,
+            "stop": 1644.3,
+            "subject": "Christianity. Pentecostalism. Charismatic movement. African American and/or"
+        }
+    ],
+    "BS": [
+        {
+            "id": "BS350",
+            "parents": [],
+            "prefix": "BS",
+            "start": 350,
+            "stop": 350,
+            "subject": "Bible. Modern texts and versions. Mixed languages (Creoles)."
+        },
+        {
+            "id": "BS521.2",
+            "parents": [],
+            "prefix": "BS",
+            "start": 521.2,
+            "stop": 521.2,
+            "subject": "The Bible. Criticism and interpretation. Black interpretations."
+        }
+    ],
+    "BT": [
+        {
+            "id": "BT82.7",
+            "parents": [],
+            "prefix": "BT",
+            "start": 82.7,
+            "stop": 82.7,
+            "subject": "Black theology."
+        },
+        {
+            "id": "BT304.912",
+            "parents": [],
+            "prefix": "BT",
+            "start": 304.912,
+            "stop": 304.912,
+            "subject": "Christology. Life of Christ. Special interpretations of Jesus. African American."
+        },
+        {
+            "id": "BT707.3",
+            "parents": [],
+            "prefix": "BT",
+            "start": 707.3,
+            "stop": 707.3,
+            "subject": "Doctrinal theology. Interracial marriage."
+        },
+        {
+            "id": "BT734-734.3",
+            "parents": [],
+            "prefix": "BT",
+            "start": 734,
+            "stop": 734.3,
+            "subject": "Doctrinal theology. Man and race (includes Race problem and Segregation)."
+        }
+    ],
+    "BV": [
+        {
+            "id": "BV1190",
+            "parents": [],
+            "prefix": "BV",
+            "start": 1190,
+            "stop": 1190,
+            "subject": "Young Men\u2019s Christian Associations. Work with special classes. Blacks. African"
+        },
+        {
+            "id": "BV2521",
+            "parents": [],
+            "prefix": "BV",
+            "start": 2521,
+            "stop": 2521,
+            "subject": "Missions. African American Baptist."
+        },
+        {
+            "id": "BV2551",
+            "parents": [],
+            "prefix": "BV",
+            "start": 2551,
+            "stop": 2551,
+            "subject": "Missions. African American Methodist."
+        },
+        {
+            "id": "BV2783",
+            "parents": [],
+            "prefix": "BV",
+            "start": 2783,
+            "stop": 2783,
+            "subject": "Missions. United States. African Americans."
+        },
+        {
+            "id": "BV4080-4085",
+            "parents": [],
+            "prefix": "BV",
+            "start": 4080,
+            "stop": 4085,
+            "subject": "Pastoral theology. Education of African American ministers."
+        },
+        {
+            "id": "BV4241.5",
+            "parents": [],
+            "prefix": "BV",
+            "start": 4241.5,
+            "stop": 4241.5,
+            "subject": "Black sermons."
+        }
+    ],
+    "BX": [
+        {
+            "id": "BX5967",
+            "parents": [],
+            "prefix": "BX",
+            "start": 5967,
+            "stop": 5967,
+            "subject": "Episcopal Church. Protestant Episcopal Church in the United States of"
+        },
+        {
+            "id": "BX5979",
+            "parents": [],
+            "prefix": "BX",
+            "start": 5979,
+            "stop": 5979,
+            "subject": "African Americans and the Episcopal Church."
+        },
+        {
+            "id": "BX6440-6460.9",
+            "parents": [],
+            "prefix": "BX",
+            "start": 6440,
+            "stop": 6460.9,
+            "subject": "African American Baptists."
+        },
+        {
+            "id": "BX8435-8473",
+            "parents": [],
+            "prefix": "BX",
+            "start": 8435,
+            "stop": 8473,
+            "subject": "Black Methodists."
+        },
+        {
+            "id": "BX8440-8449",
+            "parents": [],
+            "prefix": "BX",
+            "start": 8440,
+            "stop": 8449,
+            "subject": "African Methodist Episcopal Church."
+        },
+        {
+            "id": "BX8450-8459",
+            "parents": [],
+            "prefix": "BX",
+            "start": 8450,
+            "stop": 8459,
+            "subject": "African Methodist Episcopal Zion Church."
+        },
+        {
+            "id": "BX8460-8469",
+            "parents": [],
+            "prefix": "BX",
+            "start": 8460,
+            "stop": 8469,
+            "subject": "Christian Methodist Episcopal Church."
+        },
+        {
+            "id": "BX8762.5",
+            "parents": [],
+            "prefix": "BX",
+            "start": 8762.5,
+            "stop": 8762.5,
+            "subject": "African American Pentecostal Churches."
+        }
+    ],
+    "CB": [
+        {
+            "id": "CB197",
+            "parents": [],
+            "prefix": "CB",
+            "start": 197,
+            "stop": 197,
+            "subject": "Civilization and race. Educational aspects. Intercultural education."
+        },
+        {
+            "id": "CB235",
+            "parents": [],
+            "prefix": "CB",
+            "start": 235,
+            "stop": 235,
+            "subject": "Civilization and race. Black."
+        }
+    ],
+    "CD": [
+        {
+            "id": "CD351-362",
+            "parents": [],
+            "prefix": "CD",
+            "start": 351,
+            "stop": 362,
+            "subject": "Diplomatics. Collections of documents, facsimiles, etc., for study."
+        },
+        {
+            "id": "CD3860-3985",
+            "parents": [],
+            "prefix": "CD",
+            "start": 3860,
+            "stop": 3985,
+            "subject": "Archives. History and statistics. West Indies."
+        },
+        {
+            "id": "CD5701-5710",
+            "parents": [],
+            "prefix": "CD",
+            "start": 5701,
+            "stop": 5710,
+            "subject": "Seals. Modern. West Indies."
+        }
+    ],
+    "CJ": [
+        {
+            "id": "CJ2070-2089",
+            "parents": [],
+            "prefix": "CJ",
+            "start": 2070,
+            "stop": 2089,
+            "subject": "Coins. Medieval and modern. West Indies."
+        },
+        {
+            "id": "CJ4961-4964",
+            "parents": [],
+            "prefix": "CJ",
+            "start": 4961,
+            "stop": 4964,
+            "subject": "Tokens. West Indies."
+        },
+        {
+            "id": "CJ5911-5915",
+            "parents": [],
+            "prefix": "CJ",
+            "start": 5911,
+            "stop": 5915,
+            "subject": "Medals and medallions. West Indies."
+        }
+    ],
+    "CR": [
+        {
+            "id": "CR304-350",
+            "parents": [],
+            "prefix": "CR",
+            "start": 304,
+            "stop": 350,
+            "subject": "Public and official heraldry. West Indies."
+        },
+        {
+            "id": "CR1360-1369",
+            "parents": [],
+            "prefix": "CR",
+            "start": 1360,
+            "stop": 1369,
+            "subject": "Family heraldry. West Indies."
+        },
+        {
+            "id": "CR3700-3750",
+            "parents": [],
+            "prefix": "CR",
+            "start": 3700,
+            "stop": 3750,
+            "subject": "Titles of honor, rank, precedence, etc. West Indies."
+        }
+    ],
+    "CS": [
+        {
+            "id": "CS200-261",
+            "parents": [],
+            "prefix": "CS",
+            "start": 200,
+            "stop": 261,
+            "subject": "Genealogy. West Indies."
+        }
+    ],
+    "CT": [
+        {
+            "id": "CT339-448",
+            "parents": [],
+            "prefix": "CT",
+            "start": 339,
+            "stop": 448,
+            "subject": "National biography. West Indies."
+        },
+        {
+            "id": "CT510-518",
+            "parents": [],
+            "prefix": "CT",
+            "start": 510,
+            "stop": 518,
+            "subject": "National biography. Cuba."
+        },
+        {
+            "id": "CT530-538",
+            "parents": [],
+            "prefix": "CT",
+            "start": 530,
+            "stop": 538,
+            "subject": "National biography. Haiti."
+        },
+        {
+            "id": "CT540-548",
+            "parents": [],
+            "prefix": "CT",
+            "start": 540,
+            "stop": 548,
+            "subject": "National biography. Dominican Republic."
+        }
+    ],
+    "DC": [
+        {
+            "id": "DC158.8",
+            "parents": [],
+            "prefix": "DC",
+            "start": 158.8,
+            "stop": 158.8,
+            "subject": "History of France. Revolutionary and Napoleonic period, 1789\u20131815. Other"
+        }
+    ],
+    "DT": [
+        {
+            "id": "DT1770",
+            "parents": [],
+            "prefix": "DT",
+            "start": 1770,
+            "stop": 1770,
+            "subject": "History of South Africa. Ethnography. South Africans in foreign countries."
+        },
+        {
+            "id": "DT16.5",
+            "parents": [],
+            "prefix": "DT",
+            "start": 16.5,
+            "stop": 16.5,
+            "subject": "History of Africa. Africans in foreign countries. African diaspora."
+        }
+    ],
+    "E": [
+        {
+            "id": "E184.5",
+            "parents": [],
+            "prefix": "E",
+            "start": 184.5,
+            "stop": 184.5,
+            "subject": "United States. Elements in the population. African Americans. Congresses."
+        },
+        {
+            "id": "E184.6",
+            "parents": [],
+            "prefix": "E",
+            "start": 184.6,
+            "stop": 184.6,
+            "subject": "United States. Elements in the population. African Americans. Collections."
+        },
+        {
+            "id": "E184.65",
+            "parents": [],
+            "prefix": "E",
+            "start": 184.65,
+            "stop": 184.65,
+            "subject": "United States. Elements in the population. African Americans. Historiography."
+        },
+        {
+            "id": "E184.7",
+            "parents": [],
+            "prefix": "E",
+            "start": 184.7,
+            "stop": 184.7,
+            "subject": "United States. Elements in the population. African Americans. Study and"
+        },
+        {
+            "id": "E185",
+            "parents": [],
+            "prefix": "E",
+            "start": 185,
+            "stop": 185,
+            "subject": "United States. Elements in the population. African Americans. History"
+        },
+        {
+            "id": "E185.18",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.18,
+            "stop": 185.18,
+            "subject": "United States. Elements in the population. African Americans. History. To 1863."
+        },
+        {
+            "id": "E185.2",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.2,
+            "stop": 185.2,
+            "subject": "United States. Elements in the population. African Americans. History."
+        },
+        {
+            "id": "E185.5",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.5,
+            "stop": 185.5,
+            "subject": "United States. Elements in the population. African Americans. History."
+        },
+        {
+            "id": "E185.53",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.53,
+            "stop": 185.53,
+            "subject": "United States. Elements in the population. African Americans. History."
+        },
+        {
+            "id": "E185.6",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.6,
+            "stop": 185.6,
+            "subject": "United States. Elements in the population. African Americans. History."
+        },
+        {
+            "id": "E185.61",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.61,
+            "stop": 185.61,
+            "subject": "United States. Elements in the population. African Americans. History."
+        },
+        {
+            "id": "E185.615",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.615,
+            "stop": 185.615,
+            "subject": "United States. Elements in the population. African Americans. History."
+        },
+        {
+            "id": "E185.62",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.62,
+            "stop": 185.62,
+            "subject": "United States. Elements in the population. African Americans. Intermarriage"
+        },
+        {
+            "id": "E185.625",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.625,
+            "stop": 185.625,
+            "subject": "United States. Elements in the population. African Americans. Psychosocial"
+        },
+        {
+            "id": "E185.63",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.63,
+            "stop": 185.63,
+            "subject": "United States. Elements in the population. African Americans. African"
+        },
+        {
+            "id": "E185.8",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.8,
+            "stop": 185.8,
+            "subject": "United States. Elements in the population. African Americans. Economic"
+        },
+        {
+            "id": "E185.86",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.86,
+            "stop": 185.86,
+            "subject": "United States. Elements in the population. African Americans. Social"
+        },
+        {
+            "id": "E185.89",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.89,
+            "stop": 185.89,
+            "subject": "United States. Elements in the population. African Americans. Other topics."
+        },
+        {
+            "id": "E185.9",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.9,
+            "stop": 185.9,
+            "subject": "United States. Elements in the population. African Americans in the North."
+        },
+        {
+            "id": "E185.912",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.912,
+            "stop": 185.912,
+            "subject": "United States. Elements in the population. African Americans in the"
+        },
+        {
+            "id": "E185.915",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.915,
+            "stop": 185.915,
+            "subject": "United States. Elements in the population. African Americans in the Middle"
+        },
+        {
+            "id": "E185.917",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.917,
+            "stop": 185.917,
+            "subject": "United States. Elements in the population. African Americans in New England."
+        },
+        {
+            "id": "E185.92",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.92,
+            "stop": 185.92,
+            "subject": "United States. Elements in the population. African Americans in the South."
+        },
+        {
+            "id": "E185.925",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.925,
+            "stop": 185.925,
+            "subject": "United States. Elements in the population. African Americans in the West."
+        },
+        {
+            "id": "E185.94",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.94,
+            "stop": 185.94,
+            "subject": "United States. Elements in the population. African Americans living in foreign"
+        },
+        {
+            "id": "E185.96",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.96,
+            "stop": 185.96,
+            "subject": "United States. Elements in the population. African Americans. Biography."
+        },
+        {
+            "id": "E185.98",
+            "parents": [],
+            "prefix": "E",
+            "start": 185.98,
+            "stop": 185.98,
+            "subject": "United States. Elements in the population. African Americans. Biography"
+        },
+        {
+            "id": "E423",
+            "parents": [],
+            "prefix": "E",
+            "start": 423,
+            "stop": 423,
+            "subject": "History of the United States. Slavery question, 1849\u20131853."
+        },
+        {
+            "id": "E433",
+            "parents": [],
+            "prefix": "E",
+            "start": 433,
+            "stop": 433,
+            "subject": "History of the United States. Slavery question, 1853\u20131857."
+        },
+        {
+            "id": "E438",
+            "parents": [],
+            "prefix": "E",
+            "start": 438,
+            "stop": 438,
+            "subject": "History of the United States. Slavery question, 1857\u20131861."
+        },
+        {
+            "id": "E440.5",
+            "parents": [],
+            "prefix": "E",
+            "start": 440.5,
+            "stop": 440.5,
+            "subject": "History of the United States. State of the country, November 1860\u2013"
+        },
+        {
+            "id": "E441",
+            "parents": [],
+            "prefix": "E",
+            "start": 441,
+            "stop": 441,
+            "subject": "History of the United States. Slavery in the United States. Antislavery"
+        },
+        {
+            "id": "E442",
+            "parents": [],
+            "prefix": "E",
+            "start": 442,
+            "stop": 442,
+            "subject": "History of the United States. The internal slave trade. Slave markets and"
+        },
+        {
+            "id": "E443",
+            "parents": [],
+            "prefix": "E",
+            "start": 443,
+            "stop": 443,
+            "subject": "History of the United States. Slave life (including duties of slaves and masters,"
+        },
+        {
+            "id": "E444",
+            "parents": [],
+            "prefix": "E",
+            "start": 444,
+            "stop": 444,
+            "subject": "History of the United States. Slavery in the United States. Antislavery"
+        },
+        {
+            "id": "E446",
+            "parents": [],
+            "prefix": "E",
+            "start": 446,
+            "stop": 446,
+            "subject": "History of the United States. History of slavery to 1830. General works."
+        },
+        {
+            "id": "E447",
+            "parents": [],
+            "prefix": "E",
+            "start": 447,
+            "stop": 447,
+            "subject": "History of the United States. History of slavery to 1830. Slave insurrections"
+        },
+        {
+            "id": "E448",
+            "parents": [],
+            "prefix": "E",
+            "start": 448,
+            "stop": 448,
+            "subject": "History of the United States. Slavery in the United States. Antislavery"
+        },
+        {
+            "id": "E449",
+            "parents": [],
+            "prefix": "E",
+            "start": 449,
+            "stop": 449,
+            "subject": "History of the United States. History of slavery, 1830\u20131863. Period of abolition"
+        },
+        {
+            "id": "E450",
+            "parents": [],
+            "prefix": "E",
+            "start": 450,
+            "stop": 450,
+            "subject": "History of the United States. Fugitive slaves."
+        },
+        {
+            "id": "E451",
+            "parents": [],
+            "prefix": "E",
+            "start": 451,
+            "stop": 451,
+            "subject": "History of the United States. John Brown\u2019s Raid at Harpers Ferry, W. Va., 1859."
+        },
+        {
+            "id": "E453",
+            "parents": [],
+            "prefix": "E",
+            "start": 453,
+            "stop": 453,
+            "subject": "History of the United States. Slaves and the slavery question in the Civil War."
+        },
+        {
+            "id": "E492.9",
+            "parents": [],
+            "prefix": "E",
+            "start": 492.9,
+            "stop": 492.9,
+            "subject": "History of the United States. The Civil War, 1861\u20131865. The Union Army."
+        },
+        {
+            "id": "E668",
+            "parents": [],
+            "prefix": "E",
+            "start": 668,
+            "stop": 668,
+            "subject": "History of the United States. Reconstruction, 1865\u20131877."
+        },
+        {
+            "id": "E907-909",
+            "parents": [],
+            "prefix": "E",
+            "start": 907,
+            "stop": 909,
+            "subject": "History of the United States. Twenty-first century. Barack Obama\u2019s"
+        }
+    ],
+    "F": [
+        {
+            "id": "F128.4",
+            "parents": [],
+            "prefix": "F",
+            "start": 128.4,
+            "stop": 128.4,
+            "subject": "History of New York. New York City. Early to 1775 (includes New York Negro"
+        },
+        {
+            "id": "F213",
+            "parents": [],
+            "prefix": "F",
+            "start": 213,
+            "stop": 213,
+            "subject": "History of The South. 1775\u20131865 (including Plantation life)."
+        },
+        {
+            "id": "F214",
+            "parents": [],
+            "prefix": "F",
+            "start": 214,
+            "stop": 214,
+            "subject": "History of The South. Period of the Civil War (including Plantation life)."
+        },
+        {
+            "id": "F232",
+            "parents": [],
+            "prefix": "F",
+            "start": 232,
+            "stop": 232,
+            "subject": ".S7 Turner, Nat."
+        },
+        {
+            "id": "F334",
+            "parents": [],
+            "prefix": "F",
+            "start": 334,
+            "stop": 334,
+            "subject": ".M753 Parks, Rosa."
+        },
+        {
+            "id": "F548.54",
+            "parents": [],
+            "prefix": "F",
+            "start": 548.54,
+            "stop": 548.54,
+            "subject": ".W36 Washington, Harold."
+        },
+        {
+            "id": "F685",
+            "parents": [],
+            "prefix": "F",
+            "start": 685,
+            "stop": 685,
+            "subject": "History of Kansas. Early to 1861 (including struggle between proslavery and"
+        },
+        {
+            "id": "F1601-1629",
+            "parents": [],
+            "prefix": "F",
+            "start": 1601,
+            "stop": 1629,
+            "subject": "History of the West Indies."
+        },
+        {
+            "id": "F1650-1660",
+            "parents": [],
+            "prefix": "F",
+            "start": 1650,
+            "stop": 1660,
+            "subject": "History of the Bahamas."
+        },
+        {
+            "id": "F1861-1896",
+            "parents": [],
+            "prefix": "F",
+            "start": 1861,
+            "stop": 1896,
+            "subject": "History of Jamaica."
+        },
+        {
+            "id": "F1900-1930",
+            "parents": [],
+            "prefix": "F",
+            "start": 1900,
+            "stop": 1930,
+            "subject": "History of Haiti."
+        },
+        {
+            "id": "F1931-1941",
+            "parents": [],
+            "prefix": "F",
+            "start": 1931,
+            "stop": 1941,
+            "subject": "History of the Dominican Republic."
+        },
+        {
+            "id": "F2001-2191",
+            "parents": [],
+            "prefix": "F",
+            "start": 2001,
+            "stop": 2191,
+            "subject": "History of the Lesser Antilles."
+        }
+    ],
+    "GN": [
+        {
+            "id": "GN254",
+            "parents": [],
+            "prefix": "GN",
+            "start": 254,
+            "stop": 254,
+            "subject": "Racial crossing. Miscegenation."
+        },
+        {
+            "id": "GN269",
+            "parents": [],
+            "prefix": "GN",
+            "start": 269,
+            "stop": 269,
+            "subject": "Physical anthropology. Somatology. Race (General)."
+        },
+        {
+            "id": "GN270-279",
+            "parents": [],
+            "prefix": "GN",
+            "start": 270,
+            "stop": 279,
+            "subject": "Race psychology."
+        },
+        {
+            "id": "GN495.4",
+            "parents": [],
+            "prefix": "GN",
+            "start": 495.4,
+            "stop": 495.4,
+            "subject": "Societal groups. Ethnic groups. General works."
+        },
+        {
+            "id": "GN495.6",
+            "parents": [],
+            "prefix": "GN",
+            "start": 495.6,
+            "stop": 495.6,
+            "subject": "Ethnicity. Ethnic identity."
+        },
+        {
+            "id": "GN495.8",
+            "parents": [],
+            "prefix": "GN",
+            "start": 495.8,
+            "stop": 495.8,
+            "subject": "Ethnocentrism."
+        },
+        {
+            "id": "GN643",
+            "parents": [],
+            "prefix": "GN",
+            "start": 643,
+            "stop": 643,
+            "subject": "Anthropology. Ethnology. African (including Blacks in general). Periodicals."
+        },
+        {
+            "id": "GN645",
+            "parents": [],
+            "prefix": "GN",
+            "start": 645,
+            "stop": 645,
+            "subject": "Anthropology. Ethnology. African (including Blacks in general)."
+        }
+    ],
+    "GR": [
+        {
+            "id": "GR103",
+            "parents": [],
+            "prefix": "GR",
+            "start": 103,
+            "stop": 103,
+            "subject": "Folklore. United States. African Americans."
+        },
+        {
+            "id": "GR120-121",
+            "parents": [],
+            "prefix": "GR",
+            "start": 120,
+            "stop": 121,
+            "subject": "Folklore. West Indies. Caribbean Area."
+        }
+    ],
+    "GT": [
+        {
+            "id": "GT247-258",
+            "parents": [],
+            "prefix": "GT",
+            "start": 247,
+            "stop": 258,
+            "subject": "Manners and customs. Houses. Dwellings. West Indies."
+        },
+        {
+            "id": "GT655-673",
+            "parents": [],
+            "prefix": "GT",
+            "start": 655,
+            "stop": 673,
+            "subject": "Manners and customs. Costume. Dress. Fashion. West Indies."
+        }
+    ],
+    "GV": [
+        {
+            "id": "GV706.32",
+            "parents": [],
+            "prefix": "GV",
+            "start": 706.32,
+            "stop": 706.32,
+            "subject": "Sports. Relation to race and discrimination."
+        },
+        {
+            "id": "GV709.5",
+            "parents": [],
+            "prefix": "GV",
+            "start": 709.5,
+            "stop": 709.5,
+            "subject": "Sports for minorities."
+        }
+    ],
+    "HA": [
+        {
+            "id": "HA855.5-928",
+            "parents": [],
+            "prefix": "HA",
+            "start": 855.5,
+            "stop": 928,
+            "subject": "Statistical data. West Indies."
+        }
+    ],
+    "HD": [
+        {
+            "id": "HD2358",
+            "parents": [],
+            "prefix": "HD",
+            "start": 2358,
+            "stop": 2358,
+            "subject": "Minority business enterprises."
+        },
+        {
+            "id": "HD4861-4865",
+            "parents": [],
+            "prefix": "HD",
+            "start": 4861,
+            "stop": 4865,
+            "subject": "Slave labor."
+        },
+        {
+            "id": "HD6057",
+            "parents": [],
+            "prefix": "HD",
+            "start": 6057,
+            "stop": 6057,
+            "subject": "Employment of minority women."
+        },
+        {
+            "id": "HD6304",
+            "parents": [],
+            "prefix": "HD",
+            "start": 6304,
+            "stop": 6304,
+            "subject": "Labor. Work. Working class. Minorities (General)."
+        },
+        {
+            "id": "HD7288.7-.72",
+            "parents": [],
+            "prefix": "HD",
+            "start": 7288.7,
+            "stop": 0.72,
+            "subject": "Minority housing."
+        }
+    ],
+    "HF": [
+        {
+            "id": "HF5514.332",
+            "parents": [],
+            "prefix": "HF",
+            "start": 5514.332,
+            "stop": 5514.332,
+            "subject": "Consumer behavior. Consumers\u2019 preferences. Consumer research. Minorities."
+        }
+    ],
+    "HG": [
+        {
+            "id": "HG8799",
+            "parents": [],
+            "prefix": "HG",
+            "start": 8799,
+            "stop": 8799,
+            "subject": "Life insurance. Blacks."
+        }
+    ],
+    "HJ": [
+        {
+            "id": "HJ22.5-29.7",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 22.5,
+            "stop": 29.7,
+            "subject": "Public finance. Periodicals. Serials. West Indies."
+        },
+        {
+            "id": "HJ844.3-889.5",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 844.3,
+            "stop": 889.5,
+            "subject": "Public finance. West Indies."
+        },
+        {
+            "id": "HJ2066.5-2073.7",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 2066.5,
+            "stop": 2073.7,
+            "subject": "Public finance. Budget. Income and expenditure. West Indies."
+        },
+        {
+            "id": "HJ2479-2490",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 2479,
+            "stop": 2490,
+            "subject": "Public finance. Revenue. Taxation. Internal revenue. West Indies."
+        },
+        {
+            "id": "HJ4304-4312",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 4304,
+            "stop": 4312,
+            "subject": "Public finance. Land tax. Real property tax. Land value taxation. West Indies."
+        },
+        {
+            "id": "HJ4674-4681",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 4674,
+            "stop": 4681,
+            "subject": "Public finance. Income tax. West Indies."
+        },
+        {
+            "id": "HJ5384.5-5392.3",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 5384.5,
+            "stop": 5392.3,
+            "subject": "Public finance. Administrative fees. User charges. License fees. West Indies."
+        },
+        {
+            "id": "HJ6799-6838",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 6799,
+            "stop": 6838,
+            "subject": "Public finance. Customs administration. West Indies."
+        },
+        {
+            "id": "HJ7684-7698.5",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 7684,
+            "stop": 7698.5,
+            "subject": "Public finance. Expenditures. Government spending. West Indies."
+        },
+        {
+            "id": "HJ8540.5-8555.4",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 8540.5,
+            "stop": 8555.4,
+            "subject": "Public finance. Public debts. West Indies."
+        },
+        {
+            "id": "HJ9369.5-9379.5",
+            "parents": [],
+            "prefix": "HJ",
+            "start": 9369.5,
+            "stop": 9379.5,
+            "subject": "Public finance. Local finance. Municipal finance. West Indies."
+        }
+    ],
+    "HQ": [
+        {
+            "id": "HQ777.9",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 777.9,
+            "stop": 777.9,
+            "subject": "Racially mixed children."
+        },
+        {
+            "id": "HQ801.8",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 801.8,
+            "stop": 801.8,
+            "subject": "Interracial dating. Interfaith dating."
+        },
+        {
+            "id": "HQ875.6",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 875.6,
+            "stop": 875.6,
+            "subject": "Interracial adoption."
+        },
+        {
+            "id": "HQ1031",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 1031,
+            "stop": 1031,
+            "subject": "Mixed marriages. Intermarriage. Interfaith marriage."
+        }
+    ],
+    "HS": [
+        {
+            "id": "HS875-891",
+            "parents": [],
+            "prefix": "HS",
+            "start": 875,
+            "stop": 891,
+            "subject": "Freemasonry among blacks."
+        },
+        {
+            "id": "HS1171-1179",
+            "parents": [],
+            "prefix": "HS",
+            "start": 1171,
+            "stop": 1179,
+            "subject": "Oddfellowship among blacks."
+        },
+        {
+            "id": "HS2253-2265",
+            "parents": [],
+            "prefix": "HS",
+            "start": 2253,
+            "stop": 2265,
+            "subject": "Societies: Secret, Benevolent, etc. Race societies. Black."
+        }
+    ],
+    "HT": [
+        {
+            "id": "HT221",
+            "parents": [],
+            "prefix": "HT",
+            "start": 221,
+            "stop": 221,
+            "subject": "Urban groups. The city. Urban sociology. Race relations in cities. Ethnic"
+        },
+        {
+            "id": "HT731",
+            "parents": [],
+            "prefix": "HT",
+            "start": 731,
+            "stop": 731,
+            "subject": "Freedmen."
+        },
+        {
+            "id": "HT851-893",
+            "parents": [],
+            "prefix": "HT",
+            "start": 851,
+            "stop": 893,
+            "subject": "Slavery. General works."
+        },
+        {
+            "id": "HT869",
+            "parents": [],
+            "prefix": "HT",
+            "start": 869,
+            "stop": 869,
+            "subject": "Slavery. Biography of slaves."
+        },
+        {
+            "id": "HT901-905",
+            "parents": [],
+            "prefix": "HT",
+            "start": 901,
+            "stop": 905,
+            "subject": "Slavery. Economic aspects of slavery."
+        },
+        {
+            "id": "HT910-921",
+            "parents": [],
+            "prefix": "HT",
+            "start": 910,
+            "stop": 921,
+            "subject": "Slavery. Religion and slavery."
+        },
+        {
+            "id": "HT925",
+            "parents": [],
+            "prefix": "HT",
+            "start": 925,
+            "stop": 925,
+            "subject": "Slavery. Race and slavery."
+        },
+        {
+            "id": "HT975",
+            "parents": [],
+            "prefix": "HT",
+            "start": 975,
+            "stop": 975,
+            "subject": "Slavery. The slave trade. General works."
+        },
+        {
+            "id": "HT985-991",
+            "parents": [],
+            "prefix": "HT",
+            "start": 985,
+            "stop": 991,
+            "subject": "Slavery. The slave trade. Modern."
+        },
+        {
+            "id": "HT993-999",
+            "parents": [],
+            "prefix": "HT",
+            "start": 993,
+            "stop": 999,
+            "subject": "Slavery. The slave trade. Modern. Suppression of slave trade."
+        },
+        {
+            "id": "HT1025-1033",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1025,
+            "stop": 1033,
+            "subject": "Slavery. Abolition of slavery. Anti-slavery."
+        },
+        {
+            "id": "HT1048-1152",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1048,
+            "stop": 1152,
+            "subject": "Slavery. America (except United States)."
+        },
+        {
+            "id": "HT1155-1240",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1155,
+            "stop": 1240,
+            "subject": "Slavery. Europe."
+        },
+        {
+            "id": "HT1240.5-1315",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1240.5,
+            "stop": 1315,
+            "subject": "Slavery. Asia."
+        },
+        {
+            "id": "HT1316-1317",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1316,
+            "stop": 1317,
+            "subject": "Slavery. Middle East. Arab Countries."
+        },
+        {
+            "id": "HT1321-1427",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1321,
+            "stop": 1427,
+            "subject": "Slavery. Africa."
+        },
+        {
+            "id": "HT1430-1444",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1430,
+            "stop": 1444,
+            "subject": "Slavery. Indian Ocean islands. Australia. Pacific Islands."
+        },
+        {
+            "id": "HT1501-1561",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1501,
+            "stop": 1561,
+            "subject": "Races. General Works. History. Economics of race questions. Ethics of race"
+        },
+        {
+            "id": "HT1581",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1581,
+            "stop": 1581,
+            "subject": "Races. Black. Hamitic."
+        },
+        {
+            "id": "HT1589",
+            "parents": [],
+            "prefix": "HT",
+            "start": 1589,
+            "stop": 1589,
+            "subject": "Races. Black. Hamitic. Ethnological works. Popular works. Scriptural ethnology."
+        }
+    ],
+    "HV": [
+        {
+            "id": "HV3181-3185",
+            "parents": [],
+            "prefix": "HV",
+            "start": 3181,
+            "stop": 3185,
+            "subject": "Protection, assistance and relief. African Americans."
+        },
+        {
+            "id": "HV5199.5",
+            "parents": [],
+            "prefix": "HV",
+            "start": 5199.5,
+            "stop": 5199.5,
+            "subject": "Alcohol and ethnic minorities."
+        },
+        {
+            "id": "HV5741",
+            "parents": [],
+            "prefix": "HV",
+            "start": 5741,
+            "stop": 5741,
+            "subject": "Tobacco and minorities."
+        },
+        {
+            "id": "HV6191",
+            "parents": [],
+            "prefix": "HV",
+            "start": 6191,
+            "stop": 6191,
+            "subject": "Criminal ethnography. Race. Nationality. General works."
+        },
+        {
+            "id": "HV6455-6469",
+            "parents": [],
+            "prefix": "HV",
+            "start": 6455,
+            "stop": 6469,
+            "subject": "Criminology. Lynching. United States."
+        },
+        {
+            "id": "HV6545.5",
+            "parents": [],
+            "prefix": "HV",
+            "start": 6545.5,
+            "stop": 6545.5,
+            "subject": "Suicide. Minorities."
+        },
+        {
+            "id": "HV8069",
+            "parents": [],
+            "prefix": "HV",
+            "start": 8069,
+            "stop": 8069,
+            "subject": "Police. Detectives. Constabulary. Provision against racial crimes."
+        },
+        {
+            "id": "HV8079.35",
+            "parents": [],
+            "prefix": "HV",
+            "start": 8079.35,
+            "stop": 8079.35,
+            "subject": "Investigation of crimes. Examination and identification of prisoners. Services"
+        }
+    ],
+    "JC": [
+        {
+            "id": "JC312",
+            "parents": [],
+            "prefix": "JC",
+            "start": 312,
+            "stop": 312,
+            "subject": "Nationalism. National state. Nation state. Minorities."
+        }
+    ],
+    "JK": [
+        {
+            "id": "JK1415",
+            "parents": [],
+            "prefix": "JK",
+            "start": 1415,
+            "stop": 1415,
+            "subject": "United States. House of Representatives. Congressional Black Caucus."
+        },
+        {
+            "id": "JK1781",
+            "parents": [],
+            "prefix": "JK",
+            "start": 1781,
+            "stop": 1781,
+            "subject": "United States. Political Rights. Citizenship. African Americans."
+        },
+        {
+            "id": "JK1924-1929",
+            "parents": [],
+            "prefix": "JK",
+            "start": 1924,
+            "stop": 1929,
+            "subject": "United States. Political Rights. African American suffrage. African American"
+        }
+    ],
+    "JN": [
+        {
+            "id": "JN34.7",
+            "parents": [],
+            "prefix": "JN",
+            "start": 34.7,
+            "stop": 34.7,
+            "subject": "European Union. European Community. Minorities."
+        }
+    ],
+    "JS": [
+        {
+            "id": "JS362.5",
+            "parents": [],
+            "prefix": "JS",
+            "start": 362.5,
+            "stop": 362.5,
+            "subject": "United States. Local and municipal government. Civil Service. Minorities."
+        }
+    ],
+    "K": [
+        {
+            "id": "K3242",
+            "parents": [],
+            "prefix": "K",
+            "start": 3242,
+            "stop": 3242,
+            "subject": "Constitutional law. Minority rights. Discrimination and non-discrimination in"
+        },
+        {
+            "id": "K3259",
+            "parents": [],
+            "prefix": "K",
+            "start": 3259,
+            "stop": 3259,
+            "subject": "Constitutional law. Linguistic and cultural rights of minorities."
+        }
+    ],
+    "KD": [
+        {
+            "id": "KD4095",
+            "parents": [],
+            "prefix": "KD",
+            "start": 4095,
+            "stop": 4095,
+            "subject": "Law of England and Wales. Civil and political rights and liberties. Racial"
+        }
+    ],
+    "KE": [
+        {
+            "id": "KE3254",
+            "parents": [],
+            "prefix": "KE",
+            "start": 3254,
+            "stop": 3254,
+            "subject": "Law of Canada. Discrimination in employment and its prevention. General."
+        },
+        {
+            "id": "KE4395",
+            "parents": [],
+            "prefix": "KE",
+            "start": 4395,
+            "stop": 4395,
+            "subject": "Law of Canada. Civil and political rights and liberties. Racial and ethnic"
+        }
+    ],
+    "KEA": [
+        {
+            "id": "KEA406.4-406.5",
+            "parents": [],
+            "prefix": "KEA",
+            "start": 406.4,
+            "stop": 406.5,
+            "subject": "Law of Canada (Alberta). Discrimination in employment and its prevention."
+        }
+    ],
+    "KEB": [
+        {
+            "id": "KEB406.4-406.5",
+            "parents": [],
+            "prefix": "KEB",
+            "start": 406.4,
+            "stop": 406.5,
+            "subject": "Law of Canada (British Columbia). Discrimination in employment and its"
+        }
+    ],
+    "KEM": [
+        {
+            "id": "KEM406.4-406.5",
+            "parents": [],
+            "prefix": "KEM",
+            "start": 406.4,
+            "stop": 406.5,
+            "subject": "Law of Canada (Manitoba). Discrimination in employment and its prevention."
+        }
+    ],
+    "KEN": [
+        {
+            "id": "KEN406.4-406.5",
+            "parents": [],
+            "prefix": "KEN",
+            "start": 406.4,
+            "stop": 406.5,
+            "subject": "Law of Canada (New Brunswick). Discrimination in employment and its"
+        },
+        {
+            "id": "KEN1606.4-",
+            "parents": [],
+            "prefix": "KEN",
+            "start": null,
+            "stop": null,
+            "subject": "Law of Canada (Newfoundland). Discrimination in employment and its"
+        },
+        {
+            "id": "KEN5806.4-",
+            "parents": [],
+            "prefix": "KEN",
+            "start": null,
+            "stop": null,
+            "subject": "Law of Canada (Northwest Territories). Discrimination in employment and"
+        },
+        {
+            "id": "KEN7806.4-",
+            "parents": [],
+            "prefix": "KEN",
+            "start": null,
+            "stop": null,
+            "subject": "Law of Canada (Nova Scotia). Discrimination in employment and its"
+        }
+    ],
+    "KEO": [
+        {
+            "id": "KEO659",
+            "parents": [],
+            "prefix": "KEO",
+            "start": 659,
+            "stop": 659,
+            "subject": "Law of Canada (Ontario). Discrimination in employment and its prevention."
+        }
+    ],
+    "KEP": [
+        {
+            "id": "KEP406.4-406.5",
+            "parents": [],
+            "prefix": "KEP",
+            "start": 406.4,
+            "stop": 406.5,
+            "subject": "Law of Canada (Prince Edward Island). Discrimination in employment and its"
+        }
+    ],
+    "KEQ": [
+        {
+            "id": "KEQ671",
+            "parents": [],
+            "prefix": "KEQ",
+            "start": 671,
+            "stop": 671,
+            "subject": "Law of Canada (Quebec). Discrimination in employment and its prevention."
+        }
+    ],
+    "KES": [
+        {
+            "id": "KES406.4-406.5",
+            "parents": [],
+            "prefix": "KES",
+            "start": 406.4,
+            "stop": 406.5,
+            "subject": "Law of Canada (Saskatchewan). Discrimination in employment and its"
+        }
+    ],
+    "KEY": [
+        {
+            "id": "KEY406.4-406.5",
+            "parents": [],
+            "prefix": "KEY",
+            "start": 406.4,
+            "stop": 406.5,
+            "subject": "Law of Canada (Yukon Territory). Discrimination in employment and its"
+        }
+    ],
+    "KF": [
+        {
+            "id": "KF482",
+            "parents": [],
+            "prefix": "KF",
+            "start": 482,
+            "stop": 482,
+            "subject": "Law of the United States. Slaves."
+        },
+        {
+            "id": "KF3464",
+            "parents": [],
+            "prefix": "KF",
+            "start": 3464,
+            "stop": 3464,
+            "subject": "Law of the United States. Discrimination in employment and its prevention."
+        },
+        {
+            "id": "KF4151-4155",
+            "parents": [],
+            "prefix": "KF",
+            "start": 4151,
+            "stop": 4155,
+            "subject": "Law of the United States. Education. Right to education. Admission."
+        },
+        {
+            "id": "KF4232",
+            "parents": [],
+            "prefix": "KF",
+            "start": 4232,
+            "stop": 4232,
+            "subject": "Law of the United States. African American universities and colleges."
+        },
+        {
+            "id": "KF4558",
+            "parents": [],
+            "prefix": "KF",
+            "start": 4558,
+            "stop": 4558,
+            "subject": "14th Law of the United States. Constitutional law. 14th Amendment."
+        },
+        {
+            "id": "KF4755",
+            "parents": [],
+            "prefix": "KF",
+            "start": 4755,
+            "stop": 4755,
+            "subject": "Law of the United States. Civil and political rights and liberties. Racial and"
+        },
+        {
+            "id": "KF4755.5",
+            "parents": [],
+            "prefix": "KF",
+            "start": 4755.5,
+            "stop": 4755.5,
+            "subject": "Law of the United States. Affirmative action."
+        },
+        {
+            "id": "KF4756-4757",
+            "parents": [],
+            "prefix": "KF",
+            "start": 4756,
+            "stop": 4757,
+            "subject": "Law of the United States. Civil and political rights and liberties. African"
+        },
+        {
+            "id": "KF4893",
+            "parents": [],
+            "prefix": "KF",
+            "start": 4893,
+            "stop": 4893,
+            "subject": "Law of the United States. Constitutional law. Suffrage. African Americans."
+        },
+        {
+            "id": "KF5740",
+            "parents": [],
+            "prefix": "KF",
+            "start": 5740,
+            "stop": 5740,
+            "subject": "Law of the United States. Discrimination in housing."
+        }
+    ],
+    "KFA": [
+        {
+            "id": "KFA392.2",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Alabama. Right to education. Admission."
+        },
+        {
+            "id": "KFA411",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Alabama. Civil and political rights. General."
+        },
+        {
+            "id": "KFA1592.2",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. Alaska. Right to education. Admission."
+        },
+        {
+            "id": "KFA1611",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. Alaska. Civil and political rights. General."
+        },
+        {
+            "id": "KFA2792.2",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 2792.2,
+            "stop": 2792.2,
+            "subject": "Law of the United States. Arizona. Right to education. Admission."
+        },
+        {
+            "id": "KFA2811",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 2811,
+            "stop": 2811,
+            "subject": "Law of the United States. Arizona. Civil and political rights. General."
+        },
+        {
+            "id": "KFA3992.2",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 3992.2,
+            "stop": 3992.2,
+            "subject": "Law of the United States. Arkansas. Right to education. Admission."
+        },
+        {
+            "id": "KFA4011",
+            "parents": [],
+            "prefix": "KFA",
+            "start": 4011,
+            "stop": 4011,
+            "subject": "Law of the United States. Arkansas. Civil and political rights. General."
+        }
+    ],
+    "KFC": [
+        {
+            "id": "KFC572-573",
+            "parents": [],
+            "prefix": "KFC",
+            "start": 572,
+            "stop": 573,
+            "subject": "Law of the United States (California). Discrimination in employment and its"
+        },
+        {
+            "id": "KFC654.5",
+            "parents": [],
+            "prefix": "KFC",
+            "start": 654.5,
+            "stop": 654.5,
+            "subject": "Law of the United States (California). Right to education. Admission."
+        },
+        {
+            "id": "KFC2192.2",
+            "parents": [],
+            "prefix": "KFC",
+            "start": 2192.2,
+            "stop": 2192.2,
+            "subject": "Law of the United States. Colorado. Right to education. Admission."
+        },
+        {
+            "id": "KFC2211",
+            "parents": [],
+            "prefix": "KFC",
+            "start": 2211,
+            "stop": 2211,
+            "subject": "Law of the United States. Colorado. Civil and political rights. General."
+        }
+    ],
+    "KFD": [
+        {
+            "id": "KFD392.2",
+            "parents": [],
+            "prefix": "KFD",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Delaware. Right to education. Admission."
+        },
+        {
+            "id": "KFD411",
+            "parents": [],
+            "prefix": "KFD",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Delaware. Civil and political rights. General."
+        },
+        {
+            "id": "KFD1592.2",
+            "parents": [],
+            "prefix": "KFD",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. District of Columbia. Right to education. Admission."
+        },
+        {
+            "id": "KFD1611",
+            "parents": [],
+            "prefix": "KFD",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. District of Columbia. Civil and political rights."
+        }
+    ],
+    "KFF": [
+        {
+            "id": "KFF392.2",
+            "parents": [],
+            "prefix": "KFF",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Florida. Right to education. Admission."
+        },
+        {
+            "id": "KFF411",
+            "parents": [],
+            "prefix": "KFF",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Florida. Civil and political rights. General."
+        }
+    ],
+    "KFG": [
+        {
+            "id": "KFG392.2",
+            "parents": [],
+            "prefix": "KFG",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Georgia. Right to education. Admission."
+        },
+        {
+            "id": "KFG411",
+            "parents": [],
+            "prefix": "KFG",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Georgia. Civil and political rights. General."
+        }
+    ],
+    "KFH": [
+        {
+            "id": "KFH392.2",
+            "parents": [],
+            "prefix": "KFH",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Hawaii. Right to education. Admission."
+        },
+        {
+            "id": "KFH411",
+            "parents": [],
+            "prefix": "KFH",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Hawaii. Civil and political rights. General."
+        }
+    ],
+    "KFI": [
+        {
+            "id": "KFI392.2",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Idaho. Right to education. Admission. Discrimination"
+        },
+        {
+            "id": "KFI411",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Idaho. Civil and political rights. General."
+        },
+        {
+            "id": "KFI1592.2",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. Illinois. Right to education. Admission."
+        },
+        {
+            "id": "KFI1611",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. Illinois. Civil and political rights. General."
+        },
+        {
+            "id": "KFI3392.2",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 3392.2,
+            "stop": 3392.2,
+            "subject": "Law of the United States. Indiana. Right to education. Admission."
+        },
+        {
+            "id": "KFI3411",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 3411,
+            "stop": 3411,
+            "subject": "Law of the United States. Indiana. Civil and political rights. General."
+        },
+        {
+            "id": "KFI4592.2",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 4592.2,
+            "stop": 4592.2,
+            "subject": "Law of the United States. Iowa. Right to education. Admission. Discrimination"
+        },
+        {
+            "id": "KFI4611",
+            "parents": [],
+            "prefix": "KFI",
+            "start": 4611,
+            "stop": 4611,
+            "subject": "Law of the United States. Iowa. Civil and political rights. General."
+        }
+    ],
+    "KFK": [
+        {
+            "id": "KFK392.2",
+            "parents": [],
+            "prefix": "KFK",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Kansas. Right to education. Admission."
+        },
+        {
+            "id": "KFK411",
+            "parents": [],
+            "prefix": "KFK",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Kansas. Civil and political rights. General."
+        },
+        {
+            "id": "KFK1592.2",
+            "parents": [],
+            "prefix": "KFK",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. Kentucky. Right to education. Admission."
+        },
+        {
+            "id": "KFK1611",
+            "parents": [],
+            "prefix": "KFK",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. Kentucky. Civil and political rights. General."
+        }
+    ],
+    "KFL": [
+        {
+            "id": "KFL392.2",
+            "parents": [],
+            "prefix": "KFL",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Louisiana. Right to education. Admission."
+        },
+        {
+            "id": "KFL411",
+            "parents": [],
+            "prefix": "KFL",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Louisiana. Civil and political rights. General."
+        }
+    ],
+    "KFM": [
+        {
+            "id": "KFM392.2",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Maine. Right to education. Admission."
+        },
+        {
+            "id": "KFM411",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Maine. Civil and political rights. General."
+        },
+        {
+            "id": "KFM1592.2",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. Maryland. Right to education. Admission."
+        },
+        {
+            "id": "KFM1611",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. Maryland. Civil and political rights. General."
+        },
+        {
+            "id": "KFM2792.2",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 2792.2,
+            "stop": 2792.2,
+            "subject": "Law of the United States. Massachusetts. Right to education. Admission."
+        },
+        {
+            "id": "KFM2811",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 2811,
+            "stop": 2811,
+            "subject": "Law of the United States. Massachusetts. Civil and political rights. General."
+        },
+        {
+            "id": "KFM4592.2",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 4592.2,
+            "stop": 4592.2,
+            "subject": "Law of the United States. Michigan. Right to education. Admission."
+        },
+        {
+            "id": "KFM4611",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 4611,
+            "stop": 4611,
+            "subject": "Law of the United States. Michigan. Civil and political rights. General."
+        },
+        {
+            "id": "KFM5792.2",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 5792.2,
+            "stop": 5792.2,
+            "subject": "Law of the United States. Minnesota. Right to education. Admission."
+        },
+        {
+            "id": "KFM5811",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 5811,
+            "stop": 5811,
+            "subject": "Law of the United States. Minnesota. Civil and political rights. General."
+        },
+        {
+            "id": "KFM6992.2",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 6992.2,
+            "stop": 6992.2,
+            "subject": "Law of the United States. Mississippi. Right to education. Admission."
+        },
+        {
+            "id": "KFM7011",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 7011,
+            "stop": 7011,
+            "subject": "Law of the United States. Mississippi. Civil and political rights. General."
+        },
+        {
+            "id": "KFM8192.2",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 8192.2,
+            "stop": 8192.2,
+            "subject": "Law of the United States. Missouri. Right to education. Admission."
+        },
+        {
+            "id": "KFM8211",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 8211,
+            "stop": 8211,
+            "subject": "Law of the United States. Missouri. Civil and political rights. General."
+        },
+        {
+            "id": "KFM9392.2",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 9392.2,
+            "stop": 9392.2,
+            "subject": "Law of the United States. Montana. Right to education. Admission."
+        },
+        {
+            "id": "KFM9411",
+            "parents": [],
+            "prefix": "KFM",
+            "start": 9411,
+            "stop": 9411,
+            "subject": "Law of the United States. Montana. Civil and political rights. General."
+        }
+    ],
+    "KFN": [
+        {
+            "id": "KFN392.2",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Nebraska. Right to education. Admission."
+        },
+        {
+            "id": "KFN411",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Nebraska. Civil and political rights. General."
+        },
+        {
+            "id": "KFN992.2",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 992.2,
+            "stop": 992.2,
+            "subject": "Law of the United States. Nevada. Right to education. Admission."
+        },
+        {
+            "id": "KFN1011",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 1011,
+            "stop": 1011,
+            "subject": "Law of the United States. Nevada. Civil and political rights. General."
+        },
+        {
+            "id": "KFN1592.2",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. New Hampshire. Right to education. Admission."
+        },
+        {
+            "id": "KFN1611",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. New Hampshire. Civil and political rights. General."
+        },
+        {
+            "id": "KFN2192.2",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 2192.2,
+            "stop": 2192.2,
+            "subject": "Law of the United States. New Jersey. Right to education. Admission."
+        },
+        {
+            "id": "KFN2211",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 2211,
+            "stop": 2211,
+            "subject": "Law of the United States. New Jersey. Civil and political rights. General."
+        },
+        {
+            "id": "KFN3992.2",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 3992.2,
+            "stop": 3992.2,
+            "subject": "Law of the United States. New Mexico. Right to education. Admission."
+        },
+        {
+            "id": "KFN4011",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 4011,
+            "stop": 4011,
+            "subject": "Law of the United States. New Mexico. Civil and political rights. General."
+        },
+        {
+            "id": "KFN5572-5573",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 5572,
+            "stop": 5573,
+            "subject": "Law of the United States (New York). Discrimination in employment and its"
+        },
+        {
+            "id": "KFN7792.2",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 7792.2,
+            "stop": 7792.2,
+            "subject": "Law of the United States. North Carolina. Right to education. Admission."
+        },
+        {
+            "id": "KFN7811",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 7811,
+            "stop": 7811,
+            "subject": "Law of the United States. North Carolina. Civil and political rights. General."
+        },
+        {
+            "id": "KFN8992.2",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 8992.2,
+            "stop": 8992.2,
+            "subject": "Law of the United States. North Dakota. Right to education. Admission."
+        },
+        {
+            "id": "KFN9011",
+            "parents": [],
+            "prefix": "KFN",
+            "start": 9011,
+            "stop": 9011,
+            "subject": "Law of the United States. North Dakota. Civil and political rights. General."
+        }
+    ],
+    "KFO": [
+        {
+            "id": "KFO392.2",
+            "parents": [],
+            "prefix": "KFO",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Ohio. Right to education. Admission. Discrimination"
+        },
+        {
+            "id": "KFO411",
+            "parents": [],
+            "prefix": "KFO",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Ohio. Civil and political rights. General."
+        },
+        {
+            "id": "KFO1592.2",
+            "parents": [],
+            "prefix": "KFO",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. Oklahoma. Right to education. Admission."
+        },
+        {
+            "id": "KFO1611",
+            "parents": [],
+            "prefix": "KFO",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. Oklahoma. Civil and political rights. General."
+        },
+        {
+            "id": "KFO2792.2",
+            "parents": [],
+            "prefix": "KFO",
+            "start": 2792.2,
+            "stop": 2792.2,
+            "subject": "Law of the United States. Oregon. Right to education. Admission."
+        },
+        {
+            "id": "KFO2811",
+            "parents": [],
+            "prefix": "KFO",
+            "start": 2811,
+            "stop": 2811,
+            "subject": "Law of the United States. Oregon. Civil and political rights. General."
+        }
+    ],
+    "KFP": [
+        {
+            "id": "KFP392.2",
+            "parents": [],
+            "prefix": "KFP",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Pennsylvania. Right to education. Admission."
+        },
+        {
+            "id": "KFP411",
+            "parents": [],
+            "prefix": "KFP",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Pennsylvania. Civil and political rights. General."
+        }
+    ],
+    "KFR": [
+        {
+            "id": "KFR392.2",
+            "parents": [],
+            "prefix": "KFR",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Rhode Island. Right to education. Admission."
+        },
+        {
+            "id": "KFR411",
+            "parents": [],
+            "prefix": "KFR",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Rhode Island. Civil and political rights. General."
+        }
+    ],
+    "KFS": [
+        {
+            "id": "KFS2192.2",
+            "parents": [],
+            "prefix": "KFS",
+            "start": 2192.2,
+            "stop": 2192.2,
+            "subject": "Law of the United States. South Carolina. Right to education. Admission."
+        },
+        {
+            "id": "KFS2211",
+            "parents": [],
+            "prefix": "KFS",
+            "start": 2211,
+            "stop": 2211,
+            "subject": "Law of the United States. South Carolina. Civil and political rights. General."
+        },
+        {
+            "id": "KFS3392.2",
+            "parents": [],
+            "prefix": "KFS",
+            "start": 3392.2,
+            "stop": 3392.2,
+            "subject": "Law of the United States. South Dakota. Right to education. Admission."
+        },
+        {
+            "id": "KFS3411",
+            "parents": [],
+            "prefix": "KFS",
+            "start": 3411,
+            "stop": 3411,
+            "subject": "Law of the United States. South Dakota. Civil and political rights. General."
+        }
+    ],
+    "KFT": [
+        {
+            "id": "KFT392.2",
+            "parents": [],
+            "prefix": "KFT",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Tennessee. Right to education. Admission."
+        },
+        {
+            "id": "KFT411",
+            "parents": [],
+            "prefix": "KFT",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Tennessee. Civil and political rights. General."
+        },
+        {
+            "id": "KFT1592.2",
+            "parents": [],
+            "prefix": "KFT",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. Texas. Right to education. Admission. Discrimination"
+        },
+        {
+            "id": "KFT1611",
+            "parents": [],
+            "prefix": "KFT",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. Texas. Civil and political rights. General."
+        }
+    ],
+    "KFU": [
+        {
+            "id": "KFU392.2",
+            "parents": [],
+            "prefix": "KFU",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Utah. Right to education. Admission. Discrimination"
+        },
+        {
+            "id": "KFU411",
+            "parents": [],
+            "prefix": "KFU",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Utah. Civil and political rights. General."
+        }
+    ],
+    "KFV": [
+        {
+            "id": "KFV392.2",
+            "parents": [],
+            "prefix": "KFV",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Vermont. Right to education. Admission."
+        },
+        {
+            "id": "KFV411",
+            "parents": [],
+            "prefix": "KFV",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Vermont. Civil and political rights. General."
+        },
+        {
+            "id": "KFV2792.2",
+            "parents": [],
+            "prefix": "KFV",
+            "start": 2792.2,
+            "stop": 2792.2,
+            "subject": "Law of the United States. Virginia. Right to education. Admission."
+        },
+        {
+            "id": "KFV2811",
+            "parents": [],
+            "prefix": "KFV",
+            "start": 2811,
+            "stop": 2811,
+            "subject": "Law of the United States. Virginia. Civil and political rights. General."
+        }
+    ],
+    "KFW": [
+        {
+            "id": "KFW392.2",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 392.2,
+            "stop": 392.2,
+            "subject": "Law of the United States. Washington State. Right to education. Admission."
+        },
+        {
+            "id": "KFW411",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 411,
+            "stop": 411,
+            "subject": "Law of the United States. Washington State. Civil and political rights. General."
+        },
+        {
+            "id": "KFW1592.2",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 1592.2,
+            "stop": 1592.2,
+            "subject": "Law of the United States. West Virginia. Right to education. Admission."
+        },
+        {
+            "id": "KFW1611",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 1611,
+            "stop": 1611,
+            "subject": "Law of the United States. West Virginia. Civil and political rights. General."
+        },
+        {
+            "id": "KFW2792.2",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 2792.2,
+            "stop": 2792.2,
+            "subject": "Law of the United States. Wisconsin. Right to education. Admission."
+        },
+        {
+            "id": "KFW2811",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 2811,
+            "stop": 2811,
+            "subject": "Law of the United States. Wisconsin. Civil and political rights. General."
+        },
+        {
+            "id": "KFW4592.2",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 4592.2,
+            "stop": 4592.2,
+            "subject": "Law of the United States. Wyoming. Right to education. Admission."
+        },
+        {
+            "id": "KFW4611",
+            "parents": [],
+            "prefix": "KFW",
+            "start": 4611,
+            "stop": 4611,
+            "subject": "Law of the United States. Wyoming. Civil and political rights. General."
+        }
+    ],
+    "KJV": [
+        {
+            "id": "KJV4534",
+            "parents": [],
+            "prefix": "KJV",
+            "start": 4534,
+            "stop": 4534,
+            "subject": "Law of France. Code noir. Laws regarding the black populace."
+        }
+    ],
+    "KK": [
+        {
+            "id": "KK3712",
+            "parents": [],
+            "prefix": "KK",
+            "start": 3712,
+            "stop": 3712,
+            "subject": "Law of Germany. The legal profession. Minorities."
+        },
+        {
+            "id": "KK4493-4495",
+            "parents": [],
+            "prefix": "KK",
+            "start": 4493,
+            "stop": 4495,
+            "subject": "Law of Germany. Constitutional history. Equality before the law. Minorities."
+        },
+        {
+            "id": "KK4742",
+            "parents": [],
+            "prefix": "KK",
+            "start": 4742,
+            "stop": 4742,
+            "subject": "Law of Germany. Nationality and citizenship. Minorities."
+        },
+        {
+            "id": "KK8794",
+            "parents": [],
+            "prefix": "KK",
+            "start": 8794,
+            "stop": 8794,
+            "subject": "Law of Germany. Inciting acts against minorities."
+        }
+    ],
+    "LC": [
+        {
+            "id": "LC212-212.43",
+            "parents": [],
+            "prefix": "LC",
+            "start": 212,
+            "stop": 212.43,
+            "subject": "Discrimination in education."
+        },
+        {
+            "id": "LC212.5",
+            "parents": [],
+            "prefix": "LC",
+            "start": 212.5,
+            "stop": 212.5,
+            "subject": "Segregation in education. Racial separation."
+        },
+        {
+            "id": "LC212.6",
+            "parents": [],
+            "prefix": "LC",
+            "start": 212.6,
+            "stop": 212.6,
+            "subject": "De facto segregation in education."
+        },
+        {
+            "id": "LC212.7",
+            "parents": [],
+            "prefix": "LC",
+            "start": 212.7,
+            "stop": 212.7,
+            "subject": "Segregation in higher education."
+        },
+        {
+            "id": "LC2699",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2699,
+            "stop": 2699,
+            "subject": "Education. Blacks. African Americans. General works."
+        },
+        {
+            "id": "LC2701",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2701,
+            "stop": 2701,
+            "subject": "Education. Blacks. African Americans. United States. Periodicals. Collections."
+        },
+        {
+            "id": "LC2703",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2703,
+            "stop": 2703,
+            "subject": "Education. Blacks. African Americans. United States. Societies."
+        },
+        {
+            "id": "LC2707",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2707,
+            "stop": 2707,
+            "subject": "Education. Blacks. African Americans. United States. Educational funds and"
+        },
+        {
+            "id": "LC2717",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2717,
+            "stop": 2717,
+            "subject": "Education. Blacks. African Americans. United States. General works."
+        },
+        {
+            "id": "LC2725",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2725,
+            "stop": 2725,
+            "subject": "Education. Blacks. African Americans. United States. Teachers\u2019 handbooks, etc."
+        },
+        {
+            "id": "LC2731",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2731,
+            "stop": 2731,
+            "subject": "Education. Blacks. African Americans. United States. General special."
+        },
+        {
+            "id": "LC2741",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2741,
+            "stop": 2741,
+            "subject": "Education. Blacks. African Americans. United States. History."
+        },
+        {
+            "id": "LC2751",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2751,
+            "stop": 2751,
+            "subject": "Education. Blacks. African Americans. United States. Moral and religious"
+        },
+        {
+            "id": "LC2761",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2761,
+            "stop": 2761,
+            "subject": "Education. Blacks. African Americans. United States. Private school education."
+        },
+        {
+            "id": "LC2765",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2765,
+            "stop": 2765,
+            "subject": "Education. Blacks. African Americans. United States. Preschool education."
+        },
+        {
+            "id": "LC2771-2778",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2771,
+            "stop": 2778,
+            "subject": "Education. Blacks. African Americans. United States. Elementary and public"
+        },
+        {
+            "id": "LC2779",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2779,
+            "stop": 2779,
+            "subject": "Education. Blacks. African Americans. United States. Secondary education."
+        },
+        {
+            "id": "LC2780",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2780,
+            "stop": 2780,
+            "subject": "Education. Blacks. African Americans. United States. Vocational education."
+        },
+        {
+            "id": "LC2780.2",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2780.2,
+            "stop": 2780.2,
+            "subject": "Education. Blacks. African Americans. United States. Agricultural education."
+        },
+        {
+            "id": "LC2780.4",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2780.4,
+            "stop": 2780.4,
+            "subject": "Education. Blacks. African Americans. United States. Business education."
+        },
+        {
+            "id": "LC2780.5",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2780.5,
+            "stop": 2780.5,
+            "subject": "Education. Blacks. African Americans. United States. Technical and industrial"
+        },
+        {
+            "id": "LC2780.8",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2780.8,
+            "stop": 2780.8,
+            "subject": "Education. Blacks. African Americans. United States. Adult education."
+        },
+        {
+            "id": "LC2781",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2781,
+            "stop": 2781,
+            "subject": "Education. Blacks. African Americans. United States. Higher education."
+        },
+        {
+            "id": "LC2782",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2782,
+            "stop": 2782,
+            "subject": "Education. Blacks. African Americans. United States. Teacher training."
+        },
+        {
+            "id": "LC2785",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2785,
+            "stop": 2785,
+            "subject": "Education. Blacks. African Americans. United States. Professional education."
+        },
+        {
+            "id": "LC2802-2803",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2802,
+            "stop": 2803,
+            "subject": "Education. Blacks. African Americans. United States. Local. By region, state,"
+        },
+        {
+            "id": "LC2804-2810",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2804,
+            "stop": 2810,
+            "subject": "Education. Blacks. African Americans. Other regions or countries."
+        },
+        {
+            "id": "LC2861-2913",
+            "parents": [],
+            "prefix": "LC",
+            "start": 2861,
+            "stop": 2913,
+            "subject": "Education. Blacks. African Americans. Other regions or countries. Higher"
+        },
+        {
+            "id": "LC3601-3643",
+            "parents": [],
+            "prefix": "LC",
+            "start": 3601,
+            "stop": 3643,
+            "subject": "Education. Racially mixed people."
+        }
+    ],
+    "LJ": [
+        {
+            "id": "LJ165",
+            "parents": [],
+            "prefix": "LJ",
+            "start": 165,
+            "stop": 165,
+            "subject": "Student fraternities and societies, United States. Other fraternities, A-Z"
+        }
+    ],
+    "M": [
+        {
+            "id": "M1366",
+            "parents": [],
+            "prefix": "M",
+            "start": 1366,
+            "stop": 1366,
+            "subject": "Instrumental music. Jazz ensembles."
+        },
+        {
+            "id": "M1670-1671",
+            "parents": [],
+            "prefix": "M",
+            "start": 1670,
+            "stop": 1671,
+            "subject": "Folk, national, and ethnic music. United States. African American."
+        },
+        {
+            "id": "M2198",
+            "parents": [],
+            "prefix": "M",
+            "start": 2198,
+            "stop": 2198,
+            "subject": "Sacred vocal music. Popular religious and devotional music (including"
+        }
+    ],
+    "ML": [
+        {
+            "id": "ML410",
+            "parents": [],
+            "prefix": "ML",
+            "start": 410,
+            "stop": 410,
+            "subject": ".E44 Ellington, Duke."
+        },
+        {
+            "id": "ML410",
+            "parents": [],
+            "prefix": "ML",
+            "start": 410,
+            "stop": 410,
+            "subject": ".H476 Hendrix, Jimi."
+        },
+        {
+            "id": "ML410",
+            "parents": [],
+            "prefix": "ML",
+            "start": 410,
+            "stop": 410,
+            "subject": ".J75 Joplin, Scott."
+        },
+        {
+            "id": "ML410",
+            "parents": [],
+            "prefix": "ML",
+            "start": 410,
+            "stop": 410,
+            "subject": ".M82 Morton, Jelly Roll."
+        },
+        {
+            "id": "ML417",
+            "parents": [],
+            "prefix": "ML",
+            "start": 417,
+            "stop": 417,
+            "subject": ".M846 Monk, Thelonious."
+        },
+        {
+            "id": "ML418",
+            "parents": [],
+            "prefix": "ML",
+            "start": 418,
+            "stop": 418,
+            "subject": ".M45 Mingus, Charles."
+        },
+        {
+            "id": "ML419",
+            "parents": [],
+            "prefix": "ML",
+            "start": 419,
+            "stop": 419,
+            "subject": ".A75 Armstrong, Louis."
+        },
+        {
+            "id": "ML419",
+            "parents": [],
+            "prefix": "ML",
+            "start": 419,
+            "stop": 419,
+            "subject": ".C645 Coltrane, John."
+        },
+        {
+            "id": "ML419",
+            "parents": [],
+            "prefix": "ML",
+            "start": 419,
+            "stop": 419,
+            "subject": ".D39 Davis, Miles."
+        },
+        {
+            "id": "ML419",
+            "parents": [],
+            "prefix": "ML",
+            "start": 419,
+            "stop": 419,
+            "subject": ".P4 Parker, Charlie."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".A6 Anderson, Marian."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".B32 Belafonte, Harry."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".B818 Brown, James (1933\u20132006)."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".F52 Fitzgerald, Ella."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".H58 Holiday, Billie."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".J175 Jackson, Michael (1958\u20132009)."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".K473 King, B. B."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".P974 Prince."
+        },
+        {
+            "id": "ML420",
+            "parents": [],
+            "prefix": "ML",
+            "start": 420,
+            "stop": 420,
+            "subject": ".S667 Smith, Bessie (1894\u20131937)."
+        },
+        {
+            "id": "ML422",
+            "parents": [],
+            "prefix": "ML",
+            "start": 422,
+            "stop": 422,
+            "subject": ".B25 Basie, Count."
+        },
+        {
+            "id": "ML3186.8-3187",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3186.8,
+            "stop": 3187,
+            "subject": "Sacred vocal music. Christian. Gospel music."
+        },
+        {
+            "id": "ML3478-3479",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3478,
+            "stop": 3479,
+            "subject": "Literature on music. History and criticism. Popular music. African American"
+        },
+        {
+            "id": "ML3505.8-3509",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3505.8,
+            "stop": 3509,
+            "subject": "Literature on music. History and criticism. Popular music. Jazz."
+        },
+        {
+            "id": "ML3518",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3518,
+            "stop": 3518,
+            "subject": "Literature on music. History and criticism. Popular music. Big band music."
+        },
+        {
+            "id": "ML3520.8-3521",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3520.8,
+            "stop": 3521,
+            "subject": "Literature on music. History and criticism. Popular music. Blues. Rhythm and"
+        },
+        {
+            "id": "ML3527.8",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3527.8,
+            "stop": 3527.8,
+            "subject": "Literature on music. History and criticism. Popular music. Funk."
+        },
+        {
+            "id": "ML3527.84",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3527.84,
+            "stop": 3527.84,
+            "subject": "Literature on music. History and criticism. Popular music. Go-go music."
+        },
+        {
+            "id": "ML3528.5",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3528.5,
+            "stop": 3528.5,
+            "subject": "Literature on music. History and criticism. Popular music. House music."
+        },
+        {
+            "id": "ML3530",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3530,
+            "stop": 3530,
+            "subject": "Literature on music. History and criticism. Popular music. Ragtime."
+        },
+        {
+            "id": "ML3531",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3531,
+            "stop": 3531,
+            "subject": "Literature on music. History and criticism. Popular music. Rap music."
+        },
+        {
+            "id": "ML3532",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3532,
+            "stop": 3532,
+            "subject": "Literature on music. History and criticism. Popular music. Reggae music."
+        },
+        {
+            "id": "ML3532.5",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3532.5,
+            "stop": 3532.5,
+            "subject": "Literature on music. History and criticism. Popular music. Reggaeton music."
+        },
+        {
+            "id": "ML3533.8-3534",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3533.8,
+            "stop": 3534,
+            "subject": "Literature on music. History and criticism. Popular music. Rock music."
+        },
+        {
+            "id": "ML3537",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3537,
+            "stop": 3537,
+            "subject": "Literature on music. History and criticism. Popular music. Soul music."
+        },
+        {
+            "id": "ML3540",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3540,
+            "stop": 3540,
+            "subject": "Literature on music. History and criticism. Popular music. Techno music."
+        },
+        {
+            "id": "ML3540.5",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3540.5,
+            "stop": 3540.5,
+            "subject": "Literature on music. History and criticism. Popular music. Underground"
+        },
+        {
+            "id": "ML3556",
+            "parents": [],
+            "prefix": "ML",
+            "start": 3556,
+            "stop": 3556,
+            "subject": "Literature on music. History and criticism. Folk, national, and ethnic music."
+        }
+    ],
+    "MT": [
+        {
+            "id": "MT73.5",
+            "parents": [],
+            "prefix": "MT",
+            "start": 73.5,
+            "stop": 73.5,
+            "subject": "Instrumentation and orchestration. Jazz band, dance band, etc."
+        },
+        {
+            "id": "MT239",
+            "parents": [],
+            "prefix": "MT",
+            "start": 239,
+            "stop": 239,
+            "subject": "Instrumental techniques. Piano. Performance of popular music (including"
+        },
+        {
+            "id": "MT279.3",
+            "parents": [],
+            "prefix": "MT",
+            "start": 279.3,
+            "stop": 279.3,
+            "subject": "Instrumental techniques. Violin. Styles of playing. Blues."
+        },
+        {
+            "id": "MT279.7",
+            "parents": [],
+            "prefix": "MT",
+            "start": 279.7,
+            "stop": 279.7,
+            "subject": "Instrumental techniques. Violin. Styles of playing. Jazz."
+        },
+        {
+            "id": "MT733.7",
+            "parents": [],
+            "prefix": "MT",
+            "start": 733.7,
+            "stop": 733.7,
+            "subject": "Instrumental techniques. Ensembles. Big band. Dance band. Jazz band."
+        },
+        {
+            "id": "MT868",
+            "parents": [],
+            "prefix": "MT",
+            "start": 868,
+            "stop": 868,
+            "subject": "Singing and vocal technique. Jazz vocals."
+        }
+    ],
+    "N": [
+        {
+            "id": "N8224",
+            "parents": [],
+            "prefix": "N",
+            "start": 8224,
+            "stop": 8224,
+            "subject": "Special subjects of art. Minorities."
+        },
+        {
+            "id": "N8232",
+            "parents": [],
+            "prefix": "N",
+            "start": 8232,
+            "stop": 8232,
+            "subject": "Special subjects of art. Negroes. African Americans. Blacks."
+        }
+    ],
+    "NB": [
+        {
+            "id": "NB237",
+            "parents": [],
+            "prefix": "NB",
+            "start": 237,
+            "stop": 237,
+            "subject": ".P89 Puryear, Martin."
+        }
+    ],
+    "ND": [
+        {
+            "id": "ND237",
+            "parents": [],
+            "prefix": "ND",
+            "start": 237,
+            "stop": 237,
+            "subject": ".L38 Lawrence, Jacob."
+        }
+    ],
+    "NK": [
+        {
+            "id": "NK9112",
+            "parents": [],
+            "prefix": "NK",
+            "start": 9112,
+            "stop": 9112,
+            "subject": "Textile arts and art needlework (including quilts). United States (including"
+        }
+    ],
+    "NX": [
+        {
+            "id": "NX629",
+            "parents": [],
+            "prefix": "NX",
+            "start": 629,
+            "stop": 629,
+            "subject": "Arts of minority groups."
+        }
+    ],
+    "PM": [
+        {
+            "id": "PM5626",
+            "parents": [],
+            "prefix": "PM",
+            "start": 5626,
+            "stop": 5626,
+            "subject": "Black Carib language."
+        },
+        {
+            "id": "PM7831-7834",
+            "parents": [],
+            "prefix": "PM",
+            "start": 7831,
+            "stop": 7834,
+            "subject": "Creole languages. General and miscellaneous."
+        },
+        {
+            "id": "PM7836-7839",
+            "parents": [],
+            "prefix": "PM",
+            "start": 7836,
+            "stop": 7839,
+            "subject": "Creole languages. Danish."
+        },
+        {
+            "id": "PM7846-7849",
+            "parents": [],
+            "prefix": "PM",
+            "start": 7846,
+            "stop": 7849,
+            "subject": "Creole languages. Portuguese."
+        }
+    ],
+    "PN": [
+        {
+            "id": "PN490",
+            "parents": [],
+            "prefix": "PN",
+            "start": 490,
+            "stop": 490,
+            "subject": "Literary history. Biography. Black authors."
+        },
+        {
+            "id": "PN491.5",
+            "parents": [],
+            "prefix": "PN",
+            "start": 491.5,
+            "stop": 491.5,
+            "subject": "Literary history. Biography. Minority authors."
+        },
+        {
+            "id": "PN841",
+            "parents": [],
+            "prefix": "PN",
+            "start": 841,
+            "stop": 841,
+            "subject": "Literary history. Black literature (General)."
+        },
+        {
+            "id": "PN1025",
+            "parents": [],
+            "prefix": "PN",
+            "start": 1025,
+            "stop": 1025,
+            "subject": "Poetry. Indexes. Black poetry."
+        },
+        {
+            "id": "PN1992.4",
+            "parents": [],
+            "prefix": "PN",
+            "start": 1992.4,
+            "stop": 1992.4,
+            "subject": ".W56 Winfrey, Oprah."
+        },
+        {
+            "id": "PN2286",
+            "parents": [],
+            "prefix": "PN",
+            "start": 2286,
+            "stop": 2286,
+            "subject": "Dramatic representation. The theater. United States. Biography."
+        },
+        {
+            "id": "PN3195",
+            "parents": [],
+            "prefix": "PN",
+            "start": 3195,
+            "stop": 3195,
+            "subject": "Minstrel shows."
+        },
+        {
+            "id": "PN3423",
+            "parents": [],
+            "prefix": "PN",
+            "start": 3423,
+            "stop": 3423,
+            "subject": "Prose. Prose fiction. Blacks."
+        },
+        {
+            "id": "PN4871.5",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4871.5,
+            "stop": 4871.5,
+            "subject": "Journalism. The periodical press, etc. Biography of editors, journalists, etc."
+        },
+        {
+            "id": "PN4882",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4882,
+            "stop": 4882,
+            "subject": "Journalism. The periodical press, etc. United States. Ethnic press. Minority press."
+        },
+        {
+            "id": "PN4882.5",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4882.5,
+            "stop": 4882.5,
+            "subject": "African American press."
+        },
+        {
+            "id": "PN6068",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6068,
+            "stop": 6068,
+            "subject": "Collections of general literature. Black authors."
+        },
+        {
+            "id": "PN6081.3",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6081.3,
+            "stop": 6081.3,
+            "subject": "Quotations. English. Black authors."
+        },
+        {
+            "id": "PN6109.7",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6109.7,
+            "stop": 6109.7,
+            "subject": "Collections of general literature. Poetry. Black authors."
+        },
+        {
+            "id": "PN6119.7",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6119.7,
+            "stop": 6119.7,
+            "subject": "Drama. Black authors."
+        }
+    ],
+    "PQ": [
+        {
+            "id": "PQ3940-3949",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 3940,
+            "stop": 3949,
+            "subject": "French literature outside of France. West Indies."
+        },
+        {
+            "id": "PQ3950-3959.3",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 3950,
+            "stop": 3959.3,
+            "subject": "French literature outside of France. South America."
+        }
+    ],
+    "PR": [
+        {
+            "id": "PR9205",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9205,
+            "stop": 9205,
+            "subject": "English literature outside of Great Britain. Caribbean area."
+        },
+        {
+            "id": "PR9210-9218.2",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9210,
+            "stop": 9218.2,
+            "subject": "English literature outside of Great Britain. West Indies."
+        },
+        {
+            "id": "PR9220",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9220,
+            "stop": 9220,
+            "subject": "English literature outside of Great Britain. Bahamas."
+        },
+        {
+            "id": "PR9230",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9230,
+            "stop": 9230,
+            "subject": "English literature outside of Great Britain. Barbados."
+        },
+        {
+            "id": "PR9260",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9260,
+            "stop": 9260,
+            "subject": "English literature outside of Great Britain. Haiti."
+        },
+        {
+            "id": "PR9265",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9265,
+            "stop": 9265,
+            "subject": "English literature outside of Great Britain. Jamaica."
+        },
+        {
+            "id": "PR9272",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9272,
+            "stop": 9272,
+            "subject": "English literature outside of Great Britain. Trinidad."
+        },
+        {
+            "id": "PR9275",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9275,
+            "stop": 9275,
+            "subject": "English literature outside of Great Britain. Other West Indies islands."
+        },
+        {
+            "id": "PR9280",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9280,
+            "stop": 9280,
+            "subject": "English literature outside of Great Britain. Belize."
+        },
+        {
+            "id": "PR9320",
+            "parents": [],
+            "prefix": "PR",
+            "start": 9320,
+            "stop": 9320,
+            "subject": "English literature outside of Great Britain. Guyana."
+        }
+    ],
+    "PS": [
+        {
+            "id": "PS1806",
+            "parents": [],
+            "prefix": "PS",
+            "start": 1806,
+            "stop": 1806,
+            "subject": "Harris, Joel Chandler. Nights with Uncle Remus."
+        },
+        {
+            "id": "PS1808",
+            "parents": [],
+            "prefix": "PS",
+            "start": 1808,
+            "stop": 1808,
+            "subject": "Harris, Joel Chandler. Uncle Remus and his friends."
+        },
+        {
+            "id": "PS1809",
+            "parents": [],
+            "prefix": "PS",
+            "start": 1809,
+            "stop": 1809,
+            "subject": "Harris, Joel Chandler. Uncle Remus, his songs and sayings."
+        },
+        {
+            "id": "PS2265",
+            "parents": [],
+            "prefix": "PS",
+            "start": 2265,
+            "stop": 2265,
+            "subject": "Longfellow, Henry Wadsworth. Poems on slavery."
+        },
+        {
+            "id": "PS1557",
+            "parents": [],
+            "prefix": "PS",
+            "start": 1557,
+            "stop": 1557,
+            "subject": "Dunbar, Paul Laurence."
+        }
+    ],
+    "R": [
+        {
+            "id": "R693",
+            "parents": [],
+            "prefix": "R",
+            "start": 693,
+            "stop": 693,
+            "subject": "Minorities in medicine."
+        },
+        {
+            "id": "R695",
+            "parents": [],
+            "prefix": "R",
+            "start": 695,
+            "stop": 695,
+            "subject": "Blacks in medicine. Black physicians. (including African Americans)."
+        }
+    ],
+    "RA": [
+        {
+            "id": "RA562",
+            "parents": [],
+            "prefix": "RA",
+            "start": 562,
+            "stop": 562,
+            "subject": "Public health. Hygiene. Preventive medicine. Blacks."
+        },
+        {
+            "id": "RA564.86",
+            "parents": [],
+            "prefix": "RA",
+            "start": 564.86,
+            "stop": 564.86,
+            "subject": "Public health. Hygiene. Preventive medicine. Minority women."
+        }
+    ],
+    "RC": [
+        {
+            "id": "RC314.5",
+            "parents": [],
+            "prefix": "RC",
+            "start": 314.5,
+            "stop": 314.5,
+            "subject": "Tuberculosis. West Indies."
+        }
+    ],
+    "RK": [
+        {
+            "id": "RK60.45",
+            "parents": [],
+            "prefix": "RK",
+            "start": 60.45,
+            "stop": 60.45,
+            "subject": "Blacks in dentistry. Black dentists."
+        }
+    ],
+    "RT": [
+        {
+            "id": "RT83.3",
+            "parents": [],
+            "prefix": "RT",
+            "start": 83.3,
+            "stop": 83.3,
+            "subject": "Minorities in nursing."
+        },
+        {
+            "id": "RT83.5",
+            "parents": [],
+            "prefix": "RT",
+            "start": 83.5,
+            "stop": 83.5,
+            "subject": "Black nurses."
+        }
+    ],
+    "SB": [
+        {
+            "id": "SB457.527",
+            "parents": [],
+            "prefix": "SB",
+            "start": 457.527,
+            "stop": 457.527,
+            "subject": "African American gardens."
+        }
+    ],
+    "TR": [
+        {
+            "id": "TR647",
+            "parents": [],
+            "prefix": "TR",
+            "start": 647,
+            "stop": 647,
+            "subject": ".P367 Parks, Gordon, Sr."
+        }
+    ],
+    "UB": [
+        {
+            "id": "UB416",
+            "parents": [],
+            "prefix": "UB",
+            "start": 416,
+            "stop": 416,
+            "subject": "Minorities, women, etc., in armed forces."
+        }
+    ],
+    "UG": [
+        {
+            "id": "UG830",
+            "parents": [],
+            "prefix": "UG",
+            "start": 830,
+            "stop": 830,
+            "subject": "Minorities, women, etc., in air forces."
+        }
+    ],
+    "VB": [
+        {
+            "id": "VB320",
+            "parents": [],
+            "prefix": "VB",
+            "start": 320,
+            "stop": 320,
+            "subject": "Minorities, women, etc., in navies."
+        }
+    ],
+    "Z": [
+        {
+            "id": "Z711.8",
+            "parents": [],
+            "prefix": "Z",
+            "start": 711.8,
+            "stop": 711.8,
+            "subject": "Library science. Information science. Library service to special groups."
+        },
+        {
+            "id": "Z711.9",
+            "parents": [],
+            "prefix": "Z",
+            "start": 711.9,
+            "stop": 711.9,
+            "subject": "Library science. Information science. Library service to special groups. Blacks."
+        },
+        {
+            "id": "Z1395",
+            "parents": [],
+            "prefix": "Z",
+            "start": 1395,
+            "stop": 1395,
+            "subject": "National bibliography. Canada. Special topics. Blacks."
+        },
+        {
+            "id": "Z7124",
+            "parents": [],
+            "prefix": "Z",
+            "start": 7124,
+            "stop": 7124,
+            "subject": "Subject bibliography. Philology and linguistics. Mixed languages (including"
+        },
+        {
+            "id": "Z7774",
+            "parents": [],
+            "prefix": "Z",
+            "start": 7774,
+            "stop": 7774,
+            "subject": "Subject bibliography. Black theology."
+        },
+        {
+            "id": "Z8068.74",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8068.74,
+            "stop": 8068.74,
+            "subject": "Personal bibliography. Baldwin, James."
+        },
+        {
+            "id": "Z8150.7",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8150.7,
+            "stop": 8150.7,
+            "subject": "Personal bibliography. Carver, G. W."
+        },
+        {
+            "id": "Z8166.2",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8166.2,
+            "stop": 8166.2,
+            "subject": "Personal bibliography. Chesnutt, C. W."
+        },
+        {
+            "id": "Z8167.47",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8167.47,
+            "stop": 8167.47,
+            "subject": "Personal bibliography. Chisholm, Shirley"
+        },
+        {
+            "id": "Z8238.85",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8238.85,
+            "stop": 8238.85,
+            "subject": "Personal bibliography. Douglass, Frederick."
+        },
+        {
+            "id": "Z8244.9",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8244.9,
+            "stop": 8244.9,
+            "subject": "Personal bibliography. Du Bois, W. E. B."
+        },
+        {
+            "id": "Z8247.4",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8247.4,
+            "stop": 8247.4,
+            "subject": "Personal bibliography. Dunbar, P. L."
+        },
+        {
+            "id": "Z8324.49",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8324.49,
+            "stop": 8324.49,
+            "subject": "Personal bibliography. Garvey, Marcus."
+        },
+        {
+            "id": "Z8385.64",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8385.64,
+            "stop": 8385.64,
+            "subject": "Personal bibliography. Hansberry, Lorraine."
+        },
+        {
+            "id": "Z8406.8",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8406.8,
+            "stop": 8406.8,
+            "subject": "Personal bibliography. Himes, C. B."
+        },
+        {
+            "id": "Z8423.3",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8423.3,
+            "stop": 8423.3,
+            "subject": "Personal bibliography. Hughes, Langston."
+        },
+        {
+            "id": "Z8428.66",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8428.66,
+            "stop": 8428.66,
+            "subject": "Personal bibliography. Hurston, Z. N."
+        },
+        {
+            "id": "Z8464.44",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8464.44,
+            "stop": 8464.44,
+            "subject": "Personal bibliography. King, M. L."
+        },
+        {
+            "id": "Z8519.7",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8519.7,
+            "stop": 8519.7,
+            "subject": "Personal bibliography. Louis, Joe."
+        },
+        {
+            "id": "Z8595.5",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8595.5,
+            "stop": 8595.5,
+            "subject": "Personal bibliography. Morrison, Toni."
+        },
+        {
+            "id": "Z8736.32",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8736.32,
+            "stop": 8736.32,
+            "subject": "Personal bibliography. Reed, Ishmael."
+        },
+        {
+            "id": "Z8747.74",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8747.74,
+            "stop": 8747.74,
+            "subject": "Personal bibliography. Robeson, Paul."
+        },
+        {
+            "id": "Z8947.36",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8947.36,
+            "stop": 8947.36,
+            "subject": "Personal bibliography. Walcott, Derek."
+        },
+        {
+            "id": "Z8947.42",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8947.42,
+            "stop": 8947.42,
+            "subject": "Personal bibliography. Walker, Alice."
+        },
+        {
+            "id": "Z8949.9",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8949.9,
+            "stop": 8949.9,
+            "subject": "Personal bibliography. Washington, B. T."
+        },
+        {
+            "id": "Z8950.2",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8950.2,
+            "stop": 8950.2,
+            "subject": "Personal bibliography. Washington, Harold."
+        },
+        {
+            "id": "Z8969.285",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8969.285,
+            "stop": 8969.285,
+            "subject": "Personal bibliography. Wheatley, Phyllis"
+        },
+        {
+            "id": "Z8986.323",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8986.323,
+            "stop": 8986.323,
+            "subject": "Personal bibliography. Wright, Richard."
+        },
+        {
+            "id": "Z8989.7",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8989.7,
+            "stop": 8989.7,
+            "subject": "Personal bibliography. X, Malcolm."
+        }
+    ]
+}

@@ -1,0 +1,894 @@
+{
+    "B": [
+        {
+            "id": "B350-398",
+            "parents": [],
+            "prefix": "B",
+            "start": 350,
+            "stop": 398,
+            "subject": "Plato."
+        }
+    ],
+    "BV": [
+        {
+            "id": "BV4437.5",
+            "parents": [],
+            "prefix": "BV",
+            "start": 4437.5,
+            "stop": 4437.5,
+            "subject": "Practical Theology. Church work with special classes. Gays. Lesbians."
+        },
+        {
+            "id": "BV4460.7",
+            "parents": [],
+            "prefix": "BV",
+            "start": 4460.7,
+            "stop": 4460.7,
+            "subject": "Pastoral theology. Church work with special classes. People with disabilities,"
+        },
+        {
+            "id": "BV4910.3",
+            "parents": [],
+            "prefix": "BV",
+            "start": 4910.3,
+            "stop": 4910.3,
+            "subject": "Practical religion. The Christian life. Works for special classes of persons. The"
+        }
+    ],
+    "GN": [
+        {
+            "id": "GN484.35",
+            "parents": [],
+            "prefix": "GN",
+            "start": 484.35,
+            "stop": 484.35,
+            "subject": "Anthropology. Sexual behavior. Sex customs. Homosexuality."
+        }
+    ],
+    "GV": [
+        {
+            "id": "GV183.2",
+            "parents": [],
+            "prefix": "GV",
+            "start": 183.2,
+            "stop": 183.2,
+            "subject": "Recreation for special classes of persons. Gay men. Lesbians."
+        },
+        {
+            "id": "GV708.8",
+            "parents": [],
+            "prefix": "GV",
+            "start": 708.8,
+            "stop": 708.8,
+            "subject": "Sports. Sports for special classes of persons Gay men. Lesbians."
+        },
+        {
+            "id": "GV1749.5",
+            "parents": [],
+            "prefix": "GV",
+            "start": 1749.5,
+            "stop": 1749.5,
+            "subject": "Gay and lesbian dance parties."
+        }
+    ],
+    "HD": [
+        {
+            "id": "HD2359-2359.5",
+            "parents": [],
+            "prefix": "HD",
+            "start": 2359,
+            "stop": 2359.5,
+            "subject": "Industry. Other special categories of businesses. Gay business enterprises."
+        },
+        {
+            "id": "HD6285",
+            "parents": [],
+            "prefix": "HD",
+            "start": 6285,
+            "stop": 6285,
+            "subject": "Labor. Work. Working class. Classes of labor. Gays. Lesbians. General works."
+        },
+        {
+            "id": "HD6285.5",
+            "parents": [],
+            "prefix": "HD",
+            "start": 6285.5,
+            "stop": 6285.5,
+            "subject": "Labor. Work. Working class. Classes of labor. Gays. Lesbians. By region or"
+        }
+    ],
+    "HF": [
+        {
+            "id": "HF5382.68-",
+            "parents": [],
+            "prefix": "HF",
+            "start": null,
+            "stop": null,
+            "subject": "Business. Vocational guidance for specific (non-occupational) groups."
+        },
+        {
+            "id": "HF5415.332.",
+            "parents": [],
+            "prefix": "HF",
+            "start": null,
+            "stop": null,
+            "subject": "Business. Marketing research. Particular groups of consumers. Gays."
+        },
+        {
+            "id": "HF5827.82",
+            "parents": [],
+            "prefix": "HF",
+            "start": 5827.82,
+            "stop": 5827.82,
+            "subject": "Business. Advertising. Gays in advertising."
+        }
+    ],
+    "HQ": [
+        {
+            "id": "HQ18.5",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 18.5,
+            "stop": 18.5,
+            "subject": "Human sexuality. Sex. Sexual orientation."
+        },
+        {
+            "id": "HQ74",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 74,
+            "stop": 74,
+            "subject": "Bisexuality. General works."
+        },
+        {
+            "id": "HQ74.2",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 74.2,
+            "stop": 74.2,
+            "subject": "Bisexuality. By region or country, A-Z."
+        },
+        {
+            "id": "HQ75",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75,
+            "stop": 75,
+            "subject": "Homosexuality. Lesbianism. Periodicals. Serials."
+        },
+        {
+            "id": "HQ75.115",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.115,
+            "stop": 75.115,
+            "subject": "Homosexuality. Lesbianism. Congresses."
+        },
+        {
+            "id": "HQ75.12",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.12,
+            "stop": 75.12,
+            "subject": "Homosexuality. Lesbianism. Societies."
+        },
+        {
+            "id": "HQ75.13",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.13,
+            "stop": 75.13,
+            "subject": "Homosexuality. Lesbianism. Dictionaries."
+        },
+        {
+            "id": "HQ75.14",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.14,
+            "stop": 75.14,
+            "subject": "Homosexuality. Lesbianism. Computer networks. Electronic information"
+        },
+        {
+            "id": "HQ75.15-75.16",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.15,
+            "stop": 75.16,
+            "subject": "Gay and lesbian studies."
+        },
+        {
+            "id": "HQ75.2",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.2,
+            "stop": 75.2,
+            "subject": "Homosexuality. Lesbianism. Biography (Collective)."
+        },
+        {
+            "id": "HQ75.25-75.26",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.25,
+            "stop": 75.26,
+            "subject": "Homosexuality. Lesbianism. Travel."
+        },
+        {
+            "id": "HQ75.27-75.28",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.27,
+            "stop": 75.28,
+            "subject": "Homosexuality. Lesbianism. Gay parents."
+        },
+        {
+            "id": "HQ75.3",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.3,
+            "stop": 75.3,
+            "subject": "Lesbians. Biography. Collective."
+        },
+        {
+            "id": "HQ75.4",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.4,
+            "stop": 75.4,
+            "subject": "Lesbians. Biography. Individual, A-Z."
+        },
+        {
+            "id": "HQ75.5",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.5,
+            "stop": 75.5,
+            "subject": "Lesbians. General works."
+        },
+        {
+            "id": "HQ75.51",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.51,
+            "stop": 75.51,
+            "subject": "Lesbians. Sex instruction."
+        },
+        {
+            "id": "HQ75.53",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.53,
+            "stop": 75.53,
+            "subject": "Lesbian mothers."
+        },
+        {
+            "id": "HQ75.55",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.55,
+            "stop": 75.55,
+            "subject": "Middle-aged lesbians. Older lesbians."
+        },
+        {
+            "id": "HQ75.6",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.6,
+            "stop": 75.6,
+            "subject": "Lesbians. By region or country, A-Z."
+        },
+        {
+            "id": "HQ75.7",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.7,
+            "stop": 75.7,
+            "subject": "Gay men. Biography. Collective."
+        },
+        {
+            "id": "HQ75.8",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 75.8,
+            "stop": 75.8,
+            "subject": "Gay men. Biography. Individual, A-Z."
+        },
+        {
+            "id": "HQ76",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76,
+            "stop": 76,
+            "subject": "Gay men. General works."
+        },
+        {
+            "id": "HQ76.1",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.1,
+            "stop": 76.1,
+            "subject": "Gay men. Sex instruction."
+        },
+        {
+            "id": "HQ76.13",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.13,
+            "stop": 76.13,
+            "subject": "Gay fathers."
+        },
+        {
+            "id": "HQ76.14",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.14,
+            "stop": 76.14,
+            "subject": "Middle-aged gay men. Older gay men."
+        },
+        {
+            "id": "HQ76.2",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.2,
+            "stop": 76.2,
+            "subject": "Gay men. By region or country, A-Z."
+        },
+        {
+            "id": "HQ76.25",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.25,
+            "stop": 76.25,
+            "subject": "Homosexuality. Lesbianism. General works."
+        },
+        {
+            "id": "HQ76.26",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.26,
+            "stop": 76.26,
+            "subject": "Homosexuality. Lesbianism. Juvenile works."
+        },
+        {
+            "id": "HQ76.27",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.27,
+            "stop": 76.27,
+            "subject": "Special classes of gay people, A-Z."
+        },
+        {
+            "id": "HQ76.3",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.3,
+            "stop": 76.3,
+            "subject": "Homosexuality. Lesbianism. By region or country, A-Z."
+        },
+        {
+            "id": "HQ76.34",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.34,
+            "stop": 76.34,
+            "subject": "Same-sex relationships. General works."
+        },
+        {
+            "id": "HQ76.35",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.35,
+            "stop": 76.35,
+            "subject": "Same-sex relationships. By region or country, A-Z"
+        },
+        {
+            "id": "HQ76.4",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.4,
+            "stop": 76.4,
+            "subject": "Homophobia. Heterosexism. General works."
+        },
+        {
+            "id": "HQ76.45",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.45,
+            "stop": 76.45,
+            "subject": "Homophobia. Heterosexism. By region or country, A-Z."
+        },
+        {
+            "id": "HQ76.5",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.5,
+            "stop": 76.5,
+            "subject": "Gay rights movement. Gay liberation movement. Homophile movement."
+        },
+        {
+            "id": "HQ76.8",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.8,
+            "stop": 76.8,
+            "subject": "Gay rights movement. Gay liberation movement. Homophile movement. By"
+        },
+        {
+            "id": "HQ76.85",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.85,
+            "stop": 76.85,
+            "subject": "Gay conservatives."
+        },
+        {
+            "id": "HQ76.9",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.9,
+            "stop": 76.9,
+            "subject": "Gay press publications. General works."
+        },
+        {
+            "id": "HQ76.95",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.95,
+            "stop": 76.95,
+            "subject": "Gay press publications. By region or country, A-Z"
+        },
+        {
+            "id": "HQ76.96",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.96,
+            "stop": 76.96,
+            "subject": "Gay and lesbian culture. General works."
+        },
+        {
+            "id": "HQ76.965",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.965,
+            "stop": 76.965,
+            "subject": "Gay and lesbian culture. Special topics, A-Z."
+        },
+        {
+            "id": "HQ76.97",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.97,
+            "stop": 76.97,
+            "subject": "Transvestism. Biography. Collective."
+        },
+        {
+            "id": "HQ76.98",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 76.98,
+            "stop": 76.98,
+            "subject": "Transvestism. Biography. Individual, A-Z."
+        },
+        {
+            "id": "HQ77",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 77,
+            "stop": 77,
+            "subject": "Transvestism. General works."
+        },
+        {
+            "id": "HQ77.2",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 77.2,
+            "stop": 77.2,
+            "subject": "Transvestism. By region or country, A-Z"
+        },
+        {
+            "id": "HQ77.7",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 77.7,
+            "stop": 77.7,
+            "subject": "Transsexualism. Biography. Collective."
+        },
+        {
+            "id": "HQ77.8",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 77.8,
+            "stop": 77.8,
+            "subject": "Transsexualism. Biography. Individual, A-Z."
+        },
+        {
+            "id": "HQ77.9",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 77.9,
+            "stop": 77.9,
+            "subject": "Transsexualism. General works."
+        },
+        {
+            "id": "HQ77.95",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 77.95,
+            "stop": 77.95,
+            "subject": "Transsexualism. By region or country, A-Z."
+        },
+        {
+            "id": "HQ759.9145",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 759.9145,
+            "stop": 759.9145,
+            "subject": "Parents of gay men or lesbians."
+        },
+        {
+            "id": "HQ777.8",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 777.8,
+            "stop": 777.8,
+            "subject": "Children of gay parents."
+        },
+        {
+            "id": "HQ825",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 825,
+            "stop": 825,
+            "subject": "Same-sex divorce. Gay divorce."
+        },
+        {
+            "id": "HQ1033",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 1033,
+            "stop": 1033,
+            "subject": "Same-sex marriage. General works."
+        },
+        {
+            "id": "HQ1034",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 1034,
+            "stop": 1034,
+            "subject": "Same-sex marriage. By region or country, A-Z."
+        },
+        {
+            "id": "HQ1035-1035.5",
+            "parents": [],
+            "prefix": "HQ",
+            "start": 1035,
+            "stop": 1035.5,
+            "subject": "The family. Marriage. Women. Bisexuality in marriage."
+        }
+    ],
+    "HV": [
+        {
+            "id": "HV875.715",
+            "parents": [],
+            "prefix": "HV",
+            "start": 875.715,
+            "stop": 875.715,
+            "subject": "Gay and lesbian adoption. General works."
+        },
+        {
+            "id": "HV875.72",
+            "parents": [],
+            "prefix": "HV",
+            "start": 875.72,
+            "stop": 875.72,
+            "subject": "Gay and lesbian adoption. By region or country, A-Z."
+        },
+        {
+            "id": "HV1426",
+            "parents": [],
+            "prefix": "HV",
+            "start": 1426,
+            "stop": 1426,
+            "subject": "Protection, assistance and relief. Special classes. Gay youth. Lesbian youth."
+        },
+        {
+            "id": "HV1449",
+            "parents": [],
+            "prefix": "HV",
+            "start": 1449,
+            "stop": 1449,
+            "subject": "Protection, assistance and relief. Special classes. Gay men. Lesbians."
+        },
+        {
+            "id": "HV2394",
+            "parents": [],
+            "prefix": "HV",
+            "start": 2394,
+            "stop": 2394,
+            "subject": "Protection, assistance and relief. Special classes. Deaf gays."
+        },
+        {
+            "id": "HV5139",
+            "parents": [],
+            "prefix": "HV",
+            "start": 5139,
+            "stop": 5139,
+            "subject": "Alcohol and gay people."
+        },
+        {
+            "id": "HV6545.4",
+            "parents": [],
+            "prefix": "HV",
+            "start": 6545.4,
+            "stop": 6545.4,
+            "subject": "Suicide among special classes of persons. Gays."
+        },
+        {
+            "id": "HV8024",
+            "parents": [],
+            "prefix": "HV",
+            "start": 8024,
+            "stop": 8024,
+            "subject": "Gay and lesbian police officers."
+        },
+        {
+            "id": "HV8838",
+            "parents": [],
+            "prefix": "HV",
+            "start": 8838,
+            "stop": 8838,
+            "subject": "Criminal justice administration. Prison methods and practice. Prison hygiene."
+        }
+    ],
+    "JZ": [
+        {
+            "id": "JZ1253.2",
+            "parents": [],
+            "prefix": "JZ",
+            "start": 1253.2,
+            "stop": 1253.2,
+            "subject": "International Relations. Relation to other discplines and topics. Gender theory"
+        }
+    ],
+    "K": [
+        {
+            "id": "K3242.3",
+            "parents": [],
+            "prefix": "K",
+            "start": 3242.3,
+            "stop": 3242.3,
+            "subject": "Comparative law. International uniform law Constitutional law. Human Rights."
+        }
+    ],
+    "KB": [
+        {
+            "id": "KB4172",
+            "parents": [],
+            "prefix": "KB",
+            "start": 4172,
+            "stop": 4172,
+            "subject": "Religious Law in General. Comparative Religious Law. Jurisprudence."
+        }
+    ],
+    "KBP": [
+        {
+            "id": "KBP4216",
+            "parents": [],
+            "prefix": "KBP",
+            "start": 4216,
+            "stop": 4216,
+            "subject": "Islamic law. Shari\u2019ah. Fur\u016b\u2018 al-fiqh. Substantive law. Branches of law. Crimes"
+        }
+    ],
+    "PA": [
+        {
+            "id": "PA4408-4409",
+            "parents": [],
+            "prefix": "PA",
+            "start": 4408,
+            "stop": 4409,
+            "subject": "Sappho."
+        }
+    ],
+    "PN": [
+        {
+            "id": "PN491.3",
+            "parents": [],
+            "prefix": "PN",
+            "start": 491.3,
+            "stop": 491.3,
+            "subject": "Literature (General). Literary history. Biography. Gay authors."
+        },
+        {
+            "id": "PN2286.5",
+            "parents": [],
+            "prefix": "PN",
+            "start": 2286.5,
+            "stop": 2286.5,
+            "subject": "Dramatic representation. The theater. United States. Biography. Collective. Gays."
+        }
+    ],
+    "PR": [
+        {
+            "id": "PR5810-5828",
+            "parents": [],
+            "prefix": "PR",
+            "start": 5810,
+            "stop": 5828,
+            "subject": "Wilde, Oscar."
+        }
+    ],
+    "PS": [
+        {
+            "id": "PS3200-3248",
+            "parents": [],
+            "prefix": "PS",
+            "start": 3200,
+            "stop": 3248,
+            "subject": "Whitman, Walt."
+        }
+    ],
+    "QP": [
+        {
+            "id": "QP81.6",
+            "parents": [],
+            "prefix": "QP",
+            "start": 81.6,
+            "stop": 81.6,
+            "subject": "Physiology. Phenomena of animal life (General). Sexual orientation."
+        }
+    ],
+    "RA": [
+        {
+            "id": "RA564.87",
+            "parents": [],
+            "prefix": "RA",
+            "start": 564.87,
+            "stop": 564.87,
+            "subject": "Public health. Hygiene. Preventive medicine. By age group, class, etc. Lesbians."
+        },
+        {
+            "id": "RA643.75-643.86",
+            "parents": [],
+            "prefix": "RA",
+            "start": 643.75,
+            "stop": 643.86,
+            "subject": "Public health. Hygiene. Preventive medicine. AIDS. HIV infections."
+        },
+        {
+            "id": "RA778.2",
+            "parents": [],
+            "prefix": "RA",
+            "start": 778.2,
+            "stop": 778.2,
+            "subject": "Public health. Hygiene. Preventive medicine. Personal health and grooming"
+        }
+    ],
+    "RC": [
+        {
+            "id": "RC440.84",
+            "parents": [],
+            "prefix": "RC",
+            "start": 440.84,
+            "stop": 440.84,
+            "subject": "Psychiatry. Psychiatry as a profession. Gay psychiatrists. Gay psychotherapists."
+        },
+        {
+            "id": "RC558",
+            "parents": [],
+            "prefix": "RC",
+            "start": 558,
+            "stop": 558,
+            "subject": "Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual"
+        },
+        {
+            "id": "RC558.3",
+            "parents": [],
+            "prefix": "RC",
+            "start": 558.3,
+            "stop": 558.3,
+            "subject": "Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual"
+        },
+        {
+            "id": "RC558.5",
+            "parents": [],
+            "prefix": "RC",
+            "start": 558.5,
+            "stop": 558.5,
+            "subject": "Psychiatry. Psychiatric aspects of personality and behavior conditions."
+        },
+        {
+            "id": "RC606.5-606.7",
+            "parents": [],
+            "prefix": "RC",
+            "start": 606.5,
+            "stop": 606.7,
+            "subject": "Specialties of internal medicine. Immunologic diseases. AIDS. HIV infections."
+        }
+    ],
+    "RJ": [
+        {
+            "id": "RJ101.3",
+            "parents": [],
+            "prefix": "RJ",
+            "start": 101.3,
+            "stop": 101.3,
+            "subject": "Pediatrics. Child health services. Preventive health services for children. By"
+        }
+    ],
+    "RT": [
+        {
+            "id": "RT82.9",
+            "parents": [],
+            "prefix": "RT",
+            "start": 82.9,
+            "stop": 82.9,
+            "subject": "Nursing. Gay nurses. Lesbian nurses."
+        }
+    ],
+    "Z": [
+        {
+            "id": "Z8021.17",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8021.17,
+            "stop": 8021.17,
+            "subject": "Personal bibliography. Albee, Edward."
+        },
+        {
+            "id": "Z8145.17",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8145.17,
+            "stop": 8145.17,
+            "subject": "Personal bibliography. Capote, Truman."
+        },
+        {
+            "id": "Z8310.8",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8310.8,
+            "stop": 8310.8,
+            "subject": "Personal bibliography. Foucault, Michel."
+        },
+        {
+            "id": "Z8696",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8696,
+            "stop": 8696,
+            "subject": "Personal bibliography. Plato."
+        },
+        {
+            "id": "Z8783",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8783,
+            "stop": 8783,
+            "subject": "Personal bibliography. Sappho."
+        },
+        {
+            "id": "Z8971.5",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8971.5,
+            "stop": 8971.5,
+            "subject": "Personal bibliography. Whitman, Walt."
+        },
+        {
+            "id": "Z8975",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8975,
+            "stop": 8975,
+            "subject": "Personal bibliography. Wilde, Oscar."
+        },
+        {
+            "id": "Z8984.2",
+            "parents": [],
+            "prefix": "Z",
+            "start": 8984.2,
+            "stop": 8984.2,
+            "subject": "Personal bibliography. Woolf, Virginia."
+        }
+    ]
+}
