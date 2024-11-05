@@ -242,24 +242,19 @@ def ia_select(tags, k):
     
     cleaned_tags = clean_tags(tags)
 
-    categorized_tags = categorize_tags('gender representation', 'african studies', cleaned_tags)
+    # categorized_tags = categorize_tags('gender representation', 'african studies', cleaned_tags)
 
-    cat_alpha, cat_beta = [:tags[len(tags)/2]], [tags[len(tags)/2:]]
-    for lst in categorized_tags:
-        for tag in lst:
-            if lst[tag] == 'Discipline':
-                cat_alpha.append(tag)
-            elif lst[tag] == 'Diversity':
-                cat_beta.append(tag)
+    cat_alpha, cat_beta = [tags[:len(tags)/2]], [tags[len(tags)/2:]] # needs to be updated after category funciton works
+
+    books = get_suggestions(cat_alpha, cat_beta)
+
     
-    # go through what each c means
     L = []
-    U = {c: P(c) for c in (cat_alpha + cat_beta)}
+    U = initialize_U(books)
     
     max_score = 0
     best_book = None
     
-    books = get_suggestions(cat_alpha, cat_beta)
 
     while len(L) < k:
         for book in books:
@@ -271,22 +266,48 @@ def ia_select(tags, k):
                 
         L.append(best_book)
         
-        for c in (best_book['subject']): #change to use the correct c
-            U[c] = (1 - V(book)) * U(c, L) if len(L) > 0 else (1 - V(book)) * U[c]
+        for c in (best_book['subject']): 
+            if len(L) > 0:
+                U[c] = (1 - V(book)) # times U(c, L) # this needs to be updated after raos' entropy (or something else)
+            else:
+                U[c] = (1 - V(book)) * U[c]
         
         books.remove(best_book)
         
     return L
-            
-            
-def P(category):
-    pass
     
-def U(book, category):
-    pass
+def initialize_U(query_results):
+    
+    counts = {}
+    for book in query_results:
+        for c in book['subject']:
+            if c not in dict:
+                dict[c] = 0
+            else:
+                dict[c] += 1
+       
+    cleaned_tags = clean_tags(counts.keys())         
+    alpha_tags, beta_tags = categorize_tags(cleaned_tags) # needs to be updated after category funciton works   
+    
+    proportions = {}
+    for tag in counts:
+        if tag in alpha_tags:
+            proportions[tag] = counts[tag] / len(alpha_tags) * 0.5
+        else:
+            proportions[tag] = counts[tag] / len(beta_tags) * 0.5
+    return proportions
+            
+    
+def U(book_tags, syllabus_tags):
+    raos_entropy(book_tags, syllabus_tags) # ask about second arg--use something else?
 
-def V(book, cat_alpha):
-    pass
+def V(book_tags, target_category):
+    similarity = similarity_score(book_tags, target_category) # nedds to be updated
+
+    size_book_tags = len(book_tags)
+    size_target_tags = len(target_category)
+    
+    return 1 - (similarity / (size_book_tags + size_target_tags))
         
 
     
@@ -321,8 +342,10 @@ def get_tags_for_categories(dir):
 
 
 if __name__ == '__main__':
-    # get_tags_for_categories("../example_syllabi")
-    
+    get_tags_for_categories("../example_syllabi")
+    # 
     
 
-   get_tags_for_categories("../example_syllabi")
+    # Cleaning tags from the two isbns defined above
+    # tags = get_tags([9780192832696, 9780451015594])
+    # ia_select(tags, 3)
