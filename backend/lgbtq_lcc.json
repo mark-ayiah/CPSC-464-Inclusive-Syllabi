@@ -7,9 +7,105 @@
             "start": 350,
             "stop": 398,
             "subject": "Plato."
+        },
+        {
+            "id": "B2430.F724",
+            "parents": [],
+            "prefix": "B",
+            "start": 2430.0,
+            "stop": 2430.0,
+            "subject": "Foucault, Michel."
+        }
+    ],
+    "BF": [
+        {
+            "id": "BF723.H67",
+            "parents": [],
+            "prefix": "BF",
+            "start": 723.0,
+            "stop": 723.0,
+            "subject": "Developmental psychology. Child psychology. Special topics. Homophobia."
+        },
+        {
+            "id": "BF1729.H66",
+            "parents": [],
+            "prefix": "BF",
+            "start": 1729.0,
+            "stop": 1729.0,
+            "subject": "Astrology. Special topics. Homosexuality."
+        }
+    ],
+    "BL": [
+        {
+            "id": "BL65.H64",
+            "parents": [],
+            "prefix": "BL",
+            "start": 65.0,
+            "stop": 65.0,
+            "subject": "Religions. Religion in relation to other subjects. Homosexuality."
+        },
+        {
+            "id": "BL325.B45",
+            "parents": [],
+            "prefix": "BL",
+            "start": 325.0,
+            "stop": 325.0,
+            "subject": "Religion. The myth. Comparative mythology. Topics in comparative mythology."
+        },
+        {
+            "id": "BL795.B57",
+            "parents": [],
+            "prefix": "BL",
+            "start": 795.0,
+            "stop": 795.0,
+            "subject": "Religion. Classical religion and mythology Greece. Special topics. Bisexuality."
+        },
+        {
+            "id": "BL795.H6",
+            "parents": [],
+            "prefix": "BL",
+            "start": 795.0,
+            "stop": 795.0,
+            "subject": "Religion. Classical religion and mythology. Greece. Special topics."
+        }
+    ],
+    "BM": [
+        {
+            "id": "BM729.H65",
+            "parents": [],
+            "prefix": "BM",
+            "start": 729.0,
+            "stop": 729.0,
+            "subject": "Practical Judaism Other special topics. Gays."
+        }
+    ],
+    "BQ": [
+        {
+            "id": "BQ4570.A37",
+            "parents": [],
+            "prefix": "BQ",
+            "start": 4570.0,
+            "stop": 4570.0,
+            "subject": "Doctrinal and systematic Buddhism. Special topics (nondoctrinal) and"
+        },
+        {
+            "id": "BQ4570.H65",
+            "parents": [],
+            "prefix": "BQ",
+            "start": 4570.0,
+            "stop": 4570.0,
+            "subject": "Doctrinal and systematic Buddhism. Special topics (nondoctrinal) and"
         }
     ],
     "BV": [
+        {
+            "id": "BV199.G39",
+            "parents": [],
+            "prefix": "BV",
+            "start": 199.0,
+            "stop": 199.0,
+            "subject": "Practical Theology. Worship (Public and private). Liturgy and ritual Service"
+        },
         {
             "id": "BV4437.5",
             "parents": [],
@@ -27,12 +123,50 @@
             "subject": "Pastoral theology. Church work with special classes. People with disabilities,"
         },
         {
+            "id": "BV4596.G38",
+            "parents": [],
+            "prefix": "BV",
+            "start": 4596.0,
+            "stop": 4596.0,
+            "subject": "Practical Theology. Practical religion. The Christian life. Religious works for"
+        },
+        {
             "id": "BV4910.3",
             "parents": [],
             "prefix": "BV",
             "start": 4910.3,
             "stop": 4910.3,
             "subject": "Practical religion. The Christian life. Works for special classes of persons. The"
+        }
+    ],
+    "D": [
+        {
+            "id": "D810.G39",
+            "parents": [],
+            "prefix": "D",
+            "start": 810.0,
+            "stop": 810.0,
+            "subject": "World War II (1939\u20131945). Other special topics. Gays. Gay military"
+        }
+    ],
+    "E": [
+        {
+            "id": "E98.S48",
+            "parents": [],
+            "prefix": "E",
+            "start": 98.0,
+            "stop": 98.0,
+            "subject": "Indians of North America. Other topics. Sexual behavior. Including"
+        }
+    ],
+    "F": [
+        {
+            "id": "F869.S353",
+            "parents": [],
+            "prefix": "F",
+            "start": 869.0,
+            "stop": 869.0,
+            "subject": "M547 Milk, Harvey."
         }
     ],
     "GN": [
@@ -61,6 +195,22 @@
             "start": 708.8,
             "stop": 708.8,
             "subject": "Sports. Sports for special classes of persons Gay men. Lesbians."
+        },
+        {
+            "id": "GV838.L68",
+            "parents": [],
+            "prefix": "GV",
+            "start": 838.0,
+            "stop": 838.0,
+            "subject": "Louganis, Greg."
+        },
+        {
+            "id": "GV1785.A38",
+            "parents": [],
+            "prefix": "GV",
+            "start": 1785.0,
+            "stop": 1785.0,
+            "subject": "Ailey, Alvin."
         },
         {
             "id": "GV1749.5",
@@ -97,23 +247,17 @@
             "subject": "Labor. Work. Working class. Classes of labor. Gays. Lesbians. By region or"
         }
     ],
+    "HE": [
+        {
+            "id": "HE6183.H57",
+            "parents": [],
+            "prefix": "HE",
+            "start": 6183.0,
+            "stop": 6183.0,
+            "subject": "Postage stamps. Postmarks. By topic. Homosexuals."
+        }
+    ],
     "HF": [
-        {
-            "id": "HF5382.68-",
-            "parents": [],
-            "prefix": "HF",
-            "start": null,
-            "stop": null,
-            "subject": "Business. Vocational guidance for specific (non-occupational) groups."
-        },
-        {
-            "id": "HF5415.332.",
-            "parents": [],
-            "prefix": "HF",
-            "start": null,
-            "stop": null,
-            "subject": "Business. Marketing research. Particular groups of consumers. Gays."
-        },
         {
             "id": "HF5827.82",
             "parents": [],
@@ -565,6 +709,16 @@
             "subject": "The family. Marriage. Women. Bisexuality in marriage."
         }
     ],
+    "HS": [
+        {
+            "id": "HS3357.L47",
+            "parents": [],
+            "prefix": "HS",
+            "start": 3357.0,
+            "stop": 3357.0,
+            "subject": "Girls\u2019 societies (including Guides, Scouts, and Campfire). Special topics."
+        }
+    ],
     "HV": [
         {
             "id": "HV875.715",
@@ -615,6 +769,14 @@
             "subject": "Alcohol and gay people."
         },
         {
+            "id": "HV5824.G3",
+            "parents": [],
+            "prefix": "HV",
+            "start": 5824.0,
+            "stop": 5824.0,
+            "subject": "Drug habits. Drug abuse. Drugs and special classes of persons. Gays."
+        },
+        {
             "id": "HV6545.4",
             "parents": [],
             "prefix": "HV",
@@ -639,6 +801,2538 @@
             "subject": "Criminal justice administration. Prison methods and practice. Prison hygiene."
         }
     ],
+    "HX": [
+        {
+            "id": "HX550.H65",
+            "parents": [],
+            "prefix": "HX",
+            "start": 550.0,
+            "stop": 550.0,
+            "subject": "Communism/socialism in relation to other topics. Homosexuality."
+        }
+    ],
+    "JJ": [
+        {
+            "id": "JJ1012.Z13H6",
+            "parents": [],
+            "prefix": "JJ",
+            "start": 1012.0,
+            "stop": 1012.0,
+            "subject": "Political institutions and public administration. North America. Executive"
+        }
+    ],
+    "JK": [
+        {
+            "id": "JK723.H6",
+            "parents": [],
+            "prefix": "JK",
+            "start": 723.0,
+            "stop": 723.0,
+            "subject": "United States. Government. Public administration. Executive branch. Civil"
+        }
+    ],
+    "JL": [
+        {
+            "id": "JL206.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 206.0,
+            "stop": 206.0,
+            "subject": "Political institutions and public administration. Canada. Newfoundland."
+        },
+        {
+            "id": "JL216.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 216.0,
+            "stop": 216.0,
+            "subject": "Political institutions and public administration. Canada. Prince Edward Island."
+        },
+        {
+            "id": "JL226.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 226.0,
+            "stop": 226.0,
+            "subject": "Political institutions and public administration. Canada. Nova Scotia. Executive"
+        },
+        {
+            "id": "JL236.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 236.0,
+            "stop": 236.0,
+            "subject": "Political institutions and public administration. Canada. New Brunswick."
+        },
+        {
+            "id": "JL252.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 252.0,
+            "stop": 252.0,
+            "subject": "Political institutions and public administration. Canada. Quebec. Executive"
+        },
+        {
+            "id": "JL272.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 272.0,
+            "stop": 272.0,
+            "subject": "Political institutions and public administration. Canada. Ontario. Executive"
+        },
+        {
+            "id": "JL292.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 292.0,
+            "stop": 292.0,
+            "subject": "Political institutions and public administration. Canada. Manitoba. Executive"
+        },
+        {
+            "id": "JL312.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 312.0,
+            "stop": 312.0,
+            "subject": "Political institutions and public administration. Canada. Saskatchewan."
+        },
+        {
+            "id": "JL332.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 332.0,
+            "stop": 332.0,
+            "subject": "Political institutions and public administration. Canada. Alberta. Executive"
+        },
+        {
+            "id": "JL432.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 432.0,
+            "stop": 432.0,
+            "subject": "Political institutions and public administration. Canada. British Columbia."
+        },
+        {
+            "id": "JL472.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 472.0,
+            "stop": 472.0,
+            "subject": "Political institutions and public administration. Canada. Northwest Territories."
+        },
+        {
+            "id": "JL486.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 486.0,
+            "stop": 486.0,
+            "subject": "Political institutions and public administration. Canada. Nunavut. Executive"
+        },
+        {
+            "id": "JL495.A69H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 495.0,
+            "stop": 495.0,
+            "subject": "Political institutions and public administration. Canada. Yukon Territory."
+        },
+        {
+            "id": "JL596.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 596.0,
+            "stop": 596.0,
+            "subject": "Political institutions and public administration. Bermuda. Executive branch."
+        },
+        {
+            "id": "JL606.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 606.0,
+            "stop": 606.0,
+            "subject": "Political institutions and public administration. British West Indies."
+        },
+        {
+            "id": "JL616.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 616.0,
+            "stop": 616.0,
+            "subject": "Political institutions and public administration. Bahamas. Executive branch."
+        },
+        {
+            "id": "JL626.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 626.0,
+            "stop": 626.0,
+            "subject": "Political institutions and public administration. Barbados. Executive branch."
+        },
+        {
+            "id": "JL636.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 636.0,
+            "stop": 636.0,
+            "subject": "Political institutions and public administration. Jamaica. Executive branch."
+        },
+        {
+            "id": "JL646.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 646.0,
+            "stop": 646.0,
+            "subject": "Political institutions and public administration. Leeward Islands (General)."
+        },
+        {
+            "id": "JL656.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 656.0,
+            "stop": 656.0,
+            "subject": "Political institutions and public administration. Trinidad and Tobago."
+        },
+        {
+            "id": "JL666.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 666.0,
+            "stop": 666.0,
+            "subject": "Political institutions and public administration. Windward Islands (General)."
+        },
+        {
+            "id": "JL676.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 676.0,
+            "stop": 676.0,
+            "subject": "Political institutions and public administration. Belize. Executive branch. Civil"
+        },
+        {
+            "id": "JL686.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 686.0,
+            "stop": 686.0,
+            "subject": "Political institutions and public administration. Guyana. British Guiana."
+        },
+        {
+            "id": "JL696.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 696.0,
+            "stop": 696.0,
+            "subject": "Political institutions and public administration. Falkland Islands. Executive"
+        },
+        {
+            "id": "JL766.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 766.0,
+            "stop": 766.0,
+            "subject": "Political institutions and public administration. Netherlands Antilles. Dutch"
+        },
+        {
+            "id": "JL776.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 776.0,
+            "stop": 776.0,
+            "subject": "Political institutions and public administration. Curacao. Executive branch."
+        },
+        {
+            "id": "JL786.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 786.0,
+            "stop": 786.0,
+            "subject": "Political institutions and public administration. Suriname. Dutch Guiana."
+        },
+        {
+            "id": "JL796.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 796.0,
+            "stop": 796.0,
+            "subject": "Political institutions and public administration. French West Indies (General)."
+        },
+        {
+            "id": "JL816.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 816.0,
+            "stop": 816.0,
+            "subject": "Political institutions and public administration. French Guiana. Executive"
+        },
+        {
+            "id": "JL826.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 826.0,
+            "stop": 826.0,
+            "subject": "Political institutions and public administration. Guadeloupe. Executive branch."
+        },
+        {
+            "id": "JL836.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 836.0,
+            "stop": 836.0,
+            "subject": "Political institutions and public administration. Martinique. Executive branch."
+        },
+        {
+            "id": "JL962.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 962.0,
+            "stop": 962.0,
+            "subject": "Political institutions and public administration. Cuba. Executive branch. Civil"
+        },
+        {
+            "id": "JL1012.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1012.0,
+            "stop": 1012.0,
+            "subject": "Political institutions and public administration. Latin America. Executive"
+        },
+        {
+            "id": "JL1052.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1052.0,
+            "stop": 1052.0,
+            "subject": "Political institutions and public administration. Puerto Rico. Executive branch."
+        },
+        {
+            "id": "JL1092.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1092.0,
+            "stop": 1092.0,
+            "subject": "Political institutions and public administration. Haiti. Executive branch. Civil"
+        },
+        {
+            "id": "JL1132.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1132.0,
+            "stop": 1132.0,
+            "subject": "Political institutions and public administration. Dominican Republic. Executive"
+        },
+        {
+            "id": "JL1132.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1132.0,
+            "stop": 1132.0,
+            "subject": "Political institutions and public administration. Virgin Islands of the United"
+        },
+        {
+            "id": "JL1249.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1249.0,
+            "stop": 1249.0,
+            "subject": "Political institutions and public administration. Mexico. Executive branch. Civil"
+        },
+        {
+            "id": "JL1412.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1412.0,
+            "stop": 1412.0,
+            "subject": "Political institutions and public administration. Central America (General)."
+        },
+        {
+            "id": "JL1452.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1452.0,
+            "stop": 1452.0,
+            "subject": "Political institutions and public administration. Costa Rica. Executive branch."
+        },
+        {
+            "id": "JL1492.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1492.0,
+            "stop": 1492.0,
+            "subject": "Political institutions and public administration. Guatemala. Executive branch."
+        },
+        {
+            "id": "JL1532.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1532.0,
+            "stop": 1532.0,
+            "subject": "Political institutions and public administration. Honduras. Executive branch."
+        },
+        {
+            "id": "JL1572.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1572.0,
+            "stop": 1572.0,
+            "subject": "Political institutions and public administration. El Salvador. Executive branch."
+        },
+        {
+            "id": "JL1612.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1612.0,
+            "stop": 1612.0,
+            "subject": "Political institutions and public administration. Nicaragua. Executive branch."
+        },
+        {
+            "id": "JL1652.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1652.0,
+            "stop": 1652.0,
+            "subject": "Political institutions and public administration. Panama. Executive branch."
+        },
+        {
+            "id": "JL1676.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1676.0,
+            "stop": 1676.0,
+            "subject": "Political institutions and public administration. Panama Canal Zone. Executive"
+        },
+        {
+            "id": "JL1862.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1862.0,
+            "stop": 1862.0,
+            "subject": "Political institutions and public administration. South America (General)."
+        },
+        {
+            "id": "JL2049.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 2049.0,
+            "stop": 2049.0,
+            "subject": "Political institutions and public administration. Argentina. Executive branch."
+        },
+        {
+            "id": "JL2249.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 2249.0,
+            "stop": 2249.0,
+            "subject": "Political institutions and public administration. Bolivia. Executive branch. Civil"
+        },
+        {
+            "id": "JL2449.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 2449.0,
+            "stop": 2449.0,
+            "subject": "Political institutions and public administration. Brazil. Executive branch. Civil"
+        },
+        {
+            "id": "JL2649.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 2649.0,
+            "stop": 2649.0,
+            "subject": "Political institutions and public administration. Chile. Executive branch. Civil"
+        },
+        {
+            "id": "JL2849.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 2849.0,
+            "stop": 2849.0,
+            "subject": "Political institutions and public administration. Colombia. Executive branch."
+        },
+        {
+            "id": "JL3049.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 3049.0,
+            "stop": 3049.0,
+            "subject": "Political institutions and public administration. Ecuador. Executive branch."
+        },
+        {
+            "id": "JL3249.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 3249.0,
+            "stop": 3249.0,
+            "subject": "Political institutions and public administration. Paraguay. Executive branch."
+        },
+        {
+            "id": "JL3449.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 3449.0,
+            "stop": 3449.0,
+            "subject": "Political institutions and public administration. Peru. Executive branch. Civil"
+        },
+        {
+            "id": "JL3649.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 3649.0,
+            "stop": 3649.0,
+            "subject": "Political institutions and public administration. Uruguay. Executive branch."
+        },
+        {
+            "id": "JL3849.H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 3849.0,
+            "stop": 3849.0,
+            "subject": "Political institutions and public administration. Venezuela. Executive branch."
+        },
+        {
+            "id": "JL1862.Z13H6",
+            "parents": [],
+            "prefix": "JL",
+            "start": 1862.0,
+            "stop": 1862.0,
+            "subject": "Political institutions and public administration. South America (General)."
+        }
+    ],
+    "JN": [
+        {
+            "id": "JN96.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 96.0,
+            "stop": 96.0,
+            "subject": "Political institutions and public administration. Western Europe. Executive"
+        },
+        {
+            "id": "JN94.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 94.0,
+            "stop": 94.0,
+            "subject": "Political institutions and public administration. Central Europe. Eastern"
+        },
+        {
+            "id": "JN97.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 97.0,
+            "stop": 97.0,
+            "subject": "Political institutions and public administration. Balkan Peninsula. Executive"
+        },
+        {
+            "id": "JN1156.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 1156.0,
+            "stop": 1156.0,
+            "subject": "Political institutions and public administration. Wales. Executive branch. Civil"
+        },
+        {
+            "id": "JN1176.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 1176.0,
+            "stop": 1176.0,
+            "subject": "Political institutions and public administration. Isle of Man. Executive branch."
+        },
+        {
+            "id": "JN1572.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 1572.0,
+            "stop": 1572.0,
+            "subject": "Political institutions and public administration. Northern Ireland. Executive"
+        },
+        {
+            "id": "JN1573.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 1573.0,
+            "stop": 1573.0,
+            "subject": "Political institutions and public administration. Channel Islands. Executive"
+        },
+        {
+            "id": "JN1576.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 1576.0,
+            "stop": 1576.0,
+            "subject": "Political institutions and public administration. Gibraltar. Executive branch."
+        },
+        {
+            "id": "JN1586.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 1586.0,
+            "stop": 1586.0,
+            "subject": "Political institutions and public administration. Malta. Executive branch. Civil"
+        },
+        {
+            "id": "JN2201.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 2201.0,
+            "stop": 2201.0,
+            "subject": "Political institutions and public administration. Slovenia. Executive branch."
+        },
+        {
+            "id": "JN2202.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 2202.0,
+            "stop": 2202.0,
+            "subject": "Political institutions and public administration. Croatia. Executive branch. Civil"
+        },
+        {
+            "id": "JN2203.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 2203.0,
+            "stop": 2203.0,
+            "subject": "Political institutions and public administration. Bosnia and Herzegovina."
+        },
+        {
+            "id": "JN2222.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 2222.0,
+            "stop": 2222.0,
+            "subject": "Political institutions and public administration. Czech Republic."
+        },
+        {
+            "id": "JN2240.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 2240.0,
+            "stop": 2240.0,
+            "subject": "Political institutions and public administration. Slovakia. Executive branch."
+        },
+        {
+            "id": "JN2282.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 2282.0,
+            "stop": 2282.0,
+            "subject": "Political institutions and public administration. Liechtenstein. Executive"
+        },
+        {
+            "id": "JN3112.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 3112.0,
+            "stop": 3112.0,
+            "subject": "Political institutions and public administration. Andorra. Executive branch."
+        },
+        {
+            "id": "JN3142.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 3142.0,
+            "stop": 3142.0,
+            "subject": "Political institutions and public administration. Monaco. Executive branch."
+        },
+        {
+            "id": "JN4012.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4012.0,
+            "stop": 4012.0,
+            "subject": "Political institutions and public administration. Germany. Alsace-Lorraine."
+        },
+        {
+            "id": "JN4032.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4032.0,
+            "stop": 4032.0,
+            "subject": "Political institutions and public administration. Germany. Anhalt. Executive"
+        },
+        {
+            "id": "JN4089.H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4089.0,
+            "stop": 4089.0,
+            "subject": "Political institutions and public administration. Germany. Baden. Executive"
+        },
+        {
+            "id": "JN4189.H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4189.0,
+            "stop": 4189.0,
+            "subject": "Political institutions and public administration. Germany. Bavaria. Executive"
+        },
+        {
+            "id": "JN4252.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4252.0,
+            "stop": 4252.0,
+            "subject": "Political institutions and public administration. Germany. Bremen. Executive"
+        },
+        {
+            "id": "JN4272.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4272.0,
+            "stop": 4272.0,
+            "subject": "Political institutions and public administration. Germany. Brunswick. Executive"
+        },
+        {
+            "id": "JN4292.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4292.0,
+            "stop": 4292.0,
+            "subject": "Political institutions and public administration. Germany. Hamburg. Executive"
+        },
+        {
+            "id": "JN4312.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4312.0,
+            "stop": 4312.0,
+            "subject": "Political institutions and public administration. Germany. Hesse. Executive"
+        },
+        {
+            "id": "JN4332.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4332.0,
+            "stop": 4332.0,
+            "subject": "Political institutions and public administration. Germany. Lippe. Executive"
+        },
+        {
+            "id": "JN4352.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4352.0,
+            "stop": 4352.0,
+            "subject": "Political institutions and public administration. Germany. Lubeck. Executive"
+        },
+        {
+            "id": "JN4372.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4372.0,
+            "stop": 4372.0,
+            "subject": "Political institutions and public administration. Germany. Mecklenburgbrowsing"
+        },
+        {
+            "id": "JN4392.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4392.0,
+            "stop": 4392.0,
+            "subject": "Political institutions and public administration. Germany. Mecklenburg-Strelitz."
+        },
+        {
+            "id": "JN4412.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4412.0,
+            "stop": 4412.0,
+            "subject": "Political institutions and public administration. Germany. Oldenburg."
+        },
+        {
+            "id": "JN4420.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4420.0,
+            "stop": 4420.0,
+            "subject": "Political institutions and public administration. Germany. Pomerania."
+        },
+        {
+            "id": "JN4732.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4732.0,
+            "stop": 4732.0,
+            "subject": "Political institutions and public administration. Germany. Reuss (Younger"
+        },
+        {
+            "id": "JN4752.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4752.0,
+            "stop": 4752.0,
+            "subject": "Political institutions and public administration. Germany. Saxe-Altenburg."
+        },
+        {
+            "id": "JN4772.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4772.0,
+            "stop": 4772.0,
+            "subject": "Political institutions and public administration. Germany. Saxe-Meiningen."
+        },
+        {
+            "id": "JN4832.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4832.0,
+            "stop": 4832.0,
+            "subject": "Political institutions and public administration. Germany. Saxony. Executive"
+        },
+        {
+            "id": "JN4852.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4852.0,
+            "stop": 4852.0,
+            "subject": "Political institutions and public administration. Germany. Schaumburg-Lippe."
+        },
+        {
+            "id": "JN4872.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4872.0,
+            "stop": 4872.0,
+            "subject": "Political institutions and public administration. Germany. Schwarzburg-"
+        },
+        {
+            "id": "JN4892.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4892.0,
+            "stop": 4892.0,
+            "subject": "Political institutions and public administration. Germany. Schwarzburg-"
+        },
+        {
+            "id": "JN4906.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4906.0,
+            "stop": 4906.0,
+            "subject": "Political institutions and public administration. Germany. Thuringia (1920\u2013"
+        },
+        {
+            "id": "JN4910.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4910.0,
+            "stop": 4910.0,
+            "subject": "Political institutions and public administration. Germany. Thuringia"
+        },
+        {
+            "id": "JN4916.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4916.0,
+            "stop": 4916.0,
+            "subject": "Political institutions and public administration. Germany. Westphalia."
+        },
+        {
+            "id": "JN4932.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4932.0,
+            "stop": 4932.0,
+            "subject": "Political institutions and public administration. Germany. Wurttemberg."
+        },
+        {
+            "id": "JN4944.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 4944.0,
+            "stop": 4944.0,
+            "subject": "Political institutions and public administration. Germany. Wurzburg. Executive"
+        },
+        {
+            "id": "JN5695.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 5695.0,
+            "stop": 5695.0,
+            "subject": "Political institutions and public administration. San Marino. Executive branch."
+        },
+        {
+            "id": "JN5697.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 5697.0,
+            "stop": 5697.0,
+            "subject": "Political institutions and public administration. Vatican City. Executive branch."
+        },
+        {
+            "id": "JN5700.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 5700.0,
+            "stop": 5700.0,
+            "subject": "Political institutions and public administration. Benelux Countries. Executive"
+        },
+        {
+            "id": "JN6392.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6392.0,
+            "stop": 6392.0,
+            "subject": "Political institutions and public administration. Luxembourg. Executive"
+        },
+        {
+            "id": "JN6549.H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6549.0,
+            "stop": 6549.0,
+            "subject": "Political institutions and public administration. Soviet Union. Russia. Former"
+        },
+        {
+            "id": "JN6615.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6615.0,
+            "stop": 6615.0,
+            "subject": "Political institutions and public administration. Estonia. Executive branch. Civil"
+        },
+        {
+            "id": "JN6636.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6636.0,
+            "stop": 6636.0,
+            "subject": "Political institutions and public administration. Ukraine. Executive branch."
+        },
+        {
+            "id": "JN6646.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6646.0,
+            "stop": 6646.0,
+            "subject": "Political institutions and public administration. Belarus. Executive branch. Civil"
+        },
+        {
+            "id": "JN6762.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6762.0,
+            "stop": 6762.0,
+            "subject": "Political institutions and public administration. Poland. Executive branch. Civil"
+        },
+        {
+            "id": "JN6686.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6686.0,
+            "stop": 6686.0,
+            "subject": "Political institutions and public administration. Moldova. Executive branch."
+        },
+        {
+            "id": "JN6696.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6696.0,
+            "stop": 6696.0,
+            "subject": "Political institutions and public administration. Russia (Federation). Executive"
+        },
+        {
+            "id": "JN6729.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6729.0,
+            "stop": 6729.0,
+            "subject": "Political institutions and public administration. Baltic States (General)."
+        },
+        {
+            "id": "JN6736.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6736.0,
+            "stop": 6736.0,
+            "subject": "Political institutions and public administration. Latvia. Executive branch. Civil"
+        },
+        {
+            "id": "JN6745.A69H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 6745.0,
+            "stop": 6745.0,
+            "subject": "Political institutions and public administration. Lithuania. Executive branch."
+        },
+        {
+            "id": "JN7376.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 7376.0,
+            "stop": 7376.0,
+            "subject": "Political institutions and public administration. Greenland. Executive branch."
+        },
+        {
+            "id": "JN7386.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 7386.0,
+            "stop": 7386.0,
+            "subject": "Political institutions and public administration. Iceland. Executive branch. Civil"
+        },
+        {
+            "id": "JN7396.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 7396.0,
+            "stop": 7396.0,
+            "subject": "Political institutions and public administration. Finland. Executive branch."
+        },
+        {
+            "id": "JN9112.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9112.0,
+            "stop": 9112.0,
+            "subject": "Political institutions and public administration. Switzerland. Aargau. Executive"
+        },
+        {
+            "id": "JN9132.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9132.0,
+            "stop": 9132.0,
+            "subject": "Political institutions and public administration. Switzerland. Appenzell Inner"
+        },
+        {
+            "id": "JN9172.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9172.0,
+            "stop": 9172.0,
+            "subject": "Political institutions and public administration. Switzerland. Baselland."
+        },
+        {
+            "id": "JN9192.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9192.0,
+            "stop": 9192.0,
+            "subject": "Political institutions and public administration. Switzerland. Basel-Stadt."
+        },
+        {
+            "id": "JN9212.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9212.0,
+            "stop": 9212.0,
+            "subject": "Political institutions and public administration. Switzerland. Bern. Executive"
+        },
+        {
+            "id": "JN9232.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9232.0,
+            "stop": 9232.0,
+            "subject": "Political institutions and public administration. Switzerland. Fribourg."
+        },
+        {
+            "id": "JN9252.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9252.0,
+            "stop": 9252.0,
+            "subject": "Political institutions and public administration. Switzerland. Geneva. Executive"
+        },
+        {
+            "id": "JN9272.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9272.0,
+            "stop": 9272.0,
+            "subject": "Political institutions and public administration. Switzerland. Glarus. Executive"
+        },
+        {
+            "id": "JN9292.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9292.0,
+            "stop": 9292.0,
+            "subject": "Political institutions and public administration. Switzerland. Graubunden."
+        },
+        {
+            "id": "JN9312.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9312.0,
+            "stop": 9312.0,
+            "subject": "Political institutions and public administration. Switzerland. Lucerne."
+        },
+        {
+            "id": "JN9332.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9332.0,
+            "stop": 9332.0,
+            "subject": "Political institutions and public administration. Switzerland. Neuchatel."
+        },
+        {
+            "id": "JN9352.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9352.0,
+            "stop": 9352.0,
+            "subject": "Political institutions and public administration. Switzerland. St. Gall. Executive"
+        },
+        {
+            "id": "JN9372.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9372.0,
+            "stop": 9372.0,
+            "subject": "Political institutions and public administration. Switzerland. Schaffhausen."
+        },
+        {
+            "id": "JN9392.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9392.0,
+            "stop": 9392.0,
+            "subject": "Political institutions and public administration. Switzerland. Schwyz. Executive"
+        },
+        {
+            "id": "JN9412.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9412.0,
+            "stop": 9412.0,
+            "subject": "Political institutions and public administration. Switzerland. Solothurn."
+        },
+        {
+            "id": "JN9432.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9432.0,
+            "stop": 9432.0,
+            "subject": "Political institutions and public administration. Switzerland. Thurgau."
+        },
+        {
+            "id": "JN9452.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9452.0,
+            "stop": 9452.0,
+            "subject": "Political institutions and public administration. Switzerland. Ticino. Executive"
+        },
+        {
+            "id": "JN9472.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9472.0,
+            "stop": 9472.0,
+            "subject": "Political institutions and public administration. Switzerland. Unterwalden"
+        },
+        {
+            "id": "JN9492.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9492.0,
+            "stop": 9492.0,
+            "subject": "Political institutions and public administration. Switzerland. Unterwalden"
+        },
+        {
+            "id": "JN9512.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9512.0,
+            "stop": 9512.0,
+            "subject": "Political institutions and public administration. Switzerland. Uri. Executive"
+        },
+        {
+            "id": "JN9532.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9532.0,
+            "stop": 9532.0,
+            "subject": "Political institutions and public administration. Switzerland. Valais. Executive"
+        },
+        {
+            "id": "JN9552.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9552.0,
+            "stop": 9552.0,
+            "subject": "Political institutions and public administration. Switzerland. Vaud. Executive"
+        },
+        {
+            "id": "JN9572.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9572.0,
+            "stop": 9572.0,
+            "subject": "Political institutions and public administration. Switzerland. Zug. Executive"
+        },
+        {
+            "id": "JN9592.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9592.0,
+            "stop": 9592.0,
+            "subject": "Political institutions and public administration. Switzerland. Zurich. Executive"
+        },
+        {
+            "id": "JN9606.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9606.0,
+            "stop": 9606.0,
+            "subject": "Political institutions and public administration. Bulgaria. Executive branch."
+        },
+        {
+            "id": "JN9616.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9616.0,
+            "stop": 9616.0,
+            "subject": "Political institutions and public administration. Montenegro. Executive branch."
+        },
+        {
+            "id": "JN9632.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9632.0,
+            "stop": 9632.0,
+            "subject": "Political institutions and public administration. Romania. Executive branch."
+        },
+        {
+            "id": "JN9652.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9652.0,
+            "stop": 9652.0,
+            "subject": "Political institutions and public administration. Serbia. Executive branch. Civil"
+        },
+        {
+            "id": "JN9672.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9672.0,
+            "stop": 9672.0,
+            "subject": "Political institutions and public administration. Yugoslavia. Executive branch."
+        },
+        {
+            "id": "JN9686.Z13H6",
+            "parents": [],
+            "prefix": "JN",
+            "start": 9686.0,
+            "stop": 9686.0,
+            "subject": "Political institutions and public administration. Albania. Executive branch."
+        }
+    ],
+    "JQ": [
+        {
+            "id": "JQ98.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 98.0,
+            "stop": 98.0,
+            "subject": "Political institutions and public administration. South Asia (General)."
+        },
+        {
+            "id": "JQ249.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 249.0,
+            "stop": 249.0,
+            "subject": "Political institutions and public administration. India (General). Executive"
+        },
+        {
+            "id": "JQ332.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 332.0,
+            "stop": 332.0,
+            "subject": "Political institutions and public administration. India. Assam. Executive"
+        },
+        {
+            "id": "JQ412.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 412.0,
+            "stop": 412.0,
+            "subject": "Political institutions and public administration. India. Bombay (State)."
+        },
+        {
+            "id": "JQ372.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 372.0,
+            "stop": 372.0,
+            "subject": "Political institutions and public administration. India. Bengal. Executive"
+        },
+        {
+            "id": "JQ492.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 492.0,
+            "stop": 492.0,
+            "subject": "Political institutions and public administration. India. Madhya Pradesh. Central"
+        },
+        {
+            "id": "JQ532.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 532.0,
+            "stop": 532.0,
+            "subject": "Political institutions and public administration. India. Tamil Nadu. Madras."
+        },
+        {
+            "id": "JQ572.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 572.0,
+            "stop": 572.0,
+            "subject": "Political institutions and public administration. India. Punjab. Executive"
+        },
+        {
+            "id": "JQ612.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 612.0,
+            "stop": 612.0,
+            "subject": "Political institutions and public administration. India. Uttar Pradesh. United"
+        },
+        {
+            "id": "JQ628.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 628.0,
+            "stop": 628.0,
+            "subject": "Political institutions and public administration. Nepal. Executive branch. Civil"
+        },
+        {
+            "id": "JQ629.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 629.0,
+            "stop": 629.0,
+            "subject": "Political institutions and public administration. Pakistan. Executive branch."
+        },
+        {
+            "id": "JQ636.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 636.0,
+            "stop": 636.0,
+            "subject": "Political institutions and public administration. Bangladesh. Executive branch."
+        },
+        {
+            "id": "JQ656.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 656.0,
+            "stop": 656.0,
+            "subject": "Political institutions and public administration. Sri Lanka. Ceylon. Executive"
+        },
+        {
+            "id": "JQ750.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 750.0,
+            "stop": 750.0,
+            "subject": "Political institutions and public administration. Southeast Asia. Indochina"
+        },
+        {
+            "id": "JQ751.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 751.0,
+            "stop": 751.0,
+            "subject": "Political institutions and public administration. Burma. Myanmar. Executive"
+        },
+        {
+            "id": "JQ772.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 772.0,
+            "stop": 772.0,
+            "subject": "Political institutions and public administration. Indonesia. Executive branch."
+        },
+        {
+            "id": "JQ790.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 790.0,
+            "stop": 790.0,
+            "subject": "Political institutions and public administration. Timor-Leste. East Timor."
+        },
+        {
+            "id": "JQ849.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 849.0,
+            "stop": 849.0,
+            "subject": "Political institutions and public administration. Vietnam. Executive branch."
+        },
+        {
+            "id": "JQ936.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 936.0,
+            "stop": 936.0,
+            "subject": "Political institutions and public administration. Cambodia. Kampuchea."
+        },
+        {
+            "id": "JQ956.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 956.0,
+            "stop": 956.0,
+            "subject": "Political institutions and public administration. Laos. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1062.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1062.0,
+            "stop": 1062.0,
+            "subject": "Political institutions and public administration. Malaysia. Malaya. Executive"
+        },
+        {
+            "id": "JQ1063.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1063.0,
+            "stop": 1063.0,
+            "subject": "Political institutions and public administration. Singapore. Executive branch."
+        },
+        {
+            "id": "JQ1064.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1064.0,
+            "stop": 1064.0,
+            "subject": "Political institutions and public administration. Brunei. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1082.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1082.0,
+            "stop": 1082.0,
+            "subject": "Political institutions and public administration. Central Asia (General)."
+        },
+        {
+            "id": "JQ1090.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1090.0,
+            "stop": 1090.0,
+            "subject": "Political institutions and public administration. Kazakhstan. Executive branch."
+        },
+        {
+            "id": "JQ1092.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1092.0,
+            "stop": 1092.0,
+            "subject": "Political institutions and public administration. Kyrgyzstan. Executive branch."
+        },
+        {
+            "id": "JQ1093.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1093.0,
+            "stop": 1093.0,
+            "subject": "Political institutions and public administration. Tajikistan. Executive branch."
+        },
+        {
+            "id": "JQ1094.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1094.0,
+            "stop": 1094.0,
+            "subject": "Political institutions and public administration. Turkmenistan. Executive"
+        },
+        {
+            "id": "JQ1095.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1095.0,
+            "stop": 1095.0,
+            "subject": "Political institutions and public administration. Uzbekistan. Executive branch."
+        },
+        {
+            "id": "JQ1149.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1149.0,
+            "stop": 1149.0,
+            "subject": "Political institutions and public administration. Siberia (Russia). Executive"
+        },
+        {
+            "id": "JQ1262.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1262.0,
+            "stop": 1262.0,
+            "subject": "Political institutions and public administration. Philippines (Spanish regime,"
+        },
+        {
+            "id": "JQ1349.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1349.0,
+            "stop": 1349.0,
+            "subject": "Political institutions and public administration. Philippines (during United"
+        },
+        {
+            "id": "JQ1412.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1412.0,
+            "stop": 1412.0,
+            "subject": "Political institutions and public administration. Philippines (Republic, 1946-)."
+        },
+        {
+            "id": "JQ1499.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1499.0,
+            "stop": 1499.0,
+            "subject": "Political institutions and public administration. East Asia. Far East (General)."
+        },
+        {
+            "id": "JQ1512.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1512.0,
+            "stop": 1512.0,
+            "subject": "Political institutions and public administration. China. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1532.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1532.0,
+            "stop": 1532.0,
+            "subject": "Political institutions and public administration. Taiwan. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1649.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1649.0,
+            "stop": 1649.0,
+            "subject": "Political institutions and public administration. Japan. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1726.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1726.0,
+            "stop": 1726.0,
+            "subject": "Political institutions and public administration. Korea (including South"
+        },
+        {
+            "id": "JQ1730.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1730.0,
+            "stop": 1730.0,
+            "subject": "Political institutions and public administration. Mongolia. Outer Mongolia."
+        },
+        {
+            "id": "JQ1746.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1746.0,
+            "stop": 1746.0,
+            "subject": "Political institutions and public administration. Thailand. Executive branch."
+        },
+        {
+            "id": "JQ1758.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1758.0,
+            "stop": 1758.0,
+            "subject": "Political institutions and public administration. Middle East. Near East."
+        },
+        {
+            "id": "JQ1759.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1759.0,
+            "stop": 1759.0,
+            "subject": "Political institutions and public administration. Caucasus (General). Executive"
+        },
+        {
+            "id": "JQ1766.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1766.0,
+            "stop": 1766.0,
+            "subject": "Political institutions and public administration. Afghanistan. Executive branch."
+        },
+        {
+            "id": "JQ1786.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1786.0,
+            "stop": 1786.0,
+            "subject": "Political institutions and public administration. Iran. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1806.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1806.0,
+            "stop": 1806.0,
+            "subject": "Political institutions and public administration. Turkey. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1811.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1811.0,
+            "stop": 1811.0,
+            "subject": "Political institutions and public administration. Cyprus. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1826.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1826.0,
+            "stop": 1826.0,
+            "subject": "Political institutions and public administration. Syria. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1828.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1828.0,
+            "stop": 1828.0,
+            "subject": "Political institutions and public administration. Lebanon. Executive branch."
+        },
+        {
+            "id": "JQ1830.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1830.0,
+            "stop": 1830.0,
+            "subject": "Political institutions and public administration. Israel. Palestine (including"
+        },
+        {
+            "id": "JQ1833.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1833.0,
+            "stop": 1833.0,
+            "subject": "Political institutions and public administration. Jordan. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1841.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1841.0,
+            "stop": 1841.0,
+            "subject": "Political institutions and public administration. Saudi Arabia. Executive"
+        },
+        {
+            "id": "JQ1842.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1842.0,
+            "stop": 1842.0,
+            "subject": "Political institutions and public administration. Yemen. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1843.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1843.0,
+            "stop": 1843.0,
+            "subject": "Political institutions and public administration. Oman. Muscat and Oman."
+        },
+        {
+            "id": "JQ1844.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1844.0,
+            "stop": 1844.0,
+            "subject": "Political institutions and public administration. United Arab Emirates. Trucial"
+        },
+        {
+            "id": "JQ1845.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1845.0,
+            "stop": 1845.0,
+            "subject": "Political institutions and public administration. Qatar. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1846.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1846.0,
+            "stop": 1846.0,
+            "subject": "Political institutions and public administration. Bahrain. Executive branch."
+        },
+        {
+            "id": "JQ1848.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1848.0,
+            "stop": 1848.0,
+            "subject": "Political institutions and public administration. Kuwait. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1849.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1849.0,
+            "stop": 1849.0,
+            "subject": "Political institutions and public administration. Iraq. Executive branch. Civil"
+        },
+        {
+            "id": "JQ1850.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1850.0,
+            "stop": 1850.0,
+            "subject": "Political institutions and public administration. Arab countries. Executive"
+        },
+        {
+            "id": "JQ1852.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1852.0,
+            "stop": 1852.0,
+            "subject": "Political institutions and public administration. Islamic countries. Executive"
+        },
+        {
+            "id": "JQ1876.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1876.0,
+            "stop": 1876.0,
+            "subject": "Political institutions and public administration. Africa (General). Executive"
+        },
+        {
+            "id": "JQ1892.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1892.0,
+            "stop": 1892.0,
+            "subject": "Political institutions and public administration. English-speaking Africa"
+        },
+        {
+            "id": "JQ1949.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 1949.0,
+            "stop": 1949.0,
+            "subject": "Political institutions and public administration. South Africa. Executive branch."
+        },
+        {
+            "id": "JQ2720.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2720.0,
+            "stop": 2720.0,
+            "subject": "Political institutions and public administration. Southern Africa. Central Africa"
+        },
+        {
+            "id": "JQ2721.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2721.0,
+            "stop": 2721.0,
+            "subject": "Political institutions and public administration. Swaziland. Executive branch."
+        },
+        {
+            "id": "JQ2726.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2726.0,
+            "stop": 2726.0,
+            "subject": "Political institutions and public administration. Zimbabwe. Southern Rhodesia."
+        },
+        {
+            "id": "JQ2740.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2740.0,
+            "stop": 2740.0,
+            "subject": "Political institutions and public administration. Lesotho. Basutoland. Executive"
+        },
+        {
+            "id": "JQ2760.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2760.0,
+            "stop": 2760.0,
+            "subject": "Political institutions and public administration. Botswana. Bechuanaland."
+        },
+        {
+            "id": "JQ2786.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2786.0,
+            "stop": 2786.0,
+            "subject": "Political institutions and public administration. Rhodesia. Federation of"
+        },
+        {
+            "id": "JQ2849.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2849.0,
+            "stop": 2849.0,
+            "subject": "Political institutions and public administration. Zambia. Northern Rhodesia."
+        },
+        {
+            "id": "JQ2941.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2941.0,
+            "stop": 2941.0,
+            "subject": "Political institutions and public administration. Malawi. Executive branch. Civil"
+        },
+        {
+            "id": "JQ2945.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2945.0,
+            "stop": 2945.0,
+            "subject": "Political institutions and public administration. East Africa (General)."
+        },
+        {
+            "id": "JQ2947.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2947.0,
+            "stop": 2947.0,
+            "subject": "Political institutions and public administration. Kenya. Executive branch. Civil"
+        },
+        {
+            "id": "JQ2951.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2951.0,
+            "stop": 2951.0,
+            "subject": "Political institutions and public administration. Uganda. Executive branch."
+        },
+        {
+            "id": "JQ2998.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 2998.0,
+            "stop": 2998.0,
+            "subject": "Political institutions and public administration. West Africa (General)."
+        },
+        {
+            "id": "JQ3001.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3001.0,
+            "stop": 3001.0,
+            "subject": "Political institutions and public administration. The Gambia. Executive branch."
+        },
+        {
+            "id": "JQ3032.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3032.0,
+            "stop": 3032.0,
+            "subject": "Political institutions and public administration. Ghana. Gold Coast. Executive"
+        },
+        {
+            "id": "JQ3092.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3092.0,
+            "stop": 3092.0,
+            "subject": "Political institutions and public administration. Nigeria. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3121.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3121.0,
+            "stop": 3121.0,
+            "subject": "Political institutions and public administration. Sierra Leone. Executive"
+        },
+        {
+            "id": "JQ3158.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3158.0,
+            "stop": 3158.0,
+            "subject": "Political institutions and public administration. Indian Ocean islands"
+        },
+        {
+            "id": "JQ3159.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3159.0,
+            "stop": 3159.0,
+            "subject": "Political institutions and public administration. Maldives. Executive branch."
+        },
+        {
+            "id": "JQ3172.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3172.0,
+            "stop": 3172.0,
+            "subject": "Political institutions and public administration. Mauritius. Executive branch."
+        },
+        {
+            "id": "JQ3185.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3185.0,
+            "stop": 3185.0,
+            "subject": "Political institutions and public administration. Seychelles. Executive branch."
+        },
+        {
+            "id": "JQ3188.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3188.0,
+            "stop": 3188.0,
+            "subject": "Political institutions and public administration. Kerguelen Islands. Executive"
+        },
+        {
+            "id": "JQ3198.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3198.0,
+            "stop": 3198.0,
+            "subject": "Political institutions and public administration. North Africa (General)."
+        },
+        {
+            "id": "JQ3249.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3249.0,
+            "stop": 3249.0,
+            "subject": "Political institutions and public administration. Algeria. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3332.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3332.0,
+            "stop": 3332.0,
+            "subject": "Political institutions and public administration. Tunisia. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3346.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3346.0,
+            "stop": 3346.0,
+            "subject": "Political institutions and public administration. Libya. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3362.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3362.0,
+            "stop": 3362.0,
+            "subject": "Political institutions and public administration. French-speaking West Africa"
+        },
+        {
+            "id": "JQ3376.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3376.0,
+            "stop": 3376.0,
+            "subject": "Political institutions and public administration. Benin. Dahomey. Executive"
+        },
+        {
+            "id": "JQ3381.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3381.0,
+            "stop": 3381.0,
+            "subject": "Political institutions and public administration. Guinea. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3386.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3386.0,
+            "stop": 3386.0,
+            "subject": "Political institutions and public administration. Co\u0302te d\u2019Ivoire. Ivory Coast."
+        },
+        {
+            "id": "JQ3389.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3389.0,
+            "stop": 3389.0,
+            "subject": "Political institutions and public administration. Mali. French Sudan. Executive"
+        },
+        {
+            "id": "JQ3391.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3391.0,
+            "stop": 3391.0,
+            "subject": "Political institutions and public administration. Mauritania. Executive branch."
+        },
+        {
+            "id": "JQ3394.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3394.0,
+            "stop": 3394.0,
+            "subject": "Political institutions and public administration. Niger. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3396.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3396.0,
+            "stop": 3396.0,
+            "subject": "Political institutions and public administration. Senegal. Executive branch."
+        },
+        {
+            "id": "JQ3398.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3398.0,
+            "stop": 3398.0,
+            "subject": "Political institutions and public administration. Burkina Faso. Upper Volta."
+        },
+        {
+            "id": "JQ3403.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3403.0,
+            "stop": 3403.0,
+            "subject": "Political institutions and public administration. French-speaking Equatorial"
+        },
+        {
+            "id": "JQ3404.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3404.0,
+            "stop": 3404.0,
+            "subject": "Political institutions and public administration. Central African Republic."
+        },
+        {
+            "id": "JQ3405.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3405.0,
+            "stop": 3405.0,
+            "subject": "Political institutions and public administration. Chad. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3406.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3406.0,
+            "stop": 3406.0,
+            "subject": "Political institutions and public administration. Congo (Brazzaville). Middle"
+        },
+        {
+            "id": "JQ3407.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3407.0,
+            "stop": 3407.0,
+            "subject": "Political institutions and public administration. Gabon. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3421.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3421.0,
+            "stop": 3421.0,
+            "subject": "Political institutions and public administration. Djibouti. French Territory of"
+        },
+        {
+            "id": "JQ3462.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3462.0,
+            "stop": 3462.0,
+            "subject": "Political institutions and public administration. Madagascar. Malagasy"
+        },
+        {
+            "id": "JQ3486.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3486.0,
+            "stop": 3486.0,
+            "subject": "Political institutions and public administration. Reunion. Executive branch."
+        },
+        {
+            "id": "JQ3494.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3494.0,
+            "stop": 3494.0,
+            "subject": "Political institutions and public administration. Comoros. Executive branch."
+        },
+        {
+            "id": "JQ3495.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3495.0,
+            "stop": 3495.0,
+            "subject": "Political institutions and public administration. Mayotte. Executive branch."
+        },
+        {
+            "id": "JQ3506.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3506.0,
+            "stop": 3506.0,
+            "subject": "Political institutions and public administration. German East Africa. Executive"
+        },
+        {
+            "id": "JQ3516.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3516.0,
+            "stop": 3516.0,
+            "subject": "Political institutions and public administration. Tanzania. Tanganyika."
+        },
+        {
+            "id": "JQ3526.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3526.0,
+            "stop": 3526.0,
+            "subject": "Political institutions and public administration. Cameroon. Executive branch."
+        },
+        {
+            "id": "JQ3536.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3536.0,
+            "stop": 3536.0,
+            "subject": "Political institutions and public administration. Togo. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3546.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3546.0,
+            "stop": 3546.0,
+            "subject": "Political institutions and public administration. Namibia. Southwest Africa."
+        },
+        {
+            "id": "JQ3566.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3566.0,
+            "stop": 3566.0,
+            "subject": "Political institutions and public administration. Burundi. Executive branch."
+        },
+        {
+            "id": "JQ3567.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3567.0,
+            "stop": 3567.0,
+            "subject": "Political institutions and public administration. Rwanda. Executive branch."
+        },
+        {
+            "id": "JQ3580.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3580.0,
+            "stop": 3580.0,
+            "subject": "Political institutions and public administration. Italian East Africa. Executive"
+        },
+        {
+            "id": "JQ3583.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3583.0,
+            "stop": 3583.0,
+            "subject": "Political institutions and public administration. Eritrea. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3585.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3585.0,
+            "stop": 3585.0,
+            "subject": "Political institutions and public administration. Somalia. Italian Somaliland."
+        },
+        {
+            "id": "JQ3650.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3650.0,
+            "stop": 3650.0,
+            "subject": "Political institutions and public administration. Portuguese-speaking Africa."
+        },
+        {
+            "id": "JQ3651.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3651.0,
+            "stop": 3651.0,
+            "subject": "Political institutions and public administration. Angola. Portuguese West"
+        },
+        {
+            "id": "JQ3661.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3661.0,
+            "stop": 3661.0,
+            "subject": "Political institutions and public administration. Cabo Verde. Executive branch."
+        },
+        {
+            "id": "JQ3671.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3671.0,
+            "stop": 3671.0,
+            "subject": "Political institutions and public administration. Mozambique. Portuguese East"
+        },
+        {
+            "id": "JQ3681.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3681.0,
+            "stop": 3681.0,
+            "subject": "Political institutions and public administration. Guinea-Bissau. Portuguese"
+        },
+        {
+            "id": "JQ3685.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3685.0,
+            "stop": 3685.0,
+            "subject": "Political institutions and public administration. Sao Tome and Principe."
+        },
+        {
+            "id": "JQ3701.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3701.0,
+            "stop": 3701.0,
+            "subject": "Political institutions and public administration. Western Sahara. Spanish"
+        },
+        {
+            "id": "JQ3702.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3702.0,
+            "stop": 3702.0,
+            "subject": "Political institutions and public administration. Equatorial Guinea. Executive"
+        },
+        {
+            "id": "JQ3762.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3762.0,
+            "stop": 3762.0,
+            "subject": "Political institutions and public administration. Ethiopia. Abyssinia. Executive"
+        },
+        {
+            "id": "JQ3849.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3849.0,
+            "stop": 3849.0,
+            "subject": "Political institutions and public administration. Egypt. United Arab Republic."
+        },
+        {
+            "id": "JQ3926.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3926.0,
+            "stop": 3926.0,
+            "subject": "Political institutions and public administration. Liberia. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3946.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3946.0,
+            "stop": 3946.0,
+            "subject": "Political institutions and public administration. Morocco. Executive branch."
+        },
+        {
+            "id": "JQ3980.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3980.0,
+            "stop": 3980.0,
+            "subject": "Political institutions and public administration. South Sudan. Executive"
+        },
+        {
+            "id": "JQ3981.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3981.0,
+            "stop": 3981.0,
+            "subject": "Political institutions and public administration. Sudan. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3982.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3982.0,
+            "stop": 3982.0,
+            "subject": "Political institutions and public administration. Azores. Executive branch. Civil"
+        },
+        {
+            "id": "JQ3983.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3983.0,
+            "stop": 3983.0,
+            "subject": "Political institutions and public administration. Madeira Islands. Executive"
+        },
+        {
+            "id": "JQ3984.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3984.0,
+            "stop": 3984.0,
+            "subject": "Political institutions and public administration. Canary Islands. Executive"
+        },
+        {
+            "id": "JQ3986.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3986.0,
+            "stop": 3986.0,
+            "subject": "Political institutions and public administration. Saint Helena. Executive"
+        },
+        {
+            "id": "JQ3995.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 3995.0,
+            "stop": 3995.0,
+            "subject": "Political institutions and public administration. Australasia. Executive branch."
+        },
+        {
+            "id": "JQ4049.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 4049.0,
+            "stop": 4049.0,
+            "subject": "Political institutions and public administration. Australia (General). Executive"
+        },
+        {
+            "id": "JQ4449.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 4449.0,
+            "stop": 4449.0,
+            "subject": "Political institutions and public administration. Australia. Australian Capital"
+        },
+        {
+            "id": "JQ4549.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 4549.0,
+            "stop": 4549.0,
+            "subject": "Political institutions and public administration. Australia. New South Wales."
+        },
+        {
+            "id": "JQ4652.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 4652.0,
+            "stop": 4652.0,
+            "subject": "Political institutions and public administration. Australia. Northern Territory."
+        },
+        {
+            "id": "JQ4749.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 4749.0,
+            "stop": 4749.0,
+            "subject": "Political institutions and public administration. Australia. Queensland."
+        },
+        {
+            "id": "JQ4949.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 4949.0,
+            "stop": 4949.0,
+            "subject": "Political institutions and public administration. Australia. South Australia."
+        },
+        {
+            "id": "JQ5149.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 5149.0,
+            "stop": 5149.0,
+            "subject": "Political institutions and public administration. Australia. Tasmania. Executive"
+        },
+        {
+            "id": "JQ5349.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 5349.0,
+            "stop": 5349.0,
+            "subject": "Political institutions and public administration. Australia. Victoria. Executive"
+        },
+        {
+            "id": "JQ5549.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 5549.0,
+            "stop": 5549.0,
+            "subject": "Political institutions and public administration. Australia. Western Australia."
+        },
+        {
+            "id": "JQ5849.H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 5849.0,
+            "stop": 5849.0,
+            "subject": "Political institutions and public administration. New Zealand. Executive"
+        },
+        {
+            "id": "JQ6012.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6012.0,
+            "stop": 6012.0,
+            "subject": "Political institutions and public administration. Guam. Executive branch. Civil"
+        },
+        {
+            "id": "JQ6232.Z13H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6232.0,
+            "stop": 6232.0,
+            "subject": "Political institutions and public administration. Samoan Islands. American"
+        },
+        {
+            "id": "JQ6240.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6240.0,
+            "stop": 6240.0,
+            "subject": "Political institutions and public administration. Trust Territory of the Pacific."
+        },
+        {
+            "id": "JQ6241.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6241.0,
+            "stop": 6241.0,
+            "subject": "Political institutions and public administration. Marshall Islands. Executive"
+        },
+        {
+            "id": "JQ6242.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6242.0,
+            "stop": 6242.0,
+            "subject": "Political institutions and public administration. Mariana Islands (including"
+        },
+        {
+            "id": "JQ6301.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6301.0,
+            "stop": 6301.0,
+            "subject": "Political institutions and public administration. Fiji. Executive branch. Civil"
+        },
+        {
+            "id": "JQ6311.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6311.0,
+            "stop": 6311.0,
+            "subject": "Political institutions and public administration. Papua New Guinea. Executive"
+        },
+        {
+            "id": "JQ6312.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6312.0,
+            "stop": 6312.0,
+            "subject": "Political institutions and public administration. Kiribati. Gilbert Islands."
+        },
+        {
+            "id": "JQ6313.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6313.0,
+            "stop": 6313.0,
+            "subject": "Political institutions and public administration. Tuvalu. Ellice Islands."
+        },
+        {
+            "id": "JQ6321.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6321.0,
+            "stop": 6321.0,
+            "subject": "Political institutions and public administration. Tonga. Executive branch. Civil"
+        },
+        {
+            "id": "JQ6340.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6340.0,
+            "stop": 6340.0,
+            "subject": "Political institutions and public administration. Cook Islands. Executive"
+        },
+        {
+            "id": "JQ6341.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6341.0,
+            "stop": 6341.0,
+            "subject": "Political institutions and public administration. Solomon Islands. Executive"
+        },
+        {
+            "id": "JQ6345.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6345.0,
+            "stop": 6345.0,
+            "subject": "Political institutions and public administration. Tokelau. Executive branch."
+        },
+        {
+            "id": "JQ6400.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6400.0,
+            "stop": 6400.0,
+            "subject": "Political institutions and public administration. Vanuatu. New Hebrides."
+        },
+        {
+            "id": "JQ6401.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6401.0,
+            "stop": 6401.0,
+            "subject": "Political institutions and public administration. New Caledonia. Executive"
+        },
+        {
+            "id": "JQ6431.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6431.0,
+            "stop": 6431.0,
+            "subject": "Political institutions and public administration. French Polynesia. Executive"
+        },
+        {
+            "id": "JQ6591.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6591.0,
+            "stop": 6591.0,
+            "subject": "Political institutions and public administration. Palau. Executive branch. Civil"
+        },
+        {
+            "id": "JQ6651.A69H6",
+            "parents": [],
+            "prefix": "JQ",
+            "start": 6651.0,
+            "stop": 6651.0,
+            "subject": "Political institutions and public administration. Samoa. Western Samoa."
+        }
+    ],
     "JZ": [
         {
             "id": "JZ1253.2",
@@ -657,9 +3351,25 @@
             "start": 3242.3,
             "stop": 3242.3,
             "subject": "Comparative law. International uniform law Constitutional law. Human Rights."
+        },
+        {
+            "id": "K5196.S6",
+            "parents": [],
+            "prefix": "K",
+            "start": 5196.0,
+            "stop": 5196.0,
+            "subject": "Comparative law. International uniform law. Criminal law and procedure."
         }
     ],
     "KB": [
+        {
+            "id": "KB3082.A53",
+            "parents": [],
+            "prefix": "KB",
+            "start": 3082.0,
+            "stop": 3082.0,
+            "subject": "Religious Law in General. Comparative Religious Law. Jurisprudence."
+        },
         {
             "id": "KB4172",
             "parents": [],
@@ -669,7 +3379,33 @@
             "subject": "Religious Law in General. Comparative Religious Law. Jurisprudence."
         }
     ],
+    "KBM": [
+        {
+            "id": "KBM2467.G37",
+            "parents": [],
+            "prefix": "KBM",
+            "start": 2467.0,
+            "stop": 2467.0,
+            "subject": "Jewish Law. Halakah. Mishpat Ivri. Constitutional law. Constitutional principles"
+        },
+        {
+            "id": "KBM3082.A53",
+            "parents": [],
+            "prefix": "KBM",
+            "start": 3082.0,
+            "stop": 3082.0,
+            "subject": "Jewish Law. Halakah. Mishpat Ivri. Public Health. AIDS."
+        }
+    ],
     "KBP": [
+        {
+            "id": "KBP3082.A53",
+            "parents": [],
+            "prefix": "KBP",
+            "start": 3082.0,
+            "stop": 3082.0,
+            "subject": "Islamic law. Shari\u2019ah. Fur\u016b\u2018 al-fiqh. Substantive law. Branches of law. Public"
+        },
         {
             "id": "KBP4216",
             "parents": [],
@@ -679,7 +3415,149 @@
             "subject": "Islamic law. Shari\u2019ah. Fur\u016b\u2018 al-fiqh. Substantive law. Branches of law. Crimes"
         }
     ],
+    "KBR": [
+        {
+            "id": "KBR3774.S64",
+            "parents": [],
+            "prefix": "KBR",
+            "start": 3774.0,
+            "stop": 3774.0,
+            "subject": "History of canon law. Penal (Criminal) law. De lege poenali. Individual"
+        }
+    ],
+    "M": [
+        {
+            "id": "M1977.G38",
+            "parents": [],
+            "prefix": "M",
+            "start": 1977.0,
+            "stop": 1977.0,
+            "subject": "Secular vocal music. Songs of specific groups or on specific topics. Collections."
+        },
+        {
+            "id": "M1978.G38",
+            "parents": [],
+            "prefix": "M",
+            "start": 1978.0,
+            "stop": 1978.0,
+            "subject": "Secular vocal music. Songs of specific groups or on specific topics. Gays."
+        }
+    ],
+    "ML": [
+        {
+            "id": "ML410.J58",
+            "parents": [],
+            "prefix": "ML",
+            "start": 410.0,
+            "stop": 410.0,
+            "subject": "John, Elton."
+        }
+    ],
+    "N": [
+        {
+            "id": "N72.A34",
+            "parents": [],
+            "prefix": "N",
+            "start": 72.0,
+            "stop": 72.0,
+            "subject": "Visual arts. Special topics. AIDS (Disease)."
+        },
+        {
+            "id": "N72.H64",
+            "parents": [],
+            "prefix": "N",
+            "start": 72.0,
+            "stop": 72.0,
+            "subject": "Visual arts. Special topics. Homosexuality."
+        },
+        {
+            "id": "N8012.G46",
+            "parents": [],
+            "prefix": "N",
+            "start": 8012.0,
+            "stop": 8012.0,
+            "subject": "Christian art. Christian symbolism. Gender identity."
+        },
+        {
+            "id": "N8217.H67",
+            "parents": [],
+            "prefix": "N",
+            "start": 8217.0,
+            "stop": 8217.0,
+            "subject": "Special subjects of art. Homosexuality."
+        }
+    ],
+    "NC": [
+        {
+            "id": "NC1849.G45",
+            "parents": [],
+            "prefix": "NC",
+            "start": 1849.0,
+            "stop": 1849.0,
+            "subject": "Posters. Special topics. Gender identity."
+        }
+    ],
+    "ND": [
+        {
+            "id": "ND259.K33",
+            "parents": [],
+            "prefix": "ND",
+            "start": 259.0,
+            "stop": 259.0,
+            "subject": "Kahlo, Frida."
+        }
+    ],
+    "NX": [
+        {
+            "id": "NX164.L47",
+            "parents": [],
+            "prefix": "NX",
+            "start": 164.0,
+            "stop": 164.0,
+            "subject": "Special classes of artists. Lesbians."
+        },
+        {
+            "id": "NX180.H6",
+            "parents": [],
+            "prefix": "NX",
+            "start": 180.0,
+            "stop": 180.0,
+            "subject": "The arts in relation to other subjects. Homosexuality."
+        },
+        {
+            "id": "NX650.G44",
+            "parents": [],
+            "prefix": "NX",
+            "start": 650.0,
+            "stop": 650.0,
+            "subject": "Arts in general. Special subjects or topics. Gender identity."
+        },
+        {
+            "id": "NX652.G38",
+            "parents": [],
+            "prefix": "NX",
+            "start": 652.0,
+            "stop": 652.0,
+            "subject": "Characters, persons, classes of persons, and ethnic groups. Gay artists."
+        }
+    ],
     "PA": [
+        {
+            "id": "PA3015.H58",
+            "parents": [],
+            "prefix": "PA",
+            "start": 3015.0,
+            "stop": 3015.0,
+            "subject": "Classical literature. Literary history. Knowledge, treatment, and conception of"
+        },
+        {
+            "id": "PA3624.H64",
+            "parents": [],
+            "prefix": "PA",
+            "start": 3624.0,
+            "stop": 3624.0,
+            "subject": "Greek literature. Translations. English. Poetry. By subject. Homosexuality, male."
+        },
         {
             "id": "PA4408-4409",
             "parents": [],
@@ -689,7 +3567,137 @@
             "subject": "Sappho."
         }
     ],
+    "PC": [
+        {
+            "id": "PC4977.G39",
+            "parents": [],
+            "prefix": "PC",
+            "start": 4977.0,
+            "stop": 4977.0,
+            "subject": "Spanish language. Slang. Argot. Special groups of persons. Gays."
+        }
+    ],
+    "PE": [
+        {
+            "id": "PE1599.H65",
+            "parents": [],
+            "prefix": "PE",
+            "start": 1599.0,
+            "stop": 1599.0,
+            "subject": "Modern English language. Lexicology. Etymology. Particular words. \u201cHomo\u201d."
+        },
+        {
+            "id": "PE3727.G39",
+            "parents": [],
+            "prefix": "PE",
+            "start": 3727.0,
+            "stop": 3727.0,
+            "subject": "English language. Slang argot. Vulgarisms. Special groups of persons. Gay men."
+        }
+    ],
+    "PG": [
+        {
+            "id": "PG3205.H65",
+            "parents": [],
+            "prefix": "PG",
+            "start": 3205.0,
+            "stop": 3205.0,
+            "subject": "Russian literature. Collections. Special topics. Homosexuality. Gays."
+        },
+        {
+            "id": "PG7102.G45",
+            "parents": [],
+            "prefix": "PG",
+            "start": 7102.0,
+            "stop": 7102.0,
+            "subject": "Polish literature. History. Prose. Special topics. Gender identity."
+        },
+        {
+            "id": "PG7148.A36",
+            "parents": [],
+            "prefix": "PG",
+            "start": 7148.0,
+            "stop": 7148.0,
+            "subject": "Polish literature. Collections. Prose. Special. By form or subject. AIDS"
+        }
+    ],
+    "PJ": [
+        {
+            "id": "PJ5030.H65",
+            "parents": [],
+            "prefix": "PJ",
+            "start": 5030.0,
+            "stop": 5030.0,
+            "subject": "Hebrew literature. Literary history and criticism. Prose. Fiction. Special topics."
+        },
+        {
+            "id": "PJ7542.H6",
+            "parents": [],
+            "prefix": "PJ",
+            "start": 7542.0,
+            "stop": 7542.0,
+            "subject": "Arabic literature. Literary history and criticism. Poetry. Special topics."
+        },
+        {
+            "id": "PJ7632.H6",
+            "parents": [],
+            "prefix": "PJ",
+            "start": 7632.0,
+            "stop": 7632.0,
+            "subject": "Arabic literature. Collections. Poetry. Special topics. Homosexuality."
+        }
+    ],
+    "PL": [
+        {
+            "id": "PL721.G44",
+            "parents": [],
+            "prefix": "PL",
+            "start": 721.0,
+            "stop": 721.0,
+            "subject": "Japanese literature. History and criticism. Special topics. Gender identity."
+        },
+        {
+            "id": "PL721.H59",
+            "parents": [],
+            "prefix": "PL",
+            "start": 721.0,
+            "stop": 721.0,
+            "subject": "Japanese literature. History and criticism. Special topics. Homosexuality."
+        },
+        {
+            "id": "PL722.L47",
+            "parents": [],
+            "prefix": "PL",
+            "start": 722.0,
+            "stop": 722.0,
+            "subject": "Japanese literature. History and criticism. Treatment of special classes, races,"
+        }
+    ],
     "PN": [
+        {
+            "id": "PN56.G45",
+            "parents": [],
+            "prefix": "PN",
+            "start": 56.0,
+            "stop": 56.0,
+            "subject": "Literature (General). Relation to and treatment of special elements, problems,"
+        },
+        {
+            "id": "PN56.H57",
+            "parents": [],
+            "prefix": "PN",
+            "start": 56.0,
+            "stop": 56.0,
+            "subject": "Literature (General). Relation to and treatment of special elements, problems,"
+        },
+        {
+            "id": "PN56.L45",
+            "parents": [],
+            "prefix": "PN",
+            "start": 56.0,
+            "stop": 56.0,
+            "subject": "Literature (General). Relation to and treatment of special elements, problems,"
+        },
         {
             "id": "PN491.3",
             "parents": [],
@@ -699,15 +3707,713 @@
             "subject": "Literature (General). Literary history. Biography. Gay authors."
         },
         {
+            "id": "PN682.H65",
+            "parents": [],
+            "prefix": "PN",
+            "start": 682.0,
+            "stop": 682.0,
+            "subject": "Literature (General). Literary history. Medieval (to 1500). Special topics."
+        },
+        {
+            "id": "PN1083.H66",
+            "parents": [],
+            "prefix": "PN",
+            "start": 1083.0,
+            "stop": 1083.0,
+            "subject": "Poetry. Relation to, and treatment of, special subjects. Homosexuality."
+        },
+        {
+            "id": "PN1590.G39",
+            "parents": [],
+            "prefix": "PN",
+            "start": 1590.0,
+            "stop": 1590.0,
+            "subject": "The performing arts. Show business. Special topics. Gays."
+        },
+        {
+            "id": "PN2270.G39",
+            "parents": [],
+            "prefix": "PN",
+            "start": 2270.0,
+            "stop": 2270.0,
+            "subject": "Dramatic representation. The theater. United States. History. Twentieth"
+        },
+        {
+            "id": "PN2270.L47",
+            "parents": [],
+            "prefix": "PN",
+            "start": 2270.0,
+            "stop": 2270.0,
+            "subject": "Dramatic representation. The theater. United States. History. Twentieth"
+        },
+        {
             "id": "PN2286.5",
             "parents": [],
             "prefix": "PN",
             "start": 2286.5,
             "stop": 2286.5,
             "subject": "Dramatic representation. The theater. United States. Biography. Collective. Gays."
+        },
+        {
+            "id": "PN2287.C692",
+            "parents": [],
+            "prefix": "PN",
+            "start": 2287.0,
+            "stop": 2287.0,
+            "subject": "Cumming, Alan."
+        },
+        {
+            "id": "PN2287.D35",
+            "parents": [],
+            "prefix": "PN",
+            "start": 2287.0,
+            "stop": 2287.0,
+            "subject": "DeGeneres, Ellen."
+        },
+        {
+            "id": "PN2287.D477",
+            "parents": [],
+            "prefix": "PN",
+            "start": 2287.0,
+            "stop": 2287.0,
+            "subject": "Divine (Performer)."
+        },
+        {
+            "id": "PN3352.H65",
+            "parents": [],
+            "prefix": "PN",
+            "start": 3352.0,
+            "stop": 3352.0,
+            "subject": "Prose. Prose fiction. Relation to and treatment of special subjects. Homosexuality."
+        },
+        {
+            "id": "PN4888.G38",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4888.0,
+            "stop": 4888.0,
+            "subject": "Journalism. The periodical press, etc. United States. Special topics. Gay parents"
+        },
+        {
+            "id": "PN4888.H65",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4888.0,
+            "stop": 4888.0,
+            "subject": "Journalism. The periodical press, etc. United States. Special topics."
+        },
+        {
+            "id": "PN4888.H66",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4888.0,
+            "stop": 4888.0,
+            "subject": "Journalism. The periodical press, etc. United States. Special topics."
+        },
+        {
+            "id": "PN4914.A44",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4914.0,
+            "stop": 4914.0,
+            "subject": "Journalism. The periodical press, etc. Canada. Special topics. AIDS."
+        },
+        {
+            "id": "PN4914.H55",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4914.0,
+            "stop": 4914.0,
+            "subject": "Journalism. The periodical press, etc. Canada. Special topics. Homosexuality."
+        },
+        {
+            "id": "PN4974.A44",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4974.0,
+            "stop": 4974.0,
+            "subject": "Journalism. The periodical press, etc. Mexico. Special topics. AIDS."
+        },
+        {
+            "id": "PN4974.H55",
+            "parents": [],
+            "prefix": "PN",
+            "start": 4974.0,
+            "stop": 4974.0,
+            "subject": "Journalism. The periodical press, etc. Mexico. Special topics. Homosexuality."
+        },
+        {
+            "id": "PN5124.A44",
+            "parents": [],
+            "prefix": "PN",
+            "start": 5124.0,
+            "stop": 5124.0,
+            "subject": "Journalism. The periodical press, etc. Great Britain. England. Special topics."
+        },
+        {
+            "id": "PN5124.H55",
+            "parents": [],
+            "prefix": "PN",
+            "start": 5124.0,
+            "stop": 5124.0,
+            "subject": "Journalism. The periodical press, etc. Great Britain. England. Special topics."
+        },
+        {
+            "id": "PN5184.A44",
+            "parents": [],
+            "prefix": "PN",
+            "start": 5184.0,
+            "stop": 5184.0,
+            "subject": "Journalism. The periodical press, etc. France. Special topics. AIDS."
+        },
+        {
+            "id": "PN5184.H55",
+            "parents": [],
+            "prefix": "PN",
+            "start": 5184.0,
+            "stop": 5184.0,
+            "subject": "Journalism. The periodical press, etc. France. Special topics. Homosexuality."
+        },
+        {
+            "id": "PN5214.A44",
+            "parents": [],
+            "prefix": "PN",
+            "start": 5214.0,
+            "stop": 5214.0,
+            "subject": "Journalism. The periodical press, etc. Germany. Special topics. AIDS."
+        },
+        {
+            "id": "PN5214.H55",
+            "parents": [],
+            "prefix": "PN",
+            "start": 5214.0,
+            "stop": 5214.0,
+            "subject": "Journalism. The periodical press, etc. Germany. Special topics. Homosexuality."
+        },
+        {
+            "id": "PN5517.A44",
+            "parents": [],
+            "prefix": "PN",
+            "start": 5517.0,
+            "stop": 5517.0,
+            "subject": "Journalism. The periodical press, etc. Australia. Special topics. AIDS."
+        },
+        {
+            "id": "PN5517.H55",
+            "parents": [],
+            "prefix": "PN",
+            "start": 5517.0,
+            "stop": 5517.0,
+            "subject": "Journalism. The periodical press, etc. Australia. Special topics. Homosexuality."
+        },
+        {
+            "id": "PN6071.H724",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6071.0,
+            "stop": 6071.0,
+            "subject": "Collections of general literature. By subject. Homosexuality."
+        },
+        {
+            "id": "PN6071.L47",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6071.0,
+            "stop": 6071.0,
+            "subject": "Collections of general literature. By subject. Lesbians."
+        },
+        {
+            "id": "PN6084.G35",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6084.0,
+            "stop": 6084.0,
+            "subject": "Collections of general literature. Quotations. English. Special topics. Gays."
+        },
+        {
+            "id": "PN6084.L45",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6084.0,
+            "stop": 6084.0,
+            "subject": "Collections of general literature. Quotations. English. Special topics. Lesbians."
+        },
+        {
+            "id": "PN6110.H65",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6110.0,
+            "stop": 6110.0,
+            "subject": "Collections of general literature. Poetry. By subject or form. Homosexuality."
+        },
+        {
+            "id": "PN6120.G34",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6120.0,
+            "stop": 6120.0,
+            "subject": "Collections of general literature. Drama. Special. By subject or form. Gay men."
+        },
+        {
+            "id": "PN6231.H57",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6231.0,
+            "stop": 6231.0,
+            "subject": "Collections of general literature. Wit and humor. Collections on special topics."
+        },
+        {
+            "id": "PN6231.L43",
+            "parents": [],
+            "prefix": "PN",
+            "start": 6231.0,
+            "stop": 6231.0,
+            "subject": "Collections of general literature. Wit and humor. Collections on special topics."
+        }
+    ],
+    "PQ": [
+        {
+            "id": "PQ155.L47",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 155.0,
+            "stop": 155.0,
+            "subject": "French literature. History of French literature. Medieval. Old French. Special"
+        },
+        {
+            "id": "PQ155.S48",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 155.0,
+            "stop": 155.0,
+            "subject": "French literature. History of French literature. Medieval. Old French. Special"
+        },
+        {
+            "id": "PQ295.H65",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 295.0,
+            "stop": 295.0,
+            "subject": "French literature. History of French literature. 1850/70\u20131900. Special topics."
+        },
+        {
+            "id": "PQ307.A52",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 307.0,
+            "stop": 307.0,
+            "subject": "French literature. History of French literature. 20th century. Special topics. AIDS."
+        },
+        {
+            "id": "PQ307.G35",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 307.0,
+            "stop": 307.0,
+            "subject": "French literature. History of French literature. 20th century. Special topics."
+        },
+        {
+            "id": "PQ307.H6",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 307.0,
+            "stop": 307.0,
+            "subject": "French literature. History of French literature. 20th century. Special topics."
+        },
+        {
+            "id": "PQ637.G35",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 637.0,
+            "stop": 637.0,
+            "subject": "French literature. History of French literature. Special topics. Prose fiction."
+        },
+        {
+            "id": "PQ637.H65",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 637.0,
+            "stop": 637.0,
+            "subject": "French literature. History of French literature. Special topics. Prose fiction."
+        },
+        {
+            "id": "PQ4181.H65",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 4181.0,
+            "stop": 4181.0,
+            "subject": "Italian literature. Literary history and criticism. Prose. Special topics. Prose"
+        },
+        {
+            "id": "PQ6073.H65",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 6073.0,
+            "stop": 6073.0,
+            "subject": "Spanish literature. History of Spanish literature. By period. 19th-20th centuries."
+        },
+        {
+            "id": "PQ6073.L47",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 6073.0,
+            "stop": 6073.0,
+            "subject": "Spanish literature. History of Spanish literature. By period. 19th-20th centuries."
+        },
+        {
+            "id": "PQ6140.H64",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 6140.0,
+            "stop": 6140.0,
+            "subject": "Spanish literature. History of Spanish literature. Prose fiction. General works."
+        },
+        {
+            "id": "PQ6208.H65",
+            "parents": [],
+            "prefix": "PQ",
+            "start": 6208.0,
+            "stop": 6208.0,
+            "subject": "Spanish literature. Collections of Spanish literature. Poetry. By subject."
         }
     ],
     "PR": [
+        {
+            "id": "PR83.G35",
+            "parents": [],
+            "prefix": "PR",
+            "start": 83.0,
+            "stop": 83.0,
+            "subject": "English literature. History of English literature. Prose fiction. The novel."
+        },
+        {
+            "id": "PR120.G38",
+            "parents": [],
+            "prefix": "PR",
+            "start": 120.0,
+            "stop": 120.0,
+            "subject": "English literature. History of English literature. Special classes of authors. Gays."
+        },
+        {
+            "id": "PR120.L45",
+            "parents": [],
+            "prefix": "PR",
+            "start": 120.0,
+            "stop": 120.0,
+            "subject": "English literature. History of English literature. Special classes of authors."
+        },
+        {
+            "id": "PR149.L47",
+            "parents": [],
+            "prefix": "PR",
+            "start": 149.0,
+            "stop": 149.0,
+            "subject": "English literature. History of English literature. Special topics not limited to, or"
+        },
+        {
+            "id": "PR179.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 179.0,
+            "stop": 179.0,
+            "subject": "English literature. History of English literature. Ango-Saxon (Beginnings"
+        },
+        {
+            "id": "PR275.G44",
+            "parents": [],
+            "prefix": "PR",
+            "start": 275.0,
+            "stop": 275.0,
+            "subject": "English literature. History of English literature. Medieval. Middle English"
+        },
+        {
+            "id": "PR428.G43",
+            "parents": [],
+            "prefix": "PR",
+            "start": 428.0,
+            "stop": 428.0,
+            "subject": "English literature. History of English literature. Elizabethan era (1550\u20131640)."
+        },
+        {
+            "id": "PR408.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 408.0,
+            "stop": 408.0,
+            "subject": "English literature. History of English literature. Modern. Special topics."
+        },
+        {
+            "id": "PR428.H66",
+            "parents": [],
+            "prefix": "PR",
+            "start": 428.0,
+            "stop": 428.0,
+            "subject": "English literature. History of English literature. Modern. Elizabethan era"
+        },
+        {
+            "id": "PR448.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 448.0,
+            "stop": 448.0,
+            "subject": "English literature. History of English literature. Modern. 18th century. Special"
+        },
+        {
+            "id": "PR468.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 468.0,
+            "stop": 468.0,
+            "subject": "English literature. History of English literature. Modern. 19th century. Special"
+        },
+        {
+            "id": "PR478.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 478.0,
+            "stop": 478.0,
+            "subject": "English literature. History of English literature. Modern. 20th century. Special"
+        },
+        {
+            "id": "PR508.H6",
+            "parents": [],
+            "prefix": "PR",
+            "start": 508.0,
+            "stop": 508.0,
+            "subject": "English literature. History of English literature. Poetry. Special topics."
+        },
+        {
+            "id": "PR525.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 525.0,
+            "stop": 525.0,
+            "subject": "English literature. History of English literature. Poetry. 15th-16th centuries."
+        },
+        {
+            "id": "PR535.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 535.0,
+            "stop": 535.0,
+            "subject": "English literature. History of English literature. Poetry. Elizabethan era (1550\u2013"
+        },
+        {
+            "id": "PR545.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 545.0,
+            "stop": 545.0,
+            "subject": "English literature. History of English literature. Poetry. 17th century. Special"
+        },
+        {
+            "id": "PR555.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 555.0,
+            "stop": 555.0,
+            "subject": "English literature. History of English literature. Poetry. 18th century. Special"
+        },
+        {
+            "id": "PR565.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 565.0,
+            "stop": 565.0,
+            "subject": "English literature. History of English literature. Poetry. Restoration and"
+        },
+        {
+            "id": "PR575.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 575.0,
+            "stop": 575.0,
+            "subject": "English literature. History of English literature. Poetry. Romanticism. Return to"
+        },
+        {
+            "id": "PR585.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 585.0,
+            "stop": 585.0,
+            "subject": "English literature. History of English literature. Poetry. 19th century. Special"
+        },
+        {
+            "id": "PR595.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 595.0,
+            "stop": 595.0,
+            "subject": "English literature. History of English literature. Poetry. Victorian era. Special"
+        },
+        {
+            "id": "PR605.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 605.0,
+            "stop": 605.0,
+            "subject": "English literature. History of English literature. Poetry. 20th century. Special"
+        },
+        {
+            "id": "PR635.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 635.0,
+            "stop": 635.0,
+            "subject": "English literature. History of English literature. Drama. Special topics."
+        },
+        {
+            "id": "PR658.H58",
+            "parents": [],
+            "prefix": "PR",
+            "start": 658.0,
+            "stop": 658.0,
+            "subject": "English literature. History of English literature. Drama. Elizabethan era (1550\u2013"
+        },
+        {
+            "id": "PR678.H58",
+            "parents": [],
+            "prefix": "PR",
+            "start": 678.0,
+            "stop": 678.0,
+            "subject": "English literature. History of English literature. Drama. 17th century. Special"
+        },
+        {
+            "id": "PR698.H58",
+            "parents": [],
+            "prefix": "PR",
+            "start": 698.0,
+            "stop": 698.0,
+            "subject": "English literature. History of English literature. Drama. Restoration. Special"
+        },
+        {
+            "id": "PR708.H58",
+            "parents": [],
+            "prefix": "PR",
+            "start": 708.0,
+            "stop": 708.0,
+            "subject": "English literature. History of English literature. Drama. 18th century. General."
+        },
+        {
+            "id": "PR728.H58",
+            "parents": [],
+            "prefix": "PR",
+            "start": 728.0,
+            "stop": 728.0,
+            "subject": "English literature. History of English literature. Drama. 19th century. General."
+        },
+        {
+            "id": "PR739.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 739.0,
+            "stop": 739.0,
+            "subject": "English literature. History of English literature. Drama. 20th century. Special"
+        },
+        {
+            "id": "PR830.G34",
+            "parents": [],
+            "prefix": "PR",
+            "start": 830.0,
+            "stop": 830.0,
+            "subject": "English literature. History of English literature. Prose fiction. The novel."
+        },
+        {
+            "id": "PR830.H67",
+            "parents": [],
+            "prefix": "PR",
+            "start": 830.0,
+            "stop": 830.0,
+            "subject": "English literature. History of English literature. Prose fiction. The novel."
+        },
+        {
+            "id": "PR830.L46",
+            "parents": [],
+            "prefix": "PR",
+            "start": 830.0,
+            "stop": 830.0,
+            "subject": "English literature. History of English literature. Prose fiction. The novel."
+        },
+        {
+            "id": "PR1110.G39",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1110.0,
+            "stop": 1110.0,
+            "subject": "English literature. Collections of English literature. Special classes of authors."
+        },
+        {
+            "id": "PR1111.H57",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1111.0,
+            "stop": 1111.0,
+            "subject": "English literature. Collections of English literature. Special topics (prose and"
+        },
+        {
+            "id": "PR1178.G39",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1178.0,
+            "stop": 1178.0,
+            "subject": "English literature. Collections of English literature. Poetry Special classes of"
+        },
+        {
+            "id": "PR1195.A44",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1195.0,
+            "stop": 1195.0,
+            "subject": "English literature. Collections of English literature. Poetry. Special subjects."
+        },
+        {
+            "id": "PR1195.H58",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1195.0,
+            "stop": 1195.0,
+            "subject": "English literature. Collections of English literature. Poetry. Special subjects."
+        },
+        {
+            "id": "PR1259.H65",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1259.0,
+            "stop": 1259.0,
+            "subject": "English literature. Collections of English literature. Drama. Special subjects."
+        },
+        {
+            "id": "PR1259.L47",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1259.0,
+            "stop": 1259.0,
+            "subject": "English literature. Collections of English literature. Drama. Special subjects."
+        },
+        {
+            "id": "PR1309.H57",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1309.0,
+            "stop": 1309.0,
+            "subject": "English literature. Collections of English literature. Prose (General). Special"
+        },
+        {
+            "id": "PR1309.L47",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1309.0,
+            "stop": 1309.0,
+            "subject": "English literature. Collections of English literature. Prose (General). Special"
+        },
+        {
+            "id": "PR1875.H66",
+            "parents": [],
+            "prefix": "PR",
+            "start": 1875.0,
+            "stop": 1875.0,
+            "subject": "English literature. Chaucer, Geoffrey. Criticism. Special topics. Homosexuality."
+        },
         {
             "id": "PR5810-5828",
             "parents": [],
@@ -715,9 +4421,241 @@
             "start": 5810,
             "stop": 5828,
             "subject": "Wilde, Oscar."
+        },
+        {
+            "id": "PR6045.O72",
+            "parents": [],
+            "prefix": "PR",
+            "start": 6045.0,
+            "stop": 6045.0,
+            "subject": "Woolf, Virginia."
         }
     ],
     "PS": [
+        {
+            "id": "PS153.G38",
+            "parents": [],
+            "prefix": "PS",
+            "start": 153.0,
+            "stop": 153.0,
+            "subject": "American literature. History of American literature. Special classes of authors. Gays."
+        },
+        {
+            "id": "PS153.L46",
+            "parents": [],
+            "prefix": "PS",
+            "start": 153.0,
+            "stop": 153.0,
+            "subject": "American literature. History of American literature. Special classes of authors."
+        },
+        {
+            "id": "PS153.S39",
+            "parents": [],
+            "prefix": "PS",
+            "start": 153.0,
+            "stop": 153.0,
+            "subject": "American literature. History of American literature. Special classes of authors."
+        },
+        {
+            "id": "PS169.G45",
+            "parents": [],
+            "prefix": "PS",
+            "start": 169.0,
+            "stop": 169.0,
+            "subject": "American literature. History of American literature. Treatment of special"
+        },
+        {
+            "id": "PS169.H65",
+            "parents": [],
+            "prefix": "PS",
+            "start": 169.0,
+            "stop": 169.0,
+            "subject": "American literature. History of American literature. Treatment of special"
+        },
+        {
+            "id": "PS217.H65",
+            "parents": [],
+            "prefix": "PS",
+            "start": 217.0,
+            "stop": 217.0,
+            "subject": "American literature. History of American literature. 19th century. Special"
+        },
+        {
+            "id": "PS228.G38",
+            "parents": [],
+            "prefix": "PS",
+            "start": 228.0,
+            "stop": 228.0,
+            "subject": "American literature. History of American literature. By period. 20th century."
+        },
+        {
+            "id": "PS228.L47",
+            "parents": [],
+            "prefix": "PS",
+            "start": 228.0,
+            "stop": 228.0,
+            "subject": "American literature. History of American literature. By period. 20th century."
+        },
+        {
+            "id": "PS310.H66",
+            "parents": [],
+            "prefix": "PS",
+            "start": 310.0,
+            "stop": 310.0,
+            "subject": "American literature. History of American literature. Poetry. Special topics."
+        },
+        {
+            "id": "PS338.H66",
+            "parents": [],
+            "prefix": "PS",
+            "start": 338.0,
+            "stop": 338.0,
+            "subject": "American literature. History of American literature. Drama. Special topics."
+        },
+        {
+            "id": "PS374.H63",
+            "parents": [],
+            "prefix": "PS",
+            "start": 374.0,
+            "stop": 374.0,
+            "subject": "American literature. History of American literature. Prose fiction. Special"
+        },
+        {
+            "id": "PS508.G39",
+            "parents": [],
+            "prefix": "PS",
+            "start": 508.0,
+            "stop": 508.0,
+            "subject": "American literature. Collections of American literature. Special classes of"
+        },
+        {
+            "id": "PS508.L47",
+            "parents": [],
+            "prefix": "PS",
+            "start": 508.0,
+            "stop": 508.0,
+            "subject": "American literature. Collections of American literature. Special classes of"
+        },
+        {
+            "id": "PS508.S49",
+            "parents": [],
+            "prefix": "PS",
+            "start": 508.0,
+            "stop": 508.0,
+            "subject": "American literature. Collections of American literature. Special classes of"
+        },
+        {
+            "id": "PS508.T73",
+            "parents": [],
+            "prefix": "PS",
+            "start": 508.0,
+            "stop": 508.0,
+            "subject": "American literature. Collections of American literature. Special classes of"
+        },
+        {
+            "id": "PS509.H57",
+            "parents": [],
+            "prefix": "PS",
+            "start": 509.0,
+            "stop": 509.0,
+            "subject": "American literature. Collections of American literature. Special topics (Prose"
+        },
+        {
+            "id": "PS509.L47",
+            "parents": [],
+            "prefix": "PS",
+            "start": 509.0,
+            "stop": 509.0,
+            "subject": "American literature. Collections of American literature. Special topics (Prose"
+        },
+        {
+            "id": "PS591.G38",
+            "parents": [],
+            "prefix": "PS",
+            "start": 591.0,
+            "stop": 591.0,
+            "subject": "American literature. Collections of American literature. Poetry. Special groups"
+        },
+        {
+            "id": "PS591.L47",
+            "parents": [],
+            "prefix": "PS",
+            "start": 591.0,
+            "stop": 591.0,
+            "subject": "American literature. Collections of American literature. Poetry. Special groups"
+        },
+        {
+            "id": "PS595.H65",
+            "parents": [],
+            "prefix": "PS",
+            "start": 595.0,
+            "stop": 595.0,
+            "subject": "American literature. Collections of American literature. Poetry. Special"
+        },
+        {
+            "id": "PS595.L46",
+            "parents": [],
+            "prefix": "PS",
+            "start": 595.0,
+            "stop": 595.0,
+            "subject": "American literature. Collections of American literature. Poetry. Special"
+        },
+        {
+            "id": "PS595.S76",
+            "parents": [],
+            "prefix": "PS",
+            "start": 595.0,
+            "stop": 595.0,
+            "subject": "American literature. Collections of American literature. Poetry. Special"
+        },
+        {
+            "id": "PS627.H67",
+            "parents": [],
+            "prefix": "PS",
+            "start": 627.0,
+            "stop": 627.0,
+            "subject": "American literature. Collections of American literature. Drama. Special forms"
+        },
+        {
+            "id": "PS627.L48",
+            "parents": [],
+            "prefix": "PS",
+            "start": 627.0,
+            "stop": 627.0,
+            "subject": "American literature. Collections of American literature. Drama. Special forms"
+        },
+        {
+            "id": "PS647.G39",
+            "parents": [],
+            "prefix": "PS",
+            "start": 647.0,
+            "stop": 647.0,
+            "subject": "American literature. Collections of American literature. Prose (General)."
+        },
+        {
+            "id": "PS648.B57",
+            "parents": [],
+            "prefix": "PS",
+            "start": 648.0,
+            "stop": 648.0,
+            "subject": "American literature. Collections of American literature. Prose (General)."
+        },
+        {
+            "id": "PS648.H57",
+            "parents": [],
+            "prefix": "PS",
+            "start": 648.0,
+            "stop": 648.0,
+            "subject": "American literature. Collections of American literature. Prose (General)."
+        },
+        {
+            "id": "PS648.L47",
+            "parents": [],
+            "prefix": "PS",
+            "start": 648.0,
+            "stop": 648.0,
+            "subject": "American literature. Collections of American literature. Prose (General)."
+        },
         {
             "id": "PS3200-3248",
             "parents": [],
@@ -725,6 +4663,90 @@
             "start": 3200,
             "stop": 3248,
             "subject": "Whitman, Walt."
+        },
+        {
+            "id": "PS3505.A59",
+            "parents": [],
+            "prefix": "PS",
+            "start": 3505.0,
+            "stop": 3505.0,
+            "subject": "Capote, Truman."
+        },
+        {
+            "id": "PS3551.L25",
+            "parents": [],
+            "prefix": "PS",
+            "start": 3551.0,
+            "stop": 3551.0,
+            "subject": "Albee, Edward."
+        }
+    ],
+    "PT": [
+        {
+            "id": "PT134.H73",
+            "parents": [],
+            "prefix": "PT",
+            "start": 134.0,
+            "stop": 134.0,
+            "subject": "German literature. History of German literature. Special subjects not limited to"
+        },
+        {
+            "id": "PT1340.G36",
+            "parents": [],
+            "prefix": "PT",
+            "start": 1340.0,
+            "stop": 1340.0,
+            "subject": "German literature. Collections of German literature. Prose Fiction. Short"
+        },
+        {
+            "id": "PT2200.H65",
+            "parents": [],
+            "prefix": "PT",
+            "start": 2200.0,
+            "stop": 2200.0,
+            "subject": "German literature. Johann Wolfgang von Goethe, 1749\u20131832. Criticism and"
+        },
+        {
+            "id": "PT5085.H6",
+            "parents": [],
+            "prefix": "PT",
+            "start": 5085.0,
+            "stop": 5085.0,
+            "subject": "Dutch literature. History of Dutch literature. Treatment of special subjects."
+        },
+        {
+            "id": "PT7073.L47",
+            "parents": [],
+            "prefix": "PT",
+            "start": 7073.0,
+            "stop": 7073.0,
+            "subject": "Scandinavian literature. History of Scandinavian literature. Special topics."
+        },
+        {
+            "id": "PT7762.H65",
+            "parents": [],
+            "prefix": "PT",
+            "start": 7762.0,
+            "stop": 7762.0,
+            "subject": "Danish literature. History of Danish literature. 20th century. Special topics."
+        },
+        {
+            "id": "PT8437.H65",
+            "parents": [],
+            "prefix": "PT",
+            "start": 8437.0,
+            "stop": 8437.0,
+            "subject": "Norwegian literature. History of Norwegian literature. 19th century. Special"
+        }
+    ],
+    "QA": [
+        {
+            "id": "QA29.T8",
+            "parents": [],
+            "prefix": "QA",
+            "start": 29.0,
+            "stop": 29.0,
+            "subject": "Turing, Alan."
         }
     ],
     "QP": [
@@ -735,6 +4757,16 @@
             "start": 81.6,
             "stop": 81.6,
             "subject": "Physiology. Phenomena of animal life (General). Sexual orientation."
+        }
+    ],
+    "QR": [
+        {
+            "id": "QR201.A37",
+            "parents": [],
+            "prefix": "QR",
+            "start": 201.0,
+            "stop": 201.0,
+            "subject": "Immunology. Pathogenic microorganisms. By disease. AIDS (Disease). HIV"
         }
     ],
     "RA": [
@@ -773,6 +4805,14 @@
             "subject": "Psychiatry. Psychiatry as a profession. Gay psychiatrists. Gay psychotherapists."
         },
         {
+            "id": "RC552.A45",
+            "parents": [],
+            "prefix": "RC",
+            "start": 552.0,
+            "stop": 552.0,
+            "subject": "Psychiatry. Neuroses. AIDS phobia."
+        },
+        {
             "id": "RC558",
             "parents": [],
             "prefix": "RC",
@@ -797,12 +4837,48 @@
             "subject": "Psychiatry. Psychiatric aspects of personality and behavior conditions."
         },
         {
+            "id": "RC560.B56",
+            "parents": [],
+            "prefix": "RC",
+            "start": 560.0,
+            "stop": 560.0,
+            "subject": "Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual"
+        },
+        {
+            "id": "RC560.G45",
+            "parents": [],
+            "prefix": "RC",
+            "start": 560.0,
+            "stop": 560.0,
+            "subject": "Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual"
+        },
+        {
             "id": "RC606.5-606.7",
             "parents": [],
             "prefix": "RC",
             "start": 606.5,
             "stop": 606.7,
             "subject": "Specialties of internal medicine. Immunologic diseases. AIDS. HIV infections."
+        }
+    ],
+    "RF": [
+        {
+            "id": "RF511.T73",
+            "parents": [],
+            "prefix": "RF",
+            "start": 511.0,
+            "stop": 511.0,
+            "subject": "Laryngology. Diseases of the larynx, vocal cords, epiglottis, and trachea. By age"
+        }
+    ],
+    "RG": [
+        {
+            "id": "RG580.A44",
+            "parents": [],
+            "prefix": "RG",
+            "start": 580.0,
+            "stop": 580.0,
+            "subject": "Obstetrics. Pregnancy. Diseases and conditions in pregnancy. AIDS (Disease)."
         }
     ],
     "RJ": [
@@ -813,6 +4889,32 @@
             "start": 101.3,
             "stop": 101.3,
             "subject": "Pediatrics. Child health services. Preventive health services for children. By"
+        },
+        {
+            "id": "RJ387.A25",
+            "parents": [],
+            "prefix": "RJ",
+            "start": 387.0,
+            "stop": 387.0,
+            "subject": "Pediatrics. Diseases of children. AIDS."
+        },
+        {
+            "id": "RJ506.G35",
+            "parents": [],
+            "prefix": "RJ",
+            "start": 506.0,
+            "stop": 506.0,
+            "subject": "Pediatrics. Diseases of children. Mental disorders of children and adolescents."
+        }
+    ],
+    "RK": [
+        {
+            "id": "RK55.H58",
+            "parents": [],
+            "prefix": "RK",
+            "start": 55.0,
+            "stop": 55.0,
+            "subject": "Dentistry. By age group, class, etc. HIV patients. AIDS patients."
         }
     ],
     "RT": [
@@ -825,7 +4927,143 @@
             "subject": "Nursing. Gay nurses. Lesbian nurses."
         }
     ],
+    "RX": [
+        {
+            "id": "RX226.A35",
+            "parents": [],
+            "prefix": "RX",
+            "start": 226.0,
+            "stop": 226.0,
+            "subject": "Homeopathy. Diseases due to specific infections. AIDS."
+        }
+    ],
+    "TR": [
+        {
+            "id": "TR140.R53",
+            "parents": [],
+            "prefix": "TR",
+            "start": 140.0,
+            "stop": 140.0,
+            "subject": "Ritts, Herb."
+        },
+        {
+            "id": "TR647.R543",
+            "parents": [],
+            "prefix": "TR",
+            "start": 647.0,
+            "stop": 647.0,
+            "subject": "Ritts, Herb."
+        },
+        {
+            "id": "TR681.A38",
+            "parents": [],
+            "prefix": "TR",
+            "start": 681.0,
+            "stop": 681.0,
+            "subject": "Photography. Artistic photography. Portraits. Special classes of persons. AIDS"
+        },
+        {
+            "id": "TR681.H65",
+            "parents": [],
+            "prefix": "TR",
+            "start": 681.0,
+            "stop": 681.0,
+            "subject": "Photography. Artistic photography. Portraits. Special classes of persons."
+        }
+    ],
+    "UB": [
+        {
+            "id": "UB418.G38",
+            "parents": [],
+            "prefix": "UB",
+            "start": 418.0,
+            "stop": 418.0,
+            "subject": "Military administration. Minorities, women, etc. in armed forces. By region or"
+        },
+        {
+            "id": "UB418.T72",
+            "parents": [],
+            "prefix": "UB",
+            "start": 418.0,
+            "stop": 418.0,
+            "subject": "Military administration. Minorities, women, etc. in armed forces. By region or"
+        }
+    ],
+    "VB": [
+        {
+            "id": "VB324.G38",
+            "parents": [],
+            "prefix": "VB",
+            "start": 324.0,
+            "stop": 324.0,
+            "subject": "Naval administration.Minorities, women, etc. in navies. By region or country."
+        }
+    ],
     "Z": [
+        {
+            "id": "Z675.L48",
+            "parents": [],
+            "prefix": "Z",
+            "start": 675.0,
+            "stop": 675.0,
+            "subject": "Libraries. Classes of libraries. Lesbian libraries."
+        },
+        {
+            "id": "Z688.S47",
+            "parents": [],
+            "prefix": "Z",
+            "start": 688.0,
+            "stop": 688.0,
+            "subject": "Libraries. Special collections. By subject. Sexual minorities."
+        },
+        {
+            "id": "Z1229.G25",
+            "parents": [],
+            "prefix": "Z",
+            "start": 1229.0,
+            "stop": 1229.0,
+            "subject": "National bibliography. United States. American literature. Special classes or"
+        },
+        {
+            "id": "Z5866.L4",
+            "parents": [],
+            "prefix": "Z",
+            "start": 5866.0,
+            "stop": 5866.0,
+            "subject": "Subject bibliography. Erotic literature, facetiae, curiosa, etc. Special topics."
+        },
+        {
+            "id": "Z5956.H64",
+            "parents": [],
+            "prefix": "Z",
+            "start": 5956.0,
+            "stop": 5956.0,
+            "subject": "Subject bibliography. Fine arts (Visual arts). The arts (General). Special topics."
+        },
+        {
+            "id": "Z6664.A27",
+            "parents": [],
+            "prefix": "Z",
+            "start": 6664.0,
+            "stop": 6664.0,
+            "subject": "Subject bibliography. Medicine. Internal medicine. Diseases and"
+        },
+        {
+            "id": "Z6675.H73",
+            "parents": [],
+            "prefix": "Z",
+            "start": 6675.0,
+            "stop": 6675.0,
+            "subject": "Subject bibliography. Medicine. Other. Homosexual men and women, and health."
+        },
+        {
+            "id": "Z7164.H74",
+            "parents": [],
+            "prefix": "Z",
+            "start": 7164.0,
+            "stop": 7164.0,
+            "subject": "Subject bibliography. Political and social sciences. Special topics."
+        },
         {
             "id": "Z8021.17",
             "parents": [],
