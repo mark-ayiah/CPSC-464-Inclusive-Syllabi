@@ -1,0 +1,776 @@
+B350-398 Plato.
+B2430.F724 Foucault, Michel.
+BF723.H67 Developmental psychology. Child psychology. Special topics. Homophobia.
+BF1571.5.G39 Witchcraft. Special classes of persons. Gays.
+BF1728.2.G39 Astrology. Horoscopes. Special Groups. Gay men.
+BF1729.H66 Astrology. Special topics. Homosexuality.
+BL65.H64 Religions. Religion in relation to other subjects. Homosexuality.
+BL325.B45 Religion. The myth. Comparative mythology. Topics in comparative mythology. Bisexuality. Androgyny. Hermaphroditism.
+BL625.9.G39 Religion. Religious life. Special classes of persons. Gays.
+BL795.B57 Religion. Classical religion and mythology Greece. Special topics. Bisexuality.
+BL795.H6 Religion. Classical religion and mythology. Greece. Special topics. Homosexuality.
+BM729.H65 Practical Judaism Other special topics. Gays.
+BP188.14.H65 Islam. Sins. Vices. Homosexuality.
+BP190.5.H7* Islam. Topics not otherwise provided. Homosexuality.
+BQ4570.A37 Doctrinal and systematic Buddhism. Special topics (nondoctrinal) and relations to special subjects. AIDS (Disease).
+BQ4570.H65 Doctrinal and systematic Buddhism. Special topics (nondoctrinal) and relations to special subjects. Homosexuality.
+BV199.G39 Practical Theology. Worship (Public and private). Liturgy and ritual Service books. Liturgies Other special, A-Z. Gays, Services For.
+BV4437.5 Practical Theology. Church work with special classes. Gays. Lesbians. Homosexuals.
+BV4460.7 Pastoral theology. Church work with special classes. People with disabilities, sick, etc. AIDS.
+BV4596.G38 Practical Theology. Practical religion. The Christian life. Religious works for special classes of persons. Other. Gays.
+BV4910.3 Practical religion. The Christian life. Works for special classes of persons. The sick and the crippled. AIDS patients.
+BX2347.8.A52 Catholic Church. Practical religion. Church work. Social service. Work with, and attitude towards, special groups, classes. AIDS patients.
+BX2347.8.H65 Catholic Church. Practical religion. Work with, and attitude towards, special groups, classes. Homosexuals.
+D804.5.G38 World War II (1939–1945). Holocaust. Special groups of Jewish victims. Gays.
+D810.G39 World War II (1939–1945). Other special topics. Gays. Gay military participation.
+E98.S48 Indians of North America. Other topics. Sexual behavior. Including homosexuality.
+F869.S353 M547 Milk, Harvey.
+GN484.35 Anthropology. Sexual behavior. Sex customs. Homosexuality.
+GV183.2 Recreation for special classes of persons. Gay men. Lesbians.
+GV708.8 Sports. Sports for special classes of persons Gay men. Lesbians.
+GV722.5.G36 Sports. Athletic contests. Sports events. Other contests and events. Gay Games
+GV838.L68 Louganis, Greg.
+GV1469.34.H66 Computer games. Special topics. Homosexuality.
+GV1785.A38 Ailey, Alvin.
+GV1749.5 Gay and lesbian dance parties.
+HD2359-2359.5 Industry. Other special categories of businesses. Gay business enterprises.
+HD6285 Labor. Work. Working class. Classes of labor. Gays. Lesbians. General works.
+HD6285.5 Labor. Work. Working class. Classes of labor. Gays. Lesbians. By region or country, A-Z.
+HE6183.H57 Postage stamps. Postmarks. By topic. Homosexuals.
+HF5382.68-5382.69 Business. Vocational guidance for specific (non-occupational) groups. Gays.
+HF5415.332.G39 Business. Marketing research. Particular groups of consumers. Gays.
+HF5549.5.S47 Business. Personnel management. Employment management. By topic. Sexual orientation (including homosexuality and bisexuality).
+HF5827.82 Business. Advertising. Gays in advertising.
+HQ18.5 Human sexuality. Sex. Sexual orientation.
+HQ18.32.K56 Kinsey, Alfred.
+HQ74 Bisexuality. General works.
+HQ74.2 Bisexuality. By region or country, A-Z.
+HQ75 Homosexuality. Lesbianism. Periodicals. Serials.
+HQ75.115 Homosexuality. Lesbianism. Congresses.
+HQ75.12 Homosexuality. Lesbianism. Societies.
+HQ75.13 Homosexuality. Lesbianism. Dictionaries.
+HQ75.14 Homosexuality. Lesbianism. Computer networks. Electronic information resources (including the Internet and digital libraries).
+HQ75.15-75.16 Gay and lesbian studies.
+HQ75.2 Homosexuality. Lesbianism. Biography (Collective).
+HQ75.25-75.26 Homosexuality. Lesbianism. Travel.
+HQ75.27-75.28 Homosexuality. Lesbianism. Gay parents.
+HQ75.3 Lesbians. Biography. Collective.
+HQ75.4 Lesbians. Biography. Individual, A-Z.
+HQ75.5 Lesbians. General works.
+HQ75.51 Lesbians. Sex instruction.
+HQ75.53 Lesbian mothers.
+HQ75.55 Middle-aged lesbians. Older lesbians.
+HQ75.6 Lesbians. By region or country, A-Z.
+HQ75.7 Gay men. Biography. Collective.
+HQ75.8 Gay men. Biography. Individual, A-Z.
+HQ75.8.K35 Kameny, Frank.
+HQ76 Gay men. General works.
+HQ76.1 Gay men. Sex instruction.
+HQ76.13 Gay fathers.
+HQ76.14 Middle-aged gay men. Older gay men.
+HQ76.2 Gay men. By region or country, A-Z.
+HQ76.25 Homosexuality. Lesbianism. General works.
+HQ76.26 Homosexuality. Lesbianism. Juvenile works.
+HQ76.27 Special classes of gay people, A-Z.
+HQ76.27.A37 Special classes of gay people. African Americans.
+HQ76.27.O44 Special classes of gay people. Older gays.
+HQ76.27.Y68 Special classes of gay people. Youth.
+HQ76.3 Homosexuality. Lesbianism. By region or country, A-Z.
+HQ76.34 Same-sex relationships. General works.
+HQ76.35 Same-sex relationships. By region or country, A-Z
+HQ76.4 Homophobia. Heterosexism. General works.
+HQ76.45 Homophobia. Heterosexism. By region or country, A-Z.
+HQ76.5 Gay rights movement. Gay liberation movement. Homophile movement. General works.
+HQ76.8 Gay rights movement. Gay liberation movement. Homophile movement. By region or country, A-Z.
+HQ76.85 Gay conservatives.
+HQ76.9 Gay press publications. General works.
+HQ76.95 Gay press publications. By region or country, A-Z
+HQ76.96 Gay and lesbian culture. General works.
+HQ76.965 Gay and lesbian culture. Special topics, A-Z.
+HQ76.965.B38 Gay and lesbian culture. Bathhouses. Saunas. Steam baths.
+HQ76.965.B45 Gay and lesbian culture. Bears.
+HQ76.965.G38 Gay and lesbian culture. Gay pride parades.
+HQ76.965.H35 Gay and lesbian culture. Handkerchief codes.
+HQ76.965.O54 Gay and lesbian culture. Online chat groups.
+HQ76.97 Transvestism. Biography. Collective.
+HQ76.98 Transvestism. Biography. Individual, A-Z.
+HQ77 Transvestism. General works.
+HQ77.2 Transvestism. By region or country, A-Z
+HQ77.7 Transsexualism. Biography. Collective.
+HQ77.8 Transsexualism. Biography. Individual, A-Z.
+HQ77.8.J67 Jorgensen, Christine.
+HQ77.9 Transsexualism. General works.
+HQ77.95 Transsexualism. By region or country, A-Z.
+HQ759.9145 Parents of gay men or lesbians.
+HQ777.8 Children of gay parents.
+HQ825 Same-sex divorce. Gay divorce.
+HQ1033 Same-sex marriage. General works.
+HQ1034 Same-sex marriage. By region or country, A-Z.
+HQ1035-1035.5 The family. Marriage. Women. Bisexuality in marriage.
+HS3357.L47 Girls’ societies (including Guides, Scouts, and Campfire). Special topics. Lesbianism.
+HV875.715 Gay and lesbian adoption. General works.
+HV875.72 Gay and lesbian adoption. By region or country, A-Z.
+HV1426 Protection, assistance and relief. Special classes. Gay youth. Lesbian youth.
+HV1449 Protection, assistance and relief. Special classes. Gay men. Lesbians.
+HV2394 Protection, assistance and relief. Special classes. Deaf gays.
+HV5139 Alcohol and gay people.
+HV5824.G3 Drug habits. Drug abuse. Drugs and special classes of persons. Gays.
+HV6250.4.H66 Criminology. Victims of crimes. Victimology. Special classes of persons as victims. Homosexuals.
+HV6545.4 Suicide among special classes of persons. Gays.
+HV8024 Gay and lesbian police officers.
+HV8838 Criminal justice administration. Prison methods and practice. Prison hygiene. Medical service. AIDS (Disease) in prisons.
+HX550.H65 Communism/socialism in relation to other topics. Homosexuality.
+JJ1012.Z13H6 Political institutions and public administration. North America. Executive branch. Civil service. Special topics. Homosexual men and women.
+JK723.H6 United States. Government. Public administration. Executive branch. Civil service. Special classes of employees. Other Special, A-Z. Homosexual men and women.
+JL206.Z13H6 Political institutions and public administration. Canada. Newfoundland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL216.Z13H6 Political institutions and public administration. Canada. Prince Edward Island. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL226.Z13H6 Political institutions and public administration. Canada. Nova Scotia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL236.Z13H6 Political institutions and public administration. Canada. New Brunswick. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL252.Z13H6 Political institutions and public administration. Canada. Quebec. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL272.Z13H6 Political institutions and public administration. Canada. Ontario. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL292.Z13H6 Political institutions and public administration. Canada. Manitoba. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL312.Z13H6 Political institutions and public administration. Canada. Saskatchewan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL332.Z13H6 Political institutions and public administration. Canada. Alberta. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL432.Z13H6 Political institutions and public administration. Canada. British Columbia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL472.Z13H6 Political institutions and public administration. Canada. Northwest Territories. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL486.Z13H6 Political institutions and public administration. Canada. Nunavut. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL495.A69H6 Political institutions and public administration. Canada. Yukon Territory. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL596.Z13H6 Political institutions and public administration. Bermuda. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL599.2.A69H6 Political institutions and public administration. Greenland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL599.4.A69H6 Political institutions and public administration. Saint Pierre and Miquelon. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL599.5.A69H6 Political institutions and public administration. West Indies. Caribbean Area. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL606.Z13H6 Political institutions and public administration. British West Indies. English-speaking Caribbean. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL609.2.A69H6 Political institutions and public administration. Anguilla. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL616.Z13H6 Political institutions and public administration. Bahamas. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL626.Z13H6 Political institutions and public administration. Barbados. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL629.5.A69H6 Political institutions and public administration. Cayman Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL629.6.A69H6 Political institutions and public administration. Grenada. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL636.Z13H6 Political institutions and public administration. Jamaica. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL646.Z13H6 Political institutions and public administration. Leeward Islands (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JL649.2.A69H6 Political institutions and public administration. Antigua and Barbuda. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL649.5.A69H6 Political institutions and public administration. Montserrat. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL649.7.A69H6 Political institutions and public administration. Saint Kitts and Nevis. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL656.Z13H6 Political institutions and public administration. Trinidad and Tobago. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL666.Z13H6 Political institutions and public administration. Windward Islands (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JL669.2.A69H6 Political institutions and public administration. Dominica. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL669.5.A69H6 Political institutions and public administration. Saint Vincent and the Grenadines. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL669.4.A69H6 Political institutions and public administration. Saint Lucia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL676.Z13H6 Political institutions and public administration. Belize. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL686.Z13H6 Political institutions and public administration. Guyana. British Guiana. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL696.Z13H6 Political institutions and public administration. Falkland Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL766.Z13H6 Political institutions and public administration. Netherlands Antilles. Dutch West Indies (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JL769.3.A69H6 Political institutions and public administration. Aruba. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL769.5.A69H6 Political institutions and public administration. Bonaire. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL776.Z13H6 Political institutions and public administration. Curacao. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL779.2.A69H6 Political institutions and public administration. Saba. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL779.5.A69H6 Political institutions and public administration. Saint Eustatius. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL779.7.A69H6 Political institutions and public administration. Sint Maarten. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL786.Z13H6 Political institutions and public administration. Suriname. Dutch Guiana. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL796.Z13H6 Political institutions and public administration. French West Indies (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JL816.Z13H6 Political institutions and public administration. French Guiana. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL826.Z13H6 Political institutions and public administration. Guadeloupe. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL836.Z13H6 Political institutions and public administration. Martinique. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL962.Z13H6 Political institutions and public administration. Cuba. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1012.Z13H6 Political institutions and public administration. Latin America. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1052.Z13H6 Political institutions and public administration. Puerto Rico. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1092.Z13H6 Political institutions and public administration. Haiti. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1132.Z13H6 Political institutions and public administration. Dominican Republic. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1132.Z13H6 Political institutions and public administration. Virgin Islands of the United States. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1249.H6 Political institutions and public administration. Mexico. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1412.Z13H6 Political institutions and public administration. Central America (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1452.Z13H6 Political institutions and public administration. Costa Rica. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1492.Z13H6 Political institutions and public administration. Guatemala. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1532.Z13H6 Political institutions and public administration. Honduras. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1572.Z13H6 Political institutions and public administration. El Salvador. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1612.Z13H6 Political institutions and public administration. Nicaragua. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1652.Z13H6 Political institutions and public administration. Panama. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1676.Z13H6 Political institutions and public administration. Panama Canal Zone. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1862.Z13H6 Political institutions and public administration. South America (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JL2049.H6 Political institutions and public administration. Argentina. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL2249.H6 Political institutions and public administration. Bolivia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL2449.H6 Political institutions and public administration. Brazil. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL2649.H6 Political institutions and public administration. Chile. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL2849.H6 Political institutions and public administration. Colombia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL3049.H6 Political institutions and public administration. Ecuador. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL3249.H6 Political institutions and public administration. Paraguay. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL3449.H6 Political institutions and public administration. Peru. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL3649.H6 Political institutions and public administration. Uruguay. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL3849.H6 Political institutions and public administration. Venezuela. Executive branch. Civil service. Special topics. Homosexual men and women.
+JL1862.Z13H6 Political institutions and public administration. South America (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN96.A69H6 Political institutions and public administration. Western Europe. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN94.A69H6 Political institutions and public administration. Central Europe. Eastern Europe. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN97.A69H6 Political institutions and public administration. Balkan Peninsula. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN1156.Z13H6 Political institutions and public administration. Wales. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN1176.Z13H6 Political institutions and public administration. Isle of Man. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN1572.A69H6 Political institutions and public administration. Northern Ireland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN1573.A69H6 Political institutions and public administration. Channel Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN1576.A69H6 Political institutions and public administration. Gibraltar. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN1586.Z13H6 Political institutions and public administration. Malta. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN2201.A69H6 Political institutions and public administration. Slovenia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN2202.A69H6 Political institutions and public administration. Croatia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN2203.A69H6 Political institutions and public administration. Bosnia and Herzegovina. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN2222.Z13H6 Political institutions and public administration. Czech Republic. Czechoslovakia. Bohemia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN2240.A69H6 Political institutions and public administration. Slovakia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN2282.Z13H6 Political institutions and public administration. Liechtenstein. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN3112.Z13H6 Political institutions and public administration. Andorra. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN3142.Z13H6 Political institutions and public administration. Monaco. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN3971.5.A69H6 Political institutions and public administration. German Democratic Republic, 1949–1990. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4012.Z13H6 Political institutions and public administration. Germany. Alsace-Lorraine. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4032.Z13H6 Political institutions and public administration. Germany. Anhalt. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4089.H6 Political institutions and public administration. Germany. Baden. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4139.5.A69H6 Political institutions and public administration. Germany. Baden-Wurttemberg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4189.H6 Political institutions and public administration. Germany. Bavaria. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4239.3.A69H6 Political institutions and public administration. Germany. Brandenburg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4239.5.A69H6 Political institutions and public administration. Germany. Brandenburg (State, 1990- ). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4252.Z13H6 Political institutions and public administration. Germany. Bremen. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4272.Z13H6 Political institutions and public administration. Germany. Brunswick. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4279.5.A69H6 Political institutions and public administration. Germany. Friesland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4292.Z13H6 Political institutions and public administration. Germany. Hamburg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4299.5.A69H6 Political institutions and public administration. Germany. Hanover. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4312.Z13H6 Political institutions and public administration. Germany. Hesse. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4332.Z13H6 Political institutions and public administration. Germany. Lippe. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4339.5.A69H6 Political institutions and public administration. Germany. Lower Saxony. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4352.Z13H6 Political institutions and public administration. Germany. Lubeck. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4359.5.A69H6 Political institutions and public administration. Germany. Mainz. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4359.7.A69H6 Political institutions and public administration. Germany. Mecklenburg (State, 1990- ). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4372.Z13H6 Political institutions and public administration. Germany. Mecklenburg Schwerin. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4392.Z13H6 Political institutions and public administration. Germany. Mecklenburg-Strelitz. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4399.5.A69H6 Political institutions and public administration. Germany. Nassau. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4399.7.A69H6 Political institutions and public administration. Germany. North Rhine- Westphalia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4412.Z13H6 Political institutions and public administration. Germany. Oldenburg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4420.Z13H6 Political institutions and public administration. Germany. Pomerania. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4732.Z13H6 Political institutions and public administration. Germany. Reuss (Younger Line). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4739.3.A69H6 Political institutions and public administration. Germany. Rhine Province. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4739.5.A69H6 Political institutions and public administration. Germany. Rhineland-Palatinate. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4739.7.A69H6 Political institutions and public administration. Germany. Ruhr Region. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4739.8.A69H6 Political institutions and public administration. Germany. Saarland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4752.Z13H6 Political institutions and public administration. Germany. Saxe-Altenburg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4772.Z13H6 Political institutions and public administration. Germany. Saxe-Meiningen. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4832.Z13H6 Political institutions and public administration. Germany. Saxony. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4839.5.A69H6 Political institutions and public administration. Germany. Saxony (State, 1990- ). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4839.7.A69H6 Political institutions and public administration. Germany. Saxony-Anhalt. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4852.Z13H6 Political institutions and public administration. Germany. Schaumburg-Lippe. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4859.5.A69H6 Political institutions and public administration. Germany. Schleswig-Holstein. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4872.Z13H6 Political institutions and public administration. Germany. Schwarzburg- Rudolstadt. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4892.Z13H6 Political institutions and public administration. Germany. Schwarzburg- Sondershausen. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4906.Z13H6 Political institutions and public administration. Germany. Thuringia (1920– 1952). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4910.A69H6 Political institutions and public administration. Germany. Thuringia (1990- ). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4916.A69H6 Political institutions and public administration. Germany. Westphalia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4932.Z13H6 Political institutions and public administration. Germany. Wurttemberg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN4944.A69H6 Political institutions and public administration. Germany. Wurzburg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN5695.A69H6 Political institutions and public administration. San Marino. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN5697.A69H6 Political institutions and public administration. Vatican City. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN5700.A69H6 Political institutions and public administration. Benelux Countries. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6392.Z13H6 Political institutions and public administration. Luxembourg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6549.H6 Political institutions and public administration. Soviet Union. Russia. Former Soviet Republics. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6615.A69H6 Political institutions and public administration. Estonia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6636.Z13H6 Political institutions and public administration. Ukraine. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6646.Z13H6 Political institutions and public administration. Belarus. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6762.Z13H6 Political institutions and public administration. Poland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6686.Z13H6 Political institutions and public administration. Moldova. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6696.Z13H6 Political institutions and public administration. Russia (Federation). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6729.A69H6 Political institutions and public administration. Baltic States (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6736.Z13H6 Political institutions and public administration. Latvia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN6745.A69H6 Political institutions and public administration. Lithuania. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN7376.Z13H6 Political institutions and public administration. Greenland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN7386.Z13H6 Political institutions and public administration. Iceland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN7396.Z13H6 Political institutions and public administration. Finland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9112.Z13H6 Political institutions and public administration. Switzerland. Aargau. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9132.Z13H6 Political institutions and public administration. Switzerland. Appenzell Inner Rhoden. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9172.Z13H6 Political institutions and public administration. Switzerland. Baselland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9192.Z13H6 Political institutions and public administration. Switzerland. Basel-Stadt. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9212.Z13H6 Political institutions and public administration. Switzerland. Bern. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9232.Z13H6 Political institutions and public administration. Switzerland. Fribourg. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9252.Z13H6 Political institutions and public administration. Switzerland. Geneva. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9272.Z13H6 Political institutions and public administration. Switzerland. Glarus. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9292.Z13H6 Political institutions and public administration. Switzerland. Graubunden. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9299.5.A69H6 Political institutions and public administration. Switzerland. Jura. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9312.Z13H6 Political institutions and public administration. Switzerland. Lucerne. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9332.Z13H6 Political institutions and public administration. Switzerland. Neuchatel. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9352.Z13H6 Political institutions and public administration. Switzerland. St. Gall. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9372.Z13H6 Political institutions and public administration. Switzerland. Schaffhausen. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9392.Z13H6 Political institutions and public administration. Switzerland. Schwyz. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9412.Z13H6 Political institutions and public administration. Switzerland. Solothurn. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9432.Z13H6 Political institutions and public administration. Switzerland. Thurgau. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9452.Z13H6 Political institutions and public administration. Switzerland. Ticino. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9472.Z13H6 Political institutions and public administration. Switzerland. Unterwalden nid dem Wald. Nidwalden. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9492.Z13H6 Political institutions and public administration. Switzerland. Unterwalden nid dem Wald. Obwalden. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9512.Z13H6 Political institutions and public administration. Switzerland. Uri. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9532.Z13H6 Political institutions and public administration. Switzerland. Valais. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9552.Z13H6 Political institutions and public administration. Switzerland. Vaud. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9572.Z13H6 Political institutions and public administration. Switzerland. Zug. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9592.Z13H6 Political institutions and public administration. Switzerland. Zurich. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9606.Z13H6 Political institutions and public administration. Bulgaria. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9616.Z13H6 Political institutions and public administration. Montenegro. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9632.Z13H6 Political institutions and public administration. Romania. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9652.Z13H6 Political institutions and public administration. Serbia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9672.Z13H6 Political institutions and public administration. Yugoslavia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9679.5.A69H6 Political institutions and public administration. Macedonia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JN9686.Z13H6 Political institutions and public administration. Albania. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ98.A69H6 Political institutions and public administration. South Asia (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ249.H6 Political institutions and public administration. India (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ332.Z13H6 Political institutions and public administration. India. Assam. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ379.5.A69H6 Political institutions and public administration. India. West Bengal. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ412.Z13H6 Political institutions and public administration. India. Bombay (State). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ372.Z13H6 Political institutions and public administration. India. Bengal. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ492.Z13H6 Political institutions and public administration. India. Madhya Pradesh. Central Provinces. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ532.Z13H6 Political institutions and public administration. India. Tamil Nadu. Madras. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ572.Z13H6 Political institutions and public administration. India. Punjab. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ612.Z13H6 Political institutions and public administration. India. Uttar Pradesh. United Provinces of Agra and Oudh. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ628.A69H6 Political institutions and public administration. Nepal. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ628.5.A69H6 Political institutions and public administration. Bhutan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ629.A69H6 Political institutions and public administration. Pakistan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ636.Z13H6 Political institutions and public administration. Bangladesh. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ639.5.A69H6 Political institutions and public administration. Maldives. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ656.Z13H6 Political institutions and public administration. Sri Lanka. Ceylon. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ750.A69H6 Political institutions and public administration. Southeast Asia. Indochina (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ751.A69H6 Political institutions and public administration. Burma. Myanmar. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ772.Z13H6 Political institutions and public administration. Indonesia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ790.A69H6 Political institutions and public administration. Timor-Leste. East Timor. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ849.H6 Political institutions and public administration. Vietnam. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ936.Z13H6 Political institutions and public administration. Cambodia. Kampuchea. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ956.Z13H6 Political institutions and public administration. Laos. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1062.A69H6 Political institutions and public administration. Malaysia. Malaya. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1063.A69H6 Political institutions and public administration. Singapore. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1064.A69H6 Political institutions and public administration. Brunei. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1082.Z13H6 Political institutions and public administration. Central Asia (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1090.A69H6 Political institutions and public administration. Kazakhstan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1092.A69H6 Political institutions and public administration. Kyrgyzstan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1093.A69H6 Political institutions and public administration. Tajikistan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1094.A69H6 Political institutions and public administration. Turkmenistan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1095.A69H6 Political institutions and public administration. Uzbekistan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1149.H6 Political institutions and public administration. Siberia (Russia). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1262.Z13H6 Political institutions and public administration. Philippines (Spanish regime, to 1898). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1349.H6 Political institutions and public administration. Philippines (during United States rule, 1898–1946). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1412.Z13H6 Political institutions and public administration. Philippines (Republic, 1946-). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1499.A69H6 Political institutions and public administration. East Asia. Far East (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1512.Z13H6 Political institutions and public administration. China. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1519.3.A69H6 Political institutions and public administration. Tibetan Government-in-Exile. Central Tibetan Administration-in-Exile. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1519.5.A69H6 Political institutions and public administration. Macau. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1532.Z13H6 Political institutions and public administration. Taiwan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1539.5.A69H6 Political institutions and public administration. Hong Kong. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1649.H6 Political institutions and public administration. Japan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1726.Z13H6 Political institutions and public administration. Korea (including South Korea). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1729.5.A69H6 Political institutions and public administration. North Korea. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1730.A69H6 Political institutions and public administration. Mongolia. Outer Mongolia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1746.Z13H6 Political institutions and public administration. Thailand. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1758.A69H6 Political institutions and public administration. Middle East. Near East. Southwest Asia. Islamic Empire (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1759.A69H6 Political institutions and public administration. Caucasus (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1759.3.A69H6 Political institutions and public administration. Armenia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1759.5.A69H6 Political institutions and public administration. Azerbaijan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1759.7.A69H6 Political institutions and public administration. Georgia (Republic). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1766.Z13H6 Political institutions and public administration. Afghanistan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1786.Z13H6 Political institutions and public administration. Iran. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1806.Z13H6 Political institutions and public administration. Turkey. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1811.A69H6 Political institutions and public administration. Cyprus. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1826.A69H6 Political institutions and public administration. Syria. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1828.A69H6 Political institutions and public administration. Lebanon. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1830.A69H6 Political institutions and public administration. Israel. Palestine (including Gaza and West Bank). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1833.A69H6 Political institutions and public administration. Jordan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1841.A69H6 Political institutions and public administration. Saudi Arabia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1842.A69H6 Political institutions and public administration. Yemen. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1843.A69H6 Political institutions and public administration. Oman. Muscat and Oman. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1844.A69H6 Political institutions and public administration. United Arab Emirates. Trucial States. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1845.A69H6 Political institutions and public administration. Qatar. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1846.A69H6 Political institutions and public administration. Bahrain. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1848.A69H6 Political institutions and public administration. Kuwait. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1849.A69H6 Political institutions and public administration. Iraq. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1850.A69H6 Political institutions and public administration. Arab countries. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1852.A69H6 Political institutions and public administration. Islamic countries. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1876.Z13H6 Political institutions and public administration. Africa (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1892.Z13H6 Political institutions and public administration. English-speaking Africa (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ1949.H6 Political institutions and public administration. South Africa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2720.A69H6 Political institutions and public administration. Southern Africa. Central Africa (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2721.A69H6 Political institutions and public administration. Swaziland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2726.Z13H6 Political institutions and public administration. Zimbabwe. Southern Rhodesia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2740.A69H6 Political institutions and public administration. Lesotho. Basutoland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2760.A69H6 Political institutions and public administration. Botswana. Bechuanaland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2786.Z13H6 Political institutions and public administration. Rhodesia. Federation of Rhodesia and Nyasaland. British Central African Protectorate. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2849.H6 Political institutions and public administration. Zambia. Northern Rhodesia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2941.A69H6 Political institutions and public administration. Malawi. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2945.A69H6 Political institutions and public administration. East Africa (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2947.A69H6 Political institutions and public administration. Kenya. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2951.A69H6 Political institutions and public administration. Uganda. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ2998.A69H6 Political institutions and public administration. West Africa (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3001.A69H6 Political institutions and public administration. The Gambia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3032.Z13H6 Political institutions and public administration. Ghana. Gold Coast. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3092.Z13H6 Political institutions and public administration. Nigeria. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3121.A69H6 Political institutions and public administration. Sierra Leone. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3158.A69H6 Political institutions and public administration. Indian Ocean islands (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3159.A69H6 Political institutions and public administration. Maldives. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3172.Z13H6 Political institutions and public administration. Mauritius. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3185.A69H6 Political institutions and public administration. Seychelles. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3188.A69H6 Political institutions and public administration. Kerguelen Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3198.A69H6 Political institutions and public administration. North Africa (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3249.H6 Political institutions and public administration. Algeria. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3332.Z13H6 Political institutions and public administration. Tunisia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3346.Z13H6 Political institutions and public administration. Libya. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3362.Z13H6 Political institutions and public administration. French-speaking West Africa (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3376.A69H6 Political institutions and public administration. Benin. Dahomey. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3381.A69H6 Political institutions and public administration. Guinea. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3386.A69H6 Political institutions and public administration. Côte d’Ivoire. Ivory Coast. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3389.A69H6 Political institutions and public administration. Mali. French Sudan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3391.A69H6 Political institutions and public administration. Mauritania. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3394.A69H6 Political institutions and public administration. Niger. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3396.A69H6 Political institutions and public administration. Senegal. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3398.A69H6 Political institutions and public administration. Burkina Faso. Upper Volta. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3403.A69H6 Political institutions and public administration. French-speaking Equatorial Africa (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3404.A69H6 Political institutions and public administration. Central African Republic. Ubangi-Shari. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3405.A69H6 Political institutions and public administration. Chad. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3406.A69H6 Political institutions and public administration. Congo (Brazzaville). Middle Congo. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3407.A69H6 Political institutions and public administration. Gabon. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3421.A69H6 Political institutions and public administration. Djibouti. French Territory of the Afars and Issas. French Somaliland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3462.Z13H6 Political institutions and public administration. Madagascar. Malagasy Republic. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3486.Z13H6 Political institutions and public administration. Reunion. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3494.A69H6 Political institutions and public administration. Comoros. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3495.A69H6 Political institutions and public administration. Mayotte. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3506.Z13H6 Political institutions and public administration. German East Africa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3516.Z13H6 Political institutions and public administration. Tanzania. Tanganyika. Zanzibar. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3526.Z13H6 Political institutions and public administration. Cameroon. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3536.Z13H6 Political institutions and public administration. Togo. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3546.Z13H6 Political institutions and public administration. Namibia. Southwest Africa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3566.A69H6 Political institutions and public administration. Burundi. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3567.A69H6 Political institutions and public administration. Rwanda. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3580.A69H6 Political institutions and public administration. Italian East Africa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3583.A69H6 Political institutions and public administration. Eritrea. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3585.A69H6 Political institutions and public administration. Somalia. Italian Somaliland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3650.A69H6 Political institutions and public administration. Portuguese-speaking Africa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3651.A69H6 Political institutions and public administration. Angola. Portuguese West Africa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3661.A69H6 Political institutions and public administration. Cabo Verde. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3671.A69H6 Political institutions and public administration. Mozambique. Portuguese East Africa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3681.A69H6 Political institutions and public administration. Guinea-Bissau. Portuguese Guinea. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3685.A69H6 Political institutions and public administration. Sao Tome and Principe. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3701.A69H6 Political institutions and public administration. Western Sahara. Spanish Sahara. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3702.A69H6 Political institutions and public administration. Equatorial Guinea. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3762.Z13H6 Political institutions and public administration. Ethiopia. Abyssinia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3849.H6 Political institutions and public administration. Egypt. United Arab Republic. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3926.Z13H6 Political institutions and public administration. Liberia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3946.Z13H6 Political institutions and public administration. Morocco. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3980.A69H6 Political institutions and public administration. South Sudan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3981.A69H6 Political institutions and public administration. Sudan. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3981.5.A69H6 Political institutions and public administration. Atlantic Ocean islands (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3982.A69H6 Political institutions and public administration. Azores. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3983.A69H6 Political institutions and public administration. Madeira Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3984.A69H6 Political institutions and public administration. Canary Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3986.A69H6 Political institutions and public administration. Saint Helena. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3986.5.A69H6 Political institutions and public administration. Tristan da Cunha. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3986.7.A69H6 Political institutions and public administration. Falkland Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ3995.A69H6 Political institutions and public administration. Australasia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ4049.H6 Political institutions and public administration. Australia (General). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ4449.H6 Political institutions and public administration. Australia. Australian Capital Territory. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ4549.H6 Political institutions and public administration. Australia. New South Wales. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ4652.Z13H6 Political institutions and public administration. Australia. Northern Territory. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ4749.H6 Political institutions and public administration. Australia. Queensland. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ4949.H6 Political institutions and public administration. Australia. South Australia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ5149.H6 Political institutions and public administration. Australia. Tasmania. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ5349.H6 Political institutions and public administration. Australia. Victoria. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ5549.H6 Political institutions and public administration. Australia. Western Australia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ5849.H6 Political institutions and public administration. New Zealand. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6012.Z13H6 Political institutions and public administration. Guam. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6232.Z13H6 Political institutions and public administration. Samoan Islands. American Samoa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6240.A69H6 Political institutions and public administration. Trust Territory of the Pacific. Micronesia (Federated States). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6241.A69H6 Political institutions and public administration. Marshall Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6242.A69H6 Political institutions and public administration. Mariana Islands (including Northern Marianas). Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6301.A69H6 Political institutions and public administration. Fiji. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6311.A69H6 Political institutions and public administration. Papua New Guinea. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6312.A69H6 Political institutions and public administration. Kiribati. Gilbert Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6313.A69H6 Political institutions and public administration. Tuvalu. Ellice Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6321.A69H6 Political institutions and public administration. Tonga. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6340.A69H6 Political institutions and public administration. Cook Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6341.A69H6 Political institutions and public administration. Solomon Islands. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6345.A69H6 Political institutions and public administration. Tokelau. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6400.A69H6 Political institutions and public administration. Vanuatu. New Hebrides. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6401.A69H6 Political institutions and public administration. New Caledonia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6431.A69H6 Political institutions and public administration. French Polynesia. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6591.A69H6 Political institutions and public administration. Palau. Executive branch. Civil service. Special topics. Homosexual men and women.
+JQ6651.A69H6 Political institutions and public administration. Samoa. Western Samoa. Executive branch. Civil service. Special topics. Homosexual men and women.
+JZ1253.2 International Relations. Relation to other discplines and topics. Gender theory and feminist theory in international relations.
+K3242.3 Comparative law. International uniform law Constitutional law. Human Rights. Civil and Politcal Rights. Gays.
+K5196.S6 Comparative law. International uniform law. Criminal law and procedure. Criminal law. Individual crimes. Crimes against the person. Sex Crimes. Unnatural Sexual Intercourse. Special Offenses. Sodomy
+KB529.7.H47 Religious Law in General. Comparative Religious Law. Jurisprudence. Interdisciplinary discussion of subjects. Persons. Hermaphrodites.
+KB3082.A53 Religious Law in General. Comparative Religious Law. Jurisprudence. Interdisciplinary discussion of subjects. Public health. AIDS.
+KB4172 Religious Law in General. Comparative Religious Law. Jurisprudence. Interdisciplinary discussion of subjects. Individual criminal offenses. Sodomy.
+KBM496.9.H47 Jewish Law. Halakah. Sources. Rabbinic literature. Special topics. Hermaphroditism.
+KBM529.7.H47 Jewish Law. Halakah. Mishpat Ivri. Natural persons. Personality, capacity and incapacity. Other types of natural persons. Hermaphrodites. Androginos. Persons of uncertain gender.
+KBM2467.G37 Jewish Law. Halakah. Mishpat Ivri. Constitutional law. Constitutional principles of the Jewish community. Equality before the law. Legal and social equality. Particular groups. Gays. Lesbians.
+KBM3082.A53 Jewish Law. Halakah. Mishpat Ivri. Public Health. AIDS.
+KBP3082.A53 Islamic law. Shari’ah. Furū‘ al-fiqh. Substantive law. Branches of law. Public health. AIDS.
+KBP4216 Islamic law. Shari’ah. Furū‘ al-fiqh. Substantive law. Branches of law. Crimes and punishment. Offenses against sexual integrity. Sodomy.
+KBR3774.S64 History of canon law. Penal (Criminal) law. De lege poenali. Individual offenses. De poenis in singula delicta. Sodomy.
+M1977.G38 Secular vocal music. Songs of specific groups or on specific topics. Collections. Gays.
+M1978.G38 Secular vocal music. Songs of specific groups or on specific topics. Gays.
+ML156.4.G4 Discography. By topic. Gay music.
+ML410.J58 John, Elton.
+N72.A34 Visual arts. Special topics. AIDS (Disease).
+N72.H64 Visual arts. Special topics. Homosexuality.
+N8012.G46 Christian art. Christian symbolism. Gender identity.
+N8217.H67 Special subjects of art. Homosexuality.
+NC1849.G45 Posters. Special topics. Gender identity.
+ND259.K33 Kahlo, Frida.
+NX164.L47 Special classes of artists. Lesbians.
+NX180.H6 The arts in relation to other subjects. Homosexuality.
+NX650.G44 Arts in general. Special subjects or topics. Gender identity.
+NX652.G38 Characters, persons, classes of persons, and ethnic groups. Gay artists. Lesbian artists.
+P94.5.G38-.G382 Communication. Mass media. Relation to special groups of people. Gays.
+P96.A39-.A392 Communication. Mass media. Special aspects. AIDS (Disease).
+P96.G44-.G442 Communication. Mass media. Special aspects. Gender identity.
+P96.H63-.H632 Communication. Mass media. Special aspects. Homosexuality.
+PA3015.H58 Classical literature. Literary history. Knowledge, treatment, and conception of special subjects. Homosexuality.
+PA3624.H64 Greek literature. Translations. English. Poetry. By subject. Homosexuality, male.
+PA4408-4409 Sappho.
+PC4977.G39 Spanish language. Slang. Argot. Special groups of persons. Gays.
+PE1599.H65 Modern English language. Lexicology. Etymology. Particular words. “Homo”.
+PE3727.G39 English language. Slang argot. Vulgarisms. Special groups of persons. Gay men.
+PG3205.H65 Russian literature. Collections. Special topics. Homosexuality. Gays.
+PG5006.3.G46 Czech literature. History. 19th century. Special topics. Gender identity.
+PG7102.G45 Polish literature. History. Prose. Special topics. Gender identity.
+PG7148.A36 Polish literature. Collections. Prose. Special. By form or subject. AIDS (Disease).
+PJ5030.H65 Hebrew literature. Literary history and criticism. Prose. Fiction. Special topics. Homosexuality.
+PJ7542.H6 Arabic literature. Literary history and criticism. Poetry. Special topics. Homosexuality.
+PJ7632.H6 Arabic literature. Collections. Poetry. Special topics. Homosexuality.
+PL721.G44 Japanese literature. History and criticism. Special topics. Gender identity.
+PL721.H59 Japanese literature. History and criticism. Special topics. Homosexuality.
+PL722.L47 Japanese literature. History and criticism. Treatment of special classes, races, etc. Lesbians.
+PN56.G45 Literature (General). Relation to and treatment of special elements, problems, and subjects. Gender identity.
+PN56.H57 Literature (General). Relation to and treatment of special elements, problems, and subjects. Homosexuality (including male homosexuality).
+PN56.L45 Literature (General). Relation to and treatment of special elements, problems, and subjects. Lesbianism.
+PN491.3 Literature (General). Literary history. Biography. Gay authors.
+PN682.H65 Literature (General). Literary history. Medieval (to 1500). Special topics. Homosexuality.
+PN1083.H66 Poetry. Relation to, and treatment of, special subjects. Homosexuality.
+PN1590.G39 The performing arts. Show business. Special topics. Gays.
+PN1990.9.H64 Broadcasting. Special topics. Homosexuality. Gays.
+PN1992.8.H64 Television broadcasts. Special topics. Homosexuality.
+PN1992.8.L47 Television broadcasts. Special topics. Lesbianism.
+PN1993.44.G39 Motion pictures. Special topics. Gay and lesbian film festivals.
+PN1995.9.A435 Motion pictures. Special topics. AIDS (Disease).
+PN1995.9.B57 Motion pictures. Special topics. Bisexuality.
+PN1995.9.H45 Motion pictures. Special topics. Homosexuality (including male homosexuality).
+PN1995.9.L48 Motion pictures. Special topics. Lesbianism.
+PN1995.9.S47 Motion pictures. Special topics. Sex role (includes gender).
+PN1998.3.A46 Almodovar, Pedro.
+PN1998.3.D58 Divine (Performer).
+PN1998.3.W38 Waters, John (b. 1946).
+PN2270.G39 Dramatic representation. The theater. United States. History. Twentieth century. Special topics. Gay theater.
+PN2270.L47 Dramatic representation. The theater. United States. History. Twentieth century. Special topics. Lesbian theater.
+PN2286.5 Dramatic representation. The theater. United States. Biography. Collective. Gays.
+PN2287.C692 Cumming, Alan.
+PN2287.D35 DeGeneres, Ellen.
+PN2287.D477 Divine (Performer).
+PN3352.H65 Prose. Prose fiction. Relation to and treatment of special subjects. Homosexuality.
+PN4888.G38 Journalism. The periodical press, etc. United States. Special topics. Gay parents (including children of gay parents).
+PN4888.H65 Journalism. The periodical press, etc. United States. Special topics. Homophobia.
+PN4888.H66 Journalism. The periodical press, etc. United States. Special topics. Homosexuality.
+PN4914.A44 Journalism. The periodical press, etc. Canada. Special topics. AIDS.
+PN4914.H55 Journalism. The periodical press, etc. Canada. Special topics. Homosexuality.
+PN4974.A44 Journalism. The periodical press, etc. Mexico. Special topics. AIDS.
+PN4974.H55 Journalism. The periodical press, etc. Mexico. Special topics. Homosexuality.
+PN5124.A44 Journalism. The periodical press, etc. Great Britain. England. Special topics. AIDS.
+PN5124.H55 Journalism. The periodical press, etc. Great Britain. England. Special topics. Homosexuality.
+PN5184.A44 Journalism. The periodical press, etc. France. Special topics. AIDS.
+PN5184.H55 Journalism. The periodical press, etc. France. Special topics. Homosexuality.
+PN5214.A44 Journalism. The periodical press, etc. Germany. Special topics. AIDS.
+PN5214.H55 Journalism. The periodical press, etc. Germany. Special topics. Homosexuality.
+PN5517.A44 Journalism. The periodical press, etc. Australia. Special topics. AIDS.
+PN5517.H55 Journalism. The periodical press, etc. Australia. Special topics. Homosexuality.
+PN6071.H724 Collections of general literature. By subject. Homosexuality.
+PN6071.L47 Collections of general literature. By subject. Lesbians.
+PN6084.G35 Collections of general literature. Quotations. English. Special topics. Gays.
+PN6084.L45 Collections of general literature. Quotations. English. Special topics. Lesbians.
+PN6110.H65 Collections of general literature. Poetry. By subject or form. Homosexuality.
+PN6120.G34 Collections of general literature. Drama. Special. By subject or form. Gay men.
+PN6231.H57 Collections of general literature. Wit and humor. Collections on special topics. Homosexuality.
+PN6231.L43 Collections of general literature. Wit and humor. Collections on special topics. Lesbians.
+PQ145.1.H66 French literature. History of French literature. Special subjects, classes, etc., not limited to one period or form. Homosexuality.
+PQ155.L47 French literature. History of French literature. Medieval. Old French. Special subjects. Lesbians.
+PQ155.S48 French literature. History of French literature. Medieval. Old French. Special subjects. Sex. Sex role. Gender identity.
+PQ295.H65 French literature. History of French literature. 1850/70–1900. Special topics. Homosexuals.
+PQ307.A52 French literature. History of French literature. 20th century. Special topics. AIDS.
+PQ307.G35 French literature. History of French literature. 20th century. Special topics. Gender identity.
+PQ307.H6 French literature. History of French literature. 20th century. Special topics. Homosexuals.
+PQ637.G35 French literature. History of French literature. Special topics. Prose fiction. Gender identity.
+PQ637.H65 French literature. History of French literature. Special topics. Prose fiction. Homosexuality.
+PQ4181.H65 Italian literature. Literary history and criticism. Prose. Special topics. Prose fiction. Homosexuality.
+PQ4203.5.H65 Italian literature. Collections of Italian literature. Special classes of authors. Homosexuals, Male.
+PQ4209.5.H65 Italian literature. Collections of Italian literature. Poetry. Special classes of authors. Homosexuals.
+PQ4249.6.G39 Italian literature. Collections. Prose. By subjects. Gays.
+PQ6073.H65 Spanish literature. History of Spanish literature. By period. 19th-20th centuries. Special topics. Homosexuality.
+PQ6073.L47 Spanish literature. History of Spanish literature. By period. 19th-20th centuries. Special topics. Lesbians.
+PQ6140.H64 Spanish literature. History of Spanish literature. Prose fiction. General works. Special topics. Homosexuality.
+PQ6208.H65 Spanish literature. Collections of Spanish literature. Poetry. By subject. Homosexuality.
+PR83.G35 English literature. History of English literature. Prose fiction. The novel. Special topics. Gender identity.
+PR120.G38 English literature. History of English literature. Special classes of authors. Gays.
+PR120.L45 English literature. History of English literature. Special classes of authors. Lesbians.
+PR149.L47 English literature. History of English literature. Special topics not limited to, or identified with, one period or form. Treatment of special subjects. Lesbianism.
+PR179.H65 English literature. History of English literature. Ango-Saxon (Beginnings through 1066). Special topics. Homosexuality.
+PR275.G44 English literature. History of English literature. Medieval. Middle English (1066–1500). Special topics. Gender identity.
+PR428.G43 English literature. History of English literature. Elizabethan era (1550–1640). Special topics. Gender identity.
+PR408.H65 English literature. History of English literature. Modern. Special topics. Homosexuality.
+PR428.H66 English literature. History of English literature. Modern. Elizabethan era (1550–1640). Special topics. Homosexuality.
+PR448.H65 English literature. History of English literature. Modern. 18th century. Special topics. Homosexuality.
+PR468.H65 English literature. History of English literature. Modern. 19th century. Special topics. Homosexuality.
+PR478.H65 English literature. History of English literature. Modern. 20th century. Special topics. Homosexuality.
+PR508.H6 English literature. History of English literature. Poetry. Special topics. Homosexuality.
+PR525.H65 English literature. History of English literature. Poetry. 15th-16th centuries. Special topics. Homosexuality, Male.
+PR535.H65 English literature. History of English literature. Poetry. Elizabethan era (1550– 1640). Special topics. Homosexuality, Male.
+PR545.H65 English literature. History of English literature. Poetry. 17th century. Special topics. Homosexuality, Male.
+PR555.H65 English literature. History of English literature. Poetry. 18th century. Special topics. Homosexuality, Male.
+PR565.H65 English literature. History of English literature. Poetry. Restoration and Augustan era. Special topics. Homosexuality, Male.
+PR575.H65 English literature. History of English literature. Poetry. Romanticism. Return to nature. Special topics. Homosexuality, Male.
+PR585.H65 English literature. History of English literature. Poetry. 19th century. Special topics. Homosexuality, Male.
+PR595.H65 English literature. History of English literature. Poetry. Victorian era. Special topics. Homosexuality, Male.
+PR605.H65 English literature. History of English literature. Poetry. 20th century. Special topics. Homosexuality, Male.
+PR635.H65 English literature. History of English literature. Drama. Special topics. Homosexuality.
+PR658.H58 English literature. History of English literature. Drama. Elizabethan era (1550– 1640). Special topics. Homosexuality, Male.
+PR678.H58 English literature. History of English literature. Drama. 17th century. Special topics. Homosexuality, Male.
+PR698.H58 English literature. History of English literature. Drama. Restoration. Special topics. Homosexuality, Male.
+PR708.H58 English literature. History of English literature. Drama. 18th century. General. Special topics. Homosexuality, Male.
+PR728.H58 English literature. History of English literature. Drama. 19th century. General. Special topics. Homosexuality, Male.
+PR739.H65 English literature. History of English literature. Drama. 20th century. Special topics. Homosexuality.
+PR830.G34 English literature. History of English literature. Prose fiction. The novel. Special topics. Gay men.
+PR830.H67 English literature. History of English literature. Prose fiction. The novel. Special topics. Homosexuality.
+PR830.L46 English literature. History of English literature. Prose fiction. The novel. Special topics. Lesbians.
+PR1110.G39 English literature. Collections of English literature. Special classes of authors. Gays.
+PR1111.H57 English literature. Collections of English literature. Special topics (prose and verse). Homosexuality.
+PR1178.G39 English literature. Collections of English literature. Poetry Special classes of authors. Gay men.
+PR1195.A44 English literature. Collections of English literature. Poetry. Special subjects. AIDS (Disease).
+PR1195.H58 English literature. Collections of English literature. Poetry. Special subjects. Homosexuality.
+PR1259.H65 English literature. Collections of English literature. Drama. Special subjects. Homosexuality.
+PR1259.L47 English literature. Collections of English literature. Drama. Special subjects. Lesbianism.
+PR1309.H57 English literature. Collections of English literature. Prose (General). Special subjects and forms. Homosexuality.
+PR1309.L47 English literature. Collections of English literature. Prose (General). Special subjects and forms. Lesbianism.
+PR1875.H66 English literature. Chaucer, Geoffrey. Criticism. Special topics. Homosexuality.
+PR5810-5828 Wilde, Oscar.
+PR6045.O72 Woolf, Virginia.
+PS153.G38 American literature. History of American literature. Special classes of authors. Gays.
+PS153.L46 American literature. History of American literature. Special classes of authors. Lesbians.
+PS153.S39 American literature. History of American literature. Special classes of authors. Sexual minorities (General).
+PS169.G45 American literature. History of American literature. Treatment of special subjects. Gender identity.
+PS169.H65 American literature. History of American literature. Treatment of special subjects. Homosexuality.
+PS217.H65 American literature. History of American literature. 19th century. Special topics. Homosexuality.
+PS228.G38 American literature. History of American literature. By period. 20th century. Special topics. Gay culture.
+PS228.L47 American literature. History of American literature. By period. 20th century. Special topics. Lesbianism.
+PS310.H66 American literature. History of American literature. Poetry. Special topics. Homosexuality.
+PS338.H66 American literature. History of American literature. Drama. Special topics. Homosexuality.
+PS374.H63 American literature. History of American literature. Prose fiction. Special forms and topics. Homosexuality.
+PS508.G39 American literature. Collections of American literature. Special classes of authors. Gays.
+PS508.L47 American literature. Collections of American literature. Special classes of authors. Lesbians.
+PS508.S49 American literature. Collections of American literature. Special classes of authors. Sexual minorities.
+PS508.T73 American literature. Collections of American literature. Special classes of authors. Transsexuals.
+PS509.H57 American literature. Collections of American literature. Special topics (Prose and verse). Homosexuality.
+PS509.L47 American literature. Collections of American literature. Special topics (Prose and verse). Lesbianism.
+PS591.G38 American literature. Collections of American literature. Poetry. Special groups of authors. Gay authors.
+PS591.L47 American literature. Collections of American literature. Poetry. Special groups of authors. Lesbians.
+PS595.H65 American literature. Collections of American literature. Poetry. Special subjects. Homosexuality.
+PS595.L46 American literature. Collections of American literature. Poetry. Special subjects. Lesbianism.
+PS595.S76 American literature. Collections of American literature. Poetry. Special subjects. Sodomy.
+PS627.H67 American literature. Collections of American literature. Drama. Special forms and topics. Homosexuality.
+PS627.L48 American literature. Collections of American literature. Drama. Special forms and topics. Lesbians.
+PS647.G39 American literature. Collections of American literature. Prose (General). Special classes of authors. Gays.
+PS648.B57 American literature. Collections of American literature. Prose (General). Special forms and topics. Bisexuality.
+PS648.H57 American literature. Collections of American literature. Prose (General). Special forms and topics. Homosexuality.
+PS648.L47 American literature. Collections of American literature. Prose (General). Special forms and topics. Lesbianism.
+PS3200-3248 Whitman, Walt.
+PS3505.A59 Capote, Truman.
+PS3551.L25 Albee, Edward.
+PT134.H73 German literature. History of German literature. Special subjects not limited to one period or form. Homosexuality.
+PT1340.G36 German literature. Collections of German literature. Prose Fiction. Short stories. “Novellen.” Special forms, subjects, etc. Gay men.
+PT2200.H65 German literature. Johann Wolfgang von Goethe, 1749–1832. Criticism and interpretation. Relation to special subjects. Sociology. Special. Homosexuality.
+PT5085.H6 Dutch literature. History of Dutch literature. Treatment of special subjects. Homosexuality.
+PT7073.L47 Scandinavian literature. History of Scandinavian literature. Special topics. Lesbianism.
+PT7762.H65 Danish literature. History of Danish literature. 20th century. Special topics. Homosexuality.
+PT8437.H65 Norwegian literature. History of Norwegian literature. 19th century. Special subjects. Homosexuality.
+QA29.T8 Turing, Alan.
+QP81.6 Physiology. Phenomena of animal life (General). Sexual orientation. Homosexuality
+QR189.5.A33 Immunology. Vaccines. By disease or type. AIDS (Disease).
+QR201.A37 Immunology. Pathogenic microorganisms. By disease. AIDS (Disease). HIV infections.
+RA564.87 Public health. Hygiene. Preventive medicine. By age group, class, etc. Lesbians.
+RA564.9.H65 Public health. Hygiene. Preventive medicine. By age group, class, etc. Homosexuals.
+RA564.9.T73 Public health. Hygiene. Preventive medicine. By age group, class, etc. Transsexuals.
+RA643.75-643.86 Public health. Hygiene. Preventive medicine. AIDS. HIV infections.
+RA644.A25* Public health. Hygiene. Preventive medicine. AIDS. HIV infections.
+RA778.2 Public health. Hygiene. Preventive medicine. Personal health and grooming guides for classes of people. Lesbians.
+RC200.7.G38 Internal medicine. Sexually transmitted diseases. Venereal diseases. By age group, class, etc. Gay men.
+RC440.84 Psychiatry. Psychiatry as a profession. Gay psychiatrists. Gay psychotherapists. Lesbian psychiatrists. Lesbian psychotherapists.
+RC451.4.B57 Psychiatry. By age group, profession, etc. Bisexuals.
+RC451.4.G39 Psychiatry. By age group, profession, etc. Gay men and lesbians.
+RC455.4.S45 Psychiatry. Special aspects of mental illness. Sex-role aspects of mental illness. Gender role.
+RC552.A45 Psychiatry. Neuroses. AIDS phobia.
+RC558 Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual and psychosexual conditions. Homosexuality. General works. (Class here works on the psychiatric issues associated with homosexuality).
+RC558.3 Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual and psychosexual conditions. Homosexuality. Male homosexuality. (Class here works on the psychiatric issues associated with homosexuality).
+RC558.5 Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual and psychosexual conditions. Homosexuality. Female homosexuality. Lesbianism. (Class here works on the psychiatric issues associated with homosexuality).
+RC560.B56 Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual and psychosexual conditions. Other special problems. Bisexuality. (Class here works on the psychiatric issues associated with bisexuality.)
+RC560.C4* Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual and psychosexual conditions. Other special problems. Change of sex. Transsexualism.
+RC560.G45 Psychiatry. Psychiatric aspects of personality and behavior conditions. Sexual and psychosexual conditions. Other special problems. Gender identity disorders. Transsexualism.
+RC564.5.G39 Psychiatry. Psychiatric aspects of personality and behavior conditions. Drug abuse. Substance abuse. By age group, profession, etc. Gay men and lesbians.
+RC606.5-606.7 Specialties of internal medicine. Immunologic diseases. AIDS. HIV infections.
+RC607.A26* Specialties of internal medicine. Immunologic diseases. AIDS. HIV infections.
+RD54.3.H58 Surgery. Surgical care in special medical conditions, emergencies, and the at-risk patient. Special conditions. HIV patients. AIDS patients.
+RF511.T73 Laryngology. Diseases of the larynx, vocal cords, epiglottis, and trachea. By age group, class, etc. Transsexuals.
+RG580.A44 Obstetrics. Pregnancy. Diseases and conditions in pregnancy. AIDS (Disease).
+RJ101.3 Pediatrics. Child health services. Preventive health services for children. By class, etc. Gay and lesbian teenagers.
+RJ387.A25 Pediatrics. Diseases of children. AIDS.
+RJ506.G35 Pediatrics. Diseases of children. Mental disorders of children and adolescents. Child psychiatry. Child mental health services. Gender identity disorders.
+RK55.H58 Dentistry. By age group, class, etc. HIV patients. AIDS patients.
+RT82.9 Nursing. Gay nurses. Lesbian nurses.
+RX226.A35 Homeopathy. Diseases due to specific infections. AIDS.
+TR140.R53 Ritts, Herb.
+TR647.R543 Ritts, Herb.
+TR681.A38 Photography. Artistic photography. Portraits. Special classes of persons. AIDS patients.
+TR681.H65 Photography. Artistic photography. Portraits. Special classes of persons. Homosexuals.
+UB418.G38 Military administration. Minorities, women, etc. in armed forces. By region or country. United States. Individual groups. Gays.
+UB418.T72 Military administration. Minorities, women, etc. in armed forces. By region or country. United States. Individual groups. Transgender people.
+VB324.G38 Naval administration. Minorities, women, etc. in navies. By region or country. United States. Individual groups. Gays.
+Z675.L48 Libraries. Classes of libraries. Lesbian libraries.
+Z682.4.G39 Libraries. Personnel. Gay men and lesbians.
+Z688.S47 Libraries. Special collections. By subject. Sexual minorities.
+Z695.1.H67 Libraries. Cataloging. By subject. Homosexuality.
+Z695.1.S43 Libraries. Cataloging. By subject. Sexual minorities.
+Z711.92.G37 Libraries. Library service to special groups. Gays.
+Z711.92.S49 Libraries. Library service to special groups. Sexual minorities.
+Z1229.G25 National bibliography. United States. American literature. Special classes or groups of writers. Gays.
+Z1623.5.G39 National bibliography. Argentina. Special classes or groups of writers. Gays.
+Z1653.5.G39 National bibliography. Bolivia. Special classes or groups of writers. Gays.
+Z1683.5.G39 National bibliography. Brazil. Special classes or groups of writers. Gays.
+Z1713.5.G39 National bibliography. Chile. Special classes or groups of writers. Gays.
+Z1743.5.G39 National bibliography. Colombia. Special classes or groups of writers. Gays.
+Z1773.5.G39 National bibliography. Ecuador. Special classes or groups of writers. Gays.
+Z1833.5.G39 National bibliography. Paraguay. Special classes or groups of writers. Gays.
+Z1863.5.G39 National bibliography. Peru. Special classes or groups of writers. Gays.
+Z1893.5.G39 National bibliography. Uruguay. Special classes or groups of writers. Gays.
+Z1923.5.G39 National bibliography. Venezuela. Special classes or groups of writers. Gays.
+Z2113.5.G39 National bibliography. Austria. Special classes or groups of writers. Gays.
+Z2173.5.G39 National bibliography. France. Special classes or groups of writers. Gays.
+Z2233.5.G39 National bibliography. Germany. Special classes or groups of writers. Gays.
+Z2293.5.G39 National bibliography. Greece. Special classes or groups of writers. Gays.
+Z2353.5.G39 National bibliography. Italy. Special classes or groups of writers. Gays.
+Z24433.5.G39 National bibliography. Netherlands. Special classes or groups of writers. Gays.
+Z2573.5.G39 National bibliography. Denmark. Special classes or groups of writers. Gays.
+Z2603.5.G39 National bibliography. Norway. Special classes or groups of writers. Gays.
+Z2633.5.G39 National bibliography. Sweden. Special classes or groups of writers. Gays.
+Z2693.5.G39 National bibliography. Spain and Portugal. Spain. Special classes or groups of writers. Gays.
+Z2783.5.G39 National bibliography. Portugal. Special classes or groups of writers. Gays.
+Z2723.5.G39 National bibliography. Switzerland. Special classes or groups of writers. Gays.
+Z2843.5.G39 National bibliography. Turkey and the Balkan states (General works). Special classes or groups of writers. Gays.
+Z4023.5.G39 National bibliography. Australia (General). Special classes or groups of writers. Gays.
+Z4053.5.G39 National bibliography. Australia. New South Wales. Special classes or groups of writers. Gays.
+Z4113.5.G39 National bibliography. New Zealand. Special classes or groups of writers. Gays.
+Z4173.5.G39 National bibliography. Australia. Northern Territory. Special classes or groups of writers. Gays.
+Z4263.5.G39 National bibliography. Australia. Queensland. Special classes or groups of writers. Gays.
+Z4203.5.G39 National bibliography. Australia. South Australia. Special classes or groups of writers. Gays.
+Z4323.5.G39 National bibliography. Australia. Tasmania. Special classes or groups of writers. Gays.
+Z4383.5.G39 National bibliography. Australia. Victoria. Special classes or groups of writers. Gays.
+Z4443.5.G39 National bibliography. Australia. Western Australia. Special classes or groups of writers. Gays.
+Z5866.L4 Subject bibliography. Erotic literature, facetiae, curiosa, etc. Special topics. Lesbianism.
+Z5956.H64 Subject bibliography. Fine arts (Visual arts). The arts (General). Special topics. Homosexuality.
+Z6664.A27 Subject bibliography. Medicine. Internal medicine. Diseases and manifestations. AIDS.
+Z6675.H73 Subject bibliography. Medicine. Other. Homosexual men and women, and health.
+Z6675.7.G44 Subject bibliography. Medicine. Psychiatry. Psychopathology. Special topics. Gender identity disorders.
+Z7164.H74 Subject bibliography. Political and social sciences. Special topics. Homosexuality. Lesbianism. Gay and lesbian studies.
+Z8021.17 Personal bibliography. Albee, Edward.
+Z8145.17 Personal bibliography. Capote, Truman.
+Z8310.8 Personal bibliography. Foucault, Michel.
+Z8696 Personal bibliography. Plato.
+Z8783 Personal bibliography. Sappho.
+Z8971.5 Personal bibliography. Whitman, Walt.
+Z8975 Personal bibliography. Wilde, Oscar.
+Z8984.2 Personal bibliography. Woolf, Virginia.

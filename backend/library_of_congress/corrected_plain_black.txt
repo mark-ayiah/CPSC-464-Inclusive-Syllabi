@@ -1,0 +1,1880 @@
+AM29-30 Museums. Collectors and collecting. Description and history of museums. West Indies.
+AM323-329 Collectors and collecting. Collectibles. Private collections. West Indies.
+AP230 Juvenile periodicals for Blacks.
+AP270-271 Periodicals for Blacks.
+AS71-75 Academies and Learned Societies. West Indies.
+AY510-581 Almanacs. West Indies.
+AZ535-547 History of Scholarship and Learning. The Humanities. West Indies.
+B944.A37 Philosophy (General). Modern. United States. Later 19th and 20th centuries, 1860–2000. Special topics. African American philosophy.
+BF76.45 Racism in psychology.
+BF175.4.R34 Psychoanalysis. Relation to racism.
+BF432.N5 Intelligence. Mental ability. Intelligence testing. Ability testing. Negroes. Blacks. African Americans.
+BF723.R3 Child psychology. Race awareness.
+BF724.3.R3 Developmental psychology. Adolescence. Youth. Race awareness.
+BF730-738* Race and ethnic psychology.
+BF1714.A37 Astrology. African American.
+BH301.B53 Aesthetics. Black.
+BJ1857.A37 Social usages. Etiquette. General works. Special topics. African Americans.
+BL65.R3 Religion in relation to race.
+BL625.2 Religious life. African Americans.
+BL2490 Survival of African religions in America.
+BL2532 Special cults, religious movements (including special cults and religious movements of the West Indies and Caribbean Area).
+BL2565 Afro-Caribbean cults (General).
+BL2590.B7 Afro-Brazilian cults (General).
+BL2592 History and principles of religion. South American. Special cults, religious movements.
+BP62.B56 Islam. History. Blacks. African Americans.
+BP62.N4* Islam. History. Blacks. African Americans.
+BP190.5.R3 Islam. Race. Race problems.
+BP212 Islam. Branches, sects, and modifications. Ansaru Allah Community.
+BP221-223 Islam. Branches, sects, and modifications. Black Muslims.
+BP223.Z8.E4 Muhammad, Elijah.
+BP223.Z8.L5745 Malcolm X.
+BP232 Islam. Branches, sects, and modifications. Moorish Science Temple of America.
+BP605.B63 Other beliefs and movements. Black Hebrew Israelite Nation. African Hebrew Israelite Nation of Jerusalem.
+BP605.B64 Other beliefs and movements. Black Hebrews (General).
+BR128.A16 Relation of Christianity to other religious and philosophical systems. African religions.
+BR563.N4 Christianity. History. Negroes. African Americans.
+BR1644.3 Christianity. Pentecostalism. Charismatic movement. African American and/or Black Pentecostals.
+BS350 Bible. Modern texts and versions. Mixed languages (Creoles).
+BS521.2 The Bible. Criticism and interpretation. Black interpretations.
+BS649.N5 The Bible. Prophecy of future special events. Blacks.
+BS680.B48 The Bible. Topics (not otherwise provided for). Blacks.
+BS680.R2 The Bible. Topics (not otherwise provided for). Race.
+BS1199.B48 Old Testament. Topics (not otherwise provided for). Blacks.
+BS2417.R3 New Testament. The teachings of Jesus. Race problems.
+BT82.7 Black theology.
+BT304.912 Christology. Life of Christ. Special interpretations of Jesus. African American.
+BT707.3 Doctrinal theology. Interracial marriage.
+BT734-734.3 Doctrinal theology. Man and race (includes Race problem and Segregation).
+BV416.M7-8 Hymns. Hymnbooks. Colored Methodist.
+BV639.M56 The Church and minorities.
+BV1190 Young Men’s Christian Associations. Work with special classes. Blacks. African Americans.
+BV1393.B58 Young Women’s Christian Associations. Work with special classes. Blacks. African Americans.
+BV1393.N4* Young Women’s Christian Associations. Work with special classes. Blacks. African Americans.
+BV1523.A37 African American Sunday schools.
+BV1523.R2 Sunday schools (Church schools). Racial attitudes.
+BV2521 Missions. African American Baptist.
+BV2551 Missions. African American Methodist.
+BV2783 Missions. United States. African Americans.
+BV4080-4085 Pastoral theology. Education of African American ministers.
+BV4241.5 Black sermons.
+BV4316.S6 Sermons to slaves.
+BV4468.2.A34 Church work with African Americans.
+BV4468.2.B55 Church work with Blacks (outside the U.S.)
+BX1407.N4 Catholic Church. History. United States. Negroes. African Americans.
+BX1759.5.M5 Catholic Church. Moral theology. Casuistry. Cases of conscience, etc. Miscegenation.
+BX1795.R33 Catholic Church. Race relations.
+BX5967 Episcopal Church. Protestant Episcopal Church in the United States of America. African American clergy.
+BX5979 African Americans and the Episcopal Church.
+BX6194.A4 African Orthodox Church.
+BX6194.A43 African Orthodox Church of New York.
+BX6194.A45 African Universal Church.
+BX6194.A46-.A468 African American Spiritual churches.
+BX6194.A8 Apostolic Overcoming Holy Church of God.
+BX6440-6460.9 African American Baptists.
+BX7147.A35 Congregationalism. History. United States. African Americans.
+BX7748.R3 Friends. Society of Friends. Quakers. Race problems.
+BX7990.H615 Holiness churches. African American Holiness.
+BX8060.N5 Lutheran churches. History. United States. Negroes. Blacks. African Americans.
+BX8116.3.A37 Mennonite churches. History. United States. African Americans.
+BX8435-8473 Black Methodists.
+BX8440-8449 African Methodist Episcopal Church.
+BX8450-8459 African Methodist Episcopal Zion Church.
+BX8460-8469 Christian Methodist Episcopal Church.
+BX8459.A4 Allen, Richard (1760–1831).
+BX8643.A35 Mormons. Church of Jesus Christ of Latter-Day Saints. Special topics. African Americans.
+BX8643.N4* Mormons. Church of Jesus Christ of Latter-Day Saints. Special topics. African Americans.
+BX8762.5 African American Pentecostal Churches.
+BX8946.A35 Presbyterianism. Calvinistic Methodism. History. United States. African Americans.
+BX8946.N4* Presbyterianism. Calvinistic Methodism. History. United States. African Americans.
+BX9833.48.A47 Unitarianism. History. United States. African Americans.
+CB197 Civilization and race. Educational aspects. Intercultural education.
+CB235 Civilization and race. Black.
+CD351-362 Diplomatics. Collections of documents, facsimiles, etc., for study. West Indies.
+CD3065.N37 National Association for the Advancement of Colored People. Archives.
+CD3860-3985 Archives. History and statistics. West Indies.
+CD5701-5710 Seals. Modern. West Indies.
+CJ2070-2089 Coins. Medieval and modern. West Indies.
+CJ4961-4964 Tokens. West Indies.
+CJ5911-5915 Medals and medallions. West Indies.
+CR304-350 Public and official heraldry. West Indies.
+CR1360-1369 Family heraldry. West Indies.
+CR3700-3750 Titles of honor, rank, precedence, etc. West Indies.
+CS200-261 Genealogy. West Indies.
+CT339-448 National biography. West Indies.
+CT510-518 National biography. Cuba.
+CT530-538 National biography. Haiti.
+CT540-548 National biography. Dominican Republic.
+D212.2.B53 Modern history, 1453-. Ethnography of Europe. Blacks.
+D233.2.B44 Modern history, 1453-. 1453–1648. Ethnography of Europe. Blacks.
+D547.N4 World War I (1914–1918). Military operations. Western. English. Negroes.
+D639.A7 World War I (1914–1918). Special topics. Anthropology and ethnology. Race problems.
+D639.N4 World War I (1914–1918). Special topics. Negroes. African Americans. Blacks.
+D804.5.B55 World War II (1939–1945). Atrocities. War crimes. Holocaust. Other victim groups. Blacks.
+D810.N4 World War II (1939–1945). Other special topics. Negroes. African Americans. Blacks.
+D810.R3 World War II (1939–1945). Other special topics. Race problems.
+D1056.2.A38 History of Europe. Ethnography. Africans.
+D1056.2.B55 History of Europe. Ethnography. Blacks.
+DA125.A1 History of England. Elements in the population. General works. Minorities. Race question.
+DA125.M38 History of England. Ethnography. Mauritians.
+DA125.N4 History of England. Ethnography. Negroes. Blacks.
+DA125.S56 History of England. Ethnography. Somalis.
+DA676.9.B55 History of England. London. Ethnography. Blacks.
+DA676.9.M38 History of England. London. Ethnography. Mauritians.
+DA676.9.N4* History of England. London. Ethnography. Blacks.
+DB34.A47 History of Austria. Ethnography. Africans.
+DB34.B43 History of Austria. Ethnography. Blacks.
+DB851.57.A37 History of Austria. Vienna. Ethnography. Africans.
+DC34.5.A37 History of France. Ethnography. Africans.
+DC34.5.B46 History of France. Ethnography. Beninese.
+DC34.5.B55 History of France. Ethnography. Blacks.
+DC34.5.C34 History of France. Ethnography. Cameroonians.
+DC34.5.C65 History of France. Ethnography. Congolese (Brazzaville).
+DC34.5.C66 History of France. Ethnography. Congolese (Democratic Republic).
+DC34.5.M34 History of France. Ethnography. Malians.
+DC34.5.M38 History of France. Ethnography. Mauritians.
+DC34.5.N4* History of France. Ethnography. Blacks.
+DC34.5.R33 History of France. Ethnography. Racially mixed people.
+DC34.5.T64 History of France. Ethnography. Togolese.
+DC34.5.S45 History of France. Ethnography. Senegalese.
+DC158.8 History of France. Revolutionary and Napoleonic period, 1789–1815. Other (including Blacks during the Revolution).
+DC718.A34 History of France. Paris. Ethnography. Africans.
+DC718.A36 History of France. Paris. Ethnography. Afro-Americans. African-Americans.
+DC718.B56 History of France. Paris. Ethnography. Blacks.
+DC718.S35 History of France. Paris. Ethnography. Senegalese.
+DC718.T64 History of France. Paris. Ethnography. Togolese.
+DD78.A47 History of Germany. Ethnography. Africans.
+DD78.B55 History of Germany. Ethnography. Blacks.
+DD78.S46 History of Germany. Ethnography. Senegalese.
+DD281.2.M68 History of Germany. East Germany. Ethnography. Mozambicans.
+DD281.2.N36 History of Germany. East Germany. Ethnography. Namibians.
+DD867.5.A37 History of Germany. Berlin. Ethnography. Africans.
+DE73.2.B55 History of the Greco-Roman World. Ethnography. Blacks.
+DG457.A35 History of Italy. Ethnography. Africans.
+DG457.S45 History of Italy. Ethnography. Senegalese.
+DG457.S62 History of Italy. Ethnography. Somalis.
+DG659.6.A37 History of Italy. Milan. Ethnography. Africans.
+DG659.6.S45 History of Italy. Milan. Ethnography. Senegalese.
+DG807.8.N54 History of Italy. Rome. Ethnography. Nigerians.
+DG845.66.G53 History of Italy. Southern Italy. Ethnography. Ghanaians.
+DH492.A34 History of Belgium. Ethnography. Africans.
+DJ92.B53 History of Netherlands. Ethnography. Blacks.
+DK34.B53 History of Russia, Soviet Union, Former Soviet Republics. Ethnography. Blacks.
+DK34.N53 History of Russia, Soviet Union, Former Soviet Republics. Ethnography. Nigerians.
+DK600.3.A35 History of Russia, Soviet Union, Former Soviet Republics. Moscow. Ethnography. Africans.
+DL641.A47 History of Sweden. Ethnography. Africans.
+DL641.E86 History of Sweden. Ethnography. Ethiopians.
+DL641.S65 History of Sweden. Ethnography. Somalis.
+DP53.A35 History of Spain. Ethnography. Africans.
+DP53.B39 History of Spain. Ethnography. Beninese.
+DP53.B45 History of Spain. Ethnography. Blacks.
+DP358.3.A36 History of Spain. Madrid. Ethnography. Africans.
+DP534.A37 History of Portugal. Ethnography. Africans.
+DP534.A54 History of Portugal. Ethnography. Angolans.
+DP534.G85 History of Portugal. Ethnography. Guineans (Guinea-Bissau).
+DQ49.A49 History of Switzerland. Ethnography. Africans.
+DQ49.Z35 History of Switzerland. Ethnography. Zairians. Congolese (Democratic Republic).
+DR727.A38 History of Turkey. Istanbul (Constantinople). Ethnography. Africans.
+DT429.5.A38 History of Africa. East Africa. British East Africa (including Uganda, Kenya, and Tanzania). Ethnography. African Americans.
+DT510.43.A37 History of Africa. Ghana (Gold Coast). Ethnography. African Americans.
+DS28.A35 History of Asia. Ethnography. Africans.
+DS428.A25 History of Asia. India (Bharat). Ethnography. Africans.
+DS339.3.A34 History of Asia. Southern Asia. Indian Ocean Region. Ethnography. Africans.
+DS219.B56 History of Asia. Arabian Peninsula. Saudi Arabia. Ethnography. Blacks.
+DS59.B55 History of Asia. Middle East. Southwestern Asia. Ancient Orient. Arab East. Ethnography. Blacks.
+DS559.8.B55 History of Asia. Vietnam War. Other topics. Blacks.
+DT1770 History of South Africa. Ethnography. South Africans in foreign countries.
+DT16.5 History of Africa. Africans in foreign countries. African diaspora.
+DU122.A35 History of Australia. Ethnography. Africans.
+E29.A43 America. Elements in the population. Akan.
+E29.C35 America. Elements in the population. Canary Islanders.
+E29.N3 America. Elements in the population. Negroes. Blacks.
+E29.Y67 America. Elements in the population. Yoruba.
+E97.6.H3 Hampton Institute (Hampton, Va.)
+E98.R28 Indians of North America. Relations with African Americans.
+E109.A35 Discovery of America and early explorations. African.
+E176.472.A34 Biography (Collective). Presidents. Relations with specific ethnic groups. African Americans.
+E184.A1 United States. Elements in the population. General works (including minorities, race conflicts, and problems).
+E184.A24 United States. Elements in the population. Africans.
+E184.A95 United States. Elements in the population. Azoreans.
+E184.B676 United States. Elements in the population. Brass Ankles.
+E184.B89 United States. Elements in the population. Burundians.
+E184.C22 United States. Elements in the population. Canary Islanders.
+E184.C24 United States. Elements in the population. Cape Verdeans.
+E184.C27 United States. Elements in the population. Caribbean.
+E184.E74 United States. Elements in the population. Ethiopians.
+E184.G24 United States. Elements in the population. Gambians.
+E184.G44 United States. Elements in the population. Ghanaians.
+E184.G75 United States. Elements in the population. Grenadians.
+E184.G86 United States. Elements in the population. Guyanese.
+E184.H27 United States. Elements in the population. Haitians.
+E184.I96 United States. Elements in the population. Ivorians.
+E184.J27 United States. Elements in the population. Jamaicans.
+E184.K42 United States. Elements in the population. Kenyans.
+E184.L53 United States. Elements in the population. Liberians.
+E184.M33 United States. Elements in the population. Malians.
+E184.M44 United States. Elements in the population. Melungeons.
+E184.N55 United States. Elements in the population. Nigerians.
+E184.R3 United States. Elements in the population. Ramapo Mountain people.
+E184.R93 United States. Elements in the population. Rwandans.
+E184.S48 United States. Elements in the population. Senegalese.
+E184.S54 United States. Elements in the population. Sierra Leoneans.
+E184.S67 United States. Elements in the population. Somalis.
+E184.S77 United States. Elements in the population. Sudanese.
+E184.Y66 United States. Elements in the population. Yoruba.
+E184.36.A34 United States. Elements in the population. Jews. Special topics. African American-Jewish relations.
+E184.5 United States. Elements in the population. African Americans. Congresses.
+E184.6 United States. Elements in the population. African Americans. Collections. Sources.
+E184.65 United States. Elements in the population. African Americans. Historiography.
+E184.7 United States. Elements in the population. African Americans. Study and teaching. African American studies.
+E185 United States. Elements in the population. African Americans. History (General).
+E185.18 United States. Elements in the population. African Americans. History. To 1863.
+E185.2 United States. Elements in the population. African Americans. History. 1863–1877.
+E185.5 United States. Elements in the population. African Americans. History. Periodicals. Societies. Collections.
+E185.53 United States. Elements in the population. African Americans. History. 1877–1964. Museums. Exhibitions, etc.
+E185.6 United States. Elements in the population. African Americans. History. 1877–1964. General works.
+E185.61 United States. Elements in the population. African Americans. History. 1877–1964. Race relations.
+E185.615 United States. Elements in the population. African Americans. History. 1964- (including Race relations).
+E185.62 United States. Elements in the population. African Americans. Intermarriage of races. Miscegenation. Mulattoes.
+E185.625 United States. Elements in the population. African Americans. Psychosocial factors. Race identity.
+E185.63 United States. Elements in the population. African Americans. African Americans in the Armed Forces.
+E185.8 United States. Elements in the population. African Americans. Economic conditions.
+E185.86 United States. Elements in the population. African Americans. Social conditions. Social life and customs.
+E185.89 United States. Elements in the population. African Americans. Other topics.
+E185.89.E8 United States. Elements in the population. African Americans. Ethnobotany.
+E185.89.I56 United States. Elements in the population. African Americans. Intellectual life.
+E185.89.N3 United States. Elements in the population. African Americans. Names.
+E185.89.R45 United States. Elements in the population. African Americans. Reparations.
+E185.9 United States. Elements in the population. African Americans in the North.
+E185.912 United States. Elements in the population. African Americans in the Appalachian Region.
+E185.915 United States. Elements in the population. African Americans in the Middle West and Old Northwest.
+E185.917 United States. Elements in the population. African Americans in New England.
+E185.92 United States. Elements in the population. African Americans in the South.
+E185.925 United States. Elements in the population. African Americans in the West.
+E185.93.A3 United States. Elements in the population. African Americans. Alabama.
+E185.93.A4 United States. Elements in the population. African Americans. Alaska.
+E185.93.A7 United States. Elements in the population. African Americans. Arizona.
+E185.93.A8 United States. Elements in the population. African Americans. Arkansas.
+E185.93.C2 United States. Elements in the population. African Americans. California.
+E185.93.C6 United States. Elements in the population. African Americans. Colorado.
+E185.93.C7 United States. Elements in the population. African Americans. Connecticut.
+E185.93.D4 United States. Elements in the population. African Americans. Delaware.
+E185.93.D6 United States. Elements in the population. African Americans. District of Columbia.
+E185.93.F5 United States. Elements in the population. African Americans. Florida.
+E185.93.G4 United States. Elements in the population. African Americans. Georgia.
+E185.93.H3 United States. Elements in the population. African Americans. Hawaii.
+E185.93.I15 United States. Elements in the population. African Americans. Idaho.
+E185.93.I2 United States. Elements in the population. African Americans. Illinois.
+E185.93.I4 United States. Elements in the population. African Americans. Indiana.
+E185.93.I64 United States. Elements in the population. African Americans. Iowa.
+E185.93.K16 United States. Elements in the population. African Americans. Kansas.
+E185.93.K3 United States. Elements in the population. African Americans. Kentucky.
+E185.93.L6 United States. Elements in the population. African Americans. Louisiana.
+E185.93.M15 United States. Elements in the population. African Americans. Maine.
+E185.93.M2 United States. Elements in the population. African Americans. Maryland.
+E185.93.M3 United States. Elements in the population. African Americans. Massachusetts.
+E185.93.M5 United States. Elements in the population. African Americans. Michigan.
+E185.93.M55 United States. Elements in the population. African Americans. Minnesota.
+E185.93.M6 United States. Elements in the population. African Americans. Mississippi.
+E185.93.M7 United States. Elements in the population. African Americans. Missouri.
+E185.93.M8 United States. Elements in the population. African Americans. Montana.
+E185.93.N5 United States. Elements in the population. African Americans. Nebraska.
+E185.93.N52 United States. Elements in the population. African Americans. Nevada.
+E185.93.N53 United States. Elements in the population. African Americans. New Hampshire.
+E185.93.N54 United States. Elements in the population. African Americans. New Jersey.
+E185.93.N55 United States. Elements in the population. African Americans. New Mexico.
+E185.93.N56 United States. Elements in the population. African Americans. New York.
+E185.93.N6 United States. Elements in the population. African Americans. North Carolina.
+E185.93.N7 United States. Elements in the population. African Americans. North Dakota.
+E185.93.O2 United States. Elements in the population. African Americans. Ohio.
+E185.93.O4 United States. Elements in the population. African Americans. Oklahoma.
+E185.93.O7 United States. Elements in the population. African Americans. Oregon.
+E185.93.P41 United States. Elements in the population. African Americans. Pennsylvania.
+E185.93.R4 United States. Elements in the population. African Americans. Rhode Island.
+E185.93.S7 United States. Elements in the population. African Americans. South Carolina.
+E185.93.S8 United States. Elements in the population. African Americans. South Dakota.
+E185.93.T3 United States. Elements in the population. African Americans. Tennessee.
+E185.93.T4 United States. Elements in the population. African Americans. Texas.
+E185.93.U8 United States. Elements in the population. African Americans. Utah.
+E185.93.V4 United States. Elements in the population. African Americans. Vermont.
+E185.93.V8 United States. Elements in the population. African Americans. Virginia.
+E185.93.W3 United States. Elements in the population. African Americans. Washington.
+E185.93.W5 United States. Elements in the population. African Americans. West Virginia.
+E185.93.W58 United States. Elements in the population. African Americans. Wisconsin.
+E185.93.W9 United States. Elements in the population. African Americans. Wyoming.
+E185.94 United States. Elements in the population. African Americans living in foreign countries (Collectively).
+E185.96 United States. Elements in the population. African Americans. Biography. Genealogy (Collective).
+E185.97.A-Z United States. Elements in the population. African Americans. Biography. Genealogy (Individual, A-Z).
+E185.97.W4 Washington, Booker T.
+E185.97.B34 Bethune, Mary McLeod.
+E185.97.D4 Delany, Martin Robinson.
+E185.97.D73 Du Bois, W. E. B.
+E185.97.G3 Garvey, Marcus.
+E185.97.H35 Hamer, Fannie Lou.
+E185.97.J25 Jackson, Jesse L., Sr.
+E185.97.K5 King, Martin Luther, Jr.
+E185.97.L79 Locke, Alain.
+E185.97.N48 Newton, Huey.
+E185.97.R27 Randolph, A. Philip.
+E185.97.R6 Robeson, Paul.
+E185.97.T8 Truth, Sojourner.
+E185.97.W55 Wells-Barnett, Ida.
+E185.97.W6 White, Walter.
+E185.98 United States. Elements in the population. African Americans. Biography of persons other than African Americans identified primarily with African Americans.
+E269.H3 History of the United States. The Revolution, 1775–1783. Participation by race, ethnic group, religious group, etc. Haitians.
+E269.N3 History of the United States. The Revolution, 1775–1783. Participation by race, ethnic group, religious group, etc. Negroes. African Americans.
+E359.9.A35 History of the United States. War of 1812. The American Army. Participation by race, ethnic group, religious group, etc. African Americans.
+E359.9.N4* History of the United States. War of 1812. The American Army. Participation by race, ethnic group, religious group, etc. African Americans.
+E423 History of the United States. Slavery question, 1849–1853.
+E433 History of the United States. Slavery question, 1853–1857.
+E438 History of the United States. Slavery question, 1857–1861.
+E440.5 History of the United States. State of the country, November 1860– March 4, 1861.
+E441 History of the United States. Slavery in the United States. Antislavery movements. General works.
+E442 History of the United States. The internal slave trade. Slave markets and auctions.
+E443 History of the United States. Slave life (including duties of slaves and masters, overseers).
+E444 History of the United States. Slavery in the United States. Antislavery movements. Biography. Personal narratives of slaves.
+E444.T897 Tubman, Harriet.
+E445.A3 History of the United States. Slavery in the United States. Antislavery movements. Alabama (including history of antislavery movements).
+E445.C7 History of the United States. Slavery in the United States. Antislavery movements. Connecticut (including history of antislavery movements).
+E445.D3 History of the United States. Slavery in the United States. Antislavery movements. Delaware (including history of antislavery movements).
+E445.F6 History of the United States. Slavery in the United States. Antislavery movements. Florida (including history of antislavery movements).
+E445.G3 History of the United States. Slavery in the United States. Antislavery movements. Georgia (including history of antislavery movements).
+E445.I2 History of the United States. Slavery in the United States. Antislavery movements. Illinois (including history of antislavery movements).
+E445.I3 History of the United States. Slavery in the United States. Antislavery movements. Indiana (including history of antislavery movements).
+E445.K16 History of the United States. Slavery in the United States. Antislavery movements. Kansas (including history of antislavery movements).
+E445.K5 History of the United States. Slavery in the United States. Antislavery movements. Kentucky (including history of antislavery movements).
+E445.L8 History of the United States. Slavery in the United States. Antislavery movements. Louisiana (including history of antislavery movements).
+E445.M3 History of the United States. Slavery in the United States. Antislavery movements. Maryland (including history of antislavery movements).
+E445.M4 History of the United States. Slavery in the United States. Antislavery movements. Massachusetts (including history of antislavery movements).
+E445.M6 History of the United States. Slavery in the United States. Antislavery movements. Mississippi (including history of antislavery movements).
+E445.M67 History of the United States. Slavery in the United States. Antislavery movements. Missouri (including history of antislavery movements).
+E445.N2 History of the United States. Slavery in the United States. Antislavery movements. Nebraska (including history of antislavery movements).
+E445.N5 History of the United States. Slavery in the United States. Antislavery movements. New England (including history of antislavery movements).
+E445.N54 History of the United States. Slavery in the United States. Antislavery movements. New Jersey (including history of antislavery movements).
+E445.N55 History of the United States. Slavery in the United States. Antislavery movements. New Mexico (including history of antislavery movements).
+E445.N56 History of the United States. Slavery in the United States. Antislavery movements. New York (including history of antislavery movements).
+E445.N8 History of the United States. Slavery in the United States. Antislavery movements. North Carolina (including history of antislavery movements).
+E445.P3 History of the United States. Slavery in the United States. Antislavery movements. Pennsylvania (including history of antislavery movements).
+E445.R4 History of the United States. Slavery in the United States. Antislavery movements. Rhode Island (including history of antislavery movements).
+E445.S7 History of the United States. Slavery in the United States. Antislavery movements. South Carolina (including history of antislavery movements).
+E445.T3 History of the United States. Slavery in the United States. Antislavery movements. Tennessee (including history of antislavery movements).
+E445.T47 History of the United States. Slavery in the United States. Antislavery movements. Texas (including history of antislavery movements).
+E445.V8 History of the United States. Slavery in the United States. Antislavery movements. Virginia (including history of antislavery movements).
+E445.W8 History of the United States. Slavery in the United States. Antislavery movements. Wisconsin (including history of antislavery movements).
+E446 History of the United States. History of slavery to 1830. General works.
+E447 History of the United States. History of slavery to 1830. Slave insurrections (General) (including mutiny on slave ships).
+E448 History of the United States. Slavery in the United States. Antislavery movements. Colonization.
+E449 History of the United States. History of slavery, 1830–1863. Period of abolition agitation. General works (including Biography).
+E449.D75 Douglass, Frederick.
+E450 History of the United States. Fugitive slaves.
+E451 History of the United States. John Brown’s Raid at Harpers Ferry, W. Va., 1859.
+E453 History of the United States. Slaves and the slavery question in the Civil War.
+E492.9 History of the United States. The Civil War, 1861–1865. The Union Army. African American regiments.
+E540.N3 History of the United States. The Civil War, 1861–1865. The Union Army. Participation by race, ethnic group, religious group, etc. Negroes. African Americans.
+E585.A35 History of the United States. The Civil War, 1861–1865. The Confederate States Army. Participation by race, ethnic group, religious group, etc. African Americans.
+E585.N3* History of the United States. The Civil War, 1861–1865. The Confederate States Army. Participation by race, ethnic group, religious group, etc. African Americans.
+E668 History of the United States. Reconstruction, 1865–1877.
+E725.5.N3 History of the United States. War of 1898 (Spanish-American War). Armies. Troops. Participation by race, ethnic group, etc. Negroes. African Americans.
+E748.P86 Powell, Adam Clayton, Jr.
+E838.5.J67 History of the United States. Twentieth century. Collected works of American statesmen. Jordan, Barbara.
+E840.8.C48 Chisholm, Shirley.
+E840.8.P68 Powell, Colin.
+E840.8.R48 Rice, Condoleezza.
+E891.5.O33 History of the United States. Twenty-first century. Collected works of American statesmen. Obama, Barack.
+E907-909 History of the United States. Twenty-first century. Barack Obama’s administration, 2009–2017.
+E907-E909 Obama, Barack & Michelle.
+F15.N4 History of New England. Negroes. Blacks.
+F30.N4 History of Maine. Negroes. Blacks.
+F45.N4 History of New Hampshire. Negroes. Blacks.
+F60.N4 History of Vermont. Negroes. Blacks.
+F73.9.N4 History of Boston, Massachusetts. Negroes. Blacks.
+F75.N4 History of Massachusetts. Negroes. Blacks.
+F89.P99.N4 History of Providence, Rhode Island. Negroes. Blacks.
+F90.N4 History of Rhode Island. Negroes. Blacks.
+F104.N69.N4 History of New Haven, Connecticut. Negroes. Blacks.
+F105.N4 History of Connecticut. Negroes. Blacks.
+F128.4 History of New York. New York City. Early to 1775 (includes New York Negro Plot, 1741).
+F128.9.N4 History of New York (City). Negroes. Blacks.
+F129.A39.N4 History of Albany, New York. Negroes. Blacks.
+F129.B89.N4 History of Buffalo, New York. Negroes. Blacks.
+F129.R79.N4 History of Rochester, New York. Negroes. Blacks.
+F130.N4 History of New York (State). Negroes. Blacks.
+F144.J59.N4 History of Jersey City, New Jersey. Negroes. Blacks.
+F144.N69.N4 History of Newark, New Jersey. Negroes. Blacks.
+F144.T79.N4 History of Trenton, New Jersey. Negroes. Blacks.
+F145.N4 History of New Jersey. Negroes. Blacks.
+F158.9.N4 History of Philadelphia, Pennsylvania. Negroes. Blacks.
+F159.P69.N4 History of Pittsburgh, Pennsylvania. Negroes. Blacks.
+F160.N4 History of Pennsylvania. Negroes. Blacks.
+F174.W79.N4 History of Wilmington, Delaware. Negroes. Blacks.
+F175.N4 History of Delaware. Negroes. Blacks.
+F189.A69.N4 History of Annapolis, Maryland. Negroes. Blacks.
+F189.B19.N4 History of Baltimore, Maryland. Negroes. Blacks.
+F190.N4 History of Maryland. Negroes. Blacks.
+F205.N4 History of the District of Columbia. Negroes. Blacks.
+F213 History of The South. 1775–1865 (including Plantation life).
+F214 History of The South. Period of the Civil War (including Plantation life).
+F220.N4 History of the South Atlantic states. Negroes. Blacks.
+F232.S7 History of Virginia. Southampton County (including Southampton Insurrection, 1831).
+F232.S7 Turner, Nat.
+F234.R5 History of Virginia. Richmond (including Richmond Insurrection, 1800).
+F234.R59.N4 History of Richmond, Virginia. Negroes. Blacks.
+F235.N4 History of Virginia. Negroes. Blacks.
+F250.N4 History of West Virginia. Negroes. Blacks.
+F265.N4 History of North Carolina. Negroes. Blacks.
+F279.C4 History of South Carolina. Charleston (including Charleston Insurrection, 1822).
+F279.C49.N4 History of South Carolina. Charleston. Negroes. Blacks.
+F280.N4 History of South Carolina. Negroes. Blacks.
+F294.A89.N4 History of Atlanta, Georgia. Negroes. Blacks.
+F295.N4 History of Georgia. Negroes. Blacks.
+F320.N4 History of Florida. Negroes. Blacks.
+F334.B69.N4 History of Birmingham, Alabama. Negroes. Blacks.
+F334.M79.N4 History of Montgomery, Alabama. Negroes. Blacks.
+F334 .M753 Parks, Rosa.
+F335.N4 History of Alabama. Negroes. Blacks.
+F350.N4 History of Mississippi. Negroes. Blacks.
+F379.N59.C87 History of New Orleans, Louisiana. Creoles.
+F379.N59.N4 History of New Orleans, Louisiana. Negroes. Blacks.
+F380.C9 History of Louisiana. Creoles.
+F380.N4 History of Louisiana. Negroes. Blacks.
+F394.A99.N4 History of Austin, Texas. Negroes. Blacks.
+F394.D219.N4 History of Dallas, Texas. Negroes. Blacks.
+F394.H89.N4 History of Houston, Texas. Negroes. Blacks.
+F394.S2119.N4 History of San Antonio, Texas. Negroes. Blacks.
+F395.N4 History of Texas. Negroes. Blacks.
+F420.N4 History of Arkansas. Negroes. Blacks.
+F444.C49.N4 History of Chattanooga, Tennessee. Negroes. Blacks.
+F444.M59.N4 History of Memphis, Tennessee. Negroes. Blacks.
+F444.N29.N4 History of Nashville, Tennessee. Negroes. Blacks.
+F445.N4 History of Tennessee. Negroes. Blacks.
+F459.L89.N4 History of Louisville, Kentucky. Negroes. Blacks.
+F460.N4 History of Kentucky. Negroes. Blacks.
+F474.K29.N4 History of Kansas City, Missouri. Negroes. Blacks.
+F474.S29.N4 History of St. Louis, Missouri. Negroes. Blacks.
+F475.N4 History of Missouri. Negroes. Blacks.
+F485.N4 History of the Old Northwest. Negroes. Blacks.
+F499.C59.N4 History of Cincinnati, Ohio. Negroes. Blacks.
+F499.C69.N4 History of Cleveland, Ohio. Negroes. Blacks.
+F499.C79.N4 History of Columbus, Ohio. Negroes. Blacks.
+F499.D29.N4 History of Dayton, Ohio. Negroes. Blacks.
+F500.N4 History of Ohio. Negroes. Blacks.
+F534.I39.N4 History of Indianapolis, Indiana. Negroes. Blacks.
+F535.N4 History of Indiana. Negroes. Blacks.
+F548.54 .W36 Washington, Harold.
+F548.9.N4 History of Chicago, Illinois. Negroes. Blacks.
+F550.N4 History of Illinois. Negroes. Blacks.
+F574.D49.N4 History of Detroit, Michigan. Negroes. Blacks.
+F575.N4 History of Michigan. Negroes. Blacks.
+F589.M19.N4 History of Madison, Wisconsin. Negroes. Blacks.
+F589.M69.N4 History of Milwaukee, Wisconsin. Negroes. Blacks.
+F590.N4 History of Wisconsin. Negroes. Blacks.
+F614.M59.N4 History of Minneapolis, Minnesota. Negroes. Blacks.
+F615.N4 History of Minnesota. Negroes. Blacks.
+F630.N4 History of Iowa. Negroes. Blacks.
+F645.N4 History of North Dakota. Negroes. Blacks.
+F660.N4 History of South Dakota. Negroes. Blacks.
+F674.O59.N4 History of Omaha, Nebraska. Negroes. Blacks.
+F675.N4 History of Nebraska. Negroes. Blacks.
+F685 History of Kansas. Early to 1861 (including struggle between proslavery and antislavery parties).
+F690.N4 History of Kansas. Negroes. Blacks.
+F705.N4 History of Oklahoma. Negroes. Blacks.
+F740.N4 History of Montana. Negroes. Blacks.
+F755.N4 History of Idaho. Negroes. Blacks.
+F770.N4 History of Wyoming. Negroes. Blacks.
+F784.D49.N4 History of Denver, Colorado. Negroes. Blacks.
+F790.N4 History of Colorado. Negroes. Blacks.
+F804.S29.N4 History of Santa Fe, New Mexico. Negroes. Blacks.
+F805.N4 History of New Mexico. Negroes. Blacks.
+F819.T99.N4 History of Tucson, Arizona. Negroes. Blacks.
+F820.N4 History of Arizona. Negroes. Blacks.
+F834.S29.N4 History of Salt Lake City, Utah. Negroes. Blacks.
+F835.N4 History of Utah. Negroes. Blacks.
+F850.N4 History of Nevada. Negroes. Blacks.
+F855.N4 History of the Pacific Northwest. Negroes. Blacks.
+F869.L89.N4 History of Los Angeles, California. Negroes. Blacks.
+F869.S39.N4 History of San Francisco, California. Negroes. Blacks.
+F870.N4 History of California. Negroes. Blacks.
+F884.P89.N4 History of Portland, Oregon. Negroes. Blacks.
+F885.N4 History of Oregon. Negroes. Blacks.
+F899.S49.N4 History of Seattle, Washington. Negroes. Blacks.
+F900.N4 History of Washington. Negroes. Blacks.
+F915.N4 History of Alaska. Negroes. Blacks.
+F1035.A1 Canada. Elements in the population. General works (including minorities).
+F1035.E89 Canada. Elements in the population. Ethiopians.
+F1035.H34 Canada. Elements in the population. Haitians.
+F1035.N3 Canada. Elements in the population. Negroes. Blacks.
+F1035.N52 Canada. Elements in the population. Nigerians.
+F1035.S65 Canada. Elements in the population. Somalis.
+F1054.M89.N4 Montreal, Quebec. Elements in the population. Negroes. Blacks.
+F1059.5.T689.N4 Toronto, Ontario. Elements in the population. Negroes. Blacks.
+F1386.9.B55 Mexico City, Mexico. Elements in the population. Blacks.
+F1386.9.N4* Mexico City, Mexico. Elements in the population. Negroes. Blacks.
+F1391.M79.N4 Monterrey, Mexico. Elements in the population. Negroes. Blacks.
+F1392.A1 Mexico. Elements in the population. General works (including minorities, race conflicts and problems).
+F1392.B55 Mexico. Elements in the population. Blacks.
+F1392.N4* Mexico. Elements in the population. Blacks.
+F1419.A1 Latin America (General). Elements in the population. General works (including minorities, race conflicts and problems).
+F1419.C26 Latin America (General). Elements in the population. Canary Islanders.
+F1419.N4 Latin America (General). Elements in the population. Negroes. Blacks.
+F1440.A1 Central America. Elements in the population. General works (including minorities, race conflicts and problems).
+F1440.B55 Central America. Elements in the population. Blacks.
+F1457.A1 Belize. Elements in the population. General works (including minorities, race conflicts and problems).
+F1457.B55 Belize. Elements in the population. Blacks.
+F1477.A1 Guatemala. Elements in the population. General works (including minorities, race conflicts and problems).
+F1497.B55 El Salvador. Elements in the population. Blacks.
+F1505.2.C3 Honduras. Elements in the population. Black Caribs.
+F1517.A1 Honduras. Elements in the population. General works (including minorities, race conflicts and problems).
+F1517.B55 Honduras. Elements in the population. Blacks.
+F1537.A1 Nicaragua. Elements in the population. General works (including minorities, race conflicts and problems).
+F1537.B55 Nicaragua. Elements in the population. Blacks.
+F1557.A1 Costa Rica. Elements in the population. General works (including minorities, race conflicts and problems).
+F1557.B55 Costa Rica. Elements in the population. Blacks.
+F1577.A1 Panama. Elements in the population. General works (including minorities, race conflicts and problems).
+F1577.B55 Panama. Elements in the population. Blacks.
+F1601-1629 History of the West Indies.
+F1640.A1 Bermuda. Elements in the population. General works (including minorities, race conflicts and problems).
+F1640.B55 Bermuda. Elements in the population. Blacks.
+F1650-1660 History of the Bahamas.
+F1789.A1 Cuba. Elements in the population. General works (including minorities, race conflicts and problems).
+F1789.B37 Cuba. Elements in the population. Negroes. Blacks.
+F1789.Y6 Cuba. Elements in the population. Yoruba.
+F1799.H39.N4 Havana, Cuba. Elements in the population. Negroes. Blacks.
+F1861-1896 History of Jamaica.
+F1896.A1 Jamaica. Elements in the population. General works (including minorities, race conflicts and problems).
+F1896.N4 Jamaica. Elements in the population. Negroes. Blacks.
+F1900-1930 History of Haiti.
+F1930.A1 Haiti. Elements in the population. General works (including minorities, race conflicts and problems).
+F1930.B55 Haiti. Elements in the population. Blacks.
+F1931-1941 History of the Dominican Republic.
+F1939.S49.H3 Santo Domingo, Dominican Republic. Elements in the population. Haitians.
+F1939.S49.N4 Santo Domingo, Dominican Republic. Elements in the population. Negroes. Blacks.
+F1939.S49N4 Santo Domingo, Dominican Republic. Elements in the population. Negroes. Blacks.
+F1941.A1 Dominican Republic. Elements in the population. General works (including minorities, race conflicts and problems).
+F1941.B55 Dominican Republic. Elements in the population. Blacks.
+F1941.N4* Dominican Republic. Elements in the population. Negroes. Blacks.
+F1983.A1 Puerto Rico. Elements in the population. General works (including minorities, race conflicts and problems).
+F1983.B55 Puerto Rico. Elements in the population. Blacks.
+F1983.N4* Puerto Rico. Elements in the population. Negroes. Blacks.
+F2001-2191 History of the Lesser Antilles.
+F2239.A1 South America. Elements in the population. General works (including minorities, race conflicts and problems).
+F2239.B55 South America. Elements in the population. Blacks.
+F2239.K65 South America. Elements in the population. Kongo.
+F2239.N4* South America. Elements in the population. Blacks.
+F2291.B69.B55 Bogotá, Colombia. Negroes. Blacks.
+F2291.B69.N4* Bogotá, Colombia. Negroes. Blacks.
+F2299.A1 Colombia. Elements in the population. General works (including minorities, race conflicts and problems).
+F2299.B55 Colombia. Elements in the population. Blacks.
+F2299.N4* Colombia. Elements in the population. Blacks.
+F2341.C29.N4 Caracas, Venezuela. Negroes. Blacks.
+F2349.A1 Venezuela. Elements in the population. General works (including minorities, race conflicts and problems).
+F2349.B55 Venezuela. Elements in the population. Blacks.
+F2349.C35 Venezuela. Elements in the population. Canary Islanders.
+F2349.N4* Venezuela. Elements in the population. Blacks.
+F2391.M37 Guyana. Elements in the population. Maroons.
+F2391.N4* Guyana. Elements in the population. Negroes.
+F2391.B55 Guyana. Elements in the population. Blacks. Negroes.
+F2431.A1 Suriname. Elements in the population. General works (including minorities, race conflicts and problems).
+F2431.B64 Suriname. Elements in the population. Boni.
+F2431.N3 Suriname. Elements in the population. Negroes. Blacks.
+F2471.B55 French Guiana. Elements in the population. Blacks.
+F2646.9.B55 Rio de Janeiro, Brazil. Elements in the population. Blacks.
+F2651.R49.N4 Recife, Brazil. Elements in the population. Negroes. Blacks.
+F2651.S19.N4 Salvador, Brazil. Elements in the population. Negroes. Blacks.
+F2651.S29.N4 São Paulo, Brazil. Elements in the population. Negroes. Blacks.
+F2659.A1 Brazil. Elements in the population. General works (including minorities, race conflicts and problems).
+F2659.N4 Brazil. Elements in the population. Negroes. Blacks.
+F2699.A1 Paraguay. Elements in the population. General works (including minorities, race conflicts and problems).
+F2699.N4 Paraguay. Elements in the population. Negroes. Blacks.
+F2781.9.B55 Montevideo, Uruguay. Elements in the population. Blacks.
+F2799.A1 Uruguay. Elements in the population. General works (including minorities, race conflicts and problems).
+F2799.N3 Uruguay. Elements in the population. Negroes. Blacks.
+F3001.9.B55 Buenos Aires, Argentina. Elements in the population. Blacks.
+F3001.9.N4* Buenos Aires, Argentina. Elements in the population. Blacks.
+F3021.A1 Argentina. Elements in the population. General works (including minorities, race conflicts and problems).
+F3021.B55 Argentina. Elements in the population. Blacks.
+F3021.N3* Argentina. Elements in the population. Blacks.
+F3271.9.B55 Santiago de Chile. Elements in the population. Blacks.
+F3271.9.N4* Santiago de Chile. Elements in the population. Blacks.
+F3285.A1 Chile. Elements in the population. General works (including minorities, race conflicts and problems).
+F3285.B53 Chile. Elements in the population. Blacks.
+F3351.L29.B55 La Paz, Bolivia. Elements in the population. Blacks.
+F3351.L29.N4* La Paz, Bolivia. Elements in the population. Blacks.
+F3359.A1 Bolivia. Elements in the population. General works (including minorities, race conflicts and problems).
+F3359.B55 Bolivia. Elements in the population. Blacks.
+F3429.3.R27 Peru. Antiquities. Indians. Relations with blacks.
+F3601.9.B55 Lima, Peru. Elements in the population. Blacks.
+F3601.9.N4* Lima, Peru. Elements in the population. Blacks.
+F3619.A1 Peru. Elements in the population. General works (including minorities, race conflicts and problems).
+F3619.B55 Peru. Elements in the population. Blacks.
+F3619.C34 Peru. Elements in the population. Canary Islanders.
+F3619.N4* Peru. Elements in the population. Blacks.
+F3781.9.B55 Quito, Ecuador. Elements in the population. Blacks.
+F3781.9.N4* Quito, Ecuador. Elements in the population. Blacks.
+F3799.A1 Ecuador. Elements in the population. General works (including minorities, race conflicts and problems).
+F3799.B55 Ecuador. Elements in the population. Blacks.
+F3799.N4* Ecuador. Elements in the population. Blacks.
+G635.H4 Henson, Matthew.
+GN57.A35 Physical Anthropology. Somatology. Anthropometry. African Americans.
+GN57.B5 Physical Anthropology. Somatology. Anthropometry. Blacks.
+GN130.B56 Physical Anthropology. Somatology. The skull. Craniology. Craniometry. Blacks.
+GN237* Miscegenation. Racial crossing.
+GN254 Racial crossing. Miscegenation.
+GN269 Physical anthropology. Somatology. Race (General).
+GN270-279 Race psychology.
+GN280* Race and racism (General).
+GN495.4 Societal groups. Ethnic groups. General works.
+GN495.6 Ethnicity. Ethnic identity.
+GN495.8 Ethnocentrism.
+GN643 Anthropology. Ethnology. African (including Blacks in general). Periodicals. Societies. Serials.
+GN645 Anthropology. Ethnology. African (including Blacks in general). General works.
+GR103 Folklore. United States. African Americans.
+GR111.A47 Folklore. United States. African Americans.
+GR120-121 Folklore. West Indies. Caribbean Area.
+GT247-258 Manners and customs. Houses. Dwellings. West Indies.
+GT655-673 Manners and customs. Costume. Dress. Fashion. West Indies.
+GV706.32 Sports. Relation to race and discrimination.
+GV709.5 Sports for minorities.
+GV865.A25 Aaron, Hank.
+GV865.P3 Paige, Satchel.
+GV865.R6 Robinson, Jackie.
+GV884.J67 Jordan, Michael.
+GV964.W66 Woods, Tiger.
+GV994.A7 Ashe, Arthur.
+GV1132.J7 Johnson, Jack (1878–1946).
+GV1132.L6 Louis, Joe.
+GV1132.M84 Ali, Muhammad.
+GV1624.7.A34 Dance. History. United States. African Americans.
+GV1624.7.N4* Dance. History. United States. African Americans.
+GV1785.A38 Ailey, Alvin.
+HA855.5-928 Statistical data. West Indies.
+HB1323.B5-.B52Z Demography. Population. Vital events. Deaths. Mortality. Blacks. African Americans.
+HD2358 Minority business enterprises.
+HD4861-4865 Slave labor.
+HD6057 Employment of minority women.
+HD6304 Labor. Work. Working class. Minorities (General).
+HD6305.B56 Labor. Work. Working class. Blacks.
+HD6490.R2-.R22 Trade unions. Labor unions. Workers’ associations. Race relations. Minority membership.
+HD7288.7-.72 Minority housing.
+HD8081.A1-.A6 Labor. Work. Working class. United States. Minority employees (General).
+HD8081.A65 Labor. Work. Working class. United States. African Americans.
+HD8081.E8 Labor. Work. Working class. United States. Ethiopians.
+HD9970.5.C672 Walker, Madam C. J.
+HE6183.A35 Stamps. Postmarks. African Americans.
+HF5514.332.M56 Consumer behavior. Consumers’ preferences. Consumer research. Minorities.
+HF5549.5.A34 Personnel management. Employment management. Affirmative action programs.
+HF5549.5.M5 Personnel management. Employment management. Minorities. Diversity in the workplace. Multiculturalism.
+HF5549.5.R23 Personnel management. Employment management. Racism.
+HG1615.7.M5 Bank management. Personnel management. Minorites.
+HG8799 Life insurance. Blacks.
+HJ22.5-29.7 Public finance. Periodicals. Serials. West Indies.
+HJ844.3-889.5 Public finance. West Indies.
+HJ2066.5-2073.7 Public finance. Budget. Income and expenditure. West Indies.
+HJ2479-2490 Public finance. Revenue. Taxation. Internal revenue. West Indies.
+HJ4304-4312 Public finance. Land tax. Real property tax. Land value taxation. West Indies.
+HJ4674-4681 Public finance. Income tax. West Indies.
+HJ5384.5-5392.3 Public finance. Administrative fees. User charges. License fees. West Indies.
+HJ6799-6838 Public finance. Customs administration. West Indies.
+HJ7684-7698.5 Public finance. Expenditures. Government spending. West Indies.
+HJ8540.5-8555.4 Public finance. Public debts. West Indies.
+HJ9369.5-9379.5 Public finance. Local finance. Municipal finance. West Indies.
+HQ76.27.A37 Homosexuality. Lesbianism. African Americans.
+HQ777.9 Racially mixed children.
+HQ801.8 Interracial dating. Interfaith dating.
+HQ875.6 Interracial adoption.
+HQ1031 Mixed marriages. Intermarriage. Interfaith marriage.
+HS875-891 Freemasonry among blacks.
+HS1171-1179 Oddfellowship among blacks.
+HS1355.S6 Societies: Secret, Benevolent, etc. Sociedad Abakua.
+HS2253-2265 Societies: Secret, Benevolent, etc. Race societies. Black.
+HT221 Urban groups. The city. Urban sociology. Race relations in cities. Ethnic relations in cities.
+HT731 Freedmen.
+HT851-893 Slavery. General works.
+HT869 Slavery. Biography of slaves.
+HT901-905 Slavery. Economic aspects of slavery.
+HT910-921 Slavery. Religion and slavery.
+HT925 Slavery. Race and slavery.
+HT975 Slavery. The slave trade. General works.
+HT985-991 Slavery. The slave trade. Modern.
+HT993-999 Slavery. The slave trade. Modern. Suppression of slave trade.
+HT1025-1033 Slavery. Abolition of slavery. Anti-slavery.
+HT1048-1152 Slavery. America (except United States).
+HT1155-1240 Slavery. Europe.
+HT1240.5-1315 Slavery. Asia.
+HT1316-1317 Slavery. Middle East. Arab Countries.
+HT1321-1427 Slavery. Africa.
+HT1430-1444 Slavery. Indian Ocean islands. Australia. Pacific Islands.
+HT1501-1561 Races. General Works. History. Economics of race questions. Ethics of race questions.
+HT1581 Races. Black. Hamitic.
+HT1589 Races. Black. Hamitic. Ethnological works. Popular works. Scriptural ethnology.
+HV640.5.H2 Refugee relief. Haitians.
+HV1569.3.M55 People with disabilities. Minorities.
+HV3181-3185 Protection, assistance and relief. African Americans.
+HV5199.5 Alcohol and ethnic minorities.
+HV5741 Tobacco and minorities.
+HV5824.E85 Drug habits. Drug abuse. Ethnic minorities.
+HV6191 Criminal ethnography. Race. Nationality. General works.
+HV6250.4.E75 Victims of crimes. Victimology. Ethnic minorities.
+HV6455-6469 Criminology. Lynching. United States.
+HV6545.5 Suicide. Minorities.
+HV7936.R3 Police. Detectives. Constabulary. Racial profiling.
+HV8069 Police. Detectives. Constabulary. Provision against racial crimes.
+HV8079.35 Investigation of crimes. Examination and identification of prisoners. Services for minorities.
+JC312 Nationalism. National state. Nation state. Minorities.
+JC1659.M56 Civil service. Minorities.
+JK721.A34 United States. Government. Public Administration. Executive Branch. African Americans. Blacks.
+JK723.M54 United States. Civil Service. Minorities.
+JK723.N4* United States. Civil Service. African Americans. Blacks.
+JK1321.A37 United States. House of Representatives. African Americans.
+JK1415 United States. House of Representatives. Congressional Black Caucus.
+JK1781 United States. Political Rights. Citizenship. African Americans.
+JK1924-1929 United States. Political Rights. African American suffrage. African American voters.
+JK2275.N4 United States. Political Parties. Parties and the individual. Party affiliation. African Americans.
+JK2480.M5 United States. State Government. Civil Service. Minorities.
+JK2760.A33 District of Columbia. State government. Civil service. Affirmative action programs.
+JK2760.5.A34 District of Columbia. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK2760.5.M5 District of Columbia. State government. Civil service. Special classes of officials and employees. Minorities.
+JK2860.A33 Maine. State government. Civil service. Affirmative action programs.
+JK2860.5.A34 Maine. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK2860.5.M5 Maine. State government. Civil service. Special classes of officials and employees. Minorities.
+JK2960.A33 New Hampshire. State government. Civil service. Affirmative action programs.
+JK2960.5.A34 New Hampshire. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK2960.5.M5 New Hampshire. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3060.A33 Vermont. State government. Civil service. Affirmative action programs.
+JK3060.5.A34 Vermont. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3060.5.M5 Vermont. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3160.A33 Massachusetts. State government. Civil service. Affirmative action programs.
+JK3160.5.A34 Massachusetts. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3160.5.M5 Massachusetts. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3260.A33 Rhode Island. State government. Civil service. Affirmative action programs.
+JK3260.5.A34 Rhode Island. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3260.5.M5 Rhode Island. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3360.A33 Connecticut. State government. Civil service. Affirmative action programs.
+JK3360.5.A34 Connecticut. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3360.5.M5 Connecticut. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3460.A33 New York. State government. Civil service. Affirmative action programs.
+JK3460.5.A34 New York. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3460.5.M5 New York. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3560.A33 New Jersey. State government. Civil service. Affirmative action programs.
+JK3560.5.A34 New Jersey. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3560.5.M5 New Jersey. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3660.A33 Pennsylvania. State government. Civil service. Affirmative action programs.
+JK3660.5.A34 Pennsylvania. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3660.5.M5 Pennsylvania. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3760.A33 Delaware. State government. Civil service. Affirmative action programs.
+JK3760.5.A34 Delaware. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3760.5.M5 Delaware. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3860.A33 Maryland. State government. Civil service. Affirmative action programs.
+JK3860.5.A34 Maryland. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3860.5.M5 Maryland. State government. Civil service. Special classes of officials and employees. Minorities.
+JK3960.A33 Virginia. State government. Civil service. Affirmative action programs.
+JK3960.5.A34 Virginia. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK3960.5.M5 Virginia. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4060.A33 West Virginia. State government. Civil service. Affirmative action programs.
+JK4060.5.A34 West Virginia. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4060.5.M5 West Virginia. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4160.A33 North Carolina. State government. Civil service. Affirmative action programs.
+JK4160.5.A34 North Carolina. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4160.5.M5 North Carolina. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4260.A33 South Carolina. State government. Civil service. Affirmative action programs.
+JK4260.5.A34 South Carolina. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4260.5.M5 South Carolina. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4360.A33 Georgia. State government. Civil service. Affirmative action programs.
+JK4360.5.A34 Georgia. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4360.5.M5 Georgia. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4460.A33 Florida. State government. Civil service. Affirmative action programs.
+JK4460.5.A34 Florida. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4460.5.M5 Florida. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4560.A33 Alabama. State government. Civil service. Affirmative action programs.
+JK4560.5.A34 Alabama. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4560.5.M5 Alabama. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4660.A33 Mississippi. State government. Civil service. Affirmative action programs.
+JK4660.5.A34 Mississippi. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4660.5.M5 Mississippi. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4760.A33 Louisiana. State government. Civil service. Affirmative action programs.
+JK4760.5.A34 Louisiana. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4760.5.M5 Louisiana. State government. Civil service. Special classes of officials and employees. Minorities.
+JK4860.A33 Texas. State government. Civil service. Affirmative action programs.
+JK4860.5.A34 Texas. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK4860.5.M5 Texas. State government. Civil service. Special classes of officials and employees. Minorities.
+JK5160.A33 Arkansas. State government. Civil service. Affirmative action programs.
+JK5160.5.A34 Arkansas. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK5160.5.M5 Arkansas. State government. Civil service. Special classes of officials and employees. Minorities.
+JK5260.A33 Tennessee. State government. Civil service. Affirmative action programs.
+JK5260.5.A34 Tennessee. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK5260.5.M5 Tennessee. State government. Civil service. Special classes of officials and employees. Minorities.
+JK5360.A33 Kentucky. State government. Civil service. Affirmative action programs.
+JK5360.5.A34 Kentucky. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK5360.5.M5 Kentucky. State government. Civil service. Special classes of officials and employees. Minorities.
+JK5460.A33 Missouri. State government. Civil service. Affirmative action programs.
+JK5460.5.A34 Missouri. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK5460.5.M5 Missouri. State government. Civil service. Special classes of officials and employees. Minorities.
+JK5560.A33 Ohio. State government. Civil service. Affirmative action programs.
+JK5560.5.A34 Ohio. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK5560.5.M5 Ohio. State government. Civil service. Special classes of officials and employees. Minorities.
+JK5660.A33 Indiana. State government. Civil service. Affirmative action programs.
+JK5660.5.A34 Indiana. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK5660.5.M5 Indiana. State government. Civil service. Special classes of officials and employees. Minorities.
+JK5760.A33 Illinois. State government. Civil service. Affirmative action programs.
+JK5760.5.A34 Illinois. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK5760.5.M5 Illinois. State government. Civil service. Special classes of officials and employees. Minorities.
+JK5860.A33 Michigan. State government. Civil service. Affirmative action programs.
+JK5860.5.A34 Michigan. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK5860.5.M5 Michigan. State government. Civil service. Special classes of officials and employees. Minorities.
+JK6060.A33 Wisconsin. State government. Civil service. Affirmative action programs.
+JK6060.5.A34 Wisconsin. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK6060.5.M5 Wisconsin. State government. Civil service. Special classes of officials and employees. Minorities.
+JK6160.A33 Minnesota. State government. Civil service. Affirmative action programs.
+JK6160.5.A34 Minnesota. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK6160.5.M5 Minnesota. State government. Civil service. Special classes of officials and employees. Minorities.
+JK6360.A33 Iowa. State government. Civil service. Affirmative action programs.
+JK6360.5.A34 Iowa. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK6360.5.M5 Iowa. State government. Civil service. Special classes of officials and employees. Minorities.
+JK6460.A33 North Dakota. State government. Civil service. Affirmative action programs.
+JK6460.5.A34 North Dakota. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK6460.5.M5 North Dakota. State government. Civil service. Special classes of officials and employees. Minorities.
+JK6560.A33 South Dakota. State government. Civil service. Affirmative action programs.
+JK6560.5.A34 South Dakota. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK6560.5.M5 South Dakota. State government. Civil service. Special classes of officials and employees. Minorities.
+JK6660.A33 Nebraska. State government. Civil service. Affirmative action programs.
+JK6660.5.A34 Nebraska. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK6660.5.M5 Nebraska. State government. Civil service. Special classes of officials and employees. Minorities.
+JK6860.A33 Kansas. State government. Civil service. Affirmative action programs.
+JK6860.5.A34 Kansas. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK6860.5.M5 Kansas. State government. Civil service. Special classes of officials and employees. Minorities.
+JK7160.A33 Oklahoma. State government. Civil service. Affirmative action programs.
+JK7160.5.A34 Oklahoma. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK7160.5.M5 Oklahoma. State government. Civil service. Special classes of officials and employees. Minorities.
+JK7360.A33 Montana. State government. Civil service. Affirmative action programs.
+JK7360.5.A34 Montana. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK7360.5.M5 Montana. State government. Civil service. Special classes of officials and employees. Minorities.
+JK7560.A33 Idaho. State government. Civil service. Affirmative action programs.
+JK7560.5.A34 Idaho. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK7560.5.M5 Idaho. State government. Civil service. Special classes of officials and employees. Minorities.
+JK7660.A33 Wyoming. State government. Civil service. Affirmative action programs.
+JK7660.5.A34 Wyoming. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK7660.5.M5 Wyoming. State government. Civil service. Special classes of officials and employees. Minorities.
+JK7860.A33 Colorado. State government. Civil service. Affirmative action programs.
+JK7860.5.A34 Colorado. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK7860.5.M5 Colorado. State government. Civil service. Special classes of officials and employees. Minorities.
+JK8060.A33 New Mexico. State government. Civil service. Affirmative action programs.
+JK8060.5.A34 New Mexico. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK8060.5.M5 New Mexico. State government. Civil service. Special classes of officials and employees. Minorities.
+JK8260.A33 Arizona. State government. Civil service. Affirmative action programs.
+JK8260.5.A34 Arizona. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK8260.5.M5 Arizona. State government. Civil service. Special classes of officials and employees. Minorities.
+JK8460.A33 Utah. State government. Civil service. Affirmative action programs.
+JK8460.5.A34 Utah. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK8460.5.M5 Utah. State government. Civil service. Special classes of officials and employees. Minorities.
+JK8560.A33 Nevada. State government. Civil service. Affirmative action programs.
+JK8560.5.A34 Nevada. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK8560.5.M5 Nevada. State government. Civil service. Special classes of officials and employees. Minorities.
+JK8760.A33 California. State government. Civil service. Affirmative action programs.
+JK8760.5.A34 California. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK8760.5.M5 California. State government. Civil service. Special classes of officials and employees. Minorities.
+JK9060.A33 Oregon. State government. Civil service. Affirmative action programs.
+JK9060.5.A34 Oregon. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK9060.5.M5 Oregon. State government. Civil service. Special classes of officials and employees. Minorities.
+JK9260.A33 Washington. State government. Civil service. Affirmative action programs.
+JK9260.5.A34 Washington. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK9260.5.M5 Washington. State government. Civil service. Special classes of officials and employees. Minorities.
+JK9560.A33 Alaska. State government. Civil service. Affirmative action programs.
+JK9560.5.A34 Alaska. State government. Civil service. Special classes of officials and employees. African Americans. Blacks.
+JK9560.5.M5 Alaska. State government. Civil service. Special classes of officials and employees. Minorities.
+JL111.M54 Canada. Civil Service. Minorities.
+JL1659.M56 Public administration (General). Civil service. Minorities.
+JN34.7 European Union. European Community. Minorities.
+JS362.5 United States. Local and municipal government. Civil Service. Minorities. Affirmative action programs.
+JV6895.C3 Emigration and Immigration. United States. Caribbean immigrants.
+JV6895.H34 Emigration and Immigration. United States. Haitian immigrants.
+JV6895.N4* Emigration and Immigration. United States. Negro immigrants.
+JX4237.M5* International law. Nationality. Minorities.
+JX4447* International law. Slavers, slave trade, etc.
+K3242 Constitutional law. Minority rights. Discrimination and non-discrimination in general.
+K3259 Constitutional law. Linguistic and cultural rights of minorities.
+KD4095 Law of England and Wales. Civil and political rights and liberties. Racial minorities. Discrimination in general.
+KE332.M56 Law of Canada. Minority lawyers.
+KE3254 Law of Canada. Discrimination in employment and its prevention. General. Racial discrimination.
+KE4395 Law of Canada. Civil and political rights and liberties. Racial and ethnic minorities. Discrimination in general.
+KEA406.4-406.5 Law of Canada (Alberta). Discrimination in employment and its prevention.
+KEB406.4-406.5 Law of Canada (British Columbia). Discrimination in employment and its prevention.
+KEM406.4-406.5 Law of Canada (Manitoba). Discrimination in employment and its prevention.
+KEN406.4-406.5 Law of Canada (New Brunswick). Discrimination in employment and its prevention.
+KEN1606.4-1606.5 Law of Canada (Newfoundland). Discrimination in employment and its prevention.
+KEN5806.4-5806.5 Law of Canada (Northwest Territories). Discrimination in employment and its prevention.
+KEN7806.4-7806.5 Law of Canada (Nova Scotia). Discrimination in employment and its prevention.
+KEO659 Law of Canada (Ontario). Discrimination in employment and its prevention. General. Racial discrimination.
+KEP406.4-406.5 Law of Canada (Prince Edward Island). Discrimination in employment and its prevention.
+KEQ671 Law of Canada (Quebec). Discrimination in employment and its prevention. General. Racial discrimination.
+KES406.4-406.5 Law of Canada (Saskatchewan). Discrimination in employment and its prevention.
+KEY406.4-406.5 Law of Canada (Yukon Territory). Discrimination in employment and its prevention.
+KF224.B55 Law of the United States. Black Panthers Trial, New York, 1970–1971.
+KF224.C47 Law of the United States. Chicago Seven.
+KF299.A35 Law of the United States. African American lawyers.
+KF299.M56 Law of the United States. Minority lawyers.
+KF299.N3* Law of the United States. African American lawyers.
+KF482 Law of the United States. Slaves.
+KF697.D5 Discrimination in mortgage loans.
+KF3464 Law of the United States. Discrimination in employment and its prevention. General. Racial discrimination.
+KF4151-4155 Law of the United States. Education. Right to education. Admission. Discrimination and segregation.
+KF4232 Law of the United States. African American universities and colleges.
+KF4545.S5 Law of the United States. Constitutional law. Slavery (including 13th Amendment).
+KF4558 14th Law of the United States. Constitutional law. 14th Amendment.
+KF4755 Law of the United States. Civil and political rights and liberties. Racial and ethnic minorities. Antidiscrimination in general.
+KF4755.5 Law of the United States. Affirmative action.
+KF4756-4757 Law of the United States. Civil and political rights and liberties. African Americans.
+KF4893 Law of the United States. Constitutional law. Suffrage. African Americans.
+KF5740 Law of the United States. Discrimination in housing.
+KF8745.M34 Marshall, Thurgood.
+KF8745.T48 Thomas, Clarence.
+KF8925.D5 Law of the United States. Trial practice. Trial tactics. Discrimination.
+KFA130.5.D58 Law of the United States. Alabama. Discrimination in mortgage loans.
+KFA334.5.D5 Law of the United States. Alabama. Discrimination in employment.
+KFA392.2 Law of the United States. Alabama. Right to education. Admission. Discrimination and segregation.
+KFA411 Law of the United States. Alabama. Civil and political rights. General.
+KFA411.5.A34 Law of the United States. Alabama. Civil and political rights. African Americans.
+KFA460.5.D5 Law of the United States. Alabama. Housing. City redevelopment. Slum clearance. Discrimination.
+KFA539.D56 Law of the United States. Alabama. Courts. Trial. Trial practice. Discrimination.
+KFA1330.5.D58 Law of the United States. Alaska. Discrimination in mortgage loans.
+KFA1534.5.D5 Law of the United States. Alaska. Discrimination in employment.
+KFA1592.2 Law of the United States. Alaska. Right to education. Admission. Discrimination and segregation.
+KFA1611 Law of the United States. Alaska. Civil and political rights. General.
+KFA1611.5.A34 Law of the United States. Alaska. Civil and political rights. African Americans.
+KFA1660.5.D5 Law of the United States. Alaska. Housing. City redevelopment. Slum clearance. Discrimination.
+KFA1739.D56 Law of the United States. Alaska. Courts. Trial. Trial practice. Discrimination.
+KFA2530.5.D58 Law of the United States. Arizona. Discrimination in mortgage loans.
+KFA2734.5.D5 Law of the United States. Arizona. Discrimination in employment.
+KFA2792.2 Law of the United States. Arizona. Right to education. Admission. Discrimination and segregation.
+KFA2811 Law of the United States. Arizona. Civil and political rights. General.
+KFA2811.5.A34 Law of the United States. Arizona. Civil and political rights. African Americans.
+KFA2860.5.D5 Law of the United States. Arizona. Housing. City redevelopment. Slum clearance. Discrimination.
+KFA2939.D56 Law of the United States. Arizona. Courts. Trial. Trial practice. Discrimination.
+KFA3730.5.D58 Law of the United States. Arkansas. Discrimination in mortgage loans.
+KFA3934.5.D5 Law of the United States. Arkansas. Discrimination in employment.
+KFA3992.2 Law of the United States. Arkansas. Right to education. Admission. Discrimination and segregation.
+KFA4011 Law of the United States. Arkansas. Civil and political rights. General.
+KFA4011.5.A34 Law of the United States. Arkansas. Civil and political rights. African Americans.
+KFA4060.5.D5 Law of the United States. Arkansas. Housing. City redevelopment. Slum clearance. Discrimination.
+KFA4139.D56 Law of the United States. Arkansas. Courts. Trial. Trial practice. Discrimination.
+KFC572-573 Law of the United States (California). Discrimination in employment and its prevention.
+KFC654.5 Law of the United States (California). Right to education. Admission. Discrimination and segregation.
+KFC1930.5.D58 Law of the United States. Colorado. Discrimination in mortgage loans.
+KFC2134.5.D5 Law of the United States. Colorado. Discrimination in employment.
+KFC2192.2 Law of the United States. Colorado. Right to education. Admission. Discrimination and segregation.
+KFC2211 Law of the United States. Colorado. Civil and political rights. General.
+KFC2211.5.A34 Law of the United States. Colorado. Civil and political rights. African Americans.
+KFC2260.5.D5 Law of the United States. Colorado. Housing. City redevelopment. Slum clearance. Discrimination.
+KFC2339.D56 Law of the United States. Colorado. Courts. Trial. Trial practice. Discrimination.
+KFD130.5.D58 Law of the United States. Delaware. Discrimination in mortgage loans.
+KFD334.5.D5 Law of the United States. Delaware. Discrimination in employment.
+KFD392.2 Law of the United States. Delaware. Right to education. Admission. Discrimination and segregation.
+KFD411 Law of the United States. Delaware. Civil and political rights. General.
+KFD411.5.A34 Law of the United States. Delaware. Civil and political rights. African Americans.
+KFD460.5.D5 Law of the United States. Delaware. Housing. City redevelopment. Slum clearance. Discrimination.
+KFD539.D56 Law of the United States. Delaware. Courts. Trial. Trial practice. Discrimination.
+KFD1330.5.D58 Law of the United States. District of Columbia. Discrimination in mortgage loans.
+KFD1534.5.D5 Law of the United States. District of Columbia. Discrimination in employment.
+KFD1592.2 Law of the United States. District of Columbia. Right to education. Admission. Discrimination and segregation.
+KFD1611 Law of the United States. District of Columbia. Civil and political rights. General.
+KFD1611.5.A34 Law of the United States. District of Columbia. Civil and political rights. African Americans.
+KFD1660.5.D5 Law of the United States. District of Columbia. Housing. City redevelopment. Slum clearance. Discrimination.
+KFD1739.D56 Law of the United States. District of Columbia. Courts. Trial. Trial practice. Discrimination.
+KFF130.5.D58 Law of the United States. Florida. Discrimination in mortgage loans.
+KFF334.5.D5 Law of the United States. Florida. Discrimination in employment.
+KFF392.2 Law of the United States. Florida. Right to education. Admission. Discrimination and segregation.
+KFF411 Law of the United States. Florida. Civil and political rights. General.
+KFF411.5.A34 Law of the United States. Florida. Civil and political rights. African Americans.
+KFF460.5.D5 Law of the United States. Florida. Housing. City redevelopment. Slum clearance. Discrimination.
+KFF539.D56 Law of the United States. Florida. Courts. Trial. Trial practice. Discrimination.
+KFG130.5.D58 Law of the United States. Georgia. Discrimination in mortgage loans.
+KFG334.5.D5 Law of the United States. Georgia. Discrimination in employment.
+KFG392.2 Law of the United States. Georgia. Right to education. Admission. Discrimination and segregation.
+KFG411 Law of the United States. Georgia. Civil and political rights. General.
+KFG411.5.A34 Law of the United States. Georgia. Civil and political rights. African Americans.
+KFG460.5.D5 Law of the United States. Georgia. Housing. City redevelopment. Slum clearance. Discrimination.
+KFG539.D56 Law of the United States. Georgia. Courts. Trial. Trial practice. Discrimination.
+KFH130.5.D58 Law of the United States. Hawaii. Discrimination in mortgage loans.
+KFH334.5.D5 Law of the United States. Hawaii. Discrimination in employment.
+KFH392.2 Law of the United States. Hawaii. Right to education. Admission. Discrimination and segregation.
+KFH411 Law of the United States. Hawaii. Civil and political rights. General.
+KFH411.5.A34 Law of the United States. Hawaii. Civil and political rights. African Americans.
+KFH460.5.D5 Law of the United States. Hawaii. Housing. City redevelopment. Slum clearance. Discrimination.
+KFH539.D56 Law of the United States. Hawaii. Courts. Trial. Trial practice. Discrimination.
+KFI130.5.D58 Law of the United States. Idaho. Discrimination in mortgage loans.
+KFI334.5.D5 Law of the United States. Idaho. Discrimination in employment.
+KFI392.2 Law of the United States. Idaho. Right to education. Admission. Discrimination and segregation.
+KFI411 Law of the United States. Idaho. Civil and political rights. General.
+KFI411.5.A34 Law of the United States. Idaho. Civil and political rights. African Americans.
+KFI460.5.D5 Law of the United States. Idaho. Housing. City redevelopment. Slum clearance. Discrimination.
+KFI539.D56 Law of the United States. Idaho. Courts. Trial. Trial practice. Discrimination.
+KFI1330.5.D58 Law of the United States. Illinois. Discrimination in mortgage loans.
+KFI1534.5.D5 Law of the United States. Illinois. Discrimination in employment.
+KFI1592.2 Law of the United States. Illinois. Right to education. Admission. Discrimination and segregation.
+KFI1611 Law of the United States. Illinois. Civil and political rights. General.
+KFI1611.5.A34 Law of the United States. Illinois. Civil and political rights. African Americans.
+KFI1660.5.D5 Law of the United States. Illinois. Housing. City redevelopment. Slum clearance. Discrimination.
+KFI1739.D56 Law of the United States. Illinois. Courts. Trial. Trial practice. Discrimination.
+KFI3130.5.D58 Law of the United States. Indiana. Discrimination in mortgage loans.
+KFI3334.5.D5 Law of the United States. Indiana. Discrimination in employment.
+KFI3392.2 Law of the United States. Indiana. Right to education. Admission. Discrimination and segregation.
+KFI3411 Law of the United States. Indiana. Civil and political rights. General.
+KFI3411.5.A34 Law of the United States. Indiana. Civil and political rights. African Americans.
+KFI3460.5.D5 Law of the United States. Indiana. Housing. City redevelopment. Slum clearance. Discrimination.
+KFI3539.D56 Law of the United States. Indiana. Courts. Trial. Trial practice. Discrimination.
+KFI4330.5.D58 Law of the United States. Iowa. Discrimination in mortgage loans.
+KFI4534.5.D5 Law of the United States. Iowa. Discrimination in employment.
+KFI4592.2 Law of the United States. Iowa. Right to education. Admission. Discrimination and segregation.
+KFI4611 Law of the United States. Iowa. Civil and political rights. General.
+KFI4611.5.A34 Law of the United States. Iowa. Civil and political rights. African Americans.
+KFI4660.5.D5 Law of the United States. Iowa. Housing. City redevelopment. Slum clearance. Discrimination.
+KFI4739.D56 Law of the United States. Iowa. Courts. Trial. Trial practice. Discrimination.
+KFK130.5.D58 Law of the United States. Kansas. Discrimination in mortgage loans.
+KFK334.5.D5 Law of the United States. Kansas. Discrimination in employment.
+KFK392.2 Law of the United States. Kansas. Right to education. Admission. Discrimination and segregation.
+KFK411 Law of the United States. Kansas. Civil and political rights. General.
+KFK411.5.A34 Law of the United States. Kansas. Civil and political rights. African Americans.
+KFK460.5.D5 Law of the United States. Kansas. Housing. City redevelopment. Slum clearance. Discrimination.
+KFK539.D56 Law of the United States. Kansas. Courts. Trial. Trial practice. Discrimination.
+KFK1330.5.D58 Law of the United States. Kentucky. Discrimination in mortgage loans.
+KFK1534.5.D5 Law of the United States. Kentucky. Discrimination in employment.
+KFK1592.2 Law of the United States. Kentucky. Right to education. Admission. Discrimination and segregation.
+KFK1611 Law of the United States. Kentucky. Civil and political rights. General.
+KFK1611.5.A34 Law of the United States. Kentucky. Civil and political rights. African Americans.
+KFK1660.5.D5 Law of the United States. Kentucky. Housing. City redevelopment. Slum clearance. Discrimination.
+KFK1739.D56 Law of the United States. Kentucky. Courts. Trial. Trial practice. Discrimination.
+KFL130.5.D58 Law of the United States. Louisiana. Discrimination in mortgage loans.
+KFL334.5.D5 Law of the United States. Louisiana. Discrimination in employment.
+KFL392.2 Law of the United States. Louisiana. Right to education. Admission. Discrimination and segregation.
+KFL411 Law of the United States. Louisiana. Civil and political rights. General.
+KFL411.5.A34 Law of the United States. Louisiana. Civil and political rights. African Americans.
+KFL460.5.D5 Law of the United States. Louisiana. Housing. City redevelopment. Slum clearance. Discrimination.
+KFL539.D56 Law of the United States. Louisiana. Courts. Trial. Trial practice. Discrimination.
+KFM130.5.D58 Law of the United States. Maine. Discrimination in mortgage loans.
+KFM334.5.D5 Law of the United States. Maine. Discrimination in employment.
+KFM392.2 Law of the United States. Maine. Right to education. Admission. Discrimination and segregation.
+KFM411 Law of the United States. Maine. Civil and political rights. General.
+KFM411.5.A34 Law of the United States. Maine. Civil and political rights. African Americans.
+KFM460.5.D5 Law of the United States. Maine. Housing. City redevelopment. Slum clearance. Discrimination.
+KFM539.D56 Law of the United States. Maine. Courts. Trial. Trial practice. Discrimination.
+KFM1330.5.D58 Law of the United States. Maryland. Discrimination in mortgage loans.
+KFM1534.5.D5 Law of the United States. Maryland. Discrimination in employment.
+KFM1592.2 Law of the United States. Maryland. Right to education. Admission. Discrimination and segregation.
+KFM1611 Law of the United States. Maryland. Civil and political rights. General.
+KFM1611.5.A34 Law of the United States. Maryland. Civil and political rights. African Americans.
+KFM1660.5.D5 Law of the United States. Maryland. Housing. City redevelopment. Slum clearance. Discrimination.
+KFM1739.D56 Law of the United States. Maryland. Courts. Trial. Trial practice. Discrimination.
+KFM2530.5.D58 Law of the United States. Massachusetts. Discrimination in mortgage loans.
+KFM2734.5.D5 Law of the United States. Massachusetts. Discrimination in employment.
+KFM2792.2 Law of the United States. Massachusetts. Right to education. Admission. Discrimination and segregation.
+KFM2811 Law of the United States. Massachusetts. Civil and political rights. General.
+KFM2811.5.A34 Law of the United States. Massachusetts. Civil and political rights. African Americans.
+KFM2860.5.D5 Law of the United States. Massachusetts. Housing. City redevelopment. Slum clearance. Discrimination.
+KFM2939.D56 Law of the United States. Massachusetts. Courts. Trial. Trial practice. Discrimination.
+KFM4330.5.D58 Law of the United States. Michigan. Discrimination in mortgage loans.
+KFM4534.5.D5 Law of the United States. Michigan. Discrimination in employment.
+KFM4592.2 Law of the United States. Michigan. Right to education. Admission. Discrimination and segregation.
+KFM4611 Law of the United States. Michigan. Civil and political rights. General.
+KFM4611.5.A34 Law of the United States. Michigan. Civil and political rights. African Americans.
+KFM4660.5.D5 Law of the United States. Michigan. Housing. City redevelopment. Slum clearance. Discrimination.
+KFM4739.D56 Law of the United States. Michigan. Courts. Trial. Trial practice. Discrimination.
+KFM5530.5.D58 Law of the United States. Minnesota. Discrimination in mortgage loans.
+KFM5734.5.D5 Law of the United States. Minnesota. Discrimination in employment.
+KFM5792.2 Law of the United States. Minnesota. Right to education. Admission. Discrimination and segregation.
+KFM5811 Law of the United States. Minnesota. Civil and political rights. General.
+KFM5811.5.A34 Law of the United States. Minnesota. Civil and political rights. African Americans.
+KFM5860.5.D5 Law of the United States. Minnesota. Housing. City redevelopment. Slum clearance. Discrimination.
+KFM5939.D56 Law of the United States. Minnesota. Courts. Trial. Trial practice. Discrimination.
+KFM6730.5.D58 Law of the United States. Mississippi. Discrimination in mortgage loans.
+KFM6934.5.D5 Law of the United States. Mississippi. Discrimination in employment.
+KFM6992.2 Law of the United States. Mississippi. Right to education. Admission. Discrimination and segregation.
+KFM7011 Law of the United States. Mississippi. Civil and political rights. General.
+KFM7011.5.A34 Law of the United States. Mississippi. Civil and political rights. African Americans.
+KFM7060.5.D5 Law of the United States. Mississippi. Housing. City redevelopment. Slum clearance. Discrimination.
+KFM7139.D56 Law of the United States. Mississippi. Courts. Trial. Trial practice. Discrimination.
+KFM7930.5.D58 Law of the United States. Missouri. Discrimination in mortgage loans.
+KFM8134.5.D5 Law of the United States. Missouri. Discrimination in employment.
+KFM8192.2 Law of the United States. Missouri. Right to education. Admission. Discrimination and segregation.
+KFM8211 Law of the United States. Missouri. Civil and political rights. General.
+KFM8211.5.A34 Law of the United States. Missouri. Civil and political rights. African Americans.
+KFM8260.5.D5 Law of the United States. Missouri. Housing. City redevelopment. Slum clearance. Discrimination.
+KFM8339.D56 Law of the United States. Missouri. Courts. Trial. Trial practice. Discrimination.
+KFM9130.5.D58 Law of the United States. Montana. Discrimination in mortgage loans.
+KFM9334.5.D5 Law of the United States. Montana. Discrimination in employment.
+KFM9392.2 Law of the United States. Montana. Right to education. Admission. Discrimination and segregation.
+KFM9411 Law of the United States. Montana. Civil and political rights. General.
+KFM9411.5.A34 Law of the United States. Montana. Civil and political rights. African Americans.
+KFM9460.5.D5 Law of the United States. Montana. Housing. City redevelopment. Slum clearance. Discrimination.
+KFM9539.D56 Law of the United States. Montana. Courts. Trial. Trial practice. Discrimination.
+KFN130.5.D58 Law of the United States. Nebraska. Discrimination in mortgage loans.
+KFN334.5.D5 Law of the United States. Nebraska. Discrimination in employment.
+KFN392.2 Law of the United States. Nebraska. Right to education. Admission. Discrimination and segregation.
+KFN411 Law of the United States. Nebraska. Civil and political rights. General.
+KFN411.5.A34 Law of the United States. Nebraska. Civil and political rights. African Americans.
+KFN460.5.D5 Law of the United States. Nebraska. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN460.5.D5 Law of the United States. Nebraska. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN730.5.D58 Law of the United States. Nevada. Discrimination in mortgage loans.
+KFN934.5.D5 Law of the United States. Nevada. Discrimination in employment.
+KFN992.2 Law of the United States. Nevada. Right to education. Admission. Discrimination and segregation.
+KFN1011 Law of the United States. Nevada. Civil and political rights. General.
+KFN1011.5.A34 Law of the United States. Nevada. Civil and political rights. African Americans.
+KFN1060.5.D5 Law of the United States. Nevada. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN1139.D56 Law of the United States. Nevada. Courts. Trial. Trial practice. Discrimination.
+KFN1330.5.D58 Law of the United States. New Hampshire. Discrimination in mortgage loans.
+KFN1534.5.D5 Law of the United States. New Hampshire. Discrimination in employment.
+KFN1592.2 Law of the United States. New Hampshire. Right to education. Admission. Discrimination and segregation.
+KFN1611 Law of the United States. New Hampshire. Civil and political rights. General.
+KFN1611.5.A34 Law of the United States. New Hampshire. Civil and political rights. African Americans.
+KFN1660.5.D5 Law of the United States. New Hampshire. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN1660.5.D5 Law of the United States. New Hampshire. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN1930.5.D58 Law of the United States. New Jersey. Discrimination in mortgage loans.
+KFN2134.5.D5 Law of the United States. New Jersey. Discrimination in employment.
+KFN2192.2 Law of the United States. New Jersey. Right to education. Admission. Discrimination and segregation.
+KFN2211 Law of the United States. New Jersey. Civil and political rights. General.
+KFN2211.5.A34 Law of the United States. New Jersey. Civil and political rights. African Americans.
+KFN2260.5.D5 Law of the United States. New Jersey. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN2339.D56 Law of the United States. New Jersey. Courts. Trial. Trial practice. Discrimination.
+KFN3730.5.D58 Law of the United States. New Mexico. Discrimination in mortgage loans.
+KFN3934.5.D5 Law of the United States. New Mexico. Discrimination in employment.
+KFN3992.2 Law of the United States. New Mexico. Right to education. Admission. Discrimination and segregation.
+KFN4011 Law of the United States. New Mexico. Civil and political rights. General.
+KFN4011.5.A34 Law of the United States. New Mexico. Civil and political rights. African Americans.
+KFN4060.5.D5 Law of the United States. New Mexico. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN4139.D56 Law of the United States. New Mexico. Courts. Trial. Trial practice. Discrimination.
+KFN5572-5573 Law of the United States (New York). Discrimination in employment and its prevention.
+KFN7530.5.D58 Law of the United States. North Carolina. Discrimination in mortgage loans.
+KFN7734.5.D5 Law of the United States. North Carolina. Discrimination in employment.
+KFN7792.2 Law of the United States. North Carolina. Right to education. Admission. Discrimination and segregation.
+KFN7811 Law of the United States. North Carolina. Civil and political rights. General.
+KFN7811.5.A34 Law of the United States. North Carolina. Civil and political rights. African Americans.
+KFN7860.5.D5 Law of the United States. North Carolina. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN7939.D56 Law of the United States. North Carolina. Courts. Trial. Trial practice. Discrimination.
+KFN8730.5.D58 Law of the United States. North Dakota. Discrimination in mortgage loans.
+KFN8934.5.D5 Law of the United States. North Dakota. Discrimination in employment.
+KFN8992.2 Law of the United States. North Dakota. Right to education. Admission. Discrimination and segregation.
+KFN9011 Law of the United States. North Dakota. Civil and political rights. General.
+KFN9011.5.A34 Law of the United States. North Dakota. Civil and political rights. African Americans.
+KFN9060.5.D5 Law of the United States. North Dakota. Housing. City redevelopment. Slum clearance. Discrimination.
+KFN9139.D56 Law of the United States. North Dakota. Courts. Trial. Trial practice. Discrimination.
+KFO130.5.D58 Law of the United States. Ohio. Discrimination in mortgage loans.
+KFO334.5.D5 Law of the United States. Ohio. Discrimination in employment.
+KFO392.2 Law of the United States. Ohio. Right to education. Admission. Discrimination and segregation.
+KFO411 Law of the United States. Ohio. Civil and political rights. General.
+KFO411.5.A34 Law of the United States. Ohio. Civil and political rights. African Americans.
+KFO460.5.D5 Law of the United States. Ohio. Housing. City redevelopment. Slum clearance. Discrimination.
+KFO539.D56 Law of the United States. Ohio. Courts. Trial. Trial practice. Discrimination.
+KFO1330.5.D58 Law of the United States. Oklahoma. Discrimination in mortgage loans.
+KFO1534.5.D5 Law of the United States. Oklahoma. Discrimination in employment.
+KFO1592.2 Law of the United States. Oklahoma. Right to education. Admission. Discrimination and segregation.
+KFO1611 Law of the United States. Oklahoma. Civil and political rights. General.
+KFO1611.5.A34 Law of the United States. Oklahoma. Civil and political rights. African Americans.
+KFO1660.5.D5 Law of the United States. Oklahoma. Housing. City redevelopment. Slum clearance. Discrimination.
+KFO1739.D56 Law of the United States. Oklahoma. Courts. Trial. Trial practice. Discrimination.
+KFO2530.5.D58 Law of the United States. Oregon. Discrimination in mortgage loans.
+KFO2734.5.D5 Law of the United States. Oregon. Discrimination in employment.
+KFO2792.2 Law of the United States. Oregon. Right to education. Admission. Discrimination and segregation.
+KFO2811 Law of the United States. Oregon. Civil and political rights. General.
+KFO2811.5.A34 Law of the United States. Oregon. Civil and political rights. African Americans.
+KFO2860.5.D5 Law of the United States. Oregon. Housing. City redevelopment. Slum clearance. Discrimination.
+KFO2939.D56 Law of the United States. Oregon. Courts. Trial. Trial practice. Discrimination.
+KFP130.5.D58 Law of the United States. Pennsylvania. Discrimination in mortgage loans.
+KFP334.5.D5 Law of the United States. Pennsylvania. Discrimination in employment.
+KFP392.2 Law of the United States. Pennsylvania. Right to education. Admission. Discrimination and segregation.
+KFP411 Law of the United States. Pennsylvania. Civil and political rights. General.
+KFP411.5.A34 Law of the United States. Pennsylvania. Civil and political rights. African Americans.
+KFP460.5.D5 Law of the United States. Pennsylvania. Housing. City redevelopment. Slum clearance. Discrimination.
+KFP539.D56 Law of the United States. Pennsylvania. Courts. Trial. Trial practice. Discrimination.
+KFR130.5.D58 Law of the United States. Rhode Island. Discrimination in mortgage loans.
+KFR334.5.D5 Law of the United States. Rhode Island. Discrimination in employment.
+KFR392.2 Law of the United States. Rhode Island. Right to education. Admission. Discrimination and segregation.
+KFR411 Law of the United States. Rhode Island. Civil and political rights. General.
+KFR411.5.A34 Law of the United States. Rhode Island. Civil and political rights. African Americans.
+KFR460.5.D5 Law of the United States. Rhode Island. Housing. City redevelopment. Slum clearance. Discrimination.
+KFR539.D56 Law of the United States. Rhode Island. Courts. Trial. Trial practice. Discrimination.
+KFS1930.5.D58 Law of the United States. South Carolina. Discrimination in mortgage loans.
+KFS2134.5.D5 Law of the United States. South Carolina. Discrimination in employment.
+KFS2192.2 Law of the United States. South Carolina. Right to education. Admission. Discrimination and segregation.
+KFS2211 Law of the United States. South Carolina. Civil and political rights. General.
+KFS2211.5.A34 Law of the United States. South Carolina. Civil and political rights. African Americans.
+KFS2260.5.D5 Law of the United States. South Carolina. Housing. City redevelopment. Slum clearance. Discrimination.
+KFS2339.D56 Law of the United States. South Carolina. Courts. Trial. Trial practice. Discrimination.
+KFS3130.5.D58 Law of the United States. South Dakota. Discrimination in mortgage loans.
+KFS3334.5.D5 Law of the United States. South Dakota. Discrimination in employment.
+KFS3392.2 Law of the United States. South Dakota. Right to education. Admission. Discrimination and segregation.
+KFS3411 Law of the United States. South Dakota. Civil and political rights. General.
+KFS3411.5.A34 Law of the United States. South Dakota. Civil and political rights. African Americans.
+KFS3460.5.D5 Law of the United States. South Dakota. Housing. City redevelopment. Slum clearance. Discrimination.
+KFS3539.D56 Law of the United States. South Dakota. Courts. Trial. Trial practice. Discrimination.
+KFT130.5.D58 Law of the United States. Tennessee. Discrimination in mortgage loans.
+KFT334.5.D5 Law of the United States. Tennessee. Discrimination in employment.
+KFT392.2 Law of the United States. Tennessee. Right to education. Admission. Discrimination and segregation.
+KFT411 Law of the United States. Tennessee. Civil and political rights. General.
+KFT411.5.A34 Law of the United States. Tennessee. Civil and political rights. African Americans.
+KFT460.5.D5 Law of the United States. Tennessee. Housing. City redevelopment. Slum clearance. Discrimination.
+KFT539.D56 Law of the United States. Tennessee. Courts. Trial. Trial practice. Discrimination.
+KFT1330.5.D58 Law of the United States. Texas. Discrimination in mortgage loans.
+KFT1534.5.D5 Law of the United States. Texas. Discrimination in employment.
+KFT1592.2 Law of the United States. Texas. Right to education. Admission. Discrimination and segregation.
+KFT1611 Law of the United States. Texas. Civil and political rights. General.
+KFT1611.5.A34 Law of the United States. Texas. Civil and political rights. African Americans.
+KFT1660.5.D5 Law of the United States. Texas. Housing. City redevelopment. Slum clearance. Discrimination.
+KFT1739.D56 Law of the United States. Texas. Courts. Trial. Trial practice. Discrimination.
+KFU130.5.D58 Law of the United States. Utah. Discrimination in mortgage loans.
+KFU334.5.D5 Law of the United States. Utah. Discrimination in employment.
+KFU392.2 Law of the United States. Utah. Right to education. Admission. Discrimination and segregation.
+KFU411 Law of the United States. Utah. Civil and political rights. General.
+KFU411.5.A34 Law of the United States. Utah. Civil and political rights. African Americans.
+KFU460.5.D5 Law of the United States. Utah. Housing. City redevelopment. Slum clearance. Discrimination.
+KFU539.D56 Law of the United States. Utah. Courts. Trial. Trial practice. Discrimination.
+KFV130.5.D58 Law of the United States. Vermont. Discrimination in mortgage loans.
+KFV334.5.D5 Law of the United States. Vermont. Discrimination in employment.
+KFV392.2 Law of the United States. Vermont. Right to education. Admission. Discrimination and segregation.
+KFV411 Law of the United States. Vermont. Civil and political rights. General.
+KFV411.5.A34 Law of the United States. Vermont. Civil and political rights. African Americans.
+KFV460.5.D5 Law of the United States. Vermont. Housing. City redevelopment. Slum clearance. Discrimination.
+KFV539.D56 Law of the United States. Vermont. Courts. Trial. Trial practice. Discrimination.
+KFV2530.5.D58 Law of the United States. Virginia. Discrimination in mortgage loans.
+KFV2734.5.D5 Law of the United States. Virginia. Discrimination in employment.
+KFV2792.2 Law of the United States. Virginia. Right to education. Admission. Discrimination and segregation.
+KFV2811 Law of the United States. Virginia. Civil and political rights. General.
+KFV2811.5.A34 Law of the United States. Virginia. Civil and political rights. African Americans.
+KFV2860.5.D5 Law of the United States. Virginia. Housing. City redevelopment. Slum clearance. Discrimination.
+KFV2939.D56 Law of the United States. Virginia. Courts. Trial. Trial practice. Discrimination.
+KFW130.5.D58 Law of the United States. Washington State. Discrimination in mortgage loans.
+KFW334.5.D5 Law of the United States. Washington State. Discrimination in employment.
+KFW392.2 Law of the United States. Washington State. Right to education. Admission. Discrimination and segregation.
+KFW411 Law of the United States. Washington State. Civil and political rights. General.
+KFW411.5.A34 Law of the United States. Washington State. Civil and political rights. African Americans.
+KFW460.5.D5 Law of the United States. Washington State. Housing. City redevelopment. Slum clearance. Discrimination.
+KFW539.D56 Law of the United States. Washington State. Courts. Trial. Trial practice. Discrimination.
+KFW1330.5.D58 Law of the United States. West Virginia. Discrimination in mortgage loans.
+KFW1534.5.D5 Law of the United States. West Virginia. Discrimination in employment.
+KFW1592.2 Law of the United States. West Virginia. Right to education. Admission. Discrimination and segregation.
+KFW1611 Law of the United States. West Virginia. Civil and political rights. General.
+KFW1611.5.A34 Law of the United States. West Virginia. Civil and political rights. African Americans.
+KFW1660.5.D5 Law of the United States. West Virginia. Housing. City redevelopment. Slum clearance. Discrimination.
+KFW1739.D56 Law of the United States. West Virginia. Courts. Trial. Trial practice. Discrimination.
+KFW2530.5.D58 Law of the United States. Wisconsin. Discrimination in mortgage loans.
+KFW2792.2 Law of the United States. Wisconsin. Right to education. Admission. Discrimination and segregation.
+KFW2811 Law of the United States. Wisconsin. Civil and political rights. General.
+KFW2811.5.A34 Law of the United States. Wisconsin. Civil and political rights. African Americans.
+KFW2860.5.D5 Law of the United States. Wisconsin. Housing. City redevelopment. Slum clearance. Discrimination.
+KFW2939.D56 Law of the United States. Wisconsin. Courts. Trial. Trial practice. Discrimination.
+KFW4330.5.D58 Law of the United States. Wyoming. Discrimination in mortgage loans.
+KFW4534.5.D5 Law of the United States. Wyoming. Discrimination in employment.
+KFW4592.2 Law of the United States. Wyoming. Right to education. Admission. Discrimination and segregation.
+KFW4611 Law of the United States. Wyoming. Civil and political rights. General.
+KFW4611.5.A34 Law of the United States. Wyoming. Civil and political rights. African Americans.
+KFW4660.5.D5 Law of the United States. Wyoming. Housing. City redevelopment. Slum clearance. Discrimination.
+KFW4739.D56 Law of the United States. Wyoming. Courts. Trial. Trial practice. Discrimination.
+KJC5144.M56 Comparative Law of Europe. Constitutional law. Human rights. Civil and political rights. Minorities.
+KJC8781.I63 Comparative Law of Europe. Inciting acts against minorities.
+KJE5144.M56 European Communities. Community law. Equality before the law. Antidiscrimination in general. Minorities.
+KJK2467.M56 Law of Belgium. Equality before the law. Antidiscrimination in general.
+KJR2467.M56 Law of Denmark. Equality before the law. Antidiscrimination in general.
+KJV4207.M56 Law of France. Equality before the law (Antidiscrimination in general). Minorities.
+KJV4534 Law of France. Code noir. Laws regarding the black populace.
+KK2945.E84 Law of Germany. Prohibition of discrimination in employment. Equal opportunity. Ethnic groups. Minorities.
+KK3712 Law of Germany. The legal profession. Minorities.
+KK4493-4495 Law of Germany. Constitutional history. Equality before the law. Minorities.
+KK4742 Law of Germany. Nationality and citizenship. Minorities.
+KK4747.M55 Law of Germany. Fundamental rights and constitutional guaranties. Equality before the law. Minorities.
+KK5144.M56 Law of Germany. Human rights. Fundamental rights and constitutional guaranties. Equality before the law. Antidiscrimination in general. Minorities.
+KK8794 Law of Germany. Inciting acts against minorities.
+KKH2467.M56 Law of Italy. Equality before the law. Antidiscrimination in general.
+KKM2467.M56 Law of the Netherlands. Equality before the law. Antidiscrimination in general.
+KKQ2467.M56 Law of Portugal. Equality before the law. Antidiscrimination in general.
+KKT2467.M56 Law of Spain. Equality before the law. Antidiscrimination in general.
+KKW2467.M56 Law of Switzerland. Equality before the law. Antidiscrimination in general.
+LB2843.N4* Teaching personnel. Salaries. Pensions. Fringe benefits. Incentive awards. African American teachers.
+LB3062* Segregation in education.
+LC212-212.43 Discrimination in education.
+LC212.5 Segregation in education. Racial separation.
+LC212.6 De facto segregation in education.
+LC212.7 Segregation in higher education.
+LC2699 Education. Blacks. African Americans. General works.
+LC2701 Education. Blacks. African Americans. United States. Periodicals. Collections.
+LC2703 Education. Blacks. African Americans. United States. Societies.
+LC2707 Education. Blacks. African Americans. United States. Educational funds and charities.
+LC2717 Education. Blacks. African Americans. United States. General works.
+LC2725 Education. Blacks. African Americans. United States. Teachers’ handbooks, etc.
+LC2731 Education. Blacks. African Americans. United States. General special.
+LC2741 Education. Blacks. African Americans. United States. History.
+LC2751 Education. Blacks. African Americans. United States. Moral and religious education.
+LC2761 Education. Blacks. African Americans. United States. Private school education.
+LC2765 Education. Blacks. African Americans. United States. Preschool education.
+LC2771-2778 Education. Blacks. African Americans. United States. Elementary and public school education.
+LC2779 Education. Blacks. African Americans. United States. Secondary education.
+LC2780 Education. Blacks. African Americans. United States. Vocational education. General works.
+LC2780.2 Education. Blacks. African Americans. United States. Agricultural education.
+LC2780.4 Education. Blacks. African Americans. United States. Business education.
+LC2780.5 Education. Blacks. African Americans. United States. Technical and industrial education.
+LC2780.8 Education. Blacks. African Americans. United States. Adult education.
+LC2781 Education. Blacks. African Americans. United States. Higher education.
+LC2782 Education. Blacks. African Americans. United States. Teacher training.
+LC2785 Education. Blacks. African Americans. United States. Professional education.
+LC2802-2803 Education. Blacks. African Americans. United States. Local. By region, state, or city.
+LC2804-2810 Education. Blacks. African Americans. Other regions or countries.
+LC2851.A-.Z Education. Blacks. African Americans. United States. Individual higher institutions.
+LC2852.A-.Z Education. Blacks. African Americans. United States. Other schools.
+LC2861-2913 Education. Blacks. African Americans. Other regions or countries. Higher institutions and other schools.
+LC3601-3643 Education. Racially mixed people.
+LJ165 Student fraternities and societies, United States. Other fraternities, A-Z (includes African American fraternities and sororities).
+M1366 Instrumental music. Jazz ensembles.
+M1670-1671 Folk, national, and ethnic music. United States. African American.
+M1920.N3* Fraternal society songs. Negro Actors Guild.
+M2131.S5 Hymnals. Hymn collections. African American Spiritual churches.
+M2198 Sacred vocal music. Popular religious and devotional music (including Gospel music).
+ML102.B5 Literature on music. Dictionaries. Encyclopedias. Big bands (including jazz bands).
+ML102.B6 Literature on music. Dictionaries. Encyclopedias. Blues.
+ML102.B63 Literature on music. Dictionaries. Encyclopedias. Blues rock music.
+ML102.G6 Literature on music. Dictionaries. Encyclopedias. Gospel music.
+ML102.J3 Literature on music. Dictionaries. Encyclopedias. Jazz.
+ML102.R27 Literature on music. Dictionaries. Encyclopedias. Rap.
+ML102.R6 Literature on music. Dictionaries. Encyclopedias. Rock music.
+ML102.S65 Literature on music. Dictionaries. Encyclopedias. Soul music.
+ML102.T43 Literature on music. Dictionaries. Encyclopedias. Techno music.
+ML120.N49* Literature on music. Bibliography. Black music. African American music.
+ML128.B45 Literature on music. Bibliography. Black music. African American music.
+ML128.B49 Literature on music. Bibliography. Blues.
+ML128.J3 Literature on music. Bibliography. Jazz.
+ML128.N4* Literature on music. Bibliography. Negro spirituals.
+ML128.R28 Literature on music. Bibliography. Rap music.
+ML128.R6 Literature on music. Bibliography. Rock music.
+ML128.S4 Literature on music. Bibliography. Spirituals.
+ML156.4.B6 Literature on music. Blues. Rhythm and blues.
+ML156.4.J3 Literature on music. Discography. Jazz.
+ML156.4.R25 Literature on music. Discography. Ragtime music.
+ML156.4.R27 Literature on music. Discography. Rap music.
+ML156.4.R36 Literature on music. Discography. Reggae music.
+ML156.4.R6 Literature on music. Discography. Rock music.
+ML156.4.S6 Literature on music. Discography. Soul music.
+ML158.6.A35 Literature on music. Discography. African American music.
+ML410.E44 Ellington, Duke.
+ML410.H476 Hendrix, Jimi.
+ML410.J75 Joplin, Scott.
+ML410.M82 Morton, Jelly Roll.
+ML417.M846 Monk, Thelonious.
+ML418.M45 Mingus, Charles.
+ML419.A75 Armstrong, Louis.
+ML419.C645 Coltrane, John.
+ML419.D39 Davis, Miles.
+ML419.P4 Parker, Charlie.
+ML420.A6 Anderson, Marian.
+ML420.B32 Belafonte, Harry.
+ML420.B818 Brown, James (1933–2006).
+ML420.F52 Fitzgerald, Ella.
+ML420.H58 Holiday, Billie.
+ML420.J175 Jackson, Michael (1958–2009).
+ML420.K473 King, B. B.
+ML420.P974 Prince.
+ML420.R73 Robeson, Paul.
+ML420.S667 Smith, Bessie (1894–1937).
+ML422.B25 Basie, Count.
+ML3186.8-3187 Sacred vocal music. Christian. Gospel music.
+ML3478-3479 Literature on music. History and criticism. Popular music. African American music.
+ML3505.8-3509 Literature on music. History and criticism. Popular music. Jazz.
+ML3518 Literature on music. History and criticism. Popular music. Big band music. Jazz band music.
+ML3520.8-3521 Literature on music. History and criticism. Popular music. Blues. Rhythm and blues.
+ML3527.8 Literature on music. History and criticism. Popular music. Funk.
+ML3527.84 Literature on music. History and criticism. Popular music. Go-go music.
+ML3528.5 Literature on music. History and criticism. Popular music. House music.
+ML3530 Literature on music. History and criticism. Popular music. Ragtime.
+ML3531 Literature on music. History and criticism. Popular music. Rap music.
+ML3532 Literature on music. History and criticism. Popular music. Reggae music.
+ML3532.5 Literature on music. History and criticism. Popular music. Reggaeton music.
+ML3533.8-3534 Literature on music. History and criticism. Popular music. Rock music.
+ML3537 Literature on music. History and criticism. Popular music. Soul music.
+ML3540 Literature on music. History and criticism. Popular music. Techno music.
+ML3540.5 Literature on music. History and criticism. Popular music. Underground dance music.
+ML3556 Literature on music. History and criticism. Folk, national, and ethnic music. United States. African American.
+ML3561.J3 Literature on music. History and criticism. Folk, national, and ethnic music. United States. Songs. Jazz.
+ML3918.B57 Social and political aspects of music. Blues.
+ML3918.F86 Social and political aspects of music. Funk.
+ML3918.J39 Social and political aspects of music. Jazz.
+ML3918.R37 Social and political aspects of music. Rap music.
+ML3918.R44 Social and political aspects of music. Reggae music.
+ML3918.R63 Social and political aspects of music. Rock music.
+ML3918.T43 Social and political aspects of music. Techno music.
+ML3921.8.B68 Religious aspects of music. Blues.
+ML3921.8.J39 Religious aspects of music. Jazz.
+ML3921.8.R36 Religious aspects of music. Rap music.
+ML3921.8.R63 Religious aspects of music. Rock music.
+MT73.5 Instrumentation and orchestration. Jazz band, dance band, etc.
+MT239 Instrumental techniques. Piano. Performance of popular music (including ragtime, jazz, boogie-woogie).
+MT279.3 Instrumental techniques. Violin. Styles of playing. Blues.
+MT279.7 Instrumental techniques. Violin. Styles of playing. Jazz.
+MT733.7 Instrumental techniques. Ensembles. Big band. Dance band. Jazz band.
+MT868 Singing and vocal technique. Jazz vocals.
+N128.3.A35 Visual arts. Study and teaching. Research. History. African Americans. Negroes. Blacks
+N6538.N5 Visual arts. History. Modern art. Negroes. African Americans. Blacks.
+N7912.3.A35 Religious art. Christian art. History. African Americans. Negroes. Blacks.
+N8224 Special subjects of art. Minorities.
+N8232 Special subjects of art. Negroes. African Americans. Blacks.
+N8356.B55 Art as a profession. Artists. Blacks.
+N8356.N4* Art as a profession. Artists. Blacks.
+N8928.3.A35 Government support of art. Public art. African Americans. Negroes. Blacks
+NA738.N5 Architecture. History. Negroes. African Americans. Blacks.
+NA2128.3.A35 Architecture. Study and teaching. Research. African Americans. Negroes. Blacks.
+NA2543.R37 Architecture in relation to race.
+NA4228.3.A35 Architecture. Public buildings. African Americans. Negroes. Blacks
+NA5238.N5 Religious buildings. Religious architecture. Negroes. African Americans. Blacks.
+NA7239.3.A35 Domestic architecture. Houses. Dwellings. African Americans. Negroes. Blacks.
+NA9128.3.A35 Aesthetics of cities. City planning and beautifying. African Americans. Negroes. Blacks.
+NB237 .P89 Puryear, Martin.
+NB238.N5 Sculpture. History. Negroes. African Americans. Blacks.
+NB1528.3.A35 Sculptured monuments. African Americans. Negroes. Blacks.
+NC139.3.A35 History of drawing. African Americans. Negroes. Blacks.
+NC428.3.A35 Drawing. Design. Illustration. Study and teaching. History. African Americans. Negroes. Blacks.
+NC961.7.A37 Illustration. Special subjects. African Americans.
+NC1766.5.A35 Animated films. Special topics. African Americans.
+NC1878.A37 Picture postcards. Special topics. African Americans.
+ND237 .L38 Lawrence, Jacob.
+ND237.B273 Basquiat, Jean-Michel.
+ND238.N5 Painting. History. Negroes. African Americans. Blacks.
+ND1839.3.A35 Watercolor painting. History. African Americans. Negroes. Blacks.
+ND2639.3.A35 Mural painting. African Americans. Negroes. Blacks.
+ND3039.3.A35 Illuminating of manuscripts and books. History. African Americans. Negroes. Blacks.
+NE539.3.A35 History of printmaking. African Americans. Negroes. Blacks.
+NK139.3.A35 Decorative arts. Applied arts. Decoration and ornament. Study and teaching. African Americans. Negroes. Blacks.
+NK839.3.A35 Decorative arts. Applied arts. Decoration and ornament. History. African Americans. Negroes. Blacks.
+NK1412.3.A35 Decoration and ornament. Design. History. African Americans. Negroes. Blacks.
+NK1678.C38 Religious art. Candomble.
+NK1678.V66 Religious art. Voodooism.
+NK2115.3.A47 Interior decoration. House decoration. For African Americans.
+NK2439.3.A35 Furniture. History. African Americans. Negroes. Blacks.
+NK3225.3.A35 Upholstery. Drapery. History. Modern. African Americans. Negroes. Blacks.
+NK3425.3.A35 Wallpapers. History. African Americans. Negroes. Blacks.
+NK4028.3.A35 Ceramics. History. African Americans. Negroes. Blacks.
+NK4428.3.A35 Porcelain. African Americans. Negroes. Blacks.
+NK4725.3.A35 Costume and its accessories. African Americans. Negroes. Blacks.
+NK4894.3.B53 Dolls and dollhouses. Black dolls.
+NK5125.3.A35 Glass. African Americans. Negroes. Blacks.
+NK5325.3.A35 Stained glass. Glass painting. History. African Americans. Negroes. Blacks.
+NK5612.3.A35 Gems (Engraved stones). History. African Americans. Negroes. Blacks.
+NK5912.3.A35 Ivory carving. Ivories. History. African Americans. Negroes. Blacks.
+NK6425.3.A35 Metalwork. African Americans. Negroes. Blacks.
+NK6625.3.A35 Arms and armor. History. African Americans. Negroes. Blacks.
+NK6725.3.A35 Swords. Sword guards. Sword mounting. African Americans. Negroes. Blacks.
+NK6925.3.A35 Firearms. Guns and pistols. African Americans. Negroes. Blacks.
+NK7325.3.A35 Jewelry. African Americans. Negroes. Blacks.
+NK7825.3.A35 Brasses. African Americans. Negroes. Blacks.
+NK8125.3.A35 Copperwork. African Americans. Negroes. Blacks.
+NK8225.3.A35 Ironwork. African Americans. Negroes. Blacks.
+NK9112 Textile arts and art needlework (including quilts). United States (including African American).
+NX164.B55 The arts as a profession. Artists. Blacks. African Americans.
+NX164.N4* The arts as a profession. Artists. Blacks. African Americans.
+NX180.R3 The arts in relation to racism.
+NX512.3.A35 History of the arts. African American. Negroes. Blacks.
+NX512.3.N5* History of the arts. African American. Negroes. Blacks.
+NX629 Arts of minority groups.
+NX650.R34 Arts in general. Special subjects or topics. Race awareness.
+NX652.A37 Arts in general. Characters, persons, classes of persons, and ethnic groups. African Americans.
+P40.5.B42 Philology. Linguistics. Relation to sociology. Sociolinguistics. Blacks.
+P94.5.A37-.A372 Communication. Mass media. Relation to African Americans.
+P94.5.B55-.B552 Communication. Mass media. Relation to blacks.
+P94.5.M55-.M552 Communication. Mass media. Relation to minorities.
+P96.B53 Communication. Mass media. Black English.
+P120.R32 Philosophy, origin, etc. of language. Other aspects. Racism.
+P410.B33 Black slang.
+PE1125.5.B5 Modern English. Grammar. Readers for Black Muslims.
+PE1127.B55 Modern English. Grammar. Readers on Blacks. African Americans.
+PE1127.M5 Modern English. Grammar. Readers on Minorities.
+PE1599.R34 Modern English. Lexicology. Etymology. Particular words. Race.
+PE3102.N4-.N48 Linguistic geography. Dialects, etc. United States. Negroes. African Americans.
+PE3727.N4 Slang. Argot. Vulgarisms. Negroes. African Americans. Blacks.
+PG3358.R33 Pushkin, Aleksandr Sergeevich. Criticism and interpretation. Race awareness.
+PJ7525.4.B55 Arabic literature. History and criticism. Black authors.
+PM5626 Black Carib language.
+PM7831-7834 Creole languages. General and miscellaneous.
+PM7836-7839 Creole languages. Danish.
+PM7844.S36 Creole languages. Spanish. Palenque.
+PM7846-7849 Creole languages. Portuguese.
+PM7854.F7-.F795 Creole languages. French. French Guiana.
+PM7854.G8-.G895 Creole languages. French. Guadeloupe.
+PM7854.H3-.H395 Creole languages. French. Haiti.
+PM7854.M25-.M2595 Creole languages. French. Martinique.
+PM7875.D58 Creole languages. Djuka.
+PM7875.G8 Creole languages. Gullah dialect. Sea Islands Creole.
+PM7875.K74 Creole languages. Kriol.
+PM7875.S27 Creole languges. Saramaccan.
+PM7875.S67-.S6795 Creole languages. Sranan.
+PM7895.P3-.P395 Creole languages. Papiamento.
+PM7875.N4* Creole languages. English. “Negro-English.”
+PN56.R16 Literature (General). Theory. Philosophy. Esthetics. Relation to and treatment of race.
+PN56.R18 Literature (General). Theory. Philosophy. Esthetics. Relation to and treatment of racism.
+PN56.3.B55 Literature (General). Theory. Philosophy. Esthetics. Relation to and treatment of blacks.
+PN56.3.N4* Literature (General). Theory. Philosophy. Esthetics. Relation to and treatment of blacks.
+PN490 Literary history. Biography. Black authors.
+PN491.5 Literary history. Biography. Minority authors.
+PN841 Literary history. Black literature (General).
+PN1009.5.R32 Literary history. Juvenile literature. Special topics. Racism.
+PN1025 Poetry. Indexes. Black poetry.
+PN1083.B55 Poetry. Relations to, and treatment of, blacks.
+PN1083.N4* Poetry. Relations to, and treatment of, blacks.
+PN1590.B53 The performing arts. Show business. Blacks.
+PN1969.M5 Vaudeville. Varieties. Minstrel shows.
+PN1990.9.M56 Broadcasting. Special topics. Minorities.
+PN1991.8.A35 Radio broadcasts. Special topics. African Americans. Blacks.
+PN1992.4 .W56 Winfrey, Oprah.
+PN1992.8.A34 Television broadcasts. Special topics. African Americans. Blacks.
+PN1992.8.M54 Television broadcasts. Special topics. Minorities.
+PN1995.9.M56 Motion pictures. Special topics. Minorities.
+PN1995.9.M57 Motion pictures. Special topics. Miscegenation.
+PN1995.9.N4 Motion pictures. Special topics. Negroes. Blacks. African Americans.
+PN1995.9.R23 Motion pictures. Special topics. Racially mixed people.
+PN1998.3.L44 Lee, Spike.
+PN1998.3.M494 Micheaux, Oscar.
+PN2071.B58 Dramatic representation. The theater. Acting. Blackface.
+PN2270.A35 African American theater.
+PN2286 Dramatic representation. The theater. United States. Biography. African Americans.
+PN2287.P57 Poitier, Sidney.
+PN2582.B52 Dramatic representation. The theater. Great Britain. History. Blackface.
+PN2595.13.B34 Dramatic representation. The theater. Great Britain. History. Black theater.
+PN3195 Minstrel shows.
+PN3423 Prose. Prose fiction. Blacks.
+PN4305.N5 Oratory. Elocution, etc. Recitations (in English). Negroes. Blacks.
+PN4305.N6* Oratory. Elocution, etc. Recitations (in English). Negroes. Blacks.
+PN4871.5 Journalism. The periodical press, etc. Biography of editors, journalists, etc. Collective. African Americans.
+PN4874.P595 Poston, Ted.
+PN4882 Journalism. The periodical press, etc. United States. Ethnic press. Minority press.
+PN4882.5 African American press.
+PN4888.M56 Minorities in the press.
+PN4888.N4* African American press.
+PN4888.R3 Journalism. The periodical press, etc. United States. Special topics. Racism.
+PN4914.B55 Journalism. The periodical press, etc. Canada. Black press.
+PN4914.M53 Journalism. The periodical press, etc. Canada. Minorities.
+PN4914.R28 Journalism. The periodical press, etc. Canada. Race problems.
+PN4914.R29 Journalism. The periodical press, etc. Canada. Racism.
+PN4917.N5* Journalism. The periodical press, etc. Other countries. Black press.
+PN4937.N4* Journalism. The periodical press, etc. Other countries. Black press.
+PN4974.B55 Journalism. The periodical press, etc. Mexico. Black press.
+PN4974.M53 Journalism. The periodical press, etc. Mexico. Minorities.
+PN4974.R28 Journalism. The periodical press, etc. Mexico. Race problems.
+PN4974.R29 Journalism. The periodical press, etc. Mexico. Racism.
+PN5124.B55 Journalism. The periodical press, etc. Great Britain. Black press.
+PN5124.M53 Journalism. The periodical press, etc. Great Britain. Minorities.
+PN5124.R28 Journalism. The periodical press, etc. Great Britain. Race problems.
+PN5124.R29 Journalism. The periodical press, etc. Great Britain. Racism.
+PN5184.B55 Journalism. The periodical press, etc. France. Black press.
+PN5184.M53 Journalism. The periodical press, etc. France. Minorities.
+PN5184.R28 Journalism. The periodical press, etc. France. Race problems.
+PN5184.R29 Journalism. The periodical press, etc. France. Racism.
+PN5214.B55 Journalism. The periodical press, etc. Germany. Black press.
+PN5214.M53 Journalism. The periodical press, etc. Germany. Minorities.
+PN5214.R28 Journalism. The periodical press, etc. Germany. Race problems.
+PN5214.R29 Journalism. The periodical press, etc. Germany. Racism.
+PN6068 Collections of general literature. Black authors.
+PN6071.B57 Collections of general literature. Collections, extracts, etc. By subject. Blacks.
+PN6071.N4* Collections of general literature. Collections, extracts, etc. By subject. Blacks.
+PN6071.R23 Collections of general literature. Collections, extracts, etc. By subject. Race discrimination.
+PN6081.3 Quotations. English. Black authors.
+PN6109.7 Collections of general literature. Poetry. Black authors.
+PN6109.95.M55 Collections of general literature. Poetry. Minority authors.
+PN6119.7 Drama. Black authors.
+PN6120.N4 Drama. By subject. Negroes. Blacks.
+PN6120.92.B45 Fiction. Black authors.
+PN6231.N5 Wit and humor. Collections on Negroes. Blacks.
+PN6231.R25 Wit and humor. Collections on race problems.
+PN6518.C8 Proverbs. Modern. Creole.
+PQ145.4.R33 History of French literature. Special subjects. Race relations.
+PQ1110.B53 Collections of French literature. Special topics. Blacks.
+PQ1110.N4* Collections of French literature. Special topics. Blacks.
+PQ3940-3949 French literature outside of France. West Indies.
+PQ3950-3959.3 French literature outside of France. South America.
+PQ4209.5.M56 Collections of Italian literature. Minority authors.
+PQ6046.R27 History of Spanish literature. Special subjects. Race.
+PQ6047.B5 History of Spanish literature. Blacks.
+PQ7081.7.B55 Spanish literature. Spanish America. Black authors.
+PQ7471.7.B55 Spanish literature. Central America. Black authors.
+PQ7551.7.B55 Spanish literature. South America. Black authors.
+PQ8651.7.B55 Spanish literature. Asia. Black authors.
+PQ9034.N4 Portuguese literature. History and criticism. Black authors.
+PR120.B55 History of English literature. Black authors.
+PR120.M55 History of English literature. Minority authors.
+PR149.I65 History of English literature. Treatment of interracial marriage.
+PR408.R34 History of English literature. Modern. General. Special topics. Race.
+PR408.S57 History of English literature. Modern. General. Special topics. Slavery.
+PR428.M55 History of English literature. Modern. General. Special topics. Minorities.
+PR428.R35 History of English literature. Modern. Elizabethan era (1550–1640). Special topics. Race.
+PR448.R33 History of English literature. Modern. 18th century. Special topics. Race.
+PR448.S55 History of English literature. Modern. 18th century. Special topics. Slavery.
+PR468.B53 History of English literature. Modern. 19th century. Special topics. Blacks.
+PR468.R3 History of English literature. Modern. 19th century. Special topics. Race.
+PR468.S55 History of English literature. Modern. 19th century. Special topics. Slavery.
+PR525.S53 History of English literature. Poetry. 15th-16th centuries. Special topics. Slavery.
+PR535.S53 History of English literature. Poetry. Elizabethan era (1550–1640). Special topics. Slavery.
+PR565.S53 History of English literature. Poetry. Restoration and Augustan era (1660– 1750). Special topics. Slavery.
+PR575.S53 History of English literature. Poetry. Romanticism. Return to nature (1750– 1830). Special topics. Slavery.
+PR585.S53 History of English literature. Poetry. 19th century. Special topics. Slavery.
+PR658.R34 History of English literature. Drama. Elizabeth era (1550–1640). Special topics. Race.
+PR678.R34 History of English literature. Drama. 17th century. Special topics. Race.
+PR698.R34 History of English literature. Drama. Restoration (1660–1700). Special topics. Race.
+PR708.R34 History of English literature. Drama. 18th century. Special topics. Race.
+PR728.R34 History of English literature. Drama. 19th century. Special topics. Race.
+PR830.R34 History of English literature. Prose fiction. The novel. Special topics. Race.
+PR1110.B5 Collections of English literature. Black authors.
+PR1110.M55 Collections of English literature. Minority authors.
+PR1178.B55 Collections of English literature. Poetry. Black authors.
+PR1195.S44 Collections of English literature. Poetry. Special forms and subjects. Slavery.
+PR1246.B53 Collections of English literature. Drama. Black authors.
+PR1286.B53 Collections of English literature. Prose. Black authors.
+PR3069.R33 Shakespeare. William. Criticism and interpretation. Treatment and knowledge of race.
+PR9205 English literature outside of Great Britain. Caribbean area.
+PR9210-9218.2 English literature outside of Great Britain. West Indies.
+PR9220 English literature outside of Great Britain. Bahamas.
+PR9230 English literature outside of Great Britain. Barbados.
+PR9260 English literature outside of Great Britain. Haiti.
+PR9265 English literature outside of Great Britain. Jamaica.
+PR9272 English literature outside of Great Britain. Trinidad.
+PR9275 English literature outside of Great Britain. Other West Indies islands.
+PR9280 English literature outside of Great Britain. Belize.
+PR9272.9.W3 Walcott, Derek.
+PR9320 English literature outside of Great Britain. Guyana.
+PS153.M56 History of American literature. Minority authors.
+PS153.N5 History of American literature. Negro. African American. Black authors.
+PS169.R28 History of American literature. Treatment of racism.
+PS173.E8 History of American literature. Treatment of ethnic minorities.
+PS173.N4 History of American literature. Treatment of Negroes. African Americans. Blacks.
+PS173.R33 History of American literature. Treatment of racially mixed people.
+PS217.B55 History of American literature. 19th century. Special topics. Blacks.
+PS217.S55 History of American literature. 19th century. Special topics. Slavery (including abolitionism).
+PS228.I69 History of American literature. 20th century. Special topics. Interracial adoption.
+PS228.R32 History of American literature. 20th century. Special topics. Race.
+PS231.R34 History of American literature. 21st century. Special topics. Racially mixed people.
+PS309.B55 History of American literature. Poetry. Blues lyrics.
+PS310.N4 History of American literature. Poetry. Special topics. Negroes. African Americans. Blacks.
+PS310.R34 History of American literature. Poetry. Special topics. Race.
+PS338.N4 History of American literature. Drama. Special topics. Negroes. African Americans. Blacks.
+PS366.A35 History of American literature. Prose. Special topics. Negroes. African Americans. Blacks.
+PS374.B63 History of American literature. Prose fiction. Special forms. Black English.
+PS374.N4 History of American literature. Prose fiction. Special topics. Negroes. African Americans. Blacks.
+PS374.R32 History of American literature. Prose fiction. Special topics. Race.
+PS374.R34 History of American literature. Prose fiction. Special topics. Racism.
+PS374.S58 History of American literature. Prose fiction. Special topics. Slavery and slaves.
+PS508.M54 Collections of American literature. Minority authors.
+PS508.N3 Collections of American literature. Negro. African American. Black authors.
+PS509.B7 Collections of American literature. Special topics. Brooks, Gwendolyn.
+PS509.M5 Collections of American literature. Special topics. Minorities.
+PS509.N4 Collections of American literature. Special topics. Negroes. African Americans. Blacks.
+PS509.S436 Collections of American literature. Special topics. Slavery.
+PS509.X24 Collections of American literature. Special topics. Malcolm X.
+PS591.M5445 Collections of American literature. Poetry. Minority authors.
+PS591.N4 Collections of American literature. Poetry. Negro. African American. Black authors.
+PS595.A22 Collections of American literature. Poetry. By subject. Abu-Jamal, Mumia.
+PS595.A32 Collections of American literature. Poetry. By subject. African American women.
+PS595.B6 Collections of American literature. Poetry. By subject. Blues (Music).
+PS595.L5* Collections of American literature. Poetry. By subject. Malcolm X.
+PS595.N3 Collections of American literature. Poetry. By subject. Negro (African American, Black) rimes and songs.
+PS595.R32 Collections of American literature. Poetry. By subject. Race relations.
+PS595.S65 Collections of American literature. Poetry. By subject. Slavery.
+PS595.X24 Collections of American literature. Poetry. By subject. Malcolm X.
+PS627.M5 Collections of American literature. Drama. Special topics. Minorities.
+PS627.N4 Collections of American literature. Drama. Special topics. Negroes. African Americans. Blacks.
+PS647.A35 Collections of American literature. Prose (General). African Americans. Black authors.
+PS647.E85 Collections of American literature. Prose (General). Minority authors.
+PS647.N35* Collections of American literature. Prose (General). African Americans. Blacks as authors.
+PS648.S55 Collections of American literature. Prose (General). Special forms and topics. Slavery.
+PS663.M55 Collections of American literature. Oratory. Minority authors.
+PS663.N4 Collections of American literature. Oratory. Negro. African American. Black authors.
+PS683.A35 Collections of American literature.Essays. African American authors. Black authors.
+PS683.N4* Collections of American literature.Essays. African American authors. Black authors.
+PS866.W5 Wheatley, Phillis.
+PS1292.C6 Chesnutt, Charles Waddell.
+PS1806 Harris, Joel Chandler. Nights with Uncle Remus.
+PS1808 Harris, Joel Chandler. Uncle Remus and his friends.
+PS1809 Harris, Joel Chandler. Uncle Remus, his songs and sayings.
+PS2265 Longfellow, Henry Wadsworth. Poems on slavery.
+PS1557 Dunbar, Paul Laurence.
+PS3503.R7244 Brooks, Gwendolyn.
+PS3515.A515 Hansberry, Lorraine.
+PS3515.I713 Himes, Chester.
+PS3515.U274 Hughes, Langston.
+PS3515.U789 Hurston, Zora Neale.
+PS3539.O478 Toomer, Jean.
+PS3545.R815 Wright, Richard (1908–1960).
+PS3551.N464 Angelou, Maya.
+PS3552.A45 Baldwin, James.
+PS3552.U827 Butler, Octavia E.
+PS3554.O884 Dove, Rita.
+PS3563.O8749 Morrison, Toni.
+PS3568.E365 Reed, Ishmael.
+PS3573.I26 Wideman, John Edgar.
+PT149.B55 German literature. Special subjects. Blacks.
+PT363.R3 History of German literature. Romanticism. Special topics. Race.
+PT1109.M55 Collections of German literature. Minority authors.
+QB36.B22 Banneker, Benjamin.
+R693 Minorities in medicine.
+R695 Blacks in medicine. Black physicians. (including African Americans).
+RA408.M54 Health status indicators. Medical statistics and surveys. Minority older people.
+RA413.7.M57 State medical care plans. Socialized medicine. National health insurance. Compulsory insurance. Minorities.
+RA448.5.N4 Public health. Hygiene. Preventive medicine. Negroes. African Americans.
+RA645.S53 Chronic and noninfectious diseases and public health. Sickle cell anemia.
+RA562 Public health. Hygiene. Preventive medicine. Blacks.
+RA563.N56 Public health. Hygiene. Preventive medicine. Minorities.
+RA564.86 Public health. Hygiene. Preventive medicine. Minority women.
+RA778.4.A36 Personal health and grooming guides for African Americans.
+RA981.A45 African American hospitals.
+RC282.B55 Neoplasms. Tumors. Oncology. Blacks.
+RC282.N4* Neoplasms. Tumors. Oncology. Blacks.
+RC312.7.B55 Tuberculosis. Blacks.
+RC312.7.N4* Tuberculosis. Blacks.
+RC313.A57 Tuberculosis. United States. African Americans.
+RC314.5 Tuberculosis. West Indies.
+RC451.4.S7 Psychiatry. Students (including minority students).
+RC451.4.M58 Psychiatry. Minority women.
+RC451.5.N4 Psychiatry. Negroes. Blacks. African Americans.
+RC564.6.A35 Psychiatric aspects of personality and behavior condition. Drug abuse. Substance abuse. African Americans.
+RC565.6.M56 Psychiatric aspects of personality and behavior condition. Drug abuse. Substance abuse. Minorities.
+RC641.7.S5 Diseases of the blood and blood-forming organs. Sickle cell anemia.
+RD37.3.S53 Anesthesia in special medical conditions, emergencies, and the at-risk patient. Sickle cell anemia.
+RJ416.S53 Diseases of the hemic and lymphatic systems. Hematologic diseases. Pediatric hematology. Sickle cell anemia.
+RJ507.M54 Mental disorders of children and adolescents. Child psychiatry. Child mental health services. Minority children.
+RK55.3.B52 Dentistry. Blacks. African Americans.
+RK60.45 Blacks in dentistry. Black dentists.
+RT83.3 Minorities in nursing.
+RT83.5 Black nurses.
+S417.C3 Carver, George Washington.
+SB457.527 African American gardens.
+TR140.P35 Parks, Gordon, Sr.
+TR647.P367 Parks, Gordon, Sr.
+TX361.A27 Diet and nutrition of African Americans.
+UB416 Minorities, women, etc., in armed forces.
+UB418.A47 Minorities, women, etc., in armed forces. United States. African Americans.
+UG830 Minorities, women, etc., in air forces.
+UG834.A37 Minorities, women, etc., in air forces. United States. African Americans.
+VB320 Minorities, women, etc., in navies.
+VB324.A47 Minorities, women, etc., in navies. United States. African Americans.
+Z42.3.A35 Autographs of African Americans.
+Z682.4.A37 Library science. Information science. Personnel. African Americans.
+Z682.4.M56 Library science. Information science. Personnel. Minorities.
+Z688.A55 Library science. Information science. Special collections. By subject. African Americans.
+Z695.1.B57 Library science. Information science. Cataloging. By subject. Blacks. African Americans.
+Z695.1.N4* Library science. Information science. Cataloging. By subject. Blacks. African Americans.
+Z711.8 Library science. Information science. Library service to special groups. Minorities.
+Z711.9 Library science. Information science. Library service to special groups. Blacks. African Americans.
+Z1039.B56 Books for Blacks. African Americans.
+Z1039.M56 Books for Minorities (including children of minorities and minority teenagers)
+Z1039.N4* Books for Blacks. African Americans.
+Z1229.N39 National bibliography. United States. American literature. Negro. African American.
+Z1231.M5 National bibliography. United States. American literature. Minorities
+Z1249.S6 National bibliography. United States. History and description. Slavery.
+Z1361.E4 National bibliography. United States. Special topics. Elements in the population. Ethnic groups (General).
+Z1361.N39 National bibliography. United States. Special topics. Negroes. African Americans.
+Z1376.B55 National bibliography. Canada. Canadian literature. Black authors.
+Z1395 National bibliography. Canada. Special topics. Blacks.
+Z1609.B65 National bibliography. South America. Latin America. Blacks as an element in the population.
+Z1637.M54 National Bibliography. Argentina. Minorities.
+Z1637.N4 National Bibliography. Argentina. Negroes (Blacks) as an element in the population.
+Z1637.R3 National Bibliography. Argentina. Race question.
+Z1667.M54 National Bibliography. Bolivia. Minorities.
+Z1667.N4 National Bibliography. Bolivia. Negroes (Blacks) as an element in the population.
+Z1667.R3 National Bibliography. Bolivia. Race question.
+Z1697.M54 National Bibliography. Brazil. Minorities.
+Z1697.N4 National Bibliography. Brazil. Negroes (Blacks) as an element in the population.
+Z1697.R3 National Bibliography. Brazil. Race question.
+Z1727.M54 National Bibliography. Chile. Minorities.
+Z1727.N4 National Bibliography. Chile. Negroes (Blacks) as an element in the population.
+Z1727.R3 National Bibliography. Chile. Race question.
+Z1757.M54 National Bibliography. Colombia. Minorities.
+Z1757.N4 National Bibliography. Colombia. Negroes (Blacks) as an element in the population.
+Z1757.R3 National Bibliography. Colombia. Race question.
+Z1787.M54 National Bibliography. Ecuador. Minorities.
+Z1787.N4 National Bibliography. Ecuador. Negroes (Blacks) as an element in the population.
+Z1787.R3 National Bibliography. Ecuador. Race question.
+Z1827.M54 National Bibliography. Paraguay. Minorities.
+Z1827.N4 National Bibliography. Paraguay. Negroes (Blacks) as an element in the population.
+Z1827.R3 National Bibliography. Paraguay. Race question.
+Z1877.M54 National Bibliography. Peru. Minorities.
+Z1877.N4 National Bibliography. Peru. Negroes (Blacks) as an element in the population.
+Z1877.R3 National Bibliography. Peru. Race question.
+Z1907.M54 National Bibliography. Uruguay. Minorities.
+Z1907.N4 National Bibliography. Uruguay. Negroes (Blacks) as an element in the population.
+Z1907.R3 National Bibliography. Uruguay. Race question.
+Z1937.M54 National Bibliography. Venezuela. Minorities.
+Z1937.N4 National Bibliography. Venezuela. Negroes (Blacks) as an element in the population.
+Z1937.R3 National Bibliography. Venezuela. Race question.
+Z2127.M54 National Bibliography. Austria. Minorities.
+Z2127.N4 National Bibliography. Austria. Negroes (Blacks) as an element in the population.
+Z2127.R3 National Bibliography. Austria. Race question.
+Z2187.M54 National Bibliography. France. Minorities.
+Z2187.N4 National Bibliography. France. Negroes (Blacks) as an element in the population.
+Z2187.R3 National Bibliography. France. Race question.
+Z2247.M54 National Bibliography. Germany. Minorities.
+Z2247.N4 National Bibliography. Germany. Negroes (Blacks) as an element in the population.
+Z2247.R3 National Bibliography. Germany. Race question.
+Z2307.M54 National Bibliography. Greece. Minorities.
+Z2307.N4 National Bibliography. Greece. Negroes (Blacks) as an element in the population.
+Z2307.R3 National Bibliography. Greece. Race question.
+Z2367.M54 National Bibliography. Italy. Minorities.
+Z2367.N4 National Bibliography. Italy. Negroes (Blacks) as an element in the population.
+Z2367.R3 National Bibliography. Italy. Race question.
+Z2457.M54 National Bibliography. Netherlands. Minorities.
+Z2457.N4 National Bibliography. Netherlands. Negroes (Blacks) as an element in the population.
+Z2457.R3 National Bibliography. Netherlands. Race question.
+Z2587.M54 National Bibliography. Denmark. Minorities.
+Z2587.N4 National Bibliography. Denmark. Negroes (Blacks) as an element in the population.
+Z2587.R3 National Bibliography. Denmark. Race question.
+Z2617.M54 National Bibliography. Norway. Minorities.
+Z2617.N4 National Bibliography. Norway. Negroes (Blacks) as an element in the population.
+Z2617.R3 National Bibliography. Norway. Race question.
+Z2647.M54 National Bibliography. Sweden. Minorities. browsing through bias/howard & knowlton 43
+Z2647.N4 National Bibliography. Sweden. Negroes (Blacks) as an element in the population.
+Z2647.R3 National Bibliography. Sweden. Race question.
+Z2707.M54 National Bibliography. Spain. Minorities.
+Z2707.N4 National Bibliography. Spain. Negroes (Blacks) as an element in the population.
+Z2707.R3 National Bibliography. Spain. Race question.
+Z2737.M54 National Bibliography. Portugal. Minorities.
+Z2737.N4 National Bibliography. Portugal. Negroes (Blacks) as an element in the population.
+Z2737.R3 National Bibliography. Portugal. Race question.
+Z2797.M54 National Bibliography. Switzerland. Minorities.
+Z2797.N4 National Bibliography. Switzerland. Negroes (Blacks) as an element in the population.
+Z2797.R3 National Bibliography. Switzerland. Race question.
+Z2857.M54 National Bibliography. Turkey & The Balkan States (General). Minorities.
+Z2857.N4 National Bibliography. Turkey & The Balkan States (General). Negroes (Blacks) as an element in the population.
+Z2857.R3 National Bibliography. Turkey & The Balkan States (General). Race question.
+Z5118.B5 Subject bibliography. Anthropology and ethnology. Black race.
+Z5118.M5 Subject bibliography. Anthropology and ethnology. Miscegenation.
+Z5118.N4* Subject bibliography. Anthropology and ethnology. Black race.
+Z5633.A37 Subject bibliography. Communication. Mass media. African Americans.
+Z5784.B56 Subject bibliography. Black drama. African American drama.
+Z5784.N4* Subject bibliography. Black drama. African American drama.
+Z5814.B4 Subject bibliography. Education. Blacks. African Americans.
+Z5814.D5 Subject bibliography. Education. Discrimination. Segregation. Integration.
+Z5814.M5 Subject bibliography. Education. Minorities.
+Z5814.N3* Subject bibliography. Education. Blacks. African Americans.
+Z5943.A37 Subject bibliography. African American architecture and architects.
+Z5956.A47 Subject bibliography. African American art and artists. Black art and artists.
+Z6611.B63 Subject bibliography. Manuscripts. By subject. Blacks. African Americans.
+Z6611.N4* Subject bibliography. Manuscripts. By subject. Blacks. African Americans.
+Z6675.B53 Subject bibliography. Blacks and health.
+Z6675.M68 Subject bibliography. Minorities and health.
+Z6944.N39 Subject bibliography. Negro (African American, Black) newspapers.
+Z7124 Subject bibliography. Philology and linguistics. Mixed languages (including Creole, Pidgin English, etc.)
+Z7164.R12 Subject bibliography. Political and social sciences. Race problems.
+Z7164.S6 Subject bibliography. Political and social sciences. Slavery.
+Z7514.B43 Subject bibliography. Sports. Amusements. Recreation. Blacks. African Americans.
+Z7774 Subject bibliography. Black theology.
+Z7835.B5 Subject bibliography. Black Muslims.
+Z8068.74 Personal bibliography. Baldwin, James.
+Z8150.7 Personal bibliography. Carver, G. W.
+Z8166.2 Personal bibliography. Chesnutt, C. W.
+Z8167.47 Personal bibliography. Chisholm, Shirley
+Z8238.85 Personal bibliography. Douglass, Frederick.
+Z8244.9 Personal bibliography. Du Bois, W. E. B.
+Z8247.4 Personal bibliography. Dunbar, P. L.
+Z8324.49 Personal bibliography. Garvey, Marcus.
+Z8385.64 Personal bibliography. Hansberry, Lorraine.
+Z8406.8 Personal bibliography. Himes, C. B.
+Z8423.3 Personal bibliography. Hughes, Langston.
+Z8428.66 Personal bibliography. Hurston, Z. N.
+Z8464.44 Personal bibliography. King, M. L.
+Z8519.7 Personal bibliography. Louis, Joe.
+Z8595.5 Personal bibliography. Morrison, Toni.
+Z8736.32 Personal bibliography. Reed, Ishmael.
+Z8747.74 Personal bibliography. Robeson, Paul.
+Z8947.36 Personal bibliography. Walcott, Derek.
+Z8947.42 Personal bibliography. Walker, Alice.
+Z8949.9 Personal bibliography. Washington, B. T.
+Z8950.2 Personal bibliography. Washington, Harold.
+Z8969.285 Personal bibliography. Wheatley, Phyllis
+Z8986.323 Personal bibliography. Wright, Richard.
+Z8989.7 Personal bibliography. X, Malcolm.
