@@ -38,8 +38,6 @@ def get_loc_tree():
                 parent = node["parents"][-1]
             else:
                 parent = "Subclass " + prefix
-            if node_id == "A":
-                print(parent)
             # Add the node to its direct parent's list of children
             loc_tree[parent].append(node_id) # last index is closest
             
@@ -61,15 +59,46 @@ def write_tree(node, graph, file, level=0):
         write_tree(child, graph, file, level + 1)
 
 
-# def calculate_distance(graph, node1, node2):
-    
+def calc_distance(graph, node1, node2):
+    pass
 
     
   
+def find_lca(graph, root, node1, node2):
+    
+    # base case
+    if root is None:
+        return None
+    
+    if root == node1 or root == node2:
+        return root
+    
+    count = 0
+    lca = None
+    
+    for child in graph[root]:
+        # print(child)
+        child_lca = find_lca(graph, child, node1, node2)
+        if child_lca:
+            count += 1
+            lca = child_lca
+        
+    if count == 2:
+        return root
+    
+    return lca
+    
 
+
+    
+    
+def calc_distance_from_lca(graph, lca, noe):
+    
+    pass
 
 if __name__ == "__main__":
     loc_tree = get_loc_tree()
     with open("lcc_tree.txt", "w") as file:
         write_tree("root", loc_tree, file)
+    lca = find_lca(loc_tree, "Subclass A", "A", "AC")
     
