@@ -9,27 +9,25 @@ import urllib
 from urllib.parse import quote
 from collections import Counter
 import nltk
-from nltk.corpus import stopwords
-nltk.download('stopwords') #to remove uninformative words
+# from nltk.corpus import stopwords
 import pandas as pd
 import numpy as np
-import tensorflow_hub
-from sentence_transformers import SentenceTransformer #"tensorflow>=1.7.0", tensorflow-hub
+# import tensorflow_hub
+# from sentence_transformers import SentenceTransformer #"tensorflow>=1.7.0", tensorflow-hub
 
 
 class SyllabiPipeline:
     def __init__(self):
         
-        model_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
-        self.model = tensorflow_hub.load(model_url)
+        # model_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
+        # self.model = tensorflow_hub.load(model_url)
         
-        
-        
-        
+    
         with open('../backend/library_of_congress/detailed-lcc.json') as detailed_file, open('../backend/library_of_congress/final_merged_lcc.json') as top_level_file:
             self.detailed_lcc = json.load(detailed_file)
             self.top_level_lcc = json.load(top_level_file)
-            
+        
+        self.syllabus = pd.read_csv('../example_syllabi/TEST Syllabi/edstud_lgbt_med')
             
             
     def _split_lcc(self, call_number):
@@ -70,11 +68,18 @@ class SyllabiPipeline:
         return response['docs']
 
     def _searchby_isbn(self, isbn, field = 'lcc', limit = 1):
-        time.sleep(2) #being polite
-        response = requests.get(f'https://openlibrary.org/search.json?q=isbn:{isbn}&fields={field}&limit={limit}').json()
+        
+        url = 'https://openlibrary.org/search.json'
+        params = {
+            'q': f'isbn:{isbn})', 
+            'fields': f'{field}',
+            'limit': f'{limit}'
+            }
+        response = requests.get(url, params=params, timeout=5).json()
 
         if bool(response['docs']): #falsy
             #print(response['docs'], isbn) #error checking
+            print(response['docs'][0].get(f'{field}'))
 
             if bool(response['docs'][0].get(f'{field}')): #if there is an lcc
                 return response['docs'][0].get(f'{field}')[0] #string, first lcc returned
@@ -83,6 +88,7 @@ class SyllabiPipeline:
 
     def _reformat_openlibrary_lccn(self, syllabus): #doesn't account for specific subclasses
         lccn_tup = []
+        # print(syllabus)
 
         for isbn in syllabus['isbn']: #get the lccn
             val = self._split_lcc(self._searchby_isbn(isbn)) #after querying Open library, split them into tuples
@@ -110,14 +116,14 @@ class SyllabiPipeline:
             return None
 
 
-    def _find_most_recent_common_parent(tupes, lcc_data):
-        node_parent_sets = [get_all_parents(t, lcc_data) for t in tupes]
+    def _find_most_recent_common_parent(self, tupes, lcc_data):
+        node_parent_sets = [self._get_all_parents(t, lcc_data) for t in tupes]
         
         prefixes = {}
         inter = {}
         #get all parents for each prefix
         for t in tupes:
-            val = get_all_parents(t, lcc_data)
+            val = self._get_all_parents(t, lcc_data)
             if val != None:
                 if t[0] not in prefixes.keys():
                     prefixes[t[0]] = [val] #make a list with all the floats
@@ -129,10 +135,10 @@ class SyllabiPipeline:
 
         return inter
     
-    def _find_diversity_topics(syll):
+    def _find_diversity_topics(self, syll):
         topics = []
         
-        mrcp = find_most_recent_common_parent(reformat_openlibrary_lccn(syll), detail)
+        mrcp = self._find_most_recent_common_parent(self._reformat_openlibrary_lccn(syll), self.detailed_lcc)
         div_dict = {k: v for k,v in diversity.items() if k in mrcp.keys()}
 
         for k,v in mrcp.items():
@@ -146,7 +152,7 @@ class SyllabiPipeline:
         return topics
 
     def _get_prop_occurrences(self, topics_lst, kind = 'by phrase', top_n = 15): #splits by phrase/full subject
-        
+        nltk.download('stopwords') #to remove uninformative words
         stop_words = set(stopwords.words('english'))
         lcc_stop = open("lcc_stop_words.txt", "r").read().split("\n")
         
@@ -182,9 +188,9 @@ class SyllabiPipeline:
         prop = {k: v/total for k, v in prop.items()}
         return prop
     
-    def _search_subjects(lcc, topics = [], discipline_tags = [], diversity_tags = [], field = 'subject', limit = 1, exact_string_matching = False):
+    def _search_subjects(self, lcc, topics = [], discipline_tags = [], diversity_tags = [], field = 'subject', limit = 1, exact_string_matching = False):
         if type(topics) == str:
-            time.sleep(2) #being polite
+            # time.sleep(2) #being polite
             response = requests.get(f'https://openlibrary.org/search.json?q=lcc:{lcc}&subject={topics}&fields={field}&limit={limit}').json()
 
             if bool(response['docs']): #falsy
@@ -209,7 +215,7 @@ class SyllabiPipeline:
             
             print(q)
 
-            time.sleep(2) #being polite
+            # time.sleep(2) #being polite
             response = requests.get(q).json()
             
             if bool(response['docs']): #falsy
@@ -265,13 +271,13 @@ class SyllabiPipeline:
 
         return rqe/2
 
-    def _get_suggestions(mrcp, syll_topics, diversity_topics):
+    def _get_suggestions(self, mrcp, syll_topics, diversity_topics):
         suggestions = []
         for k,v in mrcp.items(): 
             if '-' in v:
                 lst = v.split('-')
                 lccn_query = '[' + lst[0] + ' TO ' + k + lst[1] + ']'
-            suggestions += search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
+            suggestions += self._search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
             #list of author names, ISBNs, titles, subjects
         
         for book in suggestions:
@@ -296,7 +302,22 @@ class SyllabiPipeline:
 
             
 if __name__ == "__main__":
-
+    print("Beginning Syllabi Pipeline")
     sp = SyllabiPipeline()
-    print(sp._split_lcc('DAW1008.00000000.B37 1987'))
+    print("Syllabi Pipeline Initialized")
+    ex1 = 'HV-1568.00000000.B376 2016' #The Minority Body by Elizabeth Barnes
+    ex2 = 'DAW1008.00000000.B37 1987' #A guide to Central Europe by Richard Bassett
+    # print(sp._split_lcc('DAW1008.00000000.B37 1987'))
+    # print("SPlit LCC Test Passed")
+    lccn_tup = sp._reformat_openlibrary_lccn(sp.syllabus)
+    mrcp = sp._find_most_recent_common_parent(lccn_tup, sp.detailed_lcc)
+    
+    with open('../backend/library_of_congress/lgbtq_lcc.json', 'r') as reader: #everything about lgbtq studies, specifically
+        diversity = json.load(reader) #in practice, we call also ONLY load in the relevant subclasses
+    print("Diversity JSON Loaded")
+    diversity_subset = {k: v for k,v in diversity.items() if k in mrcp.keys()}
+    # print(diversity_subset)
+    topics = sp._find_diversity_topics(diversity_subset)
+    print(topics)
+
 
