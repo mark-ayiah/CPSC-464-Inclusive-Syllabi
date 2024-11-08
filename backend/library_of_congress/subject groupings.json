@@ -1,0 +1,13 @@
+{
+    "American Studies": ["E"],
+    "Anthropology": ["GF", "GN"],
+    "Classics": ["DE", "DF", "DG"],
+    "Art History": ["N", "NA", "NB", "NC", "ND", "NE", "NK", "NX"],
+    "Philosophy": ["B", "BC", "BD", "BH", "BJ"],
+    "Sociology": ["HM", "HN", "HT", "HV"],
+    "Political Science": ["J", "JA", "JC", "JF", "JJ", "JK", "JL", "JN", "JQ", "JS", "JV", "JX", "JZ", "HX"],
+    "Religious Studies": ["BL", "BM", "BP", "BQ", "BR", "BS", "BT", "BV", "BX"],
+    "Economics": ["HB", "HC", "HD", "HE", "HF", "HG", "HJ"],
+    "Psychology": ["BF"],
+    "Education": ["L", "LA", "LB", "LC", "LD", "LE", "LF", "LG", "LH", "LJ", "LT"]
+}
