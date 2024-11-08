@@ -110,14 +110,14 @@ class SyllabiPipeline:
             return None
 
 
-    def _find_most_recent_common_parent(self, tupes, lcc_data):
-        node_parent_sets = [self._get_all_parents(t, lcc_data) for t in tupes]
+    def _find_most_recent_common_parent(tupes, lcc_data):
+        node_parent_sets = [get_all_parents(t, lcc_data) for t in tupes]
         
         prefixes = {}
         inter = {}
         #get all parents for each prefix
         for t in tupes:
-            val = self._get_all_parents(t, lcc_data)
+            val = get_all_parents(t, lcc_data)
             if val != None:
                 if t[0] not in prefixes.keys():
                     prefixes[t[0]] = [val] #make a list with all the floats
@@ -125,13 +125,16 @@ class SyllabiPipeline:
                     prefixes[t[0]].append(val) #make a list with all the floats
 
         for k,v in prefixes.items():
-            inter[k] = list(set(v[0]).intersection(*map(set, v[1:])))[0] #make it a string
+            inter[k] = list(set(v[0]).intersection(*map(set, v[1:])))[-1] #make it a string, choose most specific one
 
         return inter
     
-    def _find_diversity_topics(self, div_dict):
-        #vals = []
+    def _find_diversity_topics(syll):
         topics = []
+        
+        mrcp = find_most_recent_common_parent(reformat_openlibrary_lccn(syll), detail)
+        div_dict = {k: v for k,v in diversity.items() if k in mrcp.keys()}
+
         for k,v in mrcp.items():
             try:
                 entries = div_dict[k]
@@ -157,7 +160,7 @@ class SyllabiPipeline:
                 tags = '. '.join(i).split('. ')
                 tags = [x.lower().split('.')[0] for x in tags]
                 tags = [x for x in tags if not any(sub in x for sub in lcc_stop)] #get rid of common but uninformative loc terms
-                tags = [' '.join([word for word in x.split(' ') if word not in stop_words]) for x in tags] #get rid of stop words
+                tags = [' '.join([word for word in x.split(' ') if word not in stop_words]) for x in tags] #keep the words not in stop words
                 tags = [x.lstrip().rstrip() for x in tags] #remove leading and trailing ws
 
                 all_tags += tags
@@ -166,8 +169,9 @@ class SyllabiPipeline:
             for i in topics_lst:
                 tags = ' '.join(i).split() #split by words
                 tags = [x.lower().split('.')[0].split(',')[0].split(')')[0] for x in tags] #pruning for commas, periods, and parenthesis
-                tags = [x for x in tags if x not in lcc_stop and x not in stop_words]
                 tags = [x.lstrip().rstrip() for x in tags] 
+                tags = [x for x in tags if x not in lcc_stop or x not in stop_words] #words that I don't want are appearing for some reason
+                print(tags)
 
                 all_tags += tags
 
@@ -178,7 +182,7 @@ class SyllabiPipeline:
         prop = {k: v/total for k, v in prop.items()}
         return prop
     
-    def _search_subjects(self, lcc, topics, field = 'subject', limit = 1, exact_string_matching = False):
+    def _search_subjects(lcc, topics = [], discipline_tags = [], diversity_tags = [], field = 'subject', limit = 1, exact_string_matching = False):
         if type(topics) == str:
             time.sleep(2) #being polite
             response = requests.get(f'https://openlibrary.org/search.json?q=lcc:{lcc}&subject={topics}&fields={field}&limit={limit}').json()
@@ -188,21 +192,20 @@ class SyllabiPipeline:
             else:
                 return '' #nothing returned
 
-        elif type(topics) == list:    
-            q = f'https://openlibrary.org/search.json?q=lcc:{lcc}&fields={field}&limit={limit}'
+        elif bool(topics):    
+            q = f'https://openlibrary.org/search.json?q=lcc:{lcc}&fields={field}&limit={limit}&subject:'
 
             if exact_string_matching: #for cases where a single word is used
-                
-                topics = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), topics)) #encode tags
                 topics = list(map(lambda x: f"\"{x}\"", topics)) #exact string matching
 
-                #topics = '+OR+'.join(topics) #comma (,) and pipe (|) are similar AND, not OR for some reason
-                topics = ''.join(list(map(lambda x: f'&subject={x}', topics)))
-                q += topics
-            
-            else:
-                topics = ','.join(topics)
-                q += topics
+                
+            topics = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), topics)) #encode tags
+
+            topics = '+OR+subject:'.join(topics) #comma (,) and pipe (|) are similar AND, not OR for some reason
+            #topics = ''.join(list(map(lambda x: f'&subject={x}', topics)))
+            #topics = ','.join(topics)
+
+            q += topics
             
             print(q)
 
@@ -214,6 +217,26 @@ class SyllabiPipeline:
             else:
                 return '' #nothing returned
 
+        elif bool(discipline_tags) and bool(diversity_tags):
+            #encode URI
+            discipline_tags, diversity_tags = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), discipline_tags)), list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), diversity_tags))
+            #if this ever throws errors, maybe we need to specify unicode
+
+            if exact_string_matching: #for cases where results by word is used
+                discipline_tags, diversity_tags = list(map(lambda x: f"\"{x}\"", discipline_tags)), list(map(lambda x: f"\"{x}\"", diversity_tags))
+
+            #match any of the tags
+            str_disc, str_div = '+OR+subject:'.join(discipline_tags), '+OR+subject:'.join(diversity_tags)
+            q = f'https://openlibrary.org/search.json?q=lcc:{lcc} AND ((subject:{str_disc}) AND (subject:{str_div}))&fields={field}&limit={limit}'
+            
+            print(q)
+            response = requests.get(q).json()
+            
+            if bool(response['docs']): #falsy
+                return response['docs']
+            else:
+                return '' #nothing returned
+                
         else:
             return None
         
@@ -240,7 +263,33 @@ class SyllabiPipeline:
                 
                 rqe += p_i * p_j * distance
 
-        return rqe
+        return rqe/2
+
+    def _get_suggestions(mrcp, syll_topics, diversity_topics):
+        suggestions = []
+        for k,v in mrcp.items(): 
+            if '-' in v:
+                lst = v.split('-')
+                lccn_query = '[' + lst[0] + ' TO ' + k + lst[1] + ']'
+            suggestions += search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
+            #list of author names, ISBNs, titles, subjects
+        
+        for book in suggestions:
+            try:
+                #print(next((i for i in book['isbn'] if re.match(r'^(979|978)\d{10}$', i)), None))
+                book['isbn'] = next((i for i in book['isbn'] if re.match(r'^(979|978)\d{10}$', i)), None) #shorten the list of ISBNs, ISBN-13
+            except:
+                #print(book)
+                book.update({'isbn': ''})
+            book['subject'] = [x.lower() for x in book['subject']]
+            #book['subject'] = [sub for sub in [x for x in book['subject']] if sub in syll_topics or sub in diversity_topics] #not working
+            #book['subject'] = [x for x in book['subject'] if any(sub in x for sub in syll_topics) or any(sub in x for sub in diversity_topics)] #if it doesn't contain the tags for whatever reason
+            book['subject'] = [sub for sub in syll_topics if any(sub in x for x in book['subject'])]
+            book['subject'] += [sub for sub in diversity_topics if any(sub in x for x in book['subject'])]
+
+        return suggestions
+
+    
 
 
 
