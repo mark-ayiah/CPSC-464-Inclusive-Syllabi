@@ -216,13 +216,14 @@ class SyllabiPipeline:
 
         else:
             return None
+        
     def raos_entropy(all_cats):
         #i'm aware this is presently incorrect bc the probably of topics is not btwn 0 and 1, but This Is a Start!
         entropy = 0.0
 
         # Calculate pairwise cosine distances between topics
         tags = list(all_cats.keys())
-        embeddings = embed(tags) #needs to be embedded over one space
+        embeddings = self.model(tags) #needs to be embedded over one space
         distance_matrix = np.inner(embeddings, embeddings) #cosine sim
 
         # rao's entropy
