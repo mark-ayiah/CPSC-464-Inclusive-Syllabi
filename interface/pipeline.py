@@ -49,6 +49,10 @@ class SyllabiPipeline:
             return None
 
     def _lookup_meaning(self, code): #takes in tuple (call number)
+        """
+        Takes in a split LCC call number and looks up the meaning in detailed_lcc.json. Returns a list of definitions for the code.
+        """
+
         l = []
 
         try:
@@ -60,14 +64,24 @@ class SyllabiPipeline:
             pass
 
         return l
-        #returns a list of definitions for the code
         
     def _searchby_lccn(self, lccn, fields = 'author_name,subject,lcc,title', limit = 5): 
+        """
+        Queries the Open Library API using a formatted LCC Call number. Returns a dictionary with the fields specified.
+        See documentation: https://openlibrary.org/dev/docs/api/search
+        """
+
+
         r = []
         response = requests.get(f'https://openlibrary.org/search.json?q=lcc:{lccn}&fields={fields}&limit={limit}').json()
         return response['docs']
 
     def _searchby_isbn(self, isbn, field = 'lcc', limit = 1):
+        """
+        Queries the Open Library API using an ISBN. Returns a dictionary with the fields specified.
+        See documentation: https://openlibrary.org/dev/docs/api/search
+        """
+
         
         url = 'https://openlibrary.org/search.json'
         params = {
@@ -87,6 +101,11 @@ class SyllabiPipeline:
             return '' #nothing returned
 
     def _reformat_openlibrary_lccn(self, syllabus): #doesn't account for specific subclasses
+        """
+        Takes in a syllabus (list of ISBNs). Returns the LCC codes for each book in the syllabus.
+        Ignores more specific subclass demarcations.
+        """
+
         lccn_tup = []
         # print(syllabus)
 
@@ -99,6 +118,10 @@ class SyllabiPipeline:
         return lccn_tup
     
     def _get_all_parents(self, lccn, lcc_data):
+        """
+        Takes in a LCC code and the detailed LCC classification data. Returns a list of parents for the given LCC code
+        """
+
         init = lccn[0] + str(lccn[1])
         all_parents = {init} #let itself be a "parent" just in case!
 
@@ -117,6 +140,10 @@ class SyllabiPipeline:
 
 
     def _find_most_recent_common_parent(self, tupes, lcc_data):
+        """
+        Takes in a list of LCC code tuples and classification data. Returns a list of the most recent ancestor of the codes in the list.
+        """
+
         node_parent_sets = [self._get_all_parents(t, lcc_data) for t in tupes]
         
         prefixes = {}
@@ -124,11 +151,12 @@ class SyllabiPipeline:
         #get all parents for each prefix
         for t in tupes:
             val = self._get_all_parents(t, lcc_data)
+            val = self._get_all_parents(t, lcc_data)
             if val != None:
                 if t[0] not in prefixes.keys():
                     prefixes[t[0]] = [val] #make a list with all the floats
                 else:
-                    prefixes[t[0]].append(val) #make a list with all the floats
+                    prefixes[t[0]].append(val) #add to a list with all the floats
 
         for k,v in prefixes.items():
             inter[k] = list(set(v[0]).intersection(*map(set, v[1:])))[-1] #make it a string, choose most specific one
@@ -136,6 +164,11 @@ class SyllabiPipeline:
         return inter
     
     def _find_diversity_topics(self, syll):
+        """
+        Takes in a syllabus and finds the topics in the area of desired diversity that have the same subclass as the books in the syllabus.
+        Returns a list of lists. Each list has topics that are in the area of desired diversity.
+        """
+
         topics = []
         
         mrcp = self._find_most_recent_common_parent(self._reformat_openlibrary_lccn(syll), self.detailed_lcc)
@@ -152,6 +185,12 @@ class SyllabiPipeline:
         return topics
 
     def _get_prop_occurrences(self, topics_lst, kind = 'by phrase', top_n = 15): #splits by phrase/full subject
+        """
+        Takes in a list of topics from either find_diversity-topics or lookup_meaning.
+        Returns a dictionary with the key as the topic and the value as the proportion of occurrences in the top_n
+        Default is to return topics as phrases, rather than as individual words.
+        """
+        
         nltk.download('stopwords') #to remove uninformative words
         stop_words = set(stopwords.words('english'))
         lcc_stop = open("lcc_stop_words.txt", "r").read().split("\n")
@@ -189,6 +228,11 @@ class SyllabiPipeline:
         return prop
     
     def _search_subjects(self, lcc, topics = [], discipline_tags = [], diversity_tags = [], field = 'subject', limit = 1, exact_string_matching = False):
+        """
+        Queries the Open Library API for books with subjects in a specific LCC code.
+        Returns fields listed by user. Default is subject.
+        """
+        
         if type(topics) == str:
             # time.sleep(2) #being polite
             response = requests.get(f'https://openlibrary.org/search.json?q=lcc:{lcc}&subject={topics}&fields={field}&limit={limit}').json()
@@ -247,6 +291,10 @@ class SyllabiPipeline:
             return None
         
     def raos_entropy(self, all_cats):
+        """
+        Takes in the proportion of occurrences (dict) for a discipline area and diversity area and calculates the RQE between the two.
+        """
+
         #i'm aware this is presently incorrect bc the probably of topics is not btwn 0 and 1, but This Is a Start!
         entropy = 0.0
 
@@ -272,11 +320,15 @@ class SyllabiPipeline:
         return rqe/2
 
     def _get_suggestions(self, mrcp, syll_topics, diversity_topics):
+        """
+        (IN PROGRESS) Begin getting suggestions for syllabus using entropy measure of choice.
+        """
         suggestions = []
         for k,v in mrcp.items(): 
             if '-' in v:
                 lst = v.split('-')
                 lccn_query = '[' + lst[0] + ' TO ' + k + lst[1] + ']'
+            suggestions += self._search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
             suggestions += self._search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
             #list of author names, ISBNs, titles, subjects
         
