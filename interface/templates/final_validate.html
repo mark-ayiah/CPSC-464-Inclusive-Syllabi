@@ -12,7 +12,8 @@
 		<h1 class="title">Algorithmic Curation of Inclusive Syllabi:</h1>
 		<h2 class="subtitle">Tool for Measuring and Recommending Diversity in Course Content</h2>
 
-		<p>This is what we got from your syllabus. If any of your books are incorrect or missing, please edit, add, or remove them now.</p>
+		<p>This is what we got from your syllabus. <b>If any of your books or ISBNs are incorrect, please edit or remove them now.</b>
+		You can edit the ISBNs to get a more accurate version of the book you are looking for.</p>
 
 		<form action="/edit-book" method="POST">
 			<table class="book-table">
@@ -20,29 +21,36 @@
 					<tr>
 						<th>Book</th>
 						<th>ISBN</th>
+						<th>Book Cover</th>
 						<th></th>
 					</tr>
 				</thead>
 				<tbody>
 					{% for book in books %}
 					<tr class="book-row">
-						<td class="book">{{ book.title }} by {{ book.author }}</td>
+						<td class="book"><input type="text" class="title" name="titles" value="{{ book.title }} by {{ book.author }}"/></td>
 						<td class="isbn-cell"><input type="text" class="isbn" name="isbns" value="{{ book.isbn }}"/></td>
+						{% if book.cover %}
+							<td><img src="{{ book.cover }}" alt="Cover of {{ book.title }}" /> </td>
+						{% else %}
+            				<td><p>No cover available</p></td>
+						{% endif %}
 						<td>
 							<span class="delete-btn" onclick="deleteRow(this)"><i class="fas fa-trash"></i></span>
 						</td>
+
 					</tr>
 					{% endfor %}
 				</tbody>
 			</table>
             <button type="submit" style="display:none"></button>
         </form>
-        <form action="/add-book" method="POST">
+        <!-- <form action="/add-book" method="POST">
             <div class="add-book-row">
                 <input type="text" class="new-title-input" name="new-title" placeholder="Enter additional books by title... (e.g., 'The Autobiography of Malcolm X')" />
-                <button type="button" class="add-title-btn" onclick="addTitle()">Add Title</button>
+                <button type="button" class="add-title-btn" onclick=addRow()>Add Title</button>
             </div>
-		</form>
+		</form> -->
 
         <form action="/results" method="POST">
 			<input type="hidden" name="isbns" value="{{ books | map(attribute='isbn') | join(',') }}" />
@@ -75,7 +83,8 @@
 
 			// Function to delete a row
 			function deleteRow(element) {
-				element.parentElement.remove(); // Remove the parent row (div)
+				const row = element.closest('tr');
+    			row.remove();
 			}
 		</script>
 	</body>

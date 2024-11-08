@@ -20,9 +20,8 @@ def index():
     return render_template('index.html')
 
 # Route to handle PDF upload and parsing
-@app.route('/validate', methods=['POST'])
-def validate():       
-        
+@app.route('/books-validate', methods=['POST'])
+def books_validate():       
   
     file = request.files['file']
     category = request.form.get('categories')
@@ -41,8 +40,24 @@ def validate():
 
         
         # Render the template with the list of books
-        return render_template('validate.html', books=session['books'])
+        return render_template('books_validate.html', books=session['books'])
+    
+@app.route('/final-validate', methods=['POST'])
+def final_validate():       
+  
+        # Get the serialized book titles
+        text = request.form.get('books', '')
 
+        # Split the titles into a list
+        book_titles = text.split('\n')
+
+        # Join the titles back into a single string for `find_books_in_pdf`
+        session['books'] = find_books_in_pdf('\n'.join(book_titles))
+    
+        
+        # Render the template with the list of books
+        return render_template('final_validate.html', books=session['books'])
+    
 @app.route('/edit-book', methods=['POST'])
 def edit_book():
     updated_isbns = request.form.getlist('isbns')
@@ -50,22 +65,35 @@ def edit_book():
     session['books'] = []
     
     for isbn in updated_isbns:
-        title, author, isbn = search_book_by_isbn(isbn)
+        title, author, isbn, cover = search_book_by_isbn(isbn)
         if title:
-            session['books'].append({'title': title, 'author': author, 'isbn': isbn})
+            session['books'].append({'title': title, 'author': author, 'isbn': isbn, 'cover': cover})
 
-    return render_template('validate.html', books=session['books'])
+    return render_template('final_validate.html', books=session['books'])
 
 @app.route('/add-book', methods=['POST'])
 def add_book():
     new_title = request.form.get('new-title')
     if new_title:
-        title, author, isbn = search_book(new_title)
-        if title:
-            session['books'].append({'title': title, 'author': author, 'isbn': isbn})
-    return render_template('validate.html', books=session['books'])
-        
+        book = search_book(new_title)
+        if book:
+            title = book[0]
+            author = book[1]
+            isbn = book[2]
+            cover = book[3]
+            session['books'].append({'title': title, 'author': author, 'isbn': isbn, 'cover': cover})
+    return render_template('final_validate.html', books=session['books'])
 
+@app.route('/add-book-validate', methods=['POST'])
+def add_book_validate():
+    new_title = request.form.get('new-title')
+    if new_title:
+        book = search_book(new_title)
+        if book:
+            title = book[0]
+            session['books'].append({'title': title})
+    return render_template('books_validate.html', books=session['books'])
+        
 @app.route('/results', methods=['POST'])
 def results():
     # Get the list of ISBNs from the form
@@ -100,8 +128,9 @@ def search_book(line):
             title = book['title']
             author = book['author_name'][0]
             isbn = book.get('isbn', ['N/A'])[0]
-            return title, author, isbn
-    return None, None, None
+            cover = f"https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg" if isbn != 'N/A' else None
+            return title, author, isbn, cover
+    return None, None, None, None
 
 def search_book_by_isbn(isbn):
     url = f"https://openlibrary.org/api/books?bibkeys=ISBN:{isbn}&format=json&jscmd=data"
@@ -114,20 +143,22 @@ def search_book_by_isbn(isbn):
         if book:
             title = book['title']
             author = book['authors'][0]['name']
+            cover = f"https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg"
+
             
         # title = book['title']
         # author = book['author_name'][0]
-            return title, author, isbn
-    return None, None, None
+            return title, author, isbn, cover
+    return None, None, None, None
 
 # Function to find books in the parsed Word Doc 
 def find_books_in_pdf(text):
     book_list = []
     lines = text.split('\n')
     for line in lines:
-        title, author, isbn = search_book(line)
+        title, author, isbn, cover, = search_book(line)
         if title:
-            book_list.append({'title': title, 'author': author, 'isbn': isbn})
+            book_list.append({'title': title, 'author': author, 'isbn': isbn, 'cover': cover})
     return book_list
 
 # def calc_diversity():
