@@ -9,18 +9,21 @@ import urllib
 from urllib.parse import quote
 from collections import Counter
 import nltk
-# from nltk.corpus import stopwords
+from nltk.corpus import stopwords
 import pandas as pd
 import numpy as np
-# import tensorflow_hub
+# import tensorflow_hub as hub
 # from sentence_transformers import SentenceTransformer #"tensorflow>=1.7.0", tensorflow-hub
 
 
 class SyllabiPipeline:
+    """
+    Class for the Syllabi Pipeline. Contains all the functions necessary for the measuring diversity and making recommendations.
+    """
     def __init__(self):
         
         # model_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
-        # self.model = tensorflow_hub.load(model_url)
+        # self.model = hub.load(model_url)
         
     
         with open('../backend/library_of_congress/detailed-lcc.json') as detailed_file, open('../backend/library_of_congress/final_merged_lcc.json') as top_level_file:
@@ -33,6 +36,10 @@ class SyllabiPipeline:
     def _split_lcc(self, call_number):
         """
         Splits a Library of Congress Classification (LCC) call number into a tuple of the form (letter, number).
+        Args:
+            call_number (str): The LCC call number to split.
+        Returns:
+            tuple: A tuple of the form (alphabetical category, number) representing the LCC call number.
         """
         if call_number == None:
             return None
@@ -50,7 +57,10 @@ class SyllabiPipeline:
 
     def _lookup_meaning(self, code): #takes in tuple (call number)
         """
-        Takes in a split LCC call number and looks up the meaning in detailed_lcc.json. Returns a list of definitions for the code.
+        Looks up the meaning of a LCCN in detailed_lcc.json. 
+        Args:
+            code (tuple): A tuple of the form (alphabetical category, number) representing the LCC call number.
+        Returns: a list of definitions for the code.
         """
 
         l = []
@@ -67,8 +77,14 @@ class SyllabiPipeline:
         
     def _searchby_lccn(self, lccn, fields = 'author_name,subject,lcc,title', limit = 5): 
         """
-        Queries the Open Library API using a formatted LCC Call number. Returns a dictionary with the fields specified.
+        Queries the Open Library API using a formatted LCC Call number. 
         See documentation: https://openlibrary.org/dev/docs/api/search
+        Args:
+            lccn (str): The LCC call number to search for.
+            fields (str): The field(s) to return in the response.
+            limit (int): The maximum number of results to return
+        Returns:
+            a dictionary with the specified fields
         """
 
 
@@ -78,8 +94,14 @@ class SyllabiPipeline:
 
     def _searchby_isbn(self, isbn, field = 'lcc', limit = 1):
         """
-        Queries the Open Library API using an ISBN. Returns a dictionary with the fields specified.
+        Queries the Open Library API using an ISBN. 
         See documentation: https://openlibrary.org/dev/docs/api/search
+        Args:
+            isbn (str): The ISBN to search for.
+            field (str): The field(s) to return in the response.
+            limit (int): The maximum number of results to return.
+        Returns:
+            a dictionary with the fields specified.
         """
 
         
@@ -89,22 +111,25 @@ class SyllabiPipeline:
             'fields': f'{field}',
             'limit': f'{limit}'
             }
-        response = requests.get(url, params=params, timeout=5).json()
+        response = requests.get(url, params=params, timeout=20).json()
 
         if bool(response['docs']): #falsy
             #print(response['docs'], isbn) #error checking
-            print(response['docs'][0].get(f'{field}'))
 
             if bool(response['docs'][0].get(f'{field}')): #if there is an lcc
                 return response['docs'][0].get(f'{field}')[0] #string, first lcc returned
         else:
             return '' #nothing returned
 
-    def _reformat_openlibrary_lccn(self, syllabus): #doesn't account for specific subclasses
+    def _get_lccn_for_syllabus(self, syllabus): #doesn't account for specific subclasses
         """
-        Takes in a syllabus (list of ISBNs). Returns the LCC codes for each book in the syllabus.
-        Ignores more specific subclass demarcations.
+        Gets the LCCN for each book in a syllabus. Ignores more specific subclass demarcations.
+        Args:
+            syllabus (dict): A dictionary containing a list of ISBNs.
+        Returns:
+            a list of tuples representing the LCCN for each book in the syllabus.
         """
+        
 
         lccn_tup = []
         # print(syllabus)
@@ -119,7 +144,12 @@ class SyllabiPipeline:
     
     def _get_all_parents(self, lccn, lcc_data):
         """
-        Takes in a LCC code and the detailed LCC classification data. Returns a list of parents for the given LCC code
+        Gets all the parents for a given LCC code.
+        Args:
+            lccn (tuple): A tuple of the form (alphabetical category, number) representing the LCC call number.
+            lcc_data (dict): A dictionary containing the LCC classification data.
+        Returns:
+            a list of parents for the given LCC code.
         """
 
         init = lccn[0] + str(lccn[1])
@@ -139,9 +169,14 @@ class SyllabiPipeline:
             return None
 
 
-    def _find_most_recent_common_parent(self, tupes, lcc_data):
+    def _find_lcas(self, tupes, lcc_data):
         """
-        Takes in a list of LCC code tuples and classification data. Returns a list of the most recent ancestor of the codes in the list.
+        Gets the least common ancestor for a list of LCC call numbers.
+        Args:
+            tupes (list): A list of tuples of the form (alphabetical category, number) representing the LCC call numbers.
+            lcc_data (dict): A dictionary containing the LCC classification data.
+        Returns:
+            a dictionary with the key as the LCC class and the value as the LCA range.
         """
 
         node_parent_sets = [self._get_all_parents(t, lcc_data) for t in tupes]
@@ -163,18 +198,23 @@ class SyllabiPipeline:
 
         return inter
     
-    def _find_diversity_topics(self, syll):
+    def _find_diversity_topics(self, syll, diversity):
         """
-        Takes in a syllabus and finds the topics in the area of desired diversity that have the same subclass as the books in the syllabus.
-        Returns a list of lists. Each list has topics that are in the area of desired diversity.
+        Gets topics in the area of desired diversity that also have the same subclass as the books in the syllabus.
+        Args:
+            syll (dict): A dictionary containing a list of ISBNs.
+            diversity (dict): A dictionary containing the diversity topics.
+        Returns:
+            a list of lists. Each list has topics that are in the area of desired diversity.
+        
         """
 
         topics = []
         
-        mrcp = self._find_most_recent_common_parent(self._reformat_openlibrary_lccn(syll), self.detailed_lcc)
-        div_dict = {k: v for k,v in diversity.items() if k in mrcp.keys()}
+        lcas = self._find_lcas(self._get_lccn_for_syllabus(syll), self.detailed_lcc)
+        div_dict = {k: v for k,v in diversity.items() if k in lcas.keys()}
 
-        for k,v in mrcp.items():
+        for k,v in lcas.items():
             try:
                 entries = div_dict[k]
                 #vals.append({k: [entry for entry in entries if v in entry['parents']]}) #gives a lot of topics underneath the parent node
@@ -187,13 +227,17 @@ class SyllabiPipeline:
     def _get_prop_occurrences(self, topics_lst, kind = 'by phrase', top_n = 15): #splits by phrase/full subject
         """
         Takes in a list of topics from either find_diversity-topics or lookup_meaning.
-        Returns a dictionary with the key as the topic and the value as the proportion of occurrences in the top_n
-        Default is to return topics as phrases, rather than as individual words.
+        Args:
+            topics_lst (list): A list of topics to analyze.
+            kind (str): 'by phrase' or 'by words'. Default is 'by phrase'.
+            top_n (int): The number of top topics to return.
+        Returns:
+            a dictionary with the key as the topic and the value as the proportion of occurrences in the top_n
         """
         
-        nltk.download('stopwords') #to remove uninformative words
+        # nltk.download('stopwords') #to remove uninformative words
         stop_words = set(stopwords.words('english'))
-        lcc_stop = open("lcc_stop_words.txt", "r").read().split("\n")
+        lcc_stop = open("../backend/library_of_congress/lcc_stop_words.txt", "r").read().split("\n")
         
         all_tags = []
 
@@ -230,19 +274,28 @@ class SyllabiPipeline:
     def _search_subjects(self, lcc, topics = [], discipline_tags = [], diversity_tags = [], field = 'subject', limit = 1, exact_string_matching = False):
         """
         Queries the Open Library API for books with subjects in a specific LCC code.
-        Returns fields listed by user. Default is subject.
+        Args:
+            lcc (str): The LCC code to search for.
+            topics (list): A list of topics to search for.
+            discipline_tags (list): A list of discipline tags to search for.
+            diversity_tags (list): A list of diversity tags to search for.
+            field (str): The field(s) to return in the response.
+            limit (int): The maximum number of results to return.
+            exact_string_matching (bool): Whether to use exact string matching. Default is False.
+        Returns:
+            fields listed by user. Default is subject.
         """
         
         if type(topics) == str:
             # time.sleep(2) #being polite
             response = requests.get(f'https://openlibrary.org/search.json?q=lcc:{lcc}&subject={topics}&fields={field}&limit={limit}').json()
 
-            if bool(response['docs']): #falsy
+            if response['docs']: #falsy
                 return response['docs']
             else:
                 return '' #nothing returned
 
-        elif bool(topics):    
+        elif topics:    
             q = f'https://openlibrary.org/search.json?q=lcc:{lcc}&fields={field}&limit={limit}&subject:'
 
             if exact_string_matching: #for cases where a single word is used
@@ -251,23 +304,23 @@ class SyllabiPipeline:
                 
             topics = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), topics)) #encode tags
 
-            topics = '+OR+subject:'.join(topics) #comma (,) and pipe (|) are similar AND, not OR for some reason
+            topics = '+OR+:'.join(topics) #comma (,) and pipe (|) are similar AND, not OR for some reason
             #topics = ''.join(list(map(lambda x: f'&subject={x}', topics)))
             #topics = ','.join(topics)
 
-            q += topics
+            q += "(" + topics + ")"
             
             print(q)
 
             # time.sleep(2) #being polite
             response = requests.get(q).json()
             
-            if bool(response['docs']): #falsy
+            if response['docs']: #falsy
                 return response['docs']
             else:
                 return '' #nothing returned
 
-        elif bool(discipline_tags) and bool(diversity_tags):
+        elif discipline_tags and diversity_tags:
             #encode URI
             discipline_tags, diversity_tags = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), discipline_tags)), list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), diversity_tags))
             #if this ever throws errors, maybe we need to specify unicode
@@ -292,7 +345,11 @@ class SyllabiPipeline:
         
     def raos_entropy(self, all_cats):
         """
-        Takes in the proportion of occurrences (dict) for a discipline area and diversity area and calculates the RQE between the two.
+        Calculates Rao's Quadratic Entropy for a set of categories.
+        Args:
+            all_cats (dict): A dictionary with the key as the category and the value as the proportion of occurrences.
+        Returns:
+            a float representing the Rao's Quadratic Entropy between the discipline area and area of desired diversity.
         """
 
         #i'm aware this is presently incorrect bc the probably of topics is not btwn 0 and 1, but This Is a Start!
@@ -319,12 +376,12 @@ class SyllabiPipeline:
 
         return rqe/2
 
-    def _get_suggestions(self, mrcp, syll_topics, diversity_topics):
+    def _get_suggestions(self, lca, syll_topics, diversity_topics):
         """
         (IN PROGRESS) Begin getting suggestions for syllabus using entropy measure of choice.
         """
         suggestions = []
-        for k,v in mrcp.items(): 
+        for k,v in lca.items(): 
             if '-' in v:
                 lst = v.split('-')
                 lccn_query = '[' + lst[0] + ' TO ' + k + lst[1] + ']'
@@ -359,17 +416,36 @@ if __name__ == "__main__":
     print("Syllabi Pipeline Initialized")
     ex1 = 'HV-1568.00000000.B376 2016' #The Minority Body by Elizabeth Barnes
     ex2 = 'DAW1008.00000000.B37 1987' #A guide to Central Europe by Richard Bassett
+    
+    # print(sp.syllabus)
     # print(sp._split_lcc('DAW1008.00000000.B37 1987'))
     # print("SPlit LCC Test Passed")
-    lccn_tup = sp._reformat_openlibrary_lccn(sp.syllabus)
-    mrcp = sp._find_most_recent_common_parent(lccn_tup, sp.detailed_lcc)
-    
+    lccn_tup = sp._get_lccn_for_syllabus(sp.syllabus)
+    # print(lccn_tup)
+    lcas = sp._find_lcas(lccn_tup, sp.detailed_lcc)
+    # print(lcas)
     with open('../backend/library_of_congress/lgbtq_lcc.json', 'r') as reader: #everything about lgbtq studies, specifically
         diversity = json.load(reader) #in practice, we call also ONLY load in the relevant subclasses
-    print("Diversity JSON Loaded")
-    diversity_subset = {k: v for k,v in diversity.items() if k in mrcp.keys()}
-    # print(diversity_subset)
-    topics = sp._find_diversity_topics(diversity_subset)
-    print(topics)
+    # print("Diversity JSON Loaded")
+    diversity_subset = {k: v for k,v in diversity.items() if k in lcas.keys()}
+    topics = sp._find_diversity_topics(sp.syllabus, diversity_subset)
+    # print(topics)
+    
+    
+    prop_div = sp._get_prop_occurrences(topics)
+    print(prop_div)
+    topics_syll = []
 
+    for i in lccn_tup:
+        topics_syll += sp._lookup_meaning(i)
+
+    # print(topics_syll)
+    prop_syll = sp._get_prop_occurrences(topics_syll)
+    
+    lccn_query = f"[HQ1 TO HQ2044]"
+    # result = sp._search_subjects(lccn_query, discipline_tags = list(prop_syll.keys()), diversity_tags = list(prop_div.keys()), field = 'title,subject,isbn,author_name', limit = 3, exact_string_matching=True)
+
+    all_cats = {**prop_syll, **prop_div}
+    # print(all_cats)
+    # rqe = sp.raos_entropy(all_cats)
 

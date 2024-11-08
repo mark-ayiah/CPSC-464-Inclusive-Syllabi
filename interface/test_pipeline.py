@@ -41,11 +41,34 @@ class TestPipeline(unittest.TestCase):
         self.assertTrue(len(result) > 0)
         self.assertEqual(result, expected)
         
-    def test_reformat_openlibracy_lccn_valid(self):
-        lccn = 'ABC123'
-        result = self.pipeline._reformat_openlibrary_lccn(lccn)
-        expected = 'ABC123'
+    @patch('pipeline.SyllabiPipeline._searchby_isbn')
+    @patch('pipeline.SyllabiPipeline._split_lcc')
+    def test_get_lccn_for_syllabus_valid(self, mock_split_lcc, mock_searchby_isbn):
+        
+        # expect three calls to split_lcc and searchby_isbn, one for each row in the test_syllabus dataframe
+        mock_split_lcc.side_effect = [('ABC', 123.0), ('DEF', 456.0), ('GHI', 789.0)]
+        mock_searchby_isbn.side_effect = ['ABC123', 'DEF456', 'GHI789']
+        
+        test_syllabus = pd.DataFrame({
+            'isbn': ['123', '456', '789'], 
+            'book_title': ['test1', 'test2', 'test3'], 
+            'author': ['author1', 'author2', 'author3']
+            })
+        
+        result = self.pipeline._get_lccn_for_syllabus(test_syllabus)
+        
+        expected = [('ABC', 123.0), ('DEF', 456.0), ('GHI', 789.0)]
+        
         self.assertEqual(result, expected)
+    
+    def test_get_all_parents_valid(self):
+        pass
+    
+    def test_find_most_recent_common_parent(self):
+        pass
+        
+        
+        
     
     
         
