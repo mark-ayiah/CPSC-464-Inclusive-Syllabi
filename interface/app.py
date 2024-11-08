@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import requests
 import os
 from docx import Document
-from diversity import calculate_diversity_metrics
+#from diversity import calculate_diversity_metrics
 
 
 app = Flask(__name__)
@@ -20,7 +20,7 @@ def index():
     return render_template('index.html')
 
 # Route to handle PDF upload and parsing
-@app.route('/books-validate', methods=['POST'])
+@app.route('/validate', methods=['POST'])
 def books_validate():       
   
     file = request.files['file']
@@ -40,23 +40,7 @@ def books_validate():
 
         
         # Render the template with the list of books
-        return render_template('books_validate.html', books=session['books'])
-    
-@app.route('/final-validate', methods=['POST'])
-def final_validate():       
-  
-        # Get the serialized book titles
-        text = request.form.get('books', '')
-
-        # Split the titles into a list
-        book_titles = text.split('\n')
-
-        # Join the titles back into a single string for `find_books_in_pdf`
-        session['books'] = find_books_in_pdf('\n'.join(book_titles))
-    
-        
-        # Render the template with the list of books
-        return render_template('final_validate.html', books=session['books'])
+        return render_template('validate.html', books=session['books'])
     
 @app.route('/edit-book', methods=['POST'])
 def edit_book():
@@ -82,7 +66,7 @@ def add_book():
             isbn = book[2]
             cover = book[3]
             session['books'].append({'title': title, 'author': author, 'isbn': isbn, 'cover': cover})
-    return render_template('final_validate.html', books=session['books'])
+    return render_template('validate.html', books=session['books'])
 
 @app.route('/add-book-validate', methods=['POST'])
 def add_book_validate():
@@ -91,8 +75,11 @@ def add_book_validate():
         book = search_book(new_title)
         if book:
             title = book[0]
-            session['books'].append({'title': title})
-    return render_template('books_validate.html', books=session['books'])
+            author = book[1]
+            isbn = book[2]
+            cover = book[3]
+            session['books'].append({'title': title, 'author': author, 'isbn': isbn, 'cover': cover})
+    return render_template('validate.html', books=session['books'])
         
 @app.route('/results', methods=['POST'])
 def results():

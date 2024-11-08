@@ -12,7 +12,7 @@
 		<h1 class="title">Algorithmic Curation of Inclusive Syllabi:</h1>
 		<h2 class="subtitle">Tool for Measuring and Recommending Diversity in Course Content</h2>
 
-		<p>This is what we got from your syllabus. <b>If any of your books or ISBNs are incorrect, please edit or remove them now.</b>
+		<p>These are the <b>books</b> we parsed from your syllabus. <b>If any of your books or ISBNs are incorrect, please edit, add, or remove them now.</b>
 		You can edit the ISBNs to get a more accurate version of the book you are looking for.</p>
 
 		<form action="/edit-book" method="POST">
@@ -28,7 +28,7 @@
 				<tbody>
 					{% for book in books %}
 					<tr class="book-row">
-						<td class="book"><input type="text" class="title" name="titles" value="{{ book.title }} by {{ book.author }}"/></td>
+						<td class="book">{{ book.title }} by {{ book.author }}</td>
 						<td class="isbn-cell"><input type="text" class="isbn" name="isbns" value="{{ book.isbn }}"/></td>
 						{% if book.cover %}
 							<td><img src="{{ book.cover }}" alt="Cover of {{ book.title }}" /> </td>
@@ -45,25 +45,19 @@
 			</table>
             <button type="submit" style="display:none"></button>
         </form>
-        <!-- <form action="/add-book" method="POST">
+
+		<form action="/add-book-validate" method="POST">
             <div class="add-book-row">
                 <input type="text" class="new-title-input" name="new-title" placeholder="Enter additional books by title... (e.g., 'The Autobiography of Malcolm X')" />
-                <button type="button" class="add-title-btn" onclick=addRow()>Add Title</button>
+                <button type="submit" class="add-title-btn" onclick=addRow()>Add Title</button>
+			</button>
             </div>
-		</form> -->
+		</form>
 
         <form action="/results" method="POST">
 			<input type="hidden" name="isbns" value="{{ books | map(attribute='isbn') | join(',') }}" />
             <button class="submit-button" type="submit">Looks Good!</button>
         </form>
-		<!-- <div class="book-table">
-			
-
-			<form action="/results" method="POST">
-				<button type="button" class="add-row-btn" onclick="addRow()">Add Book</button>
-		
-			</form>
-		</div> -->
 
 		<script>
 			// Function to add a new row
@@ -74,7 +68,7 @@
 
 				newRow.innerHTML = `
                 <input type="text" class="title-input" name="titles" placeholder="Enter book title">
-                <input type="text" class="isbn-input" name="isbns" placeholder="Enter ISBN">
+				<input type="text" class="title-input" name="isbns" placeholder="Enter book ISBN"
                 <span class="delete-btn" onclick="deleteRow(this)">X</span>
             `;
 
