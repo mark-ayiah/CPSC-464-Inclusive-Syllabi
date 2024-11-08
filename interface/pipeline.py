@@ -12,7 +12,7 @@ import nltk
 from nltk.corpus import stopwords
 import pandas as pd
 import numpy as np
-# import tensorflow_hub as hub
+import tensorflow_hub as hub
 # from sentence_transformers import SentenceTransformer #"tensorflow>=1.7.0", tensorflow-hub
 
 
@@ -21,9 +21,7 @@ class SyllabiPipeline:
     Class for the Syllabi Pipeline. Contains all the functions necessary for the measuring diversity and making recommendations.
     """
     def __init__(self):
-        
-        # model_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
-        # self.model = hub.load(model_url)
+    
         
     
         with open('../backend/library_of_congress/detailed-lcc.json') as detailed_file, open('../backend/library_of_congress/final_merged_lcc.json') as top_level_file:
@@ -351,13 +349,16 @@ class SyllabiPipeline:
         Returns:
             a float representing the Rao's Quadratic Entropy between the discipline area and area of desired diversity.
         """
+        
+        model_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
+        model = hub.load(model_url)
 
         #i'm aware this is presently incorrect bc the probably of topics is not btwn 0 and 1, but This Is a Start!
         entropy = 0.0
 
         # Calculate pairwise cosine distances between topics
         tags = list(all_cats.keys())
-        embeddings = self.model(tags) #needs to be embedded over one space
+        embeddings = model(tags) #needs to be embedded over one space
         distance_matrix = np.inner(embeddings, embeddings) #cosine sim
 
         # rao's entropy
@@ -433,7 +434,7 @@ if __name__ == "__main__":
     
     
     prop_div = sp._get_prop_occurrences(topics)
-    print(prop_div)
+    # print(prop_div)
     topics_syll = []
 
     for i in lccn_tup:
@@ -447,5 +448,6 @@ if __name__ == "__main__":
 
     all_cats = {**prop_syll, **prop_div}
     # print(all_cats)
-    # rqe = sp.raos_entropy(all_cats)
+    rqe = sp.raos_entropy(all_cats)
+    print(rqe)
 
