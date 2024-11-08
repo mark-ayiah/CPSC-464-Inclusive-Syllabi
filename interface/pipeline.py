@@ -217,7 +217,7 @@ class SyllabiPipeline:
         else:
             return None
         
-    def raos_entropy(all_cats):
+    def raos_entropy(self, all_cats):
         #i'm aware this is presently incorrect bc the probably of topics is not btwn 0 and 1, but This Is a Start!
         entropy = 0.0
 
