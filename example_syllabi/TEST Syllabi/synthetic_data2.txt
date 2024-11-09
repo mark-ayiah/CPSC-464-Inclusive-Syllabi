@@ -1,0 +1,51 @@
+[
+  {
+    "author_name": ["Author A"],
+    "isbn": "9780342301812",
+    "title": "Nurturing Inclusive Kids: Raising Children Beyond Gender Stereotypes",
+    "subject": ["childhood education", "inclusive teaching", "gender identity", "psychological development", "social justice", "bias awareness"],
+    "lccn": "LC189.98"
+  },
+  {
+    "author_name": ["Author B"],
+    "isbn": "9780323301012",
+    "title": "Child Development and Building Empathy in Young Minds",
+    "subject": ["developmental psychology", "empathy development", "anti-bias teaching", "childhood growth", "emotional intelligence", "inclusive education"],
+    "lccn": "BF723.H67"
+  },
+  {
+    "author_name": ["Author C"],
+    "isbn": "9780323301814",
+    "title": "Teaching Tolerance: A Children's Guide to Understanding Diversity",
+    "subject": ["child education", "multiculturalism", "diversity awareness", "social skills", "anti-bias learning", "inclusive pedagogy"],
+    "lccn": "PZ7.N47988"
+  },
+  {
+    "author_name": ["Author D"],
+    "isbn": "9782923309812",
+    "title": "Building Resolve in Black Students",
+    "subject": ["elementary school", "early childhood education", "african americans", "resilience building", "pedagogical strategies", "student engagement"],
+    "lccn": "LC2773.8321"
+  },
+  {
+    "author_name": ["Author E"],
+    "isbn": "9780921732901",
+    "title": "The Power of Play: Fostering Inclusivity and Learning Through Play",
+    "subject": ["psychoanalysis", "pedagogy", "child development", "learning environments", "social-emotional growth", "psychology"],
+    "lccn": "LB1601"
+  },
+  {
+    "author_name": ["Author F"],
+    "isbn": "9780921873901",
+    "title": "How Children Learn: Cultivating Critical Thinking and Anti-Bias Values",
+    "subject": ["pedagogy", "child cognition", "critical thinking", "early learning", "classroom diversity"],
+    "lccn": "LB1140"
+  },
+  {
+    "author_name": ["Author G"],
+    "isbn": "9780921701901",
+    "title": "Understanding the Impact of Bias in Education: A Guide for Teachers",
+    "subject": ["education", "discrimination in education", "teacher training", "diversity"],
+    "lccn": "LB1705.2"
+  }
+]
