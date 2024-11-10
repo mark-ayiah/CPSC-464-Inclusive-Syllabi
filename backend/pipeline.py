@@ -28,9 +28,9 @@ class SyllabiPipeline:
         detailed_path = os.path.join(self.base_dir, 'library_of_congress/detailed-lcc.json')
         final_merged_path = os.path.join(self.base_dir, 'library_of_congress/final_merged_lcc.json')
     
-        with open(detailed_path) as detailed_file, open(final_merged_path) as top_level_file:
-            self.detailed_lcc = json.load(detailed_file)
-            self.top_level_lcc = json.load(top_level_file)
+        with open(final_merged_path) as top_level_file: #open(detailed_path) as detailed_file, 
+            self.detailed_lcc = json.load(top_level_file) #using final_merged path instead
+            #self.top_level_lcc = json.load(top_level_file)
             
         self.syllabus = pd.read_csv(syllabus_path)        
         # syllabus_lccn = self._get_lccn_for_syllabus(self.syllabus)
@@ -110,13 +110,15 @@ class SyllabiPipeline:
         match = re.match(r'([A-Z]+)(\d+(\.\d+)?)(?:\.(\w+))?', out)
         
         if match:
-            main_class = match.group(1)
+            subclass = match.group(1)
             number = float(match.group(2))
-            subclass = match.group(4) if match.group(4) else None
-            if subclass: 
-                return (main_class, number, subclass)
+            specificity = match.group(4) if match.group(4) else None
+            if specificity and number % 1 == 0: 
+                return (subclass, number, ''.join((subclass, str(int(number)), '.' + specificity)))
+            elif specificity: 
+                return (subclass, number, ''.join((subclass, str(number),'.' + specificity)))
             else:
-                return (main_class, number)
+                return (subclass, number)
             # return (match.group(1), float(match.group(2)))
         else:
             return None
@@ -132,10 +134,15 @@ class SyllabiPipeline:
         l = []
 
         try:
-            d = self.detailed_lcc[code[0]]
+            d = detailed_lcc[code[0]]
             for i in d:
-                if code[1] >= i['start'] and code[1] <= i['stop']:
+                if code[2] == i['id']:
+                    l.append(i['subject']) # would be helpful to find an exact match first, but here we are.
+                    break
+                elif code[1] >= i['start'] and code[1] <= i['stop']:
                     l.append(i['subject'])
+                else:
+                    continue
         except:
             pass
 
