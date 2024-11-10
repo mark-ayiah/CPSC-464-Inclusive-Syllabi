@@ -40,7 +40,7 @@ class SyllabiPipeline:
         # print(syllabus_lccn)
         
         self.diversity_topics = ['gay', 'homosexuality', 'lgbt', 'bisexual', 'lesbian', 'transgender', 'queer', 'homophobia', 'same-sex']
-        self.diversity_topics = self._clean_topics(self.diversity_topics)
+        # self.diversity_topics = self._clean_topics(self.diversity_topics)
 
         self.prop_diversity = self._get_prop_occurrences(self.diversity_topics)
         
@@ -55,7 +55,7 @@ class SyllabiPipeline:
         #self.all_props = {**self.prop_discipline, **self.prop_diversity} #not good if any of prop_disc.keys() = prop_div.keys()
         
         if diversity_measure == 'raos_entropy':
-            self.diversity_score = self.raos_entropy(self.prop_discipline, self.prop_diversity)
+            self.diversity_score = self.raos_entropy()
 
         elif diversity_measure == 'jaccard_distance':
             self.diversity_score = self.jaccard_distance(self._clean_topics(self.syllabus_topics, 'by words'), self._clean_topics(self.diversity_topics, 'by words'))
@@ -65,9 +65,7 @@ class SyllabiPipeline:
 
             
             
-            
-        self.diversity_score = self.raos_entropy(self.all_props)
-            
+                        
             
     def _get_tags_for_syllabus(self):
         """
@@ -342,6 +340,7 @@ class SyllabiPipeline:
         """
 
         #make proportions
+        all_tags = self._clean_topics(topics_lst)
         prop = Counter(all_tags) 
         prop = dict(prop.most_common(top_n))
         total = sum(prop.values())
@@ -459,8 +458,8 @@ class SyllabiPipeline:
 
         for i, cat_i in enumerate(tags):
             for j, cat_j in enumerate(tags):
-                p_i = all_cats.get(cat_i, 0) # Probability for category i (fall through if 0)
-                p_j = all_cats.get(cat_j, 0)
+                p_i = self.prop_diversity.get(cat_i, 0) # Probability for category i (fall through if 0)
+                p_j = self.prop_discipline.get(cat_j, 0)
                 #print(p_i, p_j)
                 # cosine distance (1 - cosine similarity)
                 distance = distance_matrix[i, j]
@@ -515,21 +514,21 @@ class SyllabiPipeline:
             except:
                 #print(book)
                 book.update({'isbn': ''})
-            # book['subject'] = [x.lower() for x in book['subject']]
+            book['subject'] = [x.lower() for x in book['subject']]
             # #book['subject'] = [sub for sub in [x for x in book['subject']] if sub in syll_topics or sub in diversity_topics] #not working
             # book['subject'] = [x for x in book['subject'] if x in syll_topics or any(sub in x for sub in diversity_topics)] #if it doesn't contain the tags for whatever reason
             # book['subject'] = [sub for sub in self.syllabus_topics if any(sub in x for x in book['subject'] or any(x in sub for sub in diversity_topics))]
             # book['subject'] += [sub for sub in diversity_topics if any(sub in x for x in book['subject'])]
             book['author_name'] = ', '.join(book['author_name'])
             
-            isbn_dict = book['isbn']
-            lccn = self._get_lccn_for_syllabus(pd.DataFrame({'isbn': [isbn_dict]}))
-            if not lccn or lccn[0] == None:
-                continue
-            lccn = book['lcc'][0]
-            book['topic'] = lookup_meaning(lccn) #instead of directly using subjects, check it against how we define topics? potentially unnec computation
-            if book['topic']:
-                valid_suggestions.append(book)
+            # isbn_dict = book['isbn']
+            # lccn = self._get_lccn_for_syllabus(pd.DataFrame({'isbn': [isbn_dict]}))
+            # if not lccn or lccn[0] == None:
+            #     continue
+            # lccn = book['lcc'][0]
+            # book['topic'] = lookup_meaning(lccn) #instead of directly using subjects, check it against how we define topics? potentially unnec computation
+            # if book['topic']:
+            #     valid_suggestions.append(book)
 
         return valid_suggestions
     
