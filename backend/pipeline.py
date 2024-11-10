@@ -3,6 +3,7 @@ import re
 import requests
 import csv
 import pandas as pd
+import matplotlib.pyplot as plt
 import time
 from ast import literal_eval
 import urllib
@@ -21,7 +22,7 @@ class SyllabiPipeline:
     """
     Class for the Syllabi Pipeline. Contains all the functions necessary for the measuring diversity and making recommendations.
     """
-    def __init__(self, syllabus_path = '../example_syllabi/TEST Syllabi/edstud_lgbt_med', diversity_measure = 'raos_entropy'):
+    def __init__(self, syllabus_path = '../example_syllabi/TEST Syllabi/test2', diversity_measure = 'raos_entropy'):
     
         self.base_dir = os.path.dirname(os.path.abspath(__file__))
         detailed_path = os.path.join(self.base_dir, 'library_of_congress/detailed-lcc.json')
@@ -31,30 +32,54 @@ class SyllabiPipeline:
             self.detailed_lcc = json.load(detailed_file)
             self.top_level_lcc = json.load(top_level_file)
             
-        self.syllabus = pd.read_csv(syllabus_path)
+        self.syllabus = pd.read_csv(syllabus_path)        
+        # syllabus_lccn = self._get_lccn_for_syllabus(self.syllabus)
+        # print(syllabus_lccn)
+        # self.lcas = self._find_lcas(syllabus_lccn, self.detailed_lcc)
         
-        syllabus_lccn = self._get_lccn_for_syllabus(self.syllabus)
-        self.lcas = self._find_lcas(syllabus_lccn, self.detailed_lcc)
+        # print(syllabus_lccn)
         
         self.diversity_topics = ['gay', 'homosexuality', 'lgbt', 'bisexual', 'lesbian', 'transgender', 'queer', 'homophobia', 'same-sex']
 
         self.prop_diversity = self._get_prop_occurrences(self.diversity_topics)
         
-        self.syllabus_topics = []
-        for i in syllabus_lccn:
-            self.syllabus_topics += self._lookup_meaning(i)
-            
-        self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics)
+        # self.syllabus_topics = []
+        # for i in syllabus_lccn:
+        #     self.syllabus_topics += self._lookup_meaning(i)
         
-
+        self.syllabus_topics = self._get_tags_for_syllabus()
+        self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics)
         self.all_props = {**self.prop_discipline, **self.prop_diversity}
         
         if diversity_measure == 'raos_entropy':
             self.diversity_score = self.raos_entropy(self.all_props)
-        print(self.diversity_score)
             
             
-            
+    def _get_tags_for_syllabus(self):
+        """
+        Gets the tags for a syllabus.
+        Returns:
+            a list of tags for the syllabus.
+        """
+        topics = []
+        for isbn in self.syllabus['isbn']: #get the lccn
+            url = 'https://openlibrary.org/search.json'
+            params = {
+                'q': f'isbn:{isbn})', 
+                'fields': 'subject',
+                'limit': 1
+            }
+            response = requests.get(url, params=params, timeout=20).json()
+            topic = response['docs'][0]['subject'] if response['docs'] else None
+            # topic = result[0]['subject'] if result else None
+
+            if topic is not None:
+                topics.append(topic)
+                
+        return topics
+        
+        
+    
     def _split_lcc(self, call_number):
         """
         Splits a Library of Congress Classification (LCC) call number into a tuple of the form (letter, number).
@@ -70,10 +95,17 @@ class SyllabiPipeline:
         out = re.sub(r'(?<=[A-Z])0+', '', out) #Remove leading zeros after the letters segment
         
         # Adjust regex match for letter and number segments, ensuring float conversion for fractional part
-        match = re.match(r'([A-Z]+)(\d+(\.\d+)?)', out)
+        match = re.match(r'([A-Z]+)(\d+(\.\d+)?)(?:\.(\w+))?', out)
         
         if match:
-            return (match.group(1), float(match.group(2)))
+            main_class = match.group(1)
+            number = float(match.group(2))
+            subclass = match.group(4) if match.group(4) else None
+            if subclass: 
+                return (main_class, number, subclass)
+            else:
+                return (main_class, number)
+            # return (match.group(1), float(match.group(2)))
         else:
             return None
 
@@ -415,14 +447,14 @@ class SyllabiPipeline:
                 p_j = all_cats.get(cat_j, 0)
                 #print(p_i, p_j)
                 # cosine distance (1 - cosine similarity)
-                distance = 1 - distance_matrix[i, j]
+                distance = distance_matrix[i, j]
                 #print(distance)
                 
                 rqe += p_i * p_j * distance
 
         return rqe/2
 
-    def _get_suggestions(self, lca, syll_topics, diversity_topics):
+    def _get_suggestions(self, syll_topics, diversity_topics):
         """
         Get potential book suggestions.
         Args:
@@ -455,9 +487,11 @@ class SyllabiPipeline:
                 book.update({'isbn': ''})
             # book['subject'] = [x.lower() for x in book['subject']]
             # #book['subject'] = [sub for sub in [x for x in book['subject']] if sub in syll_topics or sub in diversity_topics] #not working
-            # #book['subject'] = [x for x in book['subject'] if any(sub in x for sub in syll_topics) or any(sub in x for sub in diversity_topics)] #if it doesn't contain the tags for whatever reason
-            # book['subject'] = [sub for sub in syll_topics if any(sub in x for x in book['subject'])]
+            # book['subject'] = [x for x in book['subject'] if x in syll_topics or any(sub in x for sub in diversity_topics)] #if it doesn't contain the tags for whatever reason
+            # book['subject'] = [sub for sub in self.syllabus_topics if any(sub in x for x in book['subject'] or any(x in sub for sub in diversity_topics))]
             # book['subject'] += [sub for sub in diversity_topics if any(sub in x for x in book['subject'])]
+            book['author_name'] = ', '.join(book['author_name'])
+            
             isbn_dict = book['isbn']
             lccn = self._get_lccn_for_syllabus(pd.DataFrame({'isbn': [isbn_dict]}))
             if not lccn or lccn[0] == None:
@@ -489,8 +523,8 @@ class SyllabiPipeline:
       
         entropy_list = []
         for book in suggestions:
-            print(book)
-            new_all_topics = self.syllabus_topics + book['topic']
+            # print(book)
+            new_all_topics = self.syllabus_topics + book['subject']
             prop_new_syllabus = self._get_prop_occurrences(new_all_topics)
             # print(new_categories)
             # print(f"old syllabus topics: {self.syllabus_topics}, new syllabus topics: {new_categories}, old syllabus prop: {self.prop_discipline}, new syllabus prop: {prop_new_syllabus}")
@@ -517,7 +551,7 @@ class SyllabiPipeline:
             a list of book suggestions.
         """
         
-        suggestions = self._get_suggestions(self.lcas, self.syllabus_topics, self.diversity_topics)
+        suggestions = self._get_suggestions(self.syllabus_topics, self.diversity_topics)
         pruned = self._prune_suggestions(suggestions)
         print(pruned)
         return pruned
@@ -531,47 +565,38 @@ class SyllabiPipeline:
             
 if __name__ == "__main__":
     # print("Beginning Syllabi Pipeline")
-    sp = SyllabiPipeline("../example_syllabi/TEST Syllabi/edstud_lgbt_med")
-    print("med: " + str(sp.diversity_score))
-    
-    sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/edstud_lgbt_low")
-    print("low: " + str(sp2.diversity_score))
-    
-    sp3 = SyllabiPipeline("../example_syllabi/TEST Syllabi/edstud_lgbt_high")
-    print("high: " + str(sp3.diversity_score))
-    # print("Syllabi Pipeline Initialized")
-    # ex1 = 'HV-1568.00000000.B376 2016' #The Minority Body by Elizabeth Barnes
-    # ex2 = 'DAW1008.00000000.B37 1987' #A guide to Central Europe by Richard Bassett
-    
+    sp = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1")
+    print("low: " + str(sp.diversity_score))
     # print(sp.syllabus)
-    # print(sp._split_lcc('DAW1008.00000000.B37 1987'))
-    # print("SPlit LCC Test Passed")
+    # sp.recommend_books()
     
-    # print(lcas)
-    # with open('../backend/library_of_congress/lgbtq_lcc.json', 'r') as reader: #everything about lgbtq studies, specifically
-    #     diversity = json.load(reader) #in practice, we call also ONLY load in the relevant subclasses
-    # # print("Diversity JSON Loaded")
-    # diversity_subset = {k: v for k,v in diversity.items() if k in lcas.keys()}
-    # topics = sp._find_diversity_topics(sp.syllabus, diversity_subset)
-    # print(topics)
-    # diversity_tags = ['gay', 'homosexuality', 'lgbt', 'bisexual', 'lesbian', 'transgender', 'queer', 'homophobia', 'same-sex']
+    sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2")
+    # sp2.recommend_books()
+    print("med: " + str(sp2.diversity_score))
+    # print(sp2.syllabus)
 
     
-    # prop_div = sp._get_prop_occurrences(topics)
-    # # print(prop_div)
-    # topics_syll = []
-
-    # for i in lccn_tup:
-    #     topics_syll += sp._lookup_meaning(i)
-    # prop_syll = sp._get_prop_occurrences(topics_syll)
+    sp3 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test3")
+    print("high: " + str(sp3.diversity_score))
     
-    
-    # # lccn_query = f"[HQ1 TO HQ2044]"
-    # # result = sp._search_subjects(lccn_query, discipline_tags = list(prop_syll.keys()), diversity_tags = list(prop_div.keys()), field = 'title,subject,isbn,author_name', limit = 3, exact_string_matching=True)
+    sp4 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test4")
+    print("extra high: " + str(sp4.diversity_score))
+    print(sp3.syllabus)
+    # print(len(sp3.syllabus_topics))
 
-    # all_cats = {**prop_syll, **prop_div}
-    # print(all_cats)
-    # rqe = sp.raos_entropy(all_cats)
-    # print(rqe)
+    diversity_scores = {
+    'Test 1 (Low)': sp.diversity_score,
+    'Test 2 (Low-Medium)': sp2.diversity_score,
+    'Test 3 (Medium-High)': sp3.diversity_score,
+    'Test 4 (High)': sp4.diversity_score
+}
 
-    # print(suggestions)
+    # Plotting the bar chart
+    plt.figure(figsize=(10, 6))
+    plt.bar(diversity_scores.keys(), diversity_scores.values(), color=['red', 'green', 'blue', 'orange'])
+
+    plt.title('Diversity Score Results')
+    plt.xlabel('Syllabi')
+    plt.ylabel('Diversity Score')
+    plt.ylim(0, 2)  # Add some space at the top
+    plt.savefig('diversity_scores.png')
