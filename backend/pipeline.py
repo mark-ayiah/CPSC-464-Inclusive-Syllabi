@@ -37,21 +37,28 @@ class SyllabiPipeline:
         self.lcas = self._find_lcas(syllabus_lccn, self.detailed_lcc)
         
         self.diversity_topics = ['gay', 'homosexuality', 'lgbt', 'bisexual', 'lesbian', 'transgender', 'queer', 'homophobia', 'same-sex']
+        self.diversity_topics = _clean_topics(self.diversity_topics)
 
         self.prop_diversity = self._get_prop_occurrences(self.diversity_topics)
         
         self.syllabus_topics = []
         for i in syllabus_lccn:
             self.syllabus_topics += self._lookup_meaning(i)
+        self.syllabus_topics = _clean_topics(self.syllabus_topics)
             
         self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics)
         
-
-        self.all_props = {**self.prop_discipline, **self.prop_diversity}
+        #self.all_props = {**self.prop_discipline, **self.prop_diversity} #not good if any of prop_disc.keys() = prop_div.keys()
         
         if diversity_measure == 'raos_entropy':
-            self.diversity_score = self.raos_entropy(self.all_props)
+            self.diversity_score = self.raos_entropy(self.prop_discipline, self.prop_diversity)
+
+        elif diversity_measure == 'jaccard_distance':
+            self.diversity_score = self.jaccard_distance(_clean_topics(self.syllabus_topics, 'by words'), _clean_topics(self.diversity_topics, 'by words'))
+
         print(self.diversity_score)
+
+
             
             
             
@@ -248,20 +255,11 @@ class SyllabiPipeline:
                 pass
         return topics
 
-    def _get_prop_occurrences(self, topics_lst, kind = 'by phrase', top_n = 20): #splits by phrase/full subject
-        """
-        Takes in a list of topics from either find_diversity-topics or lookup_meaning.
-        Args:
-            topics_lst (list): A list of topics to analyze.
-            kind (str): 'by phrase' or 'by words'. Default is 'by phrase'.
-            top_n (int): The number of top topics to return.
-        Returns:
-            a dictionary with the key as the topic and the value as the proportion of occurrences in the top_n
-        """
-        
+    def _clean_topics(self, topics_lst, kind = 'by phrase'):
+            
         # nltk.download('stopwords') #to remove uninformative words
         stop_words = set(stopwords.words('english'))
-        stop_words_path = os.path.join(self.base_dir, 'library_of_congress/lcc_stop_words.txt')
+        stop_words_path = os.path.join(self.base_dir, 'library_of_congress/lcc_stop_words.txt') 
 
         lcc_stop = open(stop_words_path, "r").read().split("\n")
         
@@ -283,12 +281,25 @@ class SyllabiPipeline:
         else: #if by words
             for i in topics_lst:
                 tags = ' '.join(i).split() #split by words
-                tags = [x.lower().split('.')[0].split(',')[0].split(')')[0] for x in tags] #pruning for commas, periods, and parenthesis
+                tags = [x.lower().split('.')[0].split(',')[0].split(')')[0].split('(')[0] for x in tags] #pruning for commas, periods, and parenthesis
                 tags = [x.lstrip().rstrip() for x in tags] 
                 tags = [x for x in tags if x not in lcc_stop or x not in stop_words] #words that I don't want are appearing for some reason
                 print(tags)
 
                 all_tags += tags
+
+        return tags
+
+    def _get_prop_occurrences(self, topics_lst, top_n = 20): #splits by phrase/full subject
+        """
+        Takes in a list of topics from either find_diversity-topics or lookup_meaning.
+        Args:
+            topics_lst (list): A list of topics to analyze.
+            kind (str): 'by phrase' or 'by words'. Default is 'by phrase'.
+            top_n (int): The number of top topics to return.
+        Returns:
+            a dictionary with the key as the topic and the value as the proportion of occurrences in the top_n
+        """
 
         #make proportions
         prop = Counter(all_tags) 
@@ -297,7 +308,7 @@ class SyllabiPipeline:
         prop = {k: v/total for k, v in prop.items()}
         return prop
     
-    def _search_subjects(self, lcc, topics = [], discipline_tags = [], diversity_tags = [], field = 'subject', limit = 1, exact_string_matching = False):
+    def _search_subjects(self, lcc, topics = None, discipline_tags = None, diversity_tags = None, field = 'subject', limit = 1, exact_string_matching = False):
         """
         Queries the Open Library API for books with subjects in a specific LCC code.
         Args:
@@ -349,7 +360,7 @@ class SyllabiPipeline:
             else:
                 return '' #nothing returned
 
-        elif discipline_tags and diversity_tags:
+        elif discipline_tags and diversity_tags: #can do you do and on nonetypes?
             #encode URI
 
             # discipline_tags, diversity_tags = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), discipline_tags)), list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), diversity_tags))
@@ -386,11 +397,11 @@ class SyllabiPipeline:
         else:
             return None
         
-    def raos_entropy(self, all_cats):
+    def raos_entropy(self):
         """
         Calculates Rao's Quadratic Entropy for a set of categories.
-        Args:
-            all_cats (dict): A dictionary with the key as the category and the value as the proportion of occurrences.
+        Requires definition of prop_diversity and prop_discipline.
+        (Dictionaries with the key as the category and the value as the proportion of occurrences.)
         Returns:
             a float representing the Rao's Quadratic Entropy between the discipline area and area of desired diversity.
         """
@@ -398,11 +409,8 @@ class SyllabiPipeline:
         model_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
         model = hub.load(model_url)
 
-        #i'm aware this is presently incorrect bc the probably of topics is not btwn 0 and 1, but This Is a Start!
-        entropy = 0.0
-
         # Calculate pairwise cosine distances between topics
-        tags = list(all_cats.keys())
+        tags = list(self.prop_diversity) + list(self.prop_discipline)
         embeddings = model(tags) #needs to be embedded over one space
         distance_matrix = np.inner(embeddings, embeddings) #cosine sim
 
@@ -421,6 +429,20 @@ class SyllabiPipeline:
                 rqe += p_i * p_j * distance
 
         return rqe/2
+
+    def jaccard_distance(self, disc_lst, div_lst):
+        """
+        Jaccard distance is 1 - Jaccard similarity, the proportion of words that are the same between two sets.
+        Here, the sets are the key words in the syllabus (list) and the key words of the area of desired diversity (list).
+        Lower distance equals more diversity.
+
+        Returns:
+            a float representing the Jaccard Distance between the discipline area and area of desired diversity.    
+        """
+
+        jd = len(set(disc_lst).intersection(set(div_lst)))/len(set(disc_lst).union(set(div_lst)))
+
+        return 1 - jd
 
     def _get_suggestions(self, lca, syll_topics, diversity_topics):
         """
@@ -458,18 +480,15 @@ class SyllabiPipeline:
             # #book['subject'] = [x for x in book['subject'] if any(sub in x for sub in syll_topics) or any(sub in x for sub in diversity_topics)] #if it doesn't contain the tags for whatever reason
             # book['subject'] = [sub for sub in syll_topics if any(sub in x for x in book['subject'])]
             # book['subject'] += [sub for sub in diversity_topics if any(sub in x for x in book['subject'])]
-            isbn_dict = book['isbn']
-            lccn = self._get_lccn_for_syllabus(pd.DataFrame({'isbn': [isbn_dict]}))
-            if not lccn or lccn[0] == None:
+            #isbn_dict = book['isbn']
+            #lccn = get_lccn_for_syllabus(pd.DataFrame({'isbn': [isbn_dict]})) #get the lccn of the book
+            if not book['lcc'] or book['lcc'][0] == None:
                 continue
-            lccn = lccn[0]
-            book['topic'] = self._lookup_meaning(lccn)
+            lccn = book['lcc'][0]
+            book['topic'] = lookup_meaning(lccn) #instead of directly using subjects, check it against how we define topics? potentially unnec computation
             if book['topic']:
                 valid_suggestions.append(book)
-                
-            
 
-        
         return valid_suggestions
     
     def _prune_suggestions(self, suggestions, n = 5):
@@ -482,30 +501,35 @@ class SyllabiPipeline:
             a list of pruned suggestions.
         """
         original_diversity = self.diversity_score
-        max_increase = 0
+        max_decrease = 0.0
         best_book = None
         
         pruned = []
       
         entropy_list = []
+
         for book in suggestions:
             print(book)
-            new_all_topics = self.syllabus_topics + book['topic']
+            new_all_topics = self.syllabus_topics + self._clean_topics(book['topic'])
             prop_new_syllabus = self._get_prop_occurrences(new_all_topics)
             # print(new_categories)
             # print(f"old syllabus topics: {self.syllabus_topics}, new syllabus topics: {new_categories}, old syllabus prop: {self.prop_discipline}, new syllabus prop: {prop_new_syllabus}")
-            
-            new_props = {**prop_new_syllabus, **self.prop_diversity}
-            delta_entropy = self.raos_entropy(new_props) - original_diversity
-            
-            if delta_entropy > 0:
-                entropy_list.append((book, delta_entropy))
+            #new_props = {**prop_new_syllabus, **self.prop_diversity}
+
+            #can change later
+            if self.diversity_measure == 'raos_entropy':
+                delta = self.diversity_measure(prop_new_syllabus, prop_diversity) - original_diversity
+            elif self.diversity_measure == 'jaccard_score':
+                delta = self.diversity_measure(new_all_topics, diversity_topics) - original_diversity
+            else:
+                delta = 0
+
+            if delta < 0:
+                entropy_list.append((book, delta))
                 
         entropy_list.sort(key = lambda x: x[1], reverse = True)
         
         top_n_books = [book for book, _ in entropy_list[:n]]
-        
-            
                 
         return top_n_books
     
