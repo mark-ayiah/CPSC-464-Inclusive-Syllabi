@@ -34,19 +34,23 @@
 			<p class="instructions">Select the field that most closely relates to your course.</p>
 			<select name="fields" id="fields" class="category-select" onchange="handleFieldChange()">
 				<option value="default" selected disabled hidden>Choose a Field</option>
-				<option value="afam">African-American Studies</option>
-				<option value="american">American Studies</option>
-				<option value="arabic">Arabic and Islamic Studies</option>
+				<option value="ed">Education Studies</option>
 			</select>
 			<span id="field-validation" class="validation-error">Please select a category.</span>
 			<p class="instructions">Select a category to diversify.</p>
 			<select name="categories" id="categories" class="category-select" onchange="handleCategoryChange()">
 				<option value="default" selected disabled hidden>Choose a Category</option>
-				<option value="race">Race</option>
-				<option value="gender">Gender</option>
-				<option value="country">Country</option>
+				<option value="lgbt">LGBTQ identities</option>
 			</select>
 			<span id="category-validation" class="validation-error">Please select a category.</span>
+            <p class="instructions">Select a measure of diversity</p>
+            <select name="diversity" id="diversity" class="category-select">
+                <option value="default" selected disabled hidden>Choose a Measure</option>
+                <option value="raos">Rao's Entropy</option>
+                <option value="unique">Unique Topics</option>
+                <option value="unique">Percentage</option>
+            </select>
+
 			<button type="submit" id="submit-button" class="submit-button">Get Results!</button>
 		</form>
 

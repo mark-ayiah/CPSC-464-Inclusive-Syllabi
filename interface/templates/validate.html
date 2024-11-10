@@ -31,7 +31,7 @@
 						<td class="book">{{ book.title }} by {{ book.author }}</td>
 						<td class="isbn-cell"><input type="text" class="isbn" name="isbns" value="{{ book.isbn }}"/></td>
 						{% if book.cover %}
-							<td><img src="{{ book.cover }}" alt="Cover of {{ book.title }}" /> </td>
+							<td class="book-cover"><img src="{{ book.cover }}" alt="Cover of {{ book.title }}" /> </td>
 						{% else %}
             				<td><p>No cover available</p></td>
 						{% endif %}

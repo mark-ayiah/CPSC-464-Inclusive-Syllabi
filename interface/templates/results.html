@@ -17,7 +17,7 @@
                 <canvas id="chart"></canvas>
             </div>
             <div class="rating-info">
-                <p>Your syllabus received a rating of <span id="rating">{{diversity}}</span>. This is based on...</p>
+                <p>Your syllabus received a rating of <span id="rating">{{diversity}}</span>. This is calculating using Rao's Entropy.</p>
             </div>
         </div>
 		
@@ -25,12 +25,12 @@
 
 		<h3>Recommendations:</h3>
 		<p>
-            Based on your syllabus and interest in diversifying in ..., 
+            Based on your syllabus and interest in diversifying in LGBTQ identities, 
             here are a few readings to supplement your content.
         </p>
 		<ul>
 			{% for book in suggestions %}
-			<li>{{ book }}</li>
+			<li>{{ book['title'] }} by {{ book['author_name'] }}</li>
 			{% endfor %}
 		</ul>
 	</body>

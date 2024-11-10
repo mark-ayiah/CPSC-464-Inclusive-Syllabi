@@ -2,7 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for, session
 import requests
 import os
 from docx import Document
-#from diversity import calculate_diversity_metrics
+
+import sys
+sys.path.insert(0, '../backend')
+from pipeline import SyllabiPipeline
 
 
 app = Flask(__name__)
@@ -83,14 +86,15 @@ def add_book_validate():
         
 @app.route('/results', methods=['POST'])
 def results():
-    # Get the list of ISBNs from the form
-    isbns_str = request.form.get('isbns')
-    isbns = isbns_str.split(',')
-
-    # Call the function in diversity.py to calculate metrics
-    diversity = round(calculate_diversity_metrics(isbns), 2)
-    print(diversity)
-    suggestions = get_suggestions()
+    
+    
+    
+    # # Get the list of ISBNs from the form
+    # isbns_str = request.form.get('isbns')
+    # isbns = isbns_str.split(',')
+    pipeline = SyllabiPipeline()
+    diversity = round(pipeline.diversity_score / 2, 2)
+    suggestions = pipeline.recommend_books()
     return render_template('results.html', diversity=diversity, suggestions=suggestions)
 
 
@@ -151,8 +155,8 @@ def find_books_in_pdf(text):
 # def calc_diversity():
 #     return 0.349
 
-def get_suggestions():
-    return ['Their Eyes Were Watching God',  'Invisible Man' , 'Native Son']
+# def get_suggestions():
+#     return ['Their Eyes Were Watching God',  'Invisible Man' , 'Native Son']
 
 if __name__ == '__main__':
     app.run(debug=True)
