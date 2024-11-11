@@ -93,7 +93,7 @@ def results():
     # isbns_str = request.form.get('isbns')
     # isbns = isbns_str.split(',')
     pipeline = SyllabiPipeline()
-    diversity = round(pipeline.diversity_score / 2, 2)
+    diversity = round(pipeline.diversity_score, 2)
     suggestions = pipeline.recommend_books()
     return render_template('results.html', diversity=diversity, suggestions=suggestions)
 
