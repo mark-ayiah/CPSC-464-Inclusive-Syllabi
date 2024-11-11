@@ -32,7 +32,8 @@ class SyllabiPipeline:
             self.detailed_lcc = json.load(detailed_file)
             self.top_level_lcc = json.load(top_level_file)
             
-        self.syllabus = pd.read_csv(syllabus_path)        
+        self.syllabus = pd.read_csv(syllabus_path)   
+        self.diversity_measure = diversity_measure     
         # syllabus_lccn = self._get_lccn_for_syllabus(self.syllabus)
         # print(syllabus_lccn)
         # self.lcas = self._find_lcas(syllabus_lccn, self.detailed_lcc)
@@ -42,7 +43,7 @@ class SyllabiPipeline:
         self.diversity_topics = ['gay', 'homosexuality', 'lgbt', 'bisexual', 'lesbian', 'transgender', 'queer', 'homophobia', 'same-sex']
         # self.diversity_topics = self._clean_topics(self.diversity_topics)
 
-        self.prop_diversity = self._get_prop_occurrences(self.diversity_topics)
+        self.prop_diversity = self._get_prop_occurrences(self.diversity_topics, 'by phrase')
         
         # self.syllabus_topics = []
         # for i in syllabus_lccn:
@@ -50,17 +51,19 @@ class SyllabiPipeline:
         # self.syllabus_topics = _clean_topics(self.syllabus_topics)
         
         self.syllabus_topics = self._get_tags_for_syllabus()
-        self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics)
+        # print(self.syllabus_topics)
+        self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics, 'by word')
+        # print("PROP DISCIPLINE")
+        # print(self.prop_discipline)
         
         #self.all_props = {**self.prop_discipline, **self.prop_diversity} #not good if any of prop_disc.keys() = prop_div.keys()
         
         if diversity_measure == 'raos_entropy':
-            self.diversity_score = self.raos_entropy()
+    
+            self.diversity_score = self.raos_entropy(self.prop_diversity, self.prop_discipline)
 
         elif diversity_measure == 'jaccard_distance':
             self.diversity_score = self.jaccard_distance(self._clean_topics(self.syllabus_topics, 'by words'), self._clean_topics(self.diversity_topics, 'by words'))
-
-        print(self.diversity_score)
 
 
             
@@ -84,10 +87,8 @@ class SyllabiPipeline:
             response = requests.get(url, params=params, timeout=20).json()
             topic = response['docs'][0]['subject'] if response['docs'] else None
             # topic = result[0]['subject'] if result else None
-
             if topic is not None:
                 topics.append(topic)
-                
         return topics
         
         
@@ -187,6 +188,22 @@ class SyllabiPipeline:
         else:
             return '' #nothing returned
 
+    def _flatten_list(self, nested_list):
+        """
+        Flattens a list of lists.
+        Args:
+            l (list): A list of lists.
+        Returns:
+            a flattened list.
+        """
+        flat_list = []
+        for item in nested_list:
+            if type(item) == list:
+                flat_list.extend(self._flatten_list(item))
+            else:
+                flat_list.append(item)
+        return flat_list
+    
     def _get_lccn_for_syllabus(self, syllabus): #doesn't account for specific subclasses
         """
         Gets the LCCN for each book in a syllabus. Ignores more specific subclass demarcations.
@@ -311,7 +328,7 @@ class SyllabiPipeline:
                 tags = '. '.join(i).split('. ')
                 tags = [x.lower().split('.')[0] for x in tags]
                 tags = [x for x in tags if not any(sub in x for sub in lcc_stop)] #get rid of common but uninformative loc terms
-                tags = [' '.join([word for word in x.split(' ') if word not in stop_words]) for x in tags] #keep the words not in stop words
+                tags = [x for x in tags if not any(sub in x for sub in stop_words)] #keep the words not in stop words
                 tags = [x.lstrip().rstrip() for x in tags] #remove leading and trailing ws
 
                 all_tags += tags
@@ -327,8 +344,38 @@ class SyllabiPipeline:
                 all_tags += tags
 
         return tags
+    
+    def _clean_tags(self, tag_list):
+        """
+        Cleans the tags by removing common stop words and Library of Congress stop words.
+        Args:
+            tags (list): A list of tags to clean.
+        Returns:
+            a list of cleaned tags.
+        """
+        stop_words = set(stopwords.words('english'))
+        stop_words_path = os.path.join(self.base_dir, 'library_of_congress/lcc_stop_words.txt') 
 
-    def _get_prop_occurrences(self, topics_lst, top_n = 20): #splits by phrase/full subject
+        lcc_stop = open(stop_words_path, "r").read().split("\n")
+        cleaned_tags = []
+        for i in tag_list:
+            # print(tag)
+            tags = i.split()
+            tags = [x.lower() for x in tags]
+            tags = [re.sub(r'[^\w\s]', '', tag) for tag in tags]
+            tags = [x for x in tags if x not in lcc_stop]
+            tags = [x for x in tags if x not in stop_words]
+    
+        
+            tags = ["lesbian" if "lesb" in tag else tag for tag in tags]
+            tags = ["gay" if "gay" in tag else tag for tag in tags]
+            
+            cleaned_tags += tags
+            
+        cleaned_tags = [tag for tag in cleaned_tags if tag]
+        return cleaned_tags
+
+    def _get_prop_occurrences(self, topics_lst, kind, top_n = 40): #splits by phrase/full subject
         """
         Takes in a list of topics from either find_diversity-topics or lookup_meaning.
         Args:
@@ -338,9 +385,10 @@ class SyllabiPipeline:
         Returns:
             a dictionary with the key as the topic and the value as the proportion of occurrences in the top_n
         """
-
+        # print(f"original topics: {topics_lst}") 
         #make proportions
-        all_tags = self._clean_topics(topics_lst)
+        all_tags = self._clean_tags(self._flatten_list(topics_lst))
+        # print(f"cleaned tags tags: {all_tags}")
         prop = Counter(all_tags) 
         prop = dict(prop.most_common(top_n))
         total = sum(prop.values())
@@ -387,7 +435,7 @@ class SyllabiPipeline:
             q += "(" + topics + ")"
             
             
-            print(q)
+            # print(q)
             
             
             # time.sleep(2) #being polite
@@ -417,7 +465,7 @@ class SyllabiPipeline:
                 'fields': 'author_name,title,isbn,subject,lcc', 
                 'limit': 20
                 }
-            print(requests.get(url, params=params).url)
+            # print(requests.get(url, params=params).url)
             response = requests.get(url, params=params, timeout=30).json()
             # data = response.json()
     
@@ -436,7 +484,7 @@ class SyllabiPipeline:
         else:
             return None
         
-    def raos_entropy(self):
+    def raos_entropy(self, prop_diversity, prop_discipline):
         """
         Calculates Rao's Quadratic Entropy for a set of categories.
         Requires definition of prop_diversity and prop_discipline.
@@ -449,17 +497,17 @@ class SyllabiPipeline:
         model = hub.load(model_url)
 
         # Calculate pairwise cosine distances between topics
-        tags = list(self.prop_diversity) + list(self.prop_discipline)
+        tags = list(prop_diversity) + list(prop_discipline)
         embeddings = model(tags) #needs to be embedded over one space
-        distance_matrix = np.inner(embeddings, embeddings) #cosine sim
+        distance_matrix = np.inner(embeddings[:len(prop_diversity)], embeddings[len(prop_diversity):]) #cosine sim
 
         # rao's entropy
         rqe = 0.0
 
-        for i, cat_i in enumerate(tags):
-            for j, cat_j in enumerate(tags):
-                p_i = self.prop_diversity.get(cat_i, 0) # Probability for category i (fall through if 0)
-                p_j = self.prop_discipline.get(cat_j, 0)
+        for i, cat_i in enumerate(list(prop_diversity)):
+            for j, cat_j in enumerate(list(prop_discipline)):
+                p_i = prop_diversity.get(cat_i, 0) # Probability for category i (fall through if 0)
+                p_j = prop_discipline.get(cat_j, 0)
                 #print(p_i, p_j)
                 # cosine distance (1 - cosine similarity)
                 distance = distance_matrix[i, j]
@@ -467,7 +515,7 @@ class SyllabiPipeline:
                 
                 rqe += p_i * p_j * distance
 
-        return rqe/2
+        return rqe
 
     def jaccard_distance(self, disc_lst, div_lst):
         """
@@ -483,7 +531,7 @@ class SyllabiPipeline:
 
         return 1 - jd
 
-    def _get_suggestions(self, lca, syll_topics, diversity_topics):
+    def _get_suggestions(self, syll_topics, diversity_topics):
         """
         Get potential book suggestions.
         Args:
@@ -496,8 +544,7 @@ class SyllabiPipeline:
         
         suggestions = []
         
-        suggestions += self._search_subjects('', discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,lcc,isbn,author_name', limit = 50, exact_string_matching=True)
-        
+        suggestions += self._search_subjects('', discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,lcc,isbn,author_name', limit = 20, exact_string_matching=True)
         # suggestions = []
         # for k,v in lca.items(): 
         #     if '-' in v:
@@ -506,7 +553,7 @@ class SyllabiPipeline:
         #     suggestions += self._search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
         #     suggestions += self._search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
         #     #list of author names, ISBNs, titles, subjects
-        valid_suggestions = []
+        # valid_suggestions = []
         for book in suggestions:
             try:
                 #print(next((i for i in book['isbn'] if re.match(r'^(979|978)\d{10}$', i)), None))
@@ -530,7 +577,7 @@ class SyllabiPipeline:
             # if book['topic']:
             #     valid_suggestions.append(book)
 
-        return valid_suggestions
+        return suggestions
     
     def _prune_suggestions(self, suggestions, n = 5):
         """
@@ -550,24 +597,33 @@ class SyllabiPipeline:
         entropy_list = []
 
         for book in suggestions:
-            print(book)
+            # print(book)
             # new_all_topics = self.syllabus_topics + self._clean_topics(book['topic'])
             # print(book)
-            new_all_topics = self.syllabus_topics + book['subject']
-            prop_new_syllabus = self._get_prop_occurrences(new_all_topics)
+            # print("adding topics: ", book['subject'])
+            new_all_topics = self.syllabus_topics + [book['subject']]
+            # print(f"new all topics: {new_all_topics}")
+            prop_new_syllabus = self._get_prop_occurrences(new_all_topics, 'by phrase')
+    
+            # print(f"prop new syllabus: {prop_new_syllabus}")
+            # print(f"prop discipline: {self.prop_discipline}")
+            # print(f"prop diversity: {self.prop_diversity}")
             # print(new_categories)
             # print(f"old syllabus topics: {self.syllabus_topics}, new syllabus topics: {new_categories}, old syllabus prop: {self.prop_discipline}, new syllabus prop: {prop_new_syllabus}")
             #new_props = {**prop_new_syllabus, **self.prop_diversity}
 
             #can change later
             if self.diversity_measure == 'raos_entropy':
-                delta = self.diversity_measure(prop_new_syllabus, self.prop_diversity) - original_diversity
+                delta = self.raos_entropy(self.prop_diversity, prop_new_syllabus) - original_diversity
+                # print(f"original diversity: {original_diversity}, new diversity: {self.raos_entropy(self.prop_diversity, prop_new_syllabus)}")
             elif self.diversity_measure == 'jaccard_score':
-                delta = self.diversity_measure(new_all_topics, self.diversity_topics) - original_diversity
+                delta = self.jaccard_distance(new_all_topics, self.diversity_topics) - original_diversity
             else:
                 delta = 0
+                
+            # print("DELTA: " + str(delta))
 
-            if delta < 0:
+            if delta > 0:
                 entropy_list.append((book, delta))
                 
         entropy_list.sort(key = lambda x: x[1], reverse = True)
@@ -598,27 +654,29 @@ class SyllabiPipeline:
             
 if __name__ == "__main__":
     # print("Beginning Syllabi Pipeline")
+    print("Low Syllabus")
     sp = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1")
     print("low: " + str(sp.diversity_score))
     
-    jaccard = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1", 'jaccard_distance')
-    print("jaccard: " + str(jaccard.diversity_score))
+    # jaccard = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1", 'jaccard_distance')
+    # print("jaccard: " + str(jaccard.diversity_score))
+    # print(sp.syllabus_topics)
     # print(sp.syllabus)
     # sp.recommend_books()
-    
-    sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2")
-    # sp2.recommend_books()
-    print("med: " + str(sp2.diversity_score))
-    # print(sp2.syllabus)
+    print("Low-Medium Syllabus")
+    sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2", 'jaccard_distance')
+    print("low-medium: " + str(sp2.diversity_score))
+
+    print("Medium-High Syllabus")
+    sp3 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test3")
+    print("medium-high: " + str(sp3.diversity_score))
 
     
-    sp3 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test3")
-    print("high: " + str(sp3.diversity_score))
     
+    print("High Syllabus")
     sp4 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test4")
-    print("extra high: " + str(sp4.diversity_score))
-    print(sp3.syllabus)
-    # print(len(sp3.syllabus_topics))
+    print("high: " + str(sp4.diversity_score))
+
 
     diversity_scores = {
     'Test 1 (Low)': sp.diversity_score,
@@ -631,8 +689,8 @@ if __name__ == "__main__":
     plt.figure(figsize=(10, 6))
     plt.bar(diversity_scores.keys(), diversity_scores.values(), color=['red', 'green', 'blue', 'orange'])
 
-    plt.title('Diversity Score Results')
+    plt.title('Rao\'s Entropy Score Results')
     plt.xlabel('Syllabi')
     plt.ylabel('Diversity Score')
-    plt.ylim(0, 2)  # Add some space at the top
+    plt.ylim(0, 1)  # Add some space at the top
     plt.savefig('diversity_scores.png')
