@@ -41,9 +41,12 @@ class SyllabiPipeline:
         # print(syllabus_lccn)
         
         self.diversity_topics = ['gay', 'homosexuality', 'lgbt', 'bisexual', 'lesbian', 'transgender', 'queer', 'homophobia', 'same-sex']
-        # self.diversity_topics = self._clean_topics(self.diversity_topics)
+        self.diversity_topics2 = ['Human sexuality. Sex. Sexual orientation.', 'Kinsey, Alfred.', 'Bisexuality. General works.', 'Bisexuality. By region or country, A-Z.', 'Homosexuality. Lesbianism. Periodicals. Serials.', 'Homosexuality. Lesbianism. Congresses.', 'Homosexuality. Lesbianism. Societies.', 'Homosexuality. Lesbianism. Dictionaries.', 'Homosexuality. Lesbianism. Computer networks. Electronic information resources (including the Internet and digital libraries).', 'Gay and lesbian studies.', 'Homosexuality. Lesbianism. Biography (Collective).', 'Homosexuality. Lesbianism. Travel.', 'Homosexuality. Lesbianism. Gay parents.', 'Lesbians. Biography. Collective.', 'Lesbians. Biography. Individual, A-Z.', 'Lesbians. General works.', 'Lesbians. Sex instruction.', 'Lesbian mothers.', 'Middle-aged lesbians. Older lesbians.', 'Lesbians. By region or country, A-Z.', 'Gay men. Biography. Collective.', 'Gay men. Biography. Individual, A-Z.', 'Kameny, Frank.', 'Gay men. General works.', 'Gay men. Sex instruction.', 'Gay fathers.', 'Middle-aged gay men. Older gay men.', 'Gay men. By region or country, A-Z.', 'Homosexuality. Lesbianism. General works.', 'Homosexuality. Lesbianism. Juvenile works.', 'Special classes of gay people, A-Z.', 'Special classes of gay people. African Americans.', 'Special classes of gay people. Older gays.', 'Special classes of gay people. Youth.', 'Homosexuality. Lesbianism. By region or country, A-Z.', 'Same-sex relationships. General works.', 'Same-sex relationships. By region or country, A-Z', 'Homophobia. Heterosexism. General works.', 'Homophobia. Heterosexism. By region or country, A-Z.', 'Gay rights movement. Gay liberation movement. Homophile movement. General works.', 'Gay rights movement. Gay liberation movement. Homophile movement. By region or country, A-Z.', 'Gay conservatives.', 'Gay press publications. General works.', 'Gay press publications. By region or country, A-Z', 'Gay and lesbian culture. General works.', 'Gay and lesbian culture. Special topics, A-Z.', 'Gay and lesbian culture. Bathhouses. Saunas. Steam baths.', 'Gay and lesbian culture. Bears.', 'Gay and lesbian culture. Gay pride parades.', 'Gay and lesbian culture. Handkerchief codes.', 'Gay and lesbian culture. Online chat groups.', 'Transvestism. Biography. Collective.', 'Transvestism. Biography. Individual, A-Z.', 'Transvestism. General works.', 'Transvestism. By region or country, A-Z', 'Transsexualism. Biography. Collective.', 'Transsexualism. Biography. Individual, A-Z.', 'Jorgensen, Christine.', 'Transsexualism. General works.', 'Transsexualism. By region or country, A-Z.', 'Parents of gay men or lesbians.', 'Children of gay parents.', 'Same-sex divorce. Gay divorce.', 'Same-sex marriage. General works.', 'Same-sex marriage. By region or country, A-Z.', 'The family. Marriage. Women. Bisexuality in marriage.', 'Developmental psychology. Child psychology. Special topics. Homophobia.']
+        self.diversity_topics2 = self._clean_tags(self.diversity_topics2, kind = 'by word')
+        #print(self.diversity_topics2)
 
-        self.prop_diversity = self._get_prop_occurrences(self.diversity_topics, 'by phrase')
+        self.prop_diversity = self._get_prop_occurrences(self.diversity_topics2, 'by word', top_n = 5)
+        #print(self.prop_diversity)
         
         # self.syllabus_topics = []
         # for i in syllabus_lccn:
@@ -52,7 +55,7 @@ class SyllabiPipeline:
         
         self.syllabus_topics = self._get_tags_for_syllabus()
         # print(self.syllabus_topics)
-        self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics, 'by word')
+        self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics, 'by word', top_n = 10)
         # print("PROP DISCIPLINE")
         # print(self.prop_discipline)
         
@@ -78,6 +81,7 @@ class SyllabiPipeline:
         """
         topics = []
         for isbn in self.syllabus['isbn']: #get the lccn
+            #print(isbn)
             url = 'https://openlibrary.org/search.json'
             params = {
                 'q': f'isbn:{isbn})', 
@@ -85,7 +89,9 @@ class SyllabiPipeline:
                 'limit': 1
             }
             response = requests.get(url, params=params, timeout=20).json()
+            #print(response)
             topic = response['docs'][0]['subject'] if response['docs'] else None
+            #print("Syllabus Topics:", topic)
             # topic = result[0]['subject'] if result else None
             if topic is not None:
                 topics.append(topic)
@@ -318,8 +324,18 @@ class SyllabiPipeline:
         return topics
 
     def _clean_topics(self, topics_lst, kind = 'by phrase'):
+
+        """
+        BROKEN
+        Cleans the topics by removing common stop words and Library of Congress stop words.
+        Args:
+            tags (list): A list of tags to clean.
+            kind (string): whether to keep tags as phrases or to only look at them as individual words
+        Returns:
+            a list of cleaned tags.
+        """
             
-        # nltk.download('stopwords') #to remove uninformative words
+        #nltk.download('stopwords') #to remove uninformative words
         stop_words = set(stopwords.words('english'))
         stop_words_path = os.path.join(self.base_dir, 'library_of_congress/lcc_stop_words.txt') 
 
@@ -352,11 +368,12 @@ class SyllabiPipeline:
 
         return tags
     
-    def _clean_tags(self, tag_list):
+    def _clean_tags(self, tag_list, kind = 'by word'):
         """
         Cleans the tags by removing common stop words and Library of Congress stop words.
         Args:
             tags (list): A list of tags to clean.
+            kind (string): whether to keep tags as phrases or to only look at them as individual words
         Returns:
             a list of cleaned tags.
         """
@@ -365,19 +382,38 @@ class SyllabiPipeline:
 
         lcc_stop = open(stop_words_path, "r").read().split("\n")
         cleaned_tags = []
-        for i in tag_list:
-            # print(tag)
-            tags = i.split()
-            tags = [x.lower() for x in tags]
-            tags = [re.sub(r'[^\w\s]', '', tag) for tag in tags]
-            tags = [x for x in tags if x not in lcc_stop]
-            tags = [x for x in tags if x not in stop_words]
-    
+        if kind == 'by word': 
+            for i in tag_list:
+                # print(tag)
+                tags = i.split()
+                tags = [x.lower() for x in tags]
+                tags = [re.sub(r'[^\w\s]', '', tag) for tag in tags]
+                tags = [x for x in tags if x not in lcc_stop]
+                tags = [x for x in tags if x not in stop_words]
         
-            tags = ["lesbian" if "lesb" in tag else tag for tag in tags]
-            tags = ["gay" if "gay" in tag else tag for tag in tags]
             
-            cleaned_tags += tags
+                tags = ["lesbian" if "lesb" in tag else tag for tag in tags]
+                tags = ["gay" if "gay" in tag else tag for tag in tags]
+                tags = ["transgender" if "trans" in tag else tag for tag in tags]
+                
+                cleaned_tags += tags
+        elif kind == 'by phrase':
+            for i in tag_list:
+                # print(tag)
+                tags = i.split(". ")
+                tags = [x.lower() for x in tags]
+                tags = [re.sub(r'[^\w\s]', '', tag) for tag in tags]
+                tags = [x for x in tags if x not in lcc_stop]
+                tags = [x for x in tags if x not in stop_words]
+        
+            
+                tags = ["lesbian" if "lesb" in tag else tag for tag in tags]
+                tags = ["gay" if "gay" in tag else tag for tag in tags]
+                tags = ["transgender" if "trans" in tag else tag for tag in tags]
+                
+                cleaned_tags += tags
+        else:
+            cleaned_tags = []
             
         cleaned_tags = [tag for tag in cleaned_tags if tag]
         return cleaned_tags
@@ -502,6 +538,7 @@ class SyllabiPipeline:
         
         model_url = "https://tfhub.dev/google/universal-sentence-encoder/4"
         model = hub.load(model_url)
+        print("Proportions of Discipline:", prop_discipline, "\n Proportions of Diversity:", prop_diversity)
 
         # Calculate pairwise cosine distances between topics
         tags = list(prop_diversity) + list(prop_discipline)
@@ -671,7 +708,8 @@ if __name__ == "__main__":
     # print(sp.syllabus)
     # sp.recommend_books()
     print("Low-Medium Syllabus")
-    sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2", 'jaccard_distance')
+    #sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2", 'jaccard_distance')
+    sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2")
     print("low-medium: " + str(sp2.diversity_score))
 
     print("Medium-High Syllabus")
