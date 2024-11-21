@@ -37,6 +37,7 @@ class SyllabiPipeline:
         self.diversity_topics2 = self._clean_tags(self.diversity_topics2, kind = 'by word')
         self.prop_diversity = self._get_prop_occurrences(self.diversity_topics2, 'by word', top_n = 5)
         self.syllabus_topics = self._get_tags_for_syllabus()
+        #self.syllabus_topics = self._clean_tags(self.syllabus_topics, 'by words')
         self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics, 'by word', top_n = 10)
 
         
@@ -45,8 +46,10 @@ class SyllabiPipeline:
             self.diversity_score = self.raos_entropy(self.prop_diversity, self.prop_discipline)
 
         elif diversity_measure == 'jaccard_distance':
-            self.diversity_score = self.jaccard_distance(self._clean_topics(self.syllabus_topics, 'by words'), self._clean_topics(self.diversity_topics2, 'by words'))
-
+            self.diversity_score = self.jaccard_distance(self._clean_tags(self.syllabus_topics, 'by word'), self._clean_tags(self.diversity_topics2, 'by word'))
+        
+        elif diversity_measure == 'breadth_proportion':
+            self.diversity_score = len(set(self._clean_tags(self.syllabus_topics, 'by word')))/len(self._clean_tags(self.syllabus_topics, 'by word')) #get unique
 
             
             
@@ -146,6 +149,8 @@ class SyllabiPipeline:
         stop_words_path = os.path.join(self.base_dir, 'library_of_congress/lcc_stop_words.txt') 
 
         lcc_stop = open(stop_words_path, "r").read().split("\n")
+        tag_list = self._flatten_list(tag_list)
+
         cleaned_tags = []
         if kind == 'by word': 
             for i in tag_list:
@@ -292,6 +297,7 @@ class SyllabiPipeline:
                 # cosine distance (1 - cosine similarity)
                 distance = distance_matrix[i, j]
 
+                #print("Distance between:", cat_i, " and ", cat_j, ": ", distance)
                 
                 rqe += p_i * p_j * distance
 
@@ -306,6 +312,7 @@ class SyllabiPipeline:
         Returns:
             a float representing the Jaccard Distance between the discipline area and area of desired diversity.    
         """
+        print(disc_lst, div_lst)
 
         jd = len(set(disc_lst).intersection(set(div_lst)))/len(set(disc_lst).union(set(div_lst)))
 
@@ -395,7 +402,7 @@ class SyllabiPipeline:
 
             
 if __name__ == "__main__":
-    print("Low Syllabus")
+    """ print("Low Syllabus")
     sp = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1")
     print("low: " + str(sp.diversity_score))
     
@@ -411,7 +418,7 @@ if __name__ == "__main__":
     sp4 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test4")
     print("high: " + str(sp4.diversity_score))
 
-    diversity_scores = {
+    diversity_scores1 = {
     'Test 1 (Low)': sp.diversity_score,
     'Test 2 (Low-Medium)': sp2.diversity_score,
     'Test 3 (Medium-High)': sp3.diversity_score,
@@ -420,9 +427,73 @@ if __name__ == "__main__":
 
     # Plotting the bar chart
     plt.figure(figsize=(10, 6))
-    plt.bar(diversity_scores.keys(), diversity_scores.values(), color=['red', 'green', 'blue', 'orange'])
+    plt.bar(diversity_scores1.keys(), diversity_scores1.values(), color=['red', 'green', 'blue', 'orange'])
     plt.title('Rao\'s Entropy Score Results')
     plt.xlabel('Syllabi')
     plt.ylabel('Diversity Score')
     plt.ylim(0, 1)
-    plt.savefig('diversity_scores.png')
+    plt.savefig('raos_entropy2.png')"""
+
+    print("Low Syllabus")
+    sp = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1", 'jaccard_distance')
+    print("low: " + str(sp.diversity_score))
+    
+    print("Low-Medium Syllabus")
+    sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2", 'jaccard_distance')
+    print("low-medium: " + str(sp2.diversity_score))
+
+    print("Medium-High Syllabus")
+    sp3 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test3", 'jaccard_distance')
+    print("medium-high: " + str(sp3.diversity_score))
+
+    print("High Syllabus")
+    sp4 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test4", 'jaccard_distance')
+    print("high: " + str(sp4.diversity_score))
+    
+    diversity_scores2 = {
+    'Test 1 (Low)': sp.diversity_score,
+    'Test 2 (Low-Medium)': sp2.diversity_score,
+    'Test 3 (Medium-High)': sp3.diversity_score,
+    'Test 4 (High)': sp4.diversity_score
+    }
+
+    # Plotting the bar chart
+    plt.figure(figsize=(10, 6))
+    plt.bar(diversity_scores2.keys(), diversity_scores2.values(), color=['red', 'green', 'blue', 'orange'])
+    plt.title('Jaccard Distance Results')
+    plt.xlabel('Syllabi')
+    plt.ylabel('Diversity Score')
+    plt.ylim(0, 1)
+    plt.savefig('jaccard_distance2.png')
+
+    print("Low Syllabus")
+    sp = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1", 'breadth_proportion')
+    print("low: " + str(sp.diversity_score))
+    
+    print("Low-Medium Syllabus")
+    sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2", 'breadth_proportion')
+    print("low-medium: " + str(sp2.diversity_score))
+
+    print("Medium-High Syllabus")
+    sp3 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test3", 'breadth_proportion')
+    print("medium-high: " + str(sp3.diversity_score))
+
+    print("High Syllabus")
+    sp4 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test4", 'breadth_proportion')
+    print("high: " + str(sp4.diversity_score))
+    
+    diversity_scores3 = {
+    'Test 1 (Low)': sp.diversity_score,
+    'Test 2 (Low-Medium)': sp2.diversity_score,
+    'Test 3 (Medium-High)': sp3.diversity_score,
+    'Test 4 (High)': sp4.diversity_score
+    }
+
+    # Plotting the bar chart
+    plt.figure(figsize=(10, 6))
+    plt.bar(diversity_scores3.keys(), diversity_scores3.values(), color=['red', 'green', 'blue', 'orange'])
+    plt.title('Breadth Proportion Results')
+    plt.xlabel('Syllabi')
+    plt.ylabel('Diversity Score')
+    plt.ylim(0, 1)
+    plt.savefig('breadth_proportion.png')
