@@ -15,7 +15,6 @@ import pandas as pd
 import numpy as np
 import tensorflow_hub as hub
 import os
-# from sentence_transformers import SentenceTransformer #"tensorflow>=1.7.0", tensorflow-hub
 
 
 class SyllabiPipeline:
@@ -28,45 +27,25 @@ class SyllabiPipeline:
         detailed_path = os.path.join(self.base_dir, 'library_of_congress/detailed-lcc.json')
         final_merged_path = os.path.join(self.base_dir, 'library_of_congress/final_merged_lcc.json')
     
-        with open(final_merged_path) as top_level_file: #open(detailed_path) as detailed_file, 
-            self.detailed_lcc = json.load(top_level_file) #using final_merged path instead
-            #self.top_level_lcc = json.load(top_level_file)
+        with open(final_merged_path) as top_level_file: 
+            self.detailed_lcc = json.load(top_level_file) 
             
         self.syllabus = pd.read_csv(syllabus_path)   
         self.diversity_measure = diversity_measure     
-        # syllabus_lccn = self._get_lccn_for_syllabus(self.syllabus)
-        # print(syllabus_lccn)
-        # self.lcas = self._find_lcas(syllabus_lccn, self.detailed_lcc)
-        
-        # print(syllabus_lccn)
-        
         self.diversity_topics = ['gay', 'homosexuality', 'lgbt', 'bisexual', 'lesbian', 'transgender', 'queer', 'homophobia', 'same-sex']
         self.diversity_topics2 = ['Human sexuality. Sex. Sexual orientation.', 'Kinsey, Alfred.', 'Bisexuality. General works.', 'Bisexuality. By region or country, A-Z.', 'Homosexuality. Lesbianism. Periodicals. Serials.', 'Homosexuality. Lesbianism. Congresses.', 'Homosexuality. Lesbianism. Societies.', 'Homosexuality. Lesbianism. Dictionaries.', 'Homosexuality. Lesbianism. Computer networks. Electronic information resources (including the Internet and digital libraries).', 'Gay and lesbian studies.', 'Homosexuality. Lesbianism. Biography (Collective).', 'Homosexuality. Lesbianism. Travel.', 'Homosexuality. Lesbianism. Gay parents.', 'Lesbians. Biography. Collective.', 'Lesbians. Biography. Individual, A-Z.', 'Lesbians. General works.', 'Lesbians. Sex instruction.', 'Lesbian mothers.', 'Middle-aged lesbians. Older lesbians.', 'Lesbians. By region or country, A-Z.', 'Gay men. Biography. Collective.', 'Gay men. Biography. Individual, A-Z.', 'Kameny, Frank.', 'Gay men. General works.', 'Gay men. Sex instruction.', 'Gay fathers.', 'Middle-aged gay men. Older gay men.', 'Gay men. By region or country, A-Z.', 'Homosexuality. Lesbianism. General works.', 'Homosexuality. Lesbianism. Juvenile works.', 'Special classes of gay people, A-Z.', 'Special classes of gay people. African Americans.', 'Special classes of gay people. Older gays.', 'Special classes of gay people. Youth.', 'Homosexuality. Lesbianism. By region or country, A-Z.', 'Same-sex relationships. General works.', 'Same-sex relationships. By region or country, A-Z', 'Homophobia. Heterosexism. General works.', 'Homophobia. Heterosexism. By region or country, A-Z.', 'Gay rights movement. Gay liberation movement. Homophile movement. General works.', 'Gay rights movement. Gay liberation movement. Homophile movement. By region or country, A-Z.', 'Gay conservatives.', 'Gay press publications. General works.', 'Gay press publications. By region or country, A-Z', 'Gay and lesbian culture. General works.', 'Gay and lesbian culture. Special topics, A-Z.', 'Gay and lesbian culture. Bathhouses. Saunas. Steam baths.', 'Gay and lesbian culture. Bears.', 'Gay and lesbian culture. Gay pride parades.', 'Gay and lesbian culture. Handkerchief codes.', 'Gay and lesbian culture. Online chat groups.', 'Transvestism. Biography. Collective.', 'Transvestism. Biography. Individual, A-Z.', 'Transvestism. General works.', 'Transvestism. By region or country, A-Z', 'Transsexualism. Biography. Collective.', 'Transsexualism. Biography. Individual, A-Z.', 'Jorgensen, Christine.', 'Transsexualism. General works.', 'Transsexualism. By region or country, A-Z.', 'Parents of gay men or lesbians.', 'Children of gay parents.', 'Same-sex divorce. Gay divorce.', 'Same-sex marriage. General works.', 'Same-sex marriage. By region or country, A-Z.', 'The family. Marriage. Women. Bisexuality in marriage.', 'Developmental psychology. Child psychology. Special topics. Homophobia.']
         self.diversity_topics2 = self._clean_tags(self.diversity_topics2, kind = 'by word')
-        #print(self.diversity_topics2)
-
         self.prop_diversity = self._get_prop_occurrences(self.diversity_topics2, 'by word', top_n = 5)
-        #print(self.prop_diversity)
-        
-        # self.syllabus_topics = []
-        # for i in syllabus_lccn:
-        #     self.syllabus_topics += self._lookup_meaning(i)
-        # self.syllabus_topics = _clean_topics(self.syllabus_topics)
-        
         self.syllabus_topics = self._get_tags_for_syllabus()
-        # print(self.syllabus_topics)
         self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics, 'by word', top_n = 10)
-        # print("PROP DISCIPLINE")
-        # print(self.prop_discipline)
+
         
-        #self.all_props = {**self.prop_discipline, **self.prop_diversity} #not good if any of prop_disc.keys() = prop_div.keys()
-        
+ 
         if diversity_measure == 'raos_entropy':
-    
             self.diversity_score = self.raos_entropy(self.prop_diversity, self.prop_discipline)
 
         elif diversity_measure == 'jaccard_distance':
-            self.diversity_score = self.jaccard_distance(self._clean_topics(self.syllabus_topics, 'by words'), self._clean_topics(self.diversity_topics, 'by words'))
+            self.diversity_score = self.jaccard_distance(self._clean_topics(self.syllabus_topics, 'by words'), self._clean_topics(self.diversity_topics2, 'by words'))
 
 
             
@@ -80,8 +59,7 @@ class SyllabiPipeline:
             a list of tags for the syllabus.
         """
         topics = []
-        for isbn in self.syllabus['isbn']: #get the lccn
-            #print(isbn)
+        for isbn in self.syllabus['isbn']: 
             url = 'https://openlibrary.org/search.json'
             params = {
                 'q': f'isbn:{isbn})', 
@@ -89,117 +67,10 @@ class SyllabiPipeline:
                 'limit': 1
             }
             response = requests.get(url, params=params, timeout=20).json()
-            #print(response)
             topic = response['docs'][0]['subject'] if response['docs'] else None
-            #print("Syllabus Topics:", topic)
-            # topic = result[0]['subject'] if result else None
             if topic is not None:
                 topics.append(topic)
         return topics
-        
-        
-    
-    def _split_lcc(self, call_number):
-        """
-        Splits a Library of Congress Classification (LCC) call number into a tuple of the form (letter, number).
-        Args:
-            call_number (str): The LCC call number to split.
-        Returns:
-            tuple: A tuple of the form (alphabetical category, number) representing the LCC call number.
-        """
-        if call_number == None:
-            return None
-        #specifically for how OL formats their LCC call numbers
-        out = call_number.replace('-', '') #remove hyphen
-        out = re.sub(r'(?<=[A-Z])0+', '', out) #Remove leading zeros after the letters segment
-        
-        # Adjust regex match for letter and number segments, ensuring float conversion for fractional part
-        match = re.match(r'([A-Z]+)(\d+(\.\d+)?)(?:\.(\w+))?', out)
-        
-        if match:
-            subclass = match.group(1)
-            number = float(match.group(2))
-            specificity = match.group(4) if match.group(4) else None
-            if specificity and number % 1 == 0: 
-                return (subclass, number, ''.join((subclass, str(int(number)), '.' + specificity)))
-            elif specificity: 
-                return (subclass, number, ''.join((subclass, str(number),'.' + specificity)))
-            else:
-                return (subclass, number)
-            # return (match.group(1), float(match.group(2)))
-        else:
-            return None
-
-    def _lookup_meaning(self, code): #takes in tuple (call number)
-        """
-        Looks up the meaning of a LCCN in detailed_lcc.json. 
-        Args:
-            code (tuple): A tuple of the form (alphabetical category, number) representing the LCC call number.
-        Returns: a list of definitions for the code.
-        """
-
-        l = []
-
-        try:
-            d = detailed_lcc[code[0]]
-            for i in d:
-                if code[2] == i['id']:
-                    l.append(i['subject']) # would be helpful to find an exact match first, but here we are.
-                    break
-                elif code[1] >= i['start'] and code[1] <= i['stop']:
-                    l.append(i['subject'])
-                else:
-                    continue
-        except:
-            pass
-
-        return l
-        
-    def _searchby_lccn(self, lccn, fields = 'author_name,subject,lcc,title', limit = 5): 
-        """
-        Queries the Open Library API using a formatted LCC Call number. 
-        See documentation: https://openlibrary.org/dev/docs/api/search
-        Args:
-            lccn (str): The LCC call number to search for.
-            fields (str): The field(s) to return in the response.
-            limit (int): The maximum number of results to return
-        Returns:
-            a dictionary with the specified fields
-        """
-
-
-        r = []
-        response = requests.get(f'https://openlibrary.org/search.json?q=lcc:{lccn}&fields={fields}&limit={limit}').json()
-        return response['docs']
-
-    def _searchby_isbn(self, isbn, field = 'lcc', limit = 1):
-        """
-        Queries the Open Library API using an ISBN. 
-        See documentation: https://openlibrary.org/dev/docs/api/search
-        Args:
-            isbn (str): The ISBN to search for.
-            field (str): The field(s) to return in the response.
-            limit (int): The maximum number of results to return.
-        Returns:
-            a dictionary with the fields specified.
-        """
-
-        
-        url = 'https://openlibrary.org/search.json'
-        params = {
-            'q': f'isbn:{isbn})', 
-            'fields': f'{field}',
-            'limit': f'{limit}'
-            }
-        response = requests.get(url, params=params, timeout=20).json()
-
-        if bool(response['docs']): #falsy
-            #print(response['docs'], isbn) #error checking
-
-            if bool(response['docs'][0].get(f'{field}')): #if there is an lcc
-                return response['docs'][0].get(f'{field}')[0] #string, first lcc returned
-        else:
-            return '' #nothing returned
 
     def _flatten_list(self, nested_list):
         """
@@ -217,112 +88,7 @@ class SyllabiPipeline:
                 flat_list.append(item)
         return flat_list
     
-    def _get_lccn_for_syllabus(self, syllabus): #doesn't account for specific subclasses
-        """
-        Gets the LCCN for each book in a syllabus. Ignores more specific subclass demarcations.
-        Args:
-            syllabus (dict): A dictionary containing a list of ISBNs.
-        Returns:
-            a list of tuples representing the LCCN for each book in the syllabus.
-        """
-        
-        
-
-        lccn_tup = []
-        # print(syllabus)
-
-        for isbn in syllabus['isbn']: #get the lccn
-            val = self._split_lcc(self._searchby_isbn(isbn)) #after querying Open library, split them into tuples
-
-            if val is not None:
-                lccn_tup.append(val)
-                
-        return lccn_tup
     
-    def _get_all_parents(self, lccn, lcc_data):
-        """
-        Gets all the parents for a given LCC code.
-        Args:
-            lccn (tuple): A tuple of the form (alphabetical category, number) representing the LCC call number.
-            lcc_data (dict): A dictionary containing the LCC classification data.
-        Returns:
-            a list of parents for the given LCC code.
-        """
-
-        init = lccn[0] + str(lccn[1])
-        all_parents = {init} #let itself be a "parent" just in case!
-
-        try:
-            d = lcc_data[lccn[0]] #key is first element in list
-
-            for i in d: #for each dictionary in the list
-                if lccn[1] >= i['start'] and lccn[1] <= i['stop']: #check if a subset
-
-                    #if this is the deepest node; if itself is the only parent, until now, then overwrite
-                    if len(i['parents']) >= len(all_parents): 
-                        all_parents = i['parents']
-            return all_parents
-        except:
-            return None
-
-    
-
-    def _find_lcas(self, tupes, lcc_data):
-        """
-        Gets the least common ancestor for a list of LCC call numbers.
-        Args:
-            tupes (list): A list of tuples of the form (alphabetical category, number) representing the LCC call numbers.
-            lcc_data (dict): A dictionary containing the LCC classification data.
-        Returns:
-            a dictionary with the key as the LCC class and the value as the LCA range.
-        """
-
-        node_parent_sets = [self._get_all_parents(t, lcc_data) for t in tupes]
-        
-        prefixes = {}
-        inter = {}
-        #get all parents for each prefix
-        for t in tupes:
-            val = self._get_all_parents(t, lcc_data)
-            val = self._get_all_parents(t, lcc_data)
-            if val != None:
-                if t[0] not in prefixes.keys():
-                    prefixes[t[0]] = [val] #make a list with all the floats
-                else:
-                    prefixes[t[0]].append(val) #add to a list with all the floats
-
-        for k,v in prefixes.items():
-            inter[k] = list(set(v[0]).intersection(*map(set, v[1:])))[-1] #make it a string, choose most specific one
-
-        return inter
-    
-    def _find_diversity_topics(self, syll, diversity):
-        """
-        Gets topics in the area of desired diversity that also have the same subclass as the books in the syllabus.
-        Args:
-            syll (dict): A dictionary containing a list of ISBNs.
-            diversity (dict): A dictionary containing the diversity topics.
-        Returns:
-            a list of topics that are in the area of desired diversity.
-        
-        """
-
-        topics = []
-        
-        lcas = self._find_lcas(self._get_lccn_for_syllabus(syll), self.detailed_lcc)
-        div_dict = {k: v for k,v in diversity.items() if k in lcas.keys()}
-
-        for k,v in lcas.items():
-            try:
-                entries = div_dict[k]
-                # print("entries" + entries)
-                #vals.append({k: [entry for entry in entries if v in entry['parents']]}) #gives a lot of topics underneath the parent node
-                topics.extend([entry['subject'] for entry in entries if v in entry['parents']])
-
-            except:
-                pass
-        return topics
-
     def _clean_topics(self, topics_lst, kind = 'by phrase'):
 
         """
@@ -335,7 +101,6 @@ class SyllabiPipeline:
             a list of cleaned tags.
         """
             
-        #nltk.download('stopwords') #to remove uninformative words
         stop_words = set(stopwords.words('english'))
         stop_words_path = os.path.join(self.base_dir, 'library_of_congress/lcc_stop_words.txt') 
 
@@ -344,7 +109,7 @@ class SyllabiPipeline:
         all_tags = []
 
         if type(topics_lst[0]) == str:
-            topics_lst = [topics_lst] #kinda nasty srry, but its how it functions
+            topics_lst = [topics_lst] 
 
         if kind == 'by phrase':
             for i in topics_lst:
@@ -384,7 +149,6 @@ class SyllabiPipeline:
         cleaned_tags = []
         if kind == 'by word': 
             for i in tag_list:
-                # print(tag)
                 tags = i.split()
                 tags = [x.lower() for x in tags]
                 tags = [re.sub(r'[^\w\s]', '', tag) for tag in tags]
@@ -399,7 +163,6 @@ class SyllabiPipeline:
                 cleaned_tags += tags
         elif kind == 'by phrase':
             for i in tag_list:
-                # print(tag)
                 tags = i.split(". ")
                 tags = [x.lower() for x in tags]
                 tags = [re.sub(r'[^\w\s]', '', tag) for tag in tags]
@@ -418,7 +181,7 @@ class SyllabiPipeline:
         cleaned_tags = [tag for tag in cleaned_tags if tag]
         return cleaned_tags
 
-    def _get_prop_occurrences(self, topics_lst, kind, top_n = 40): #splits by phrase/full subject
+    def _get_prop_occurrences(self, topics_lst, kind, top_n = 40): 
         """
         Takes in a list of topics from either find_diversity-topics or lookup_meaning.
         Args:
@@ -428,10 +191,8 @@ class SyllabiPipeline:
         Returns:
             a dictionary with the key as the topic and the value as the proportion of occurrences in the top_n
         """
-        # print(f"original topics: {topics_lst}") 
-        #make proportions
+ 
         all_tags = self._clean_tags(self._flatten_list(topics_lst))
-        # print(f"cleaned tags tags: {all_tags}")
         prop = Counter(all_tags) 
         prop = dict(prop.most_common(top_n))
         total = sum(prop.values())
@@ -454,52 +215,35 @@ class SyllabiPipeline:
         """
         
         if type(topics) == str:
-            # time.sleep(2) #being polite
             response = requests.get(f'https://openlibrary.org/search.json?q=lcc:{lcc}&subject={topics}&fields={field}&limit={limit}').json()
 
-            if response['docs']: #falsy
+            if response['docs']: 
                 return response['docs']
             else:
-                return '' #nothing returned
+                return '' 
 
         elif topics:
     
             q = f'https://openlibrary.org/search.json?q=lcc:{lcc}&fields={field}&limit={limit}&subject:'
-            if exact_string_matching: #for cases where a single word is used
-                topics = list(map(lambda x: f"\"{x}\"", topics)) #exact string matching
+            if exact_string_matching:
+                topics = list(map(lambda x: f"\"{x}\"", topics)) 
 
                 
-            topics = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), topics)) #encode tags
+            topics = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), topics)) 
 
-            topics = '+OR+:'.join(topics) #comma (,) and pipe (|) are similar AND, not OR for some reason
-            #topics = ''.join(list(map(lambda x: f'&subject={x}', topics)))
-            #topics = ','.join(topics)
+            topics = '+OR+:'.join(topics)
 
             q += "(" + topics + ")"
             
-            
-            # print(q)
-            
-            
-            # time.sleep(2) #being polite
             print("Querying Open Library " + q)
             response = requests.get(q, timeout=5).json()
             
-            if response['docs']: #falsy
+            if response['docs']: 
                 return response['docs']
             else:
-                return '' #nothing returned
+                return '' 
 
-        elif discipline_tags and diversity_tags: #can do you do and on nonetypes?
-            #encode URI
-
-            # discipline_tags, diversity_tags = list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), discipline_tags)), list(map(lambda x: urllib.parse.quote(x.encode("utf-8")), diversity_tags))
-            #if this ever throws errors, maybe we need to specify unicode
-
-            # if exact_string_matching: #for cases where results by word is used
-            #     discipline_tags, diversity_tags = list(map(lambda x: f"\"{x}\"", discipline_tags)), list(map(lambda x: f"\"{x}\"", diversity_tags))
-
-            # str_disc = ' OR '.join(discipline_tags[0:5]) 
+        elif discipline_tags and diversity_tags: 
             
             str_div =  ' OR '.join(diversity_tags)
             url = 'https://openlibrary.org/search.json'
@@ -508,21 +252,14 @@ class SyllabiPipeline:
                 'fields': 'author_name,title,isbn,subject,lcc', 
                 'limit': 20
                 }
-            # print(requests.get(url, params=params).url)
+
             response = requests.get(url, params=params, timeout=30).json()
-            # data = response.json()
-    
-            # str_disc, str_div = '+OR+:'.join(discipline_tags), '+OR+:'.join(diversity_tags)
-        
-            # q = f'https://openlibrary.org/search.json?q=lcc:{lcc} AND ((subject:{str_disc}) AND (subject:{str_div}))&fields={field}&limit={limit}'
+      
             
-            # print(q)
-            # response = requests.get(q).json()
-            
-            if response['docs']: #falsy
+            if response['docs']: 
                 return response['docs']
             else:
-                return '' #nothing returned
+                return ''
                 
         else:
             return None
@@ -552,10 +289,9 @@ class SyllabiPipeline:
             for j, cat_j in enumerate(list(prop_discipline)):
                 p_i = prop_diversity.get(cat_i, 0) # Probability for category i (fall through if 0)
                 p_j = prop_discipline.get(cat_j, 0)
-                #print(p_i, p_j)
                 # cosine distance (1 - cosine similarity)
                 distance = distance_matrix[i, j]
-                #print(distance)
+
                 
                 rqe += p_i * p_j * distance
 
@@ -589,37 +325,16 @@ class SyllabiPipeline:
         suggestions = []
         
         suggestions += self._search_subjects('', discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,lcc,isbn,author_name', limit = 20, exact_string_matching=True)
-        # suggestions = []
-        # for k,v in lca.items(): 
-        #     if '-' in v:
-        #         lst = v.split('-')
-        #         lccn_query = '[' + lst[0] + ' TO ' + k + lst[1] + ']'
-        #     suggestions += self._search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
-        #     suggestions += self._search_subjects(lccn_query, discipline_tags = syll_topics, diversity_tags = diversity_topics, field = 'title,subject,isbn,author_name', limit = 50, exact_string_matching=True)
-        #     #list of author names, ISBNs, titles, subjects
-        # valid_suggestions = []
+    
         for book in suggestions:
             try:
-                #print(next((i for i in book['isbn'] if re.match(r'^(979|978)\d{10}$', i)), None))
                 book['isbn'] = next((i for i in book['isbn'] if re.match(r'^(979|978)\d{10}$', i)), None) #shorten the list of ISBNs, ISBN-13
             except:
-                #print(book)
                 book.update({'isbn': ''})
             book['subject'] = [x.lower() for x in book['subject']]
-            # #book['subject'] = [sub for sub in [x for x in book['subject']] if sub in syll_topics or sub in diversity_topics] #not working
-            # book['subject'] = [x for x in book['subject'] if x in syll_topics or any(sub in x for sub in diversity_topics)] #if it doesn't contain the tags for whatever reason
-            # book['subject'] = [sub for sub in self.syllabus_topics if any(sub in x for x in book['subject'] or any(x in sub for sub in diversity_topics))]
-            # book['subject'] += [sub for sub in diversity_topics if any(sub in x for x in book['subject'])]
             book['author_name'] = ', '.join(book['author_name'])
             
-            # isbn_dict = book['isbn']
-            # lccn = self._get_lccn_for_syllabus(pd.DataFrame({'isbn': [isbn_dict]}))
-            # if not lccn or lccn[0] == None:
-            #     continue
-            # lccn = book['lcc'][0]
-            # book['topic'] = lookup_meaning(lccn) #instead of directly using subjects, check it against how we define topics? potentially unnec computation
-            # if book['topic']:
-            #     valid_suggestions.append(book)
+
 
         return suggestions
     
@@ -641,31 +356,18 @@ class SyllabiPipeline:
         entropy_list = []
 
         for book in suggestions:
-            # print(book)
-            # new_all_topics = self.syllabus_topics + self._clean_topics(book['topic'])
-            # print(book)
-            # print("adding topics: ", book['subject'])
+        
             new_all_topics = self.syllabus_topics + [book['subject']]
-            # print(f"new all topics: {new_all_topics}")
             prop_new_syllabus = self._get_prop_occurrences(new_all_topics, 'by phrase')
     
-            # print(f"prop new syllabus: {prop_new_syllabus}")
-            # print(f"prop discipline: {self.prop_discipline}")
-            # print(f"prop diversity: {self.prop_diversity}")
-            # print(new_categories)
-            # print(f"old syllabus topics: {self.syllabus_topics}, new syllabus topics: {new_categories}, old syllabus prop: {self.prop_discipline}, new syllabus prop: {prop_new_syllabus}")
-            #new_props = {**prop_new_syllabus, **self.prop_diversity}
 
-            #can change later
             if self.diversity_measure == 'raos_entropy':
                 delta = self.raos_entropy(self.prop_diversity, prop_new_syllabus) - original_diversity
-                # print(f"original diversity: {original_diversity}, new diversity: {self.raos_entropy(self.prop_diversity, prop_new_syllabus)}")
             elif self.diversity_measure == 'jaccard_score':
                 delta = self.jaccard_distance(new_all_topics, self.diversity_topics) - original_diversity
             else:
                 delta = 0
                 
-            # print("DELTA: " + str(delta))
 
             if delta > 0:
                 entropy_list.append((book, delta))
@@ -690,25 +392,14 @@ class SyllabiPipeline:
         return pruned
         
 
-    
-
-
-
 
             
 if __name__ == "__main__":
-    # print("Beginning Syllabi Pipeline")
     print("Low Syllabus")
     sp = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1")
     print("low: " + str(sp.diversity_score))
     
-    # jaccard = SyllabiPipeline("../example_syllabi/TEST Syllabi/test1", 'jaccard_distance')
-    # print("jaccard: " + str(jaccard.diversity_score))
-    # print(sp.syllabus_topics)
-    # print(sp.syllabus)
-    # sp.recommend_books()
     print("Low-Medium Syllabus")
-    #sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2", 'jaccard_distance')
     sp2 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test2")
     print("low-medium: " + str(sp2.diversity_score))
 
@@ -716,26 +407,22 @@ if __name__ == "__main__":
     sp3 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test3")
     print("medium-high: " + str(sp3.diversity_score))
 
-    
-    
     print("High Syllabus")
     sp4 = SyllabiPipeline("../example_syllabi/TEST Syllabi/test4")
     print("high: " + str(sp4.diversity_score))
-
 
     diversity_scores = {
     'Test 1 (Low)': sp.diversity_score,
     'Test 2 (Low-Medium)': sp2.diversity_score,
     'Test 3 (Medium-High)': sp3.diversity_score,
     'Test 4 (High)': sp4.diversity_score
-}
+    }
 
     # Plotting the bar chart
     plt.figure(figsize=(10, 6))
     plt.bar(diversity_scores.keys(), diversity_scores.values(), color=['red', 'green', 'blue', 'orange'])
-
     plt.title('Rao\'s Entropy Score Results')
     plt.xlabel('Syllabi')
     plt.ylabel('Diversity Score')
-    plt.ylim(0, 1)  # Add some space at the top
+    plt.ylim(0, 1)
     plt.savefig('diversity_scores.png')
