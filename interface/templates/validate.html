@@ -21,7 +21,7 @@
 					<tr>
 						<th>Book</th>
 						<th>ISBN</th>
-						<th>Book Cover</th>
+						<!-- <th>Book Cover</th> -->
 						<th></th>
 					</tr>
 				</thead>
@@ -30,11 +30,11 @@
 					<tr class="book-row">
 						<td class="book">{{ book.title }} by {{ book.author }}</td>
 						<td class="isbn-cell"><input type="text" class="isbn" name="isbns" value="{{ book.isbn }}"/></td>
-						{% if book.cover %}
+						<!-- {% if book.cover %}
 							<td><img src="{{ book.cover }}" alt="Cover of {{ book.title }}" height="70"/> </td>
 						{% else %}
             				<td><p>No cover available</p></td>
-						{% endif %}
+						{% endif %} -->
 						<td>
 							<span class="delete-btn" onclick="deleteRow(this)"><i class="fas fa-trash"></i></span>
 						</td>

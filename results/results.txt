@@ -1,0 +1,26 @@
+results for the four syllabi and four measures:
+
+raos:
+low: 0.24338148466913673
+low-medium: 0.34651346024365987
+medium-high: 0.3822207177964205
+high: 0.4437719639264649
+
+jaccard:
+low: 1.0
+low-medium: 0.9733333333333334
+medium-high: 0.9420289855072463
+high: 0.9672131147540983
+
+relevance:
+low: 0.0
+low-medium: 0.3
+medium-high: 0.6
+high: 1.0
+
+
+breadth:
+low: 0.8837209302325582
+low-medium: 0.905511811023622
+medium-high: 0.8737864077669902
+high: 0.7222222222222222

@@ -15,12 +15,21 @@
 
 		<div class="info">
 			<p>
-				Background: Curating a diverse university syllabi is critical but not straightforward. Instructors are encouraged to consider how
+				Curating a diverse university syllabi is critical but not straightforward. Instructors are encouraged to consider how
 				identities like race, gender, sexuality, religion, class, nationality, and more contribute to assenting and dissenting opinions on
 				topics presented by their courses. This tool facilitates syllabus diversification through a diversity rating and an algorithm for
 				suggesting additional readings, both of which are based on research of previous approaches. Follow the steps below to calculate the
 				diversity rating of your syllabus and get suggested additional readings.
 			</p>
+            <p>
+                We offer four measures of diversity:
+                <ul>
+                    <li>Rao's Entropy: a measure of the diversity of topics in a syllabus</li>
+                    <li>Jaccard Distance: a measure of the similarity between a syllabi and the area of desired diversity</li>
+                    <li>Relevance Proportion: a measure of the proportion of books which are related to the area of desired diversity</li>
+                    <li>Breadth Proportion: a measure of the proportion of unique subjects in a syllabi</li>
+
+            </p>
 		</div>
 		<form id="initial-form" action="/validate" method="POST" enctype="multipart/form-data">
 			<p class="instructions">Upload your class syllabus in a .docx format.</p>
@@ -34,20 +43,24 @@
 			<select name="fields" id="fields" class="category-select" onchange="handleFieldChange()">
 				<option value="default" selected disabled hidden>Choose a Field</option>
 				<option value="ed">Education Studies</option>
+                <option value="eng">English</option>
+                <option value="hist">History</option>
 			</select>
 			<span id="field-validation" class="validation-error">Please select a category.</span>
 			<p class="instructions">Select a category to diversify.</p>
 			<select name="categories" id="categories" class="category-select" onchange="handleCategoryChange()">
 				<option value="default" selected disabled hidden>Choose a Category</option>
 				<option value="lgbt">LGBTQ identities</option>
+                <option value="black">Black identities</option>
 			</select>
 			<span id="category-validation" class="validation-error">Please select a category.</span>
             <p class="instructions">Select a measure of diversity.</p>
             <select name="diversity" id="diversity" class="category-select">
                 <option value="default" selected disabled hidden>Choose a Measure</option>
                 <option value="raos">Rao's Entropy</option>
-                <option value="unique">Unique Topics</option>
-                <option value="unique">Percentage</option>
+                <option value="jaccard">Jaccard Distance</option>
+                <option value="breadth">Relevance Proportion</option>
+                <option value="relevance">Breadth Proportion</option>
             </select>
 
 			<button type="submit" id="submit-button" class="submit-button">Get Results!</button>

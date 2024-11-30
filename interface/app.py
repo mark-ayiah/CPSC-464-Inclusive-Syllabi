@@ -112,6 +112,7 @@ def search_book(line):
     params = {'q': line}
     response = requests.get(url, params=params, timeout=30)
     
+            
     if response.status_code == 200:
         data = response.json()
         if data['numFound'] > 0:
@@ -120,7 +121,9 @@ def search_book(line):
             author = book['author_name'][0]
             isbn = book.get('isbn', ['N/A'])[0]
             cover = f"https://covers.openlibrary.org/b/isbn/{isbn}-M.jpg" if isbn != 'N/A' else None
+            print("FOUND")
             return title, author, isbn, cover
+    print("ERROR")
     return None, None, None, None
 
 def search_book_by_isbn(isbn):
@@ -147,16 +150,14 @@ def find_books_in_pdf(text):
     book_list = []
     lines = text.split('\n')
     for line in lines:
-        title, author, isbn, cover, = search_book(line)
-        if title:
-            book_list.append({'title': title, 'author': author, 'isbn': isbn, 'cover': cover})
+        if line == '':
+            continue
+        else:
+            isbn = line.split(',')[0]
+            title, author, isbn, cover, = search_book_by_isbn(isbn)
+            if title:
+                book_list.append({'title': title, 'author': author, 'isbn': isbn, 'cover': cover})
     return book_list
-
-# def calc_diversity():
-#     return 0.349
-
-# def get_suggestions():
-#     return ['Their Eyes Were Watching God',  'Invisible Man' , 'Native Son']
 
 if __name__ == '__main__':
     app.run(debug=True)
