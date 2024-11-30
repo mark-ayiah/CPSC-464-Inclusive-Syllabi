@@ -41,6 +41,7 @@ class SyllabiPipeline:
         self.diversity_topics2 = self._clean_tags(self.diversity_topics2, kind = 'by word')
         self.prop_diversity = self._get_prop_occurrences(self.diversity_topics2, 'by word', top_n = 5)
         self.syllabus_topics = self._get_tags_for_syllabus()
+        #self.syllabus_topics = self._clean_tags(self.syllabus_topics, 'by words')
         self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics, 'by word', top_n = 10)
         self.syllabus_books = self._get_books_for_syllabus()
         
@@ -49,8 +50,8 @@ class SyllabiPipeline:
             self.diversity_score = self.raos_entropy(self.prop_diversity, self.prop_discipline)
 
         elif diversity_measure == 'jaccard_distance':
-            self.diversity_score = self.jaccard_distance(self._clean_topics(self.syllabus_topics, 'by words'), self._clean_topics(self.diversity_topics2, 'by words'))
-
+            self.diversity_score = self.jaccard_distance(self._clean_tags(self.syllabus_topics, 'by word'), self._clean_tags(self.diversity_topics2, 'by word'))
+        
         elif diversity_measure == 'relevance_proportion':
             self.diversity_score = self.relevance_proportion(self.syllabus_books)
             
@@ -65,6 +66,7 @@ class SyllabiPipeline:
             a list of books for the syllabus.
         """
         books = []
+
         count = 0
         for isbn in self.syllabus['isbn']:
             url = 'https://openlibrary.org/search.json'
@@ -173,6 +175,8 @@ class SyllabiPipeline:
         stop_words_path = os.path.join(self.base_dir, 'library_of_congress/lcc_stop_words.txt') 
 
         lcc_stop = open(stop_words_path, "r").read().split("\n")
+        tag_list = self._flatten_list(tag_list)
+
         cleaned_tags = []
         if kind == 'by word': 
             for i in tag_list:
@@ -320,6 +324,7 @@ class SyllabiPipeline:
                 # cosine distance (1 - cosine similarity)
                 distance = distance_matrix[i, j]
 
+                #print("Distance between:", cat_i, " and ", cat_j, ": ", distance)
                 
                 rqe += p_i * p_j * distance
 
@@ -334,6 +339,7 @@ class SyllabiPipeline:
         Returns:
             a float representing the Jaccard Distance between the discipline area and area of desired diversity.    
         """
+        print(disc_lst, div_lst)
 
         jd = len(set(disc_lst).intersection(set(div_lst)))/len(set(disc_lst).union(set(div_lst)))
 
