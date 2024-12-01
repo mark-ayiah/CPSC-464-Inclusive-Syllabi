@@ -58,6 +58,8 @@ class SyllabiPipeline:
         elif diversity_measure == 'breadth_proportion':
             self.diversity_score = self.breadth_proportion()
             
+        self.rec_delta = 0.0
+            
             
     def _get_books_for_syllabus(self):
         """
@@ -405,7 +407,7 @@ class SyllabiPipeline:
             
         return suggestions
     
-    def _prune_suggestions(self, suggestions, n = 5):
+    def _prune_suggestions(self, suggestions, n = 3):
         """
         Prunes the list of suggestions to choose the best n suggestions.
         The first book is chosen based on which improves diversity of the syllabus the most.
@@ -428,7 +430,11 @@ class SyllabiPipeline:
         # remaining books based on new set of books
         set_topics = [L[0]['subject']]
         while len(L) < n:
-            best_book = self._find_best_book(suggestions, set_topics, self.diversity_measure, original_diversity, self.prop_diversity, self.diversity_topics2)
+            if len(L) == n - 1:
+                last = True
+            else:
+                last = False
+            best_book = self._find_best_book(suggestions, set_topics, self.diversity_measure, original_diversity, self.prop_diversity, self.diversity_topics2, last)
             if best_book is None:
                 break
             else:
@@ -436,10 +442,9 @@ class SyllabiPipeline:
                 suggestions.remove(best_book)
                 set_topics += [L[-1]['subject']]
         
-                
         return L
     
-    def _find_best_book(self, suggestions, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None):
+    def _find_best_book(self, suggestions, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None, last=False):
         """
         
         """
@@ -454,19 +459,23 @@ class SyllabiPipeline:
 
             if self.diversity_measure == 'raos_entropy':
                 delta = self.raos_entropy(prop_diversity, prop_new_syllabus) - original_diversity
+                self.rec_delta = delta
             elif self.diversity_measure == 'jaccard_score':
                 delta = original_diversity - self.jaccard_distance(new_all_topics, diversity_topics)
+                self.rec_delta = -delta
             elif self.diversity_measure == 'relevance_proportion':
                 delta = self.relevance_proportion([book]) - original_diversity
+                self.rec_delta = delta
             elif self.diversity_measure == 'breadth_proportion':
                 delta = original_diversity - self.breadth_proportion()
+                self.rec_delta = -delta
             else:
                 delta = 0
                 
             if delta > max_improvement:
                 max_improvement = delta
                 best_book = book
-        
+    
         return best_book
     
     
@@ -516,8 +525,86 @@ def results(measure):
     plt.savefig(f'{measure}.png')
     
 
+def rec_results(measure, f):
+    f.write(f"{measure.title()} Recommendations\n")
+    sp = SyllabiPipeline("../example_syllabi/test2.csv")
+    f.write(str(sp.recommend_books()))
+    # f.write("\n")
+    # f.write("--------------------\n")
     
-    
+def rec_delta_results():
+    with open('rec_delta.txt', 'w') as f:
+        f.write("Scores Before Recs\n")
+        sp = SyllabiPipeline("../example_syllabi/test2.csv", 'raos_entropy')
+        f.write(f"raos before recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2.csv", 'jaccard_distance')
+        f.write(f"jaccard before recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2.csv", 'relevance_proportion')
+        f.write(f"relevance before recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2.csv", 'breadth_proportion')
+        f.write(f"breadth before recs: {str(sp.diversity_score)}\n")
+        f.write("--------------------\n")
+        
+        f.write("After Recommending with Rao\n")
+        sp = SyllabiPipeline("../example_syllabi/test2 re.csv", 'raos_entropy')
+        f.write(f"raos after raos recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 re.csv", 'jaccard_distance')
+        f.write(f"jaccard after raos recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 re.csv", 'relevance_proportion')
+        f.write(f"relevance after raos recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 re.csv", 'breadth_proportion')
+        f.write(f"breadth after raos recs: {str(sp.diversity_score)}\n")
+        f.write("--------------------\n")
+        
+        f.write("After Recommending with Jaccard\n")
+        sp = SyllabiPipeline("../example_syllabi/test2 jd.csv", 'raos_entropy')
+        f.write(f"raos after jaccard recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 jd.csv", 'jaccard_distance')
+        f.write(f"jaccard after jaccard recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 jd.csv", 'relevance_proportion')
+        f.write(f"relevance after jaccard recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 jd.csv", 'breadth_proportion')
+        f.write(f"breadth after jaccard recs: {str(sp.diversity_score)}\n")
+        f.write("--------------------\n")
+        
+        f.write("After Recommending with Relevance\n")
+        sp = SyllabiPipeline("../example_syllabi/test2 rp.csv", 'raos_entropy')
+        f.write(f"raos after relevance recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 rp.csv", 'jaccard_distance')
+        f.write(f"jaccard after relevance recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 rp.csv", 'relevance_proportion')
+        f.write(f"relevance after relevance recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 rp.csv", 'breadth_proportion')
+        f.write(f"breadth  after relevance recs: {str(sp.diversity_score)}\n")
+        f.write("--------------------\n")
+        
+        f.write("After Recommending with Breadth\n")
+        sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'raos_entropy')
+        f.write(f"raos after breadth recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'jaccard_distance')
+        f.write(f"jaccard after breath recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'relevance_proportion')
+        f.write(f"relevance after breadth recs: {str(sp.diversity_score)}\n")
+        
+        sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'breadth_proportion')
+        f.write(f"breadth before after breadth recs: {str(sp.diversity_score)}\n")
+        f.write("--------------------\n")
+        
+     
 
             
 if __name__ == "__main__":
@@ -528,7 +615,20 @@ if __name__ == "__main__":
     # results('relevance_proportion')
     # results('breadth_proportion')
     
+
     # Recommendations
-    print("Recommend Books")
-    sp = SyllabiPipeline("../example_syllabi/test2.csv")
-    print(sp.recommend_books())
+    # with open('recsre.txt', 'w') as f:
+    #     f.write("Recommend Books for low-medium\n")
+    
+    #     # rec_results('raos_entropy', f)
+    #     # rec_results('jaccard_distance', f)
+    #     # rec_results('relevance_proportion', f)
+    #     rec_results('breadth_proportion', f)
+        
+    # Results After Recommendations
+    rec_delta_results()    
+
+        
+    
+    
+   
