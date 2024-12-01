@@ -13,7 +13,7 @@ import nltk
 from nltk.corpus import stopwords
 import numpy as np
 import tensorflow_hub as hub
-
+import random
 
 
 
@@ -341,7 +341,7 @@ class SyllabiPipeline:
         Returns:
             a float representing the Jaccard Distance between the discipline area and area of desired diversity.    
         """
-        print(disc_lst, div_lst)
+        # print(disc_lst, div_lst)
 
         jd = len(set(disc_lst).intersection(set(div_lst)))/len(set(disc_lst).union(set(div_lst)))
 
@@ -604,7 +604,66 @@ def rec_delta_results():
         f.write(f"breadth before after breadth recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
-     
+def perturb_data(measure):
+    
+    sp = SyllabiPipeline("../example_syllabi/test2.csv", measure)
+    print("no noise: " + str(sp.diversity_measure))
+    
+    random_subjects = ['history', 'green', 'america', 'airports', 'cancer', 'teacher', 'women', 'college', 'math', 'ethics', 'politics', 'economics', 'studies', 'latino', 'perspective', 'hand','fish', 'teenager', 'adult', 'geology', 'apartments', 'urban', 'finance', 'adventure', 'mythology', 'technology', 'romance', 'psychology', 'poetry', 'leadership', 'literature', 'social', 'children', 'fiction', 'fantasy', 'slaves', 'abolition', 'gay', 'lesbian', 'queer', 'transgender', 'women', 'men', 'biography', 'english', 'nonfiction']
+    
+    no_noise = sp.diversity_score
+    
+    def perturb_measure(measure, n):
+        
+        if measure == 'raos_entropy':
+            # print(sp.syllabus_topics)
+            topics = sp.syllabus_topics + [random.choices(random_subjects, k=n)]
+            # print(len(sp._flatten_list(topics)))
+            # print(topics)
+            sp.prop_discipline = sp._get_prop_occurrences(topics, 'by word', top_n = 10)
+            return sp.raos_entropy(sp.prop_diversity, sp.prop_discipline)
+
+        elif measure == 'jaccard_distance':
+            topics = sp.syllabus_topics + [random.choices(random_subjects, k=n)]
+            return sp.jaccard_distance(sp._clean_tags(topics, 'by word'), sp._clean_tags(sp.diversity_topics2, 'by word'))
+            
+            
+        elif measure == 'relevance_proportion':
+            total = len(sp.syllabus_books)
+            num_relevant = sp.relevance_proportion(sp.syllabus_books) * total
+            random_relevant = random.randint(0, n)
+            return (num_relevant + random_relevant) / (total + n)
+            
+        elif measure == 'breadth_proportion':
+            old_topics = sp.syllabus_topics
+            sp.syllabus_topics += random.choices(random_subjects, k=n)
+            score = sp.breadth_proportion()
+            sp.syllabus_topics = old_topics
+            return score
+        
+    noise_5 = perturb_measure(measure, 5)
+    noise_15 = perturb_measure(measure, 10)
+    noise_30 =   perturb_measure(measure, 50)
+
+
+    scores = {
+    'No Noise': no_noise,
+    '5 Random Subjects': noise_5,
+    '10 Random Subjects': noise_15,
+    '50 Random Subjects': noise_30
+    }
+
+    # Plotting the bar chart
+    plt.figure(figsize=(10, 6))
+    plt.bar(scores.keys(), scores.values(), color=['red', 'green', 'blue', 'orange'])
+    plt.title(f'{measure.title()} Noise Score Results')
+    plt.xlabel('Level of Noise')
+    plt.ylabel('Diversity Score')
+    plt.ylim(0, 1)
+    plt.savefig(f'{measure}_noise.png')
+    
+    
+    
 
             
 if __name__ == "__main__":
@@ -626,9 +685,18 @@ if __name__ == "__main__":
     #     rec_results('breadth_proportion', f)
         
     # Results After Recommendations
-    rec_delta_results()    
+    # rec_delta_results()   
+    
+    
+    # Testing Durability
+    # perturb_data('raos_entropy')
+    # perturb_data('jaccard_distance')
+    # perturb_data('relevance_proportion')
+    perturb_data('breadth_proportion')
+     
 
         
+
     
     
    
