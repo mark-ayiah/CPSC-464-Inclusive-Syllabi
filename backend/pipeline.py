@@ -613,7 +613,7 @@ def rec_delta_results():
         
 def perturb_data(measure):
     
-    sp = SyllabiPipeline("../example_syllabi/test3.csv", measure)
+    sp = SyllabiPipeline("../example_syllabi/test2.csv", measure)
     print("no noise: " + str(sp.diversity_measure))
     
     random_subjects = ['history', 'green', 'america', 'airports', 'cancer', 'biology', 'africa', 'ethnic', 'math', 'ethics', 'politics', 'economics', 'computer science', 'latino', 'perspective', 'hand', 'fish', 'teenager', 'adult', 'geology', 'apartments', 'urban', 'finance', 'adventure', 'mythology', 'technology', 'romance', 'psychology', 'poetry', 'leadership', 'literature', 'social', 'neuroscience', 'fiction', 'fantasy', 'asia', 'abolition', 'library', 'swamp', 'horse', 'bread', 'conservative', 'liberal', 'biography', 'english', 'nonfiction']
@@ -663,11 +663,11 @@ def perturb_data(measure):
     # Plotting the bar chart
     plt.figure(figsize=(10, 6))
     plt.bar(scores.keys(), scores.values(), color=['red', 'green', 'blue', 'orange'])
-    plt.title(f'{measure.title()} Noise Score Results (Medium-High Syllabus)')
+    plt.title(f'{measure.title()} Noise Score Results (Low-Medium Syllabus)')
     plt.xlabel('Level of Noise')
     plt.ylabel('Diversity Score')
     plt.ylim(0, 1)
-    plt.savefig(f'{measure}_noise.png')
+    plt.savefig(f'{measure}_noise2.png')
     
     
     
@@ -676,10 +676,10 @@ def perturb_data(measure):
 if __name__ == "__main__":
     
     # Empirical Results!
-    #results('raos_entropy')
-    #results('jaccard_distance')
-    #results('relevance_proportion')
-    #results('overlap_proportion')
+    results('raos_entropy')
+    results('jaccard_distance')
+    results('relevance_proportion')
+    results('overlap_proportion')
     
 
     # Recommendations
@@ -696,10 +696,10 @@ if __name__ == "__main__":
     
     
     # Testing Durability
-    perturb_data('raos_entropy')
-    perturb_data('jaccard_distance')
-    perturb_data('relevance_proportion')
-    perturb_data('overlap_proportion')
+    #perturb_data('raos_entropy')
+    #perturb_data('jaccard_distance')
+    #perturb_data('relevance_proportion')
+    #perturb_data('overlap_proportion')
      
 
         
