@@ -1,0 +1,30 @@
+Scores Before Recs
+raos before recs: 0.346513405834439
+jaccard before recs: 0.8461538461538461
+relevance before recs: 0.3
+breadth before recs: 0.905511811023622
+--------------------
+After Recommending with Rao
+raos after raos recs: 0.3756223956330691
+jaccard after raos recs: 0.8461538461538461
+relevance after raos recs: 0.46153846153846156
+breadth after raos recs: 0.8741721854304636
+--------------------
+After Recommending with Jaccard
+raos after jaccard recs: 0.3756223956330691
+jaccard after jaccard recs: 0.8461538461538461
+relevance after jaccard recs: 0.46153846153846156
+breadth after jaccard recs: 0.8741721854304636
+--------------------
+After Recommending with Relevance
+raos after relevance recs: 0.3756223956330691
+jaccard after relevance recs: 0.8461538461538461
+relevance after relevance recs: 0.46153846153846156
+breadth  after relevance recs: 0.8741721854304636
+--------------------
+After Recommending with Breadth
+raos after breadth recs: 0.346513405834439
+jaccard after breath recs: 0.8461538461538461
+relevance after breadth recs: 0.3
+breadth before after breadth recs: 0.905511811023622
+--------------------

@@ -35,14 +35,16 @@ class SyllabiPipeline:
             self.detailed_lcc = json.load(top_level_file) 
             
         self.syllabus = pd.read_csv(syllabus_path, dtype={'isbn': str})   
+
         self.diversity_measure = diversity_measure     
         self.diversity_topics = ['gay', 'homosexuality', 'lgbt', 'bisexual', 'lesbian', 'transgender', 'queer', 'homophobia', 'same-sex']
         self.diversity_topics2 = ['Human sexuality. Sex. Sexual orientation.', 'Kinsey, Alfred.', 'Bisexuality. General works.', 'Bisexuality. By region or country, A-Z.', 'Homosexuality. Lesbianism. Periodicals. Serials.', 'Homosexuality. Lesbianism. Congresses.', 'Homosexuality. Lesbianism. Societies.', 'Homosexuality. Lesbianism. Dictionaries.', 'Homosexuality. Lesbianism. Computer networks. Electronic information resources (including the Internet and digital libraries).', 'Gay and lesbian studies.', 'Homosexuality. Lesbianism. Biography (Collective).', 'Homosexuality. Lesbianism. Travel.', 'Homosexuality. Lesbianism. Gay parents.', 'Lesbians. Biography. Collective.', 'Lesbians. Biography. Individual, A-Z.', 'Lesbians. General works.', 'Lesbians. Sex instruction.', 'Lesbian mothers.', 'Middle-aged lesbians. Older lesbians.', 'Lesbians. By region or country, A-Z.', 'Gay men. Biography. Collective.', 'Gay men. Biography. Individual, A-Z.', 'Kameny, Frank.', 'Gay men. General works.', 'Gay men. Sex instruction.', 'Gay fathers.', 'Middle-aged gay men. Older gay men.', 'Gay men. By region or country, A-Z.', 'Homosexuality. Lesbianism. General works.', 'Homosexuality. Lesbianism. Juvenile works.', 'Special classes of gay people, A-Z.', 'Special classes of gay people. African Americans.', 'Special classes of gay people. Older gays.', 'Special classes of gay people. Youth.', 'Homosexuality. Lesbianism. By region or country, A-Z.', 'Same-sex relationships. General works.', 'Same-sex relationships. By region or country, A-Z', 'Homophobia. Heterosexism. General works.', 'Homophobia. Heterosexism. By region or country, A-Z.', 'Gay rights movement. Gay liberation movement. Homophile movement. General works.', 'Gay rights movement. Gay liberation movement. Homophile movement. By region or country, A-Z.', 'Gay conservatives.', 'Gay press publications. General works.', 'Gay press publications. By region or country, A-Z', 'Gay and lesbian culture. General works.', 'Gay and lesbian culture. Special topics, A-Z.', 'Gay and lesbian culture. Bathhouses. Saunas. Steam baths.', 'Gay and lesbian culture. Bears.', 'Gay and lesbian culture. Gay pride parades.', 'Gay and lesbian culture. Handkerchief codes.', 'Gay and lesbian culture. Online chat groups.', 'Transvestism. Biography. Collective.', 'Transvestism. Biography. Individual, A-Z.', 'Transvestism. General works.', 'Transvestism. By region or country, A-Z', 'Transsexualism. Biography. Collective.', 'Transsexualism. Biography. Individual, A-Z.', 'Jorgensen, Christine.', 'Transsexualism. General works.', 'Transsexualism. By region or country, A-Z.', 'Parents of gay men or lesbians.', 'Children of gay parents.', 'Same-sex divorce. Gay divorce.', 'Same-sex marriage. General works.', 'Same-sex marriage. By region or country, A-Z.', 'The family. Marriage. Women. Bisexuality in marriage.', 'Developmental psychology. Child psychology. Special topics. Homophobia.']
         self.diversity_topics2 = self._clean_tags(self.diversity_topics2, kind = 'by word')
+
         self.prop_diversity = self._get_prop_occurrences(self.diversity_topics2, 'by word', top_n = 5)
         self.syllabus_topics = self._get_tags_for_syllabus()
-        #self.syllabus_topics = self._clean_tags(self.syllabus_topics, 'by words')
         self.prop_discipline = self._get_prop_occurrences(self.syllabus_topics, 'by word', top_n = 10)
+
         self.syllabus_books = self._get_books_for_syllabus()
         
  
@@ -50,16 +52,17 @@ class SyllabiPipeline:
             self.diversity_score = self.raos_entropy(self.prop_diversity, self.prop_discipline)
 
         elif diversity_measure == 'jaccard_distance':
-            self.diversity_score = self.jaccard_distance(self._clean_tags(self.syllabus_topics, 'by word'), self._clean_tags(self.diversity_topics2, 'by word'))
+            #self.diversity_score = self.jaccard_distance(self._clean_tags(self.syllabus_topics, 'by word'), self._clean_tags(self.diversity_topics2, 'by word'))
+            self.diversity_score = self.jaccard_distance(self.prop_diversity.keys(), self.prop_discipline.keys())
         
         elif diversity_measure == 'relevance_proportion':
             self.diversity_score = self.relevance_proportion(self.syllabus_books)
             
-        elif diversity_measure == 'breadth_proportion':
-            self.diversity_score = self.breadth_proportion()
+        elif diversity_measure == 'overlap_proportion':
+            self.diversity_score = self.overlap_proportion()
             
         self.rec_delta = 0.0
-            
+        self.suggestions = self._get_suggestions(self.syllabus_topics, self.diversity_topics)            
             
     def _get_books_for_syllabus(self):
         """
@@ -283,7 +286,8 @@ class SyllabiPipeline:
             params = {
                 'q': f'lcc:LB* AND subject:({str_div}) AND language:("eng")', 
                 'fields': 'author_name,title,isbn,subject,lcc', 
-                'limit': 40
+                'limit': 40,
+                'sort': 'random'
                 }
         
             response = requests.get(url, params=params, timeout=30).json()
@@ -356,13 +360,13 @@ class SyllabiPipeline:
         """
         count = 0
         for book in books:
-            if any(sub.lower() in subject.lower() for sub in self.diversity_topics for subject in book['subject']):
+            if any(sub.lower() in subject.lower() for sub in self.prop_diversity.keys() for subject in book['subject']):
                 count += 1
         return count/len(books)
         
         
         
-    def breadth_proportion(self):
+    def overlap_proportion(self):
         """
         Calculates the proportion of unique subjects in the syllabus compared to the total number of subjects.
         """
@@ -407,7 +411,7 @@ class SyllabiPipeline:
             
         return suggestions
     
-    def _prune_suggestions(self, suggestions, n = 3):
+    def _prune_suggestions(self, suggest, n = 3):
         """
         Prunes the list of suggestions to choose the best n suggestions.
         The first book is chosen based on which improves diversity of the syllabus the most.
@@ -421,40 +425,43 @@ class SyllabiPipeline:
         original_diversity = self.diversity_score
       
         L = []
+        suggest = self.suggestions
         
         # first book based on syllabus
-        best_book = self._find_best_book(suggestions, self.syllabus_topics, self.diversity_measure, self.diversity_score, self.prop_diversity, self.diversity_topics2)
+        best_book = self._find_best_book(self.suggestions, self.syllabus_topics, self.diversity_measure, self.diversity_score, self.prop_diversity, self.diversity_topics2)
         L.append(best_book)
-        suggestions.remove(best_book)
+        suggest.remove(best_book)
 
         # remaining books based on new set of books
         set_topics = [L[0]['subject']]
+        print(len(L), type(L), type(len(L)), type(n), n)
         while len(L) < n:
             if len(L) == n - 1:
                 last = True
             else:
                 last = False
-            best_book = self._find_best_book(suggestions, set_topics, self.diversity_measure, original_diversity, self.prop_diversity, self.diversity_topics2, last)
+            best_book = self._find_best_book(self.suggestions, set_topics, self.diversity_measure, original_diversity, self.prop_diversity, self.diversity_topics2, last)
             if best_book is None:
                 break
             else:
                 L.append(best_book)
-                suggestions.remove(best_book)
+                suggest.remove(best_book)
                 set_topics += [L[-1]['subject']]
         
         return L
     
-    def _find_best_book(self, suggestions, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None, last=False):
+    def _find_best_book(self, suggest, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None, last=False):
         """
         
         """
         max_improvement = -float('inf')
         best_book = None
         
-        for book in suggestions:
+        for book in suggest:
             
             new_all_topics = current_topics + [book['subject']]
-            prop_new_syllabus = self._get_prop_occurrences(new_all_topics, 'by phrase')
+            #error here
+            prop_new_syllabus = self._get_prop_occurrences(new_all_topics, 'by word')
 
 
             if self.diversity_measure == 'raos_entropy':
@@ -466,8 +473,8 @@ class SyllabiPipeline:
             elif self.diversity_measure == 'relevance_proportion':
                 delta = self.relevance_proportion([book]) - original_diversity
                 self.rec_delta = delta
-            elif self.diversity_measure == 'breadth_proportion':
-                delta = original_diversity - self.breadth_proportion()
+            elif self.diversity_measure == 'overlap_proportion':
+                delta = original_diversity - self.overlap_proportion()
                 self.rec_delta = -delta
             else:
                 delta = 0
@@ -486,8 +493,8 @@ class SyllabiPipeline:
             a list of book suggestions.
         """
         
-        suggestions = self._get_suggestions(self.syllabus_topics, self.diversity_topics)
-        pruned = self._prune_suggestions(suggestions)
+        #suggestions2 = self._get_suggestions(self.syllabus_topics, self.diversity_topics)
+        pruned = self._prune_suggestions(self.suggestions)
         return pruned
     
 def results(measure):
@@ -544,7 +551,7 @@ def rec_delta_results():
         sp = SyllabiPipeline("../example_syllabi/test2.csv", 'relevance_proportion')
         f.write(f"relevance before recs: {str(sp.diversity_score)}\n")
         
-        sp = SyllabiPipeline("../example_syllabi/test2.csv", 'breadth_proportion')
+        sp = SyllabiPipeline("../example_syllabi/test2.csv", 'overlap_proportion')
         f.write(f"breadth before recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
@@ -558,7 +565,7 @@ def rec_delta_results():
         sp = SyllabiPipeline("../example_syllabi/test2 re.csv", 'relevance_proportion')
         f.write(f"relevance after raos recs: {str(sp.diversity_score)}\n")
         
-        sp = SyllabiPipeline("../example_syllabi/test2 re.csv", 'breadth_proportion')
+        sp = SyllabiPipeline("../example_syllabi/test2 re.csv", 'overlap_proportion')
         f.write(f"breadth after raos recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
@@ -572,7 +579,7 @@ def rec_delta_results():
         sp = SyllabiPipeline("../example_syllabi/test2 jd.csv", 'relevance_proportion')
         f.write(f"relevance after jaccard recs: {str(sp.diversity_score)}\n")
         
-        sp = SyllabiPipeline("../example_syllabi/test2 jd.csv", 'breadth_proportion')
+        sp = SyllabiPipeline("../example_syllabi/test2 jd.csv", 'overlap_proportion')
         f.write(f"breadth after jaccard recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
@@ -586,7 +593,7 @@ def rec_delta_results():
         sp = SyllabiPipeline("../example_syllabi/test2 rp.csv", 'relevance_proportion')
         f.write(f"relevance after relevance recs: {str(sp.diversity_score)}\n")
         
-        sp = SyllabiPipeline("../example_syllabi/test2 rp.csv", 'breadth_proportion')
+        sp = SyllabiPipeline("../example_syllabi/test2 rp.csv", 'overlap_proportion')
         f.write(f"breadth  after relevance recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
@@ -600,16 +607,16 @@ def rec_delta_results():
         sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'relevance_proportion')
         f.write(f"relevance after breadth recs: {str(sp.diversity_score)}\n")
         
-        sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'breadth_proportion')
+        sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'overlap_proportion')
         f.write(f"breadth before after breadth recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
 def perturb_data(measure):
     
-    sp = SyllabiPipeline("../example_syllabi/test2.csv", measure)
+    sp = SyllabiPipeline("../example_syllabi/test3.csv", measure)
     print("no noise: " + str(sp.diversity_measure))
     
-    random_subjects = ['history', 'green', 'america', 'airports', 'cancer', 'teacher', 'women', 'college', 'math', 'ethics', 'politics', 'economics', 'studies', 'latino', 'perspective', 'hand','fish', 'teenager', 'adult', 'geology', 'apartments', 'urban', 'finance', 'adventure', 'mythology', 'technology', 'romance', 'psychology', 'poetry', 'leadership', 'literature', 'social', 'children', 'fiction', 'fantasy', 'slaves', 'abolition', 'gay', 'lesbian', 'queer', 'transgender', 'women', 'men', 'biography', 'english', 'nonfiction']
+    random_subjects = ['history', 'green', 'america', 'airports', 'cancer', 'biology', 'africa', 'ethnic', 'math', 'ethics', 'politics', 'economics', 'computer science', 'latino', 'perspective', 'hand', 'fish', 'teenager', 'adult', 'geology', 'apartments', 'urban', 'finance', 'adventure', 'mythology', 'technology', 'romance', 'psychology', 'poetry', 'leadership', 'literature', 'social', 'neuroscience', 'fiction', 'fantasy', 'asia', 'abolition', 'library', 'swamp', 'horse', 'bread', 'conservative', 'liberal', 'biography', 'english', 'nonfiction']
     
     no_noise = sp.diversity_score
     
@@ -628,16 +635,16 @@ def perturb_data(measure):
             return sp.jaccard_distance(sp._clean_tags(topics, 'by word'), sp._clean_tags(sp.diversity_topics2, 'by word'))
             
             
-        elif measure == 'relevance_proportion':
+        elif measure == 'relevance_proportion': #this example is a bit shaky
             total = len(sp.syllabus_books)
             num_relevant = sp.relevance_proportion(sp.syllabus_books) * total
-            random_relevant = random.randint(0, n)
+            random_relevant = random.randint(0, n) #throwing in random books that aren't relevant to the subject
             return (num_relevant + random_relevant) / (total + n)
             
-        elif measure == 'breadth_proportion':
+        elif measure == 'overlap_proportion':
             old_topics = sp.syllabus_topics
             sp.syllabus_topics += random.choices(random_subjects, k=n)
-            score = sp.breadth_proportion()
+            score = sp.overlap_proportion()
             sp.syllabus_topics = old_topics
             return score
         
@@ -660,7 +667,7 @@ def perturb_data(measure):
     plt.xlabel('Level of Noise')
     plt.ylabel('Diversity Score')
     plt.ylim(0, 1)
-    plt.savefig(f'{measure}_noise2.png')
+    plt.savefig(f'{measure}_noise.png')
     
     
     
@@ -669,30 +676,30 @@ def perturb_data(measure):
 if __name__ == "__main__":
     
     # Empirical Results!
-    # results('raos_entropy')
-    # results('jaccard_distance')
-    # results('relevance_proportion')
-    # results('breadth_proportion')
+    #results('raos_entropy')
+    #results('jaccard_distance')
+    #results('relevance_proportion')
+    #results('overlap_proportion')
     
 
     # Recommendations
-    # with open('recsre.txt', 'w') as f:
-    #     f.write("Recommend Books for low-medium\n")
+    #with open('recsre.txt', 'w') as f:
+    #    f.write("Recommend Books for low-medium\n")
     
-    #     # rec_results('raos_entropy', f)
-    #     # rec_results('jaccard_distance', f)
-    #     # rec_results('relevance_proportion', f)
-    #     rec_results('breadth_proportion', f)
+    #    rec_results('raos_entropy', f)
+    #    rec_results('jaccard_distance', f)
+    #    rec_results('relevance_proportion', f)
+    #    rec_results('overlap_proportion', f)
         
     # Results After Recommendations
-    # rec_delta_results()   
+    #rec_delta_results()   
     
     
     # Testing Durability
     perturb_data('raos_entropy')
     perturb_data('jaccard_distance')
-    # perturb_data('relevance_proportion')
-    perturb_data('breadth_proportion')
+    perturb_data('relevance_proportion')
+    perturb_data('overlap_proportion')
      
 
         
