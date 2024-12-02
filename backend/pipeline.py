@@ -61,7 +61,8 @@ class SyllabiPipeline:
         elif diversity_measure == 'overlap_proportion':
             self.diversity_score = self.overlap_proportion()
             
-        self.rec_delta = 0.0
+        self.score = 0.0
+        self.delta = 0.0
         self.suggestions = self._get_suggestions(self.syllabus_topics, self.diversity_topics)            
             
     def _get_books_for_syllabus(self):
@@ -366,12 +367,15 @@ class SyllabiPipeline:
         
         
         
-    def overlap_proportion(self):
+    def overlap_proportion(self, other_subjects = []):
         """
         Calculates the proportion of unique subjects in the syllabus compared to the total number of subjects.
+        Args:
+        [Optional] other_subjects (list): Other subjects to consider
         """
+        topics = self.syllabus_topics + other_subjects
 
-        topics = self.syllabus_topics
+        #topics = self.syllabus_topics
         topics = self._flatten_list(topics)
         
         total = len(topics)
@@ -414,10 +418,10 @@ class SyllabiPipeline:
     def _prune_suggestions(self, suggest, n = 3):
         """
         Prunes the list of suggestions to choose the best n suggestions.
-        The first book is chosen based on which improves diversity of the syllabus the most.
+        The first book is chosen based on which one improves diversity of the syllabus the most.
         The remaining books are chosen based on which improves diversity of the new set of books the most.
         Args:
-            suggestions (list): A list of suggestions.
+            suggest (list): A list of suggestions.
             n (int): The number of suggestions to return.
         Returns:
             a list of pruned suggestions.
@@ -425,7 +429,7 @@ class SyllabiPipeline:
         original_diversity = self.diversity_score
       
         L = []
-        suggest = self.suggestions
+        #suggest = self.suggestions
         
         # first book based on syllabus
         best_book = self._find_best_book(self.suggestions, self.syllabus_topics, self.diversity_measure, self.diversity_score, self.prop_diversity, self.diversity_topics2)
@@ -433,26 +437,33 @@ class SyllabiPipeline:
         suggest.remove(best_book)
 
         # remaining books based on new set of books
-        set_topics = [L[0]['subject']]
-        print(len(L), type(L), type(len(L)), type(n), n)
+        set_topics = [L[0]['subject']] #subjects in the first book of the list
         while len(L) < n:
             if len(L) == n - 1:
                 last = True
             else:
                 last = False
-            best_book = self._find_best_book(self.suggestions, set_topics, self.diversity_measure, original_diversity, self.prop_diversity, self.diversity_topics2, last)
+            
+            #used to just be original_diversity. if this makes it perform worse, change it back
+            best_book = self._find_best_book(self.suggestions, set_topics, self.diversity_measure, self.diversity_score, self.prop_diversity, self.diversity_topics2, last) 
+            
             if best_book is None:
                 break
             else:
-                L.append(best_book)
-                suggest.remove(best_book)
-                set_topics += [L[-1]['subject']]
+                L.append(best_book) #add the best new book to the list
+                suggest.remove(best_book) #remove the book from the dictionary of suggestions
+                set_topics += [L[-1]['subject']] #add topics we've already seen to the list
         
         return L
     
     def _find_best_book(self, suggest, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None, last=False):
         """
-        
+        Finds the best book, based on how it affects a diversity measure, in a list of suggestions
+        Args:
+        suggest (dict): A list of book suggestions (as dictionaries)
+        current_topics (list): a list of topics in the 
+        diversity_measure (str): the metric to use to calculate the best book
+        original_diversity (float): the diversity score before making suggestions
         """
         max_improvement = -float('inf')
         best_book = None
@@ -460,27 +471,30 @@ class SyllabiPipeline:
         for book in suggest:
             
             new_all_topics = current_topics + [book['subject']]
-            #error here
             prop_new_syllabus = self._get_prop_occurrences(new_all_topics, 'by word')
 
+            #There could be a calculation error here
 
             if self.diversity_measure == 'raos_entropy':
-                delta = self.raos_entropy(prop_diversity, prop_new_syllabus) - original_diversity
-                self.rec_delta = delta
+                self.score = self.raos_entropy(prop_diversity, prop_new_syllabus)
+                self.delta = self.score - original_diversity
             elif self.diversity_measure == 'jaccard_score':
-                delta = original_diversity - self.jaccard_distance(new_all_topics, diversity_topics)
-                self.rec_delta = -delta
+                self.score = self.jaccard_distance(prop_diversity.keys(), prop_new_syllabus.keys()) #updated to only look at top n
+                self.delta = original_diversity - self.score
+                #self.rec_delta = -delta #dont make it negative, we will need this for max improvement calculation later on
             elif self.diversity_measure == 'relevance_proportion':
-                delta = self.relevance_proportion([book]) - original_diversity
-                self.rec_delta = delta
+                self.score = self.relevance_proportion([book])
+                self.delta = self.score - original_diversity
+                #self.rec_delta = delta
             elif self.diversity_measure == 'overlap_proportion':
-                delta = original_diversity - self.overlap_proportion()
-                self.rec_delta = -delta
+                self.score = self.overlap_proportion(book['subject'])
+                self.delta = original_diversity - self.score
+                #self.rec_delta = -delta #dont make it negative, we will need this for max improvement calculation later on
             else:
-                delta = 0
+                self.delta = 0
                 
-            if delta > max_improvement:
-                max_improvement = delta
+            if self.delta > max_improvement:
+                max_improvement = self.delta
                 best_book = book
     
         return best_book
@@ -498,6 +512,9 @@ class SyllabiPipeline:
         return pruned
     
 def results(measure):
+    """
+    Measures and plots diversity score for each syllabus
+    """
         
     print("Low Syllabus")
     sp1 = SyllabiPipeline("../example_syllabi/test1.csv", measure)
@@ -532,14 +549,14 @@ def results(measure):
     plt.savefig(f'{measure}.png')
     
 
-def rec_results(measure, f):
+def rec_results(measure, syll, f): #what is this
     f.write(f"{measure.title()} Recommendations\n")
-    sp = SyllabiPipeline("../example_syllabi/test2.csv")
+    sp = SyllabiPipeline(f"../example_syllabi/{syll}.csv")
     f.write(str(sp.recommend_books()))
     # f.write("\n")
     # f.write("--------------------\n")
     
-def rec_delta_results():
+def rec_delta_results(): #what is this
     with open('rec_delta.txt', 'w') as f:
         f.write("Scores Before Recs\n")
         sp = SyllabiPipeline("../example_syllabi/test2.csv", 'raos_entropy')
@@ -552,7 +569,7 @@ def rec_delta_results():
         f.write(f"relevance before recs: {str(sp.diversity_score)}\n")
         
         sp = SyllabiPipeline("../example_syllabi/test2.csv", 'overlap_proportion')
-        f.write(f"breadth before recs: {str(sp.diversity_score)}\n")
+        f.write(f"overlap before recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
         f.write("After Recommending with Rao\n")
@@ -566,7 +583,7 @@ def rec_delta_results():
         f.write(f"relevance after raos recs: {str(sp.diversity_score)}\n")
         
         sp = SyllabiPipeline("../example_syllabi/test2 re.csv", 'overlap_proportion')
-        f.write(f"breadth after raos recs: {str(sp.diversity_score)}\n")
+        f.write(f"overlap after raos recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
         f.write("After Recommending with Jaccard\n")
@@ -580,7 +597,7 @@ def rec_delta_results():
         f.write(f"relevance after jaccard recs: {str(sp.diversity_score)}\n")
         
         sp = SyllabiPipeline("../example_syllabi/test2 jd.csv", 'overlap_proportion')
-        f.write(f"breadth after jaccard recs: {str(sp.diversity_score)}\n")
+        f.write(f"overlap after jaccard recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
         f.write("After Recommending with Relevance\n")
@@ -594,21 +611,21 @@ def rec_delta_results():
         f.write(f"relevance after relevance recs: {str(sp.diversity_score)}\n")
         
         sp = SyllabiPipeline("../example_syllabi/test2 rp.csv", 'overlap_proportion')
-        f.write(f"breadth  after relevance recs: {str(sp.diversity_score)}\n")
+        f.write(f"overlap  after relevance recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
-        f.write("After Recommending with Breadth\n")
+        f.write("After Recommending with Overlap\n")
         sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'raos_entropy')
-        f.write(f"raos after breadth recs: {str(sp.diversity_score)}\n")
+        f.write(f"raos after overlap recs: {str(sp.diversity_score)}\n")
         
         sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'jaccard_distance')
-        f.write(f"jaccard after breath recs: {str(sp.diversity_score)}\n")
+        f.write(f"jaccard after overlap recs: {str(sp.diversity_score)}\n")
         
         sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'relevance_proportion')
-        f.write(f"relevance after breadth recs: {str(sp.diversity_score)}\n")
+        f.write(f"relevance after overlap recs: {str(sp.diversity_score)}\n")
         
         sp = SyllabiPipeline("../example_syllabi/test2 bp.csv", 'overlap_proportion')
-        f.write(f"breadth before after breadth recs: {str(sp.diversity_score)}\n")
+        f.write(f"overlap before after overlap recs: {str(sp.diversity_score)}\n")
         f.write("--------------------\n")
         
 def perturb_data(measure):
@@ -650,7 +667,7 @@ def perturb_data(measure):
         
     noise_5 = perturb_measure(measure, 5)
     noise_15 = perturb_measure(measure, 10)
-    noise_30 =   perturb_measure(measure, 50)
+    noise_30 =  perturb_measure(measure, 50)
 
 
     scores = {
@@ -676,20 +693,21 @@ def perturb_data(measure):
 if __name__ == "__main__":
     
     # Empirical Results!
-    results('raos_entropy')
-    results('jaccard_distance')
-    results('relevance_proportion')
-    results('overlap_proportion')
+    #results('raos_entropy')
+    #results('jaccard_distance')
+    #results('relevance_proportion')
+    #results('overlap_proportion')
     
 
     # Recommendations
-    #with open('recsre.txt', 'w') as f:
-    #    f.write("Recommend Books for low-medium\n")
-    
-    #    rec_results('raos_entropy', f)
-    #    rec_results('jaccard_distance', f)
-    #    rec_results('relevance_proportion', f)
-    #    rec_results('overlap_proportion', f)
+    measures = ['raos_entropy', 'jaccard_distance', 'relevance_proportion', 'overlap_proportion']
+
+    with open('../results/recsre.txt', 'w') as f:
+        f.write("Recommend Books for low-medium\n")
+
+        for m in measures:
+            print(m)
+            rec_results(m, 'test2', f)
         
     # Results After Recommendations
     #rec_delta_results()   
