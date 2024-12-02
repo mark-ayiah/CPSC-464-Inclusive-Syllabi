@@ -1,11 +1,30 @@
 Scores Before Recs
-raos before recs: 0.34651346024365987
-jaccard before recs: 0.9438202247191011
+raos before recs: 0.346513405834439
+jaccard before recs: 0.8461538461538461
 relevance before recs: 0.3
-breadth before recs: 0.905511811023622
+overlap before recs: 0.905511811023622
 --------------------
-After Recommending
-raos after recs: 0.3756224412723999
-jaccard after recs: 0.9333333333333333
-relevance after recs: 0.46153846153846156
-breadth after recs: 0.8741721854304636
+After Recommending with Rao
+raos after raos recs: 0.3756223956330691
+jaccard after raos recs: 0.8461538461538461
+relevance after raos recs: 0.46153846153846156
+overlap after raos recs: 0.8741721854304636
+--------------------
+After Recommending with Jaccard
+raos after jaccard recs: 0.3509985381770111
+jaccard after jaccard recs: 0.8461538461538461
+relevance after jaccard recs: 0.4166666666666667
+overlap after jaccard recs: 0.8963414634146342
+--------------------
+After Recommending with Relevance
+raos after relevance recs: 0.3605639043792498
+jaccard after relevance recs: 0.8461538461538461
+relevance after relevance recs: 0.38461538461538464
+overlap  after relevance recs: 0.8695652173913043
+--------------------
+After Recommending with Overlap
+raos after overlap recs: 0.34479599545750683
+jaccard after overlap recs: 0.8461538461538461
+relevance after overlap recs: 0.3333333333333333
+overlap before after overlap recs: 0.9074074074074074
+--------------------

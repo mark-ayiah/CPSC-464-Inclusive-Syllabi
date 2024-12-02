@@ -72,19 +72,28 @@ class SyllabiPipeline:
             a list of books for the syllabus.
         """
         books = []
+        url = 'https://openlibrary.org/search.json'
 
         count = 0
-        for isbn in self.syllabus['isbn']:
-            url = 'https://openlibrary.org/search.json'
-            params = {
-                'q': f'isbn:{isbn})', 
-                'fields': 'author_name,title,isbn,subject,lcc',
-                'limit': 1
-            }
+        for isbn in self.syllabus['isbn']: #fallthrough for null isbn
+            if isbn == 'na':
+                params = {
+                    #'q': f'isbn:{isbn})', 
+                    'fields': 'author_name,title,isbn,subject,lcc',
+                    'limit': 1
+                }
+
+            else:
+                params = {
+                    'q': f'isbn:{isbn})', 
+                    'fields': 'author_name,title,isbn,subject,lcc',
+                    'limit': 1
+                }
+
             response = requests.get(url, params=params, timeout=20).json()
             book = response['docs'][0] if response['docs'] else None
             if book is not None:
-                books.append(book)
+                    books.append(book)
         return books
             
     def _get_tags_for_syllabus(self):
@@ -405,12 +414,13 @@ class SyllabiPipeline:
             try:
                 book['isbn'] = next((i for i in book['isbn'] if re.match(r'^(979|978)\d{10}$', i)), None) #shorten the list of ISBNs, ISBN-13
             except:
-                book.update({'isbn': ''})
+                #book.update({'isbn': ''})
+                continue #ignore books without an ISBN
             book['subject'] = [x.lower() for x in book['subject']]
             book['author_name'] = ', '.join(book['author_name'])
             
         for book in suggestions:
-            if book['title'] in [b['title'] for b in self.syllabus_books]:
+            if book['title'] in [b['title'] for b in self.syllabus_books]: #should remove duplicates
                 suggestions.remove(book)
             
         return suggestions
@@ -445,7 +455,7 @@ class SyllabiPipeline:
                 last = False
             
             #used to just be original_diversity. if this makes it perform worse, change it back
-            best_book = self._find_best_book(self.suggestions, set_topics, self.diversity_measure, self.diversity_score, self.prop_diversity, self.diversity_topics2, last) 
+            best_book = self._find_best_book(self.suggestions, set_topics, self.diversity_measure, original_diversity, self.prop_diversity, self.diversity_topics2, last) 
             
             if best_book is None:
                 break
@@ -457,7 +467,7 @@ class SyllabiPipeline:
         print(L)
         return L
     
-    def _find_best_book(self, suggest, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None):
+    def _find_best_book(self, suggest, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None, last=False):
         """
         Finds the best book, based on how it affects a diversity measure, in a list of suggestions
         Args:
@@ -479,7 +489,7 @@ class SyllabiPipeline:
             if self.diversity_measure == 'raos_entropy':
                 self.score = self.raos_entropy(prop_diversity, prop_new_syllabus)
                 self.delta = self.score - original_diversity
-            elif self.diversity_measure == 'jaccard_score':
+            elif self.diversity_measure == 'jaccard_distance':
                 self.score = self.jaccard_distance(prop_diversity.keys(), prop_new_syllabus.keys()) #updated to only look at top n
                 self.delta = original_diversity - self.score
                 #self.rec_delta = -delta #dont make it negative, we will need this for max improvement calculation later on
@@ -497,7 +507,7 @@ class SyllabiPipeline:
             if self.delta > max_improvement:
                 max_improvement = self.delta
                 best_book = book
-                print(max_improvement)
+                print(best_book, max_improvement)
     
         return best_book
     
@@ -553,8 +563,8 @@ def results(measure):
 
 def rec_results(measure, syll, f): #what is this
     f.write(f"{measure.title()} Recommendations\n")
-    sp = SyllabiPipeline(f"../example_syllabi/{syll}.csv")
-    f.write(str(sp.recommend_books()))
+    sp = SyllabiPipeline(f"../example_syllabi/{syll}.csv", measure)
+    f.write(f"{str(sp.recommend_books())}\n")
     # f.write("\n")
     # f.write("--------------------\n")
     
@@ -702,17 +712,17 @@ if __name__ == "__main__":
     
 
     # Recommendations
-    measures = ['raos_entropy', 'jaccard_distance', 'relevance_proportion', 'overlap_proportion']
+    #measures = ['raos_entropy', 'jaccard_distance', 'relevance_proportion', 'overlap_proportion']
 
-    with open('../results/recsre.txt', 'w') as f:
-        f.write("Recommend Books for low-medium\n")
+    #with open('../results/recsre.txt', 'w') as f:
+    #    f.write("Recommend Books for low-medium\n")
 
-        for m in measures:
-            print(m)
-            rec_results(m, 'test2', f)
+    #    for m in measures:
+    #        print(m)
+    #        rec_results(m, 'test2', f)
         
     # Results After Recommendations
-    #rec_delta_results()   
+    rec_delta_results()   
     
     
     # Testing Durability
