@@ -287,8 +287,8 @@ class SyllabiPipeline:
             params = {
                 'q': f'lcc:LB* AND subject:({str_div}) AND language:("eng")', 
                 'fields': 'author_name,title,isbn,subject,lcc', 
-                'limit': 40,
-                'sort': 'random'
+                'limit': 40
+                #'sort': 'random'
                 }
         
             response = requests.get(url, params=params, timeout=30).json()
@@ -439,7 +439,7 @@ class SyllabiPipeline:
         # remaining books based on new set of books
         set_topics = [L[0]['subject']] #subjects in the first book of the list
         while len(L) < n:
-            if len(L) == n - 1:
+            if len(L) == n - 1: #i dont see why this is necessary
                 last = True
             else:
                 last = False
@@ -454,9 +454,10 @@ class SyllabiPipeline:
                 suggest.remove(best_book) #remove the book from the dictionary of suggestions
                 set_topics += [L[-1]['subject']] #add topics we've already seen to the list
         
+        print(L)
         return L
     
-    def _find_best_book(self, suggest, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None, last=False):
+    def _find_best_book(self, suggest, current_topics, diversity_measure, original_diversity, prop_diversity=None, diversity_topics=None):
         """
         Finds the best book, based on how it affects a diversity measure, in a list of suggestions
         Args:
@@ -465,7 +466,7 @@ class SyllabiPipeline:
         diversity_measure (str): the metric to use to calculate the best book
         original_diversity (float): the diversity score before making suggestions
         """
-        max_improvement = -float('inf')
+        max_improvement = -float('inf') #potentially won't have positive improvement
         best_book = None
         
         for book in suggest:
@@ -496,6 +497,7 @@ class SyllabiPipeline:
             if self.delta > max_improvement:
                 max_improvement = self.delta
                 best_book = book
+                print(max_improvement)
     
         return best_book
     
